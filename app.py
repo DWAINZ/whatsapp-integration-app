@@ -7,7 +7,7 @@ app = Flask(__name__)
 # === Load environment variables ===
 ACCESS_TOKEN = os.getenv("ACCESS_TOKEN")
 PHONE_NUMBER_ID = os.getenv("PHONE_NUMBER_ID")
-VERIFY_TOKEN = os.getenv("VERIFY_TOKEN")
+VERIFY_TOKEN = os.getenv("VERIFY_TOKEN", "dwainz_verify")  # default if not set
 WABA_ID = os.getenv("WABA_ID")  # Optional, for future use
 
 API_URL = f"https://graph.facebook.com/v19.0/{PHONE_NUMBER_ID}/messages"
@@ -20,28 +20,44 @@ def home():
 
 
 # === Webhook Verification (for Meta) ===
-@app.route('/webhook', methods=['GET'])
-def verify_token():
-    mode = request.args.get("hub.mode")
-    token = request.args.get("hub.verify_token")
-    challenge = request.args.get("hub.challenge")
+@app.route('/webhook', methods=['GET', 'POST'])
+def webhook():
+    # --- Verification (GET) ---
+    if request.method == "GET":
+        mode = request.args.get("hub.mode")
+        token = request.args.get("hub.verify_token")
+        challenge = request.args.get("hub.challenge")
 
-    if mode == "subscribe" and token == VERIFY_TOKEN:
-        print("✅ Webhook verified successfully!")
-        return challenge, 200
-    else:
-        print("❌ Verification token mismatch")
-        return "Verification token mismatch", 403
+        if mode == "subscribe" and token == VERIFY_TOKEN:
+            print("✅ Webhook verified successfully!")
+            return challenge, 200
+        else:
+            print("❌ Verification token mismatch")
+            return "Verification token mismatch", 403
 
+    # --- Incoming Messages (POST) ---
+    elif request.method == "POST":
+        data = request.get_json()
+        print("📩 Incoming message data:", data)
 
-# === Handle Incoming Messages (POST) ===
-@app.route('/webhook', methods=['POST'])
-def webhook_received():
-    data = request.get_json()
-    print("📩 Incoming message data:", data)
+        try:
+            changes = data["entry"][0]["changes"][0]
+            messages = changes["value"].get("messages", [])
 
-    # Future logic can go here for automated responses or routing
-    return "EVENT_RECEIVED", 200
+            for msg in messages:
+                sender = msg["from"]
+                text = msg["text"]["body"] if "text" in msg else None
+
+                # Skip echoes from your own number
+                if sender == PHONE_NUMBER_ID:
+                    continue
+
+                print(f"💬 New message from {sender}: {text}")
+
+        except Exception as e:
+            print("⚠️ Error handling webhook:", e)
+
+        return jsonify(status="received"), 200
 
 
 # === Send Message Endpoint (for manual testing) ===
@@ -72,7 +88,6 @@ def send_message():
 
 # === Run the app ===
 if __name__ == "__main__":
-    # Print environment variable summary for debugging
     print("\n🌍 Starting WhatsApp Integration App...")
     print("Loaded Environment Variables:")
     print(f"  ✅ PHONE_NUMBER_ID: {PHONE_NUMBER_ID}")
