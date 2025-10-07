@@ -22,12 +22,15 @@ def home():
 # === Webhook Verification (for Meta) ===
 @app.route('/webhook', methods=['GET'])
 def verify_token():
+    mode = request.args.get("hub.mode")
     token = request.args.get("hub.verify_token")
     challenge = request.args.get("hub.challenge")
 
-    if token == VERIFY_TOKEN:
+    if mode == "subscribe" and token == VERIFY_TOKEN:
+        print("✅ Webhook verified successfully!")
         return challenge, 200
     else:
+        print("❌ Verification token mismatch")
         return "Verification token mismatch", 403
 
 
