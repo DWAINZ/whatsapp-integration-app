@@ -8,6 +8,7 @@ app = Flask(__name__)
 ACCESS_TOKEN = os.getenv("ACCESS_TOKEN")
 PHONE_NUMBER_ID = os.getenv("PHONE_NUMBER_ID")
 VERIFY_TOKEN = os.getenv("VERIFY_TOKEN")
+WABA_ID = os.getenv("WABA_ID")  # Optional, for future use
 
 API_URL = f"https://graph.facebook.com/v19.0/{PHONE_NUMBER_ID}/messages"
 
@@ -36,11 +37,11 @@ def webhook_received():
     data = request.get_json()
     print("📩 Incoming message data:", data)
 
-    # You can add logic here to respond automatically or log messages.
+    # Future logic can go here for automated responses or routing
     return "EVENT_RECEIVED", 200
 
 
-# === Send Message Endpoint (for testing manual sends) ===
+# === Send Message Endpoint (for manual testing) ===
 @app.route('/send', methods=['POST'])
 def send_message():
     data = request.get_json()
@@ -68,5 +69,14 @@ def send_message():
 
 # === Run the app ===
 if __name__ == "__main__":
+    # Print environment variable summary for debugging
+    print("\n🌍 Starting WhatsApp Integration App...")
+    print("Loaded Environment Variables:")
+    print(f"  ✅ PHONE_NUMBER_ID: {PHONE_NUMBER_ID}")
+    print(f"  ✅ WABA_ID: {WABA_ID if WABA_ID else 'Not set'}")
+    print(f"  ✅ VERIFY_TOKEN: {VERIFY_TOKEN}")
+    print(f"  ✅ ACCESS_TOKEN: {'Loaded' if ACCESS_TOKEN else 'Missing!'}")
+    print("--------------------------------------------------\n")
+
     port = int(os.environ.get("PORT", 10000))
     app.run(host="0.0.0.0", port=port)
