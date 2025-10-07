@@ -1,0 +1,39 @@
+from flask import Flask, request, jsonify
+import requests
+
+app = Flask(__name__)
+
+ACCESS_TOKEN = "EAAUXXXXXXXXXX"  # Replace with your actual WhatsApp API access token
+PHONE_NUMBER_ID = "8390432XXXXXXXX"  # Replace with your actual phone number ID
+API_URL = f"https://graph.facebook.com/v19.0/{PHONE_NUMBER_ID}/messages"
+
+@app.route('/')
+def home():
+    return "✅ WhatsApp Integration App is running!"
+
+@app.route('/send', methods=['POST'])
+def send_message():
+    data = request.get_json()
+    to = data.get('to')
+    message = data.get('message')
+
+    if not to or not message:
+        return jsonify({"error": "Missing 'to' or 'message'"}), 400
+
+    payload = {
+        "messaging_product": "whatsapp",
+        "to": to,
+        "type": "text",
+        "text": {"body": message}
+    }
+
+    headers = {
+        "Authorization": f"Bearer {ACCESS_TOKEN}",
+        "Content-Type": "application/json"
+    }
+
+    response = requests.post(API_URL, headers=headers, json=payload)
+    return jsonify(response.json()), response.status_code
+
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=5000)
