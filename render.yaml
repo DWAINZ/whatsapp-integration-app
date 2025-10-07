@@ -2,6 +2,9 @@ services:
   - type: web
     name: whatsapp-integration
     env: python
-    buildCommand: ""
-    startCommand: gunicorn app:app
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "python app.py"
     plan: free
+    envVars:
+      - key: PORT
+        value: 10000
