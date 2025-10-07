@@ -3,8 +3,8 @@ import requests
 
 app = Flask(__name__)
 
-ACCESS_TOKEN = "EAAUXXXXXXXXXX"  # Replace with your actual WhatsApp API access token
-PHONE_NUMBER_ID = "8390432XXXXXXXX"  # Replace with your actual phone number ID
+ACCESS_TOKEN = "EAAUhVZCAVsWABPqvZB1NuewJUOQJgHWdtee067bkzVe6DKXcZBoldlY8UxJ07e8RP09U6UYKcsnCvtu2ix7z7hFAafxqAw2zXcooqKWKVRD5fqjCmwtDpmUSUvUqyZBhixBpFnthreV6V6rGZAQuDMeYjEP04iedbkffZCkR5n4sJGFDX8wNTBp9RL8Iif9rZBTAgM0EcGaJDlN9b5ZAiuPLnhLNU1PDHyF1OQsAyba6dXknMbqGJswVYQDlFgZDZD"  # Replace with your actual WhatsApp API access token
+PHONE_NUMBER_ID = "839043219287688"  # Replace with your actual phone number ID
 API_URL = f"https://graph.facebook.com/v19.0/{PHONE_NUMBER_ID}/messages"
 
 @app.route('/')
