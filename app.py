@@ -2,6 +2,8 @@ from flask import Flask, request, jsonify
 import requests
 import os
 import json
+from datetime import datetime, timedelta
+import pytz
 
 app = Flask(__name__)
 
@@ -9,9 +11,21 @@ app = Flask(__name__)
 ACCESS_TOKEN = os.getenv("ACCESS_TOKEN")
 PHONE_NUMBER_ID = os.getenv("PHONE_NUMBER_ID")
 VERIFY_TOKEN = os.getenv("VERIFY_TOKEN")
-WABA_ID = os.getenv("WABA_ID")
+WABA_ID = os.getenv("WABA_ID")  # optional, for future use
 
-API_URL = f"https://graph.facebook.com/v23.0/{PHONE_NUMBER_ID}/messages"
+API_URL = f"https://graph.facebook.com/v22.0/{PHONE_NUMBER_ID}/messages"
+
+# === Helper: timestamp for Nigerian time ===
+def ng_time():
+    tz = pytz.timezone("Africa/Lagos")
+    return datetime.now(tz).strftime("%Y-%m-%d %H:%M:%S")
+
+# === Helper: color print ===
+class color:
+    GREEN = "\033[92m"
+    BLUE = "\033[94m"
+    RED = "\033[91m"
+    END = "\033[0m"
 
 # === Root route ===
 @app.route('/')
@@ -22,53 +36,51 @@ def home():
 @app.route('/webhook', methods=['GET', 'POST'])
 def webhook():
     if request.method == 'GET':
-        # ✅ Verification handshake with Meta
         mode = request.args.get("hub.mode")
         token = request.args.get("hub.verify_token")
         challenge = request.args.get("hub.challenge")
 
         if mode == "subscribe" and token == VERIFY_TOKEN:
-            print("✅ Webhook verified successfully!")
+            print(f"{color.GREEN}[{ng_time()}] ✅ Webhook verified successfully!{color.END}")
             return challenge, 200
         else:
-            print("❌ Verification token mismatch")
+            print(f"{color.RED}[{ng_time()}] ❌ Verification token mismatch{color.END}")
             return "Verification token mismatch", 403
 
     elif request.method == 'POST':
-        # ✅ Handle incoming webhook messages
-        try:
-            data = request.get_json()
-            print("\n📩 Incoming message payload:")
-            print(json.dumps(data, indent=2))
+        data = request.get_json()
+        print(f"{color.BLUE}[{ng_time()}] 📩 Incoming webhook event{color.END}")
 
-            # Check if message exists in payload
+        try:
             entry = data.get("entry", [])[0]
             changes = entry.get("changes", [])[0]
             value = changes.get("value", {})
-            messages = value.get("messages", [])
 
+            # Skip status updates
+            if "statuses" in value:
+                return "EVENT_RECEIVED", 200
+
+            messages = value.get("messages")
             if not messages:
-                print("⚠️ No 'messages' field found in payload.")
-                return jsonify({"status": "no_messages"}), 200
+                return "EVENT_RECEIVED", 200
 
-            # Extract sender and text
             msg = messages[0]
-            sender = msg.get("from")
+            sender = msg["from"]
             text = msg.get("text", {}).get("body", "")
+            print(f"{color.GREEN}[{ng_time()}] 💬 Message from {sender}: {text}{color.END}")
 
-            print(f"💬 Message from {sender}: {text}")
-
-            if sender and text:
-                reply_text = f"Hello 👋! I got your message: “{text}”"
-                send_message(sender, reply_text)
+            # ✅ Auto reply
+            reply_text = f"Hello 👋 I got your message: '{text}'"
+            send_message(sender, reply_text)
 
         except Exception as e:
-            print(f"⚠️ Error handling incoming message: {e}")
+            print(f"{color.RED}[{ng_time()}] ⚠️ Error: {e}{color.END}")
 
-        return jsonify({"status": "event_received"}), 200
+        return "EVENT_RECEIVED", 200
 
-# === Helper function to send a WhatsApp message ===
+# === Helper function to send a message ===
 def send_message(to, text):
+    url = f"https://graph.facebook.com/v22.0/{PHONE_NUMBER_ID}/messages"
     headers = {
         "Authorization": f"Bearer {ACCESS_TOKEN}",
         "Content-Type": "application/json"
@@ -80,14 +92,11 @@ def send_message(to, text):
         "text": {"body": text}
     }
 
-    try:
-        response = requests.post(API_URL, headers=headers, json=payload)
-        print("➡️ Sent message response:", response.status_code, response.text)
-        return response
-    except Exception as e:
-        print(f"⚠️ Failed to send message: {e}")
+    response = requests.post(url, headers=headers, json=payload)
+    print(f"{color.BLUE}[{ng_time()}] ➡️ Sent message response: {response.status_code}, {response.text}{color.END}")
+    return response
 
-# === Manual message sending endpoint (optional) ===
+# === Manual message sending endpoint ===
 @app.route('/send', methods=['POST'])
 def manual_send():
     data = request.get_json()
@@ -98,7 +107,7 @@ def manual_send():
         return jsonify({"error": "Missing 'to' or 'message'"}), 400
 
     response = send_message(to, message)
-    return jsonify({"status": "sent"}), 200
+    return jsonify(response.json()), response.status_code
 
 # === Run the app ===
 if __name__ == "__main__":
