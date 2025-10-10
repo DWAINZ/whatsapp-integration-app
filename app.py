@@ -9,21 +9,20 @@ app = Flask(__name__)
 ACCESS_TOKEN = os.getenv("ACCESS_TOKEN")
 PHONE_NUMBER_ID = os.getenv("PHONE_NUMBER_ID")
 VERIFY_TOKEN = os.getenv("VERIFY_TOKEN")
-WABA_ID = os.getenv("WABA_ID")  # Optional, for future use
+WABA_ID = os.getenv("WABA_ID")
 
-API_URL = f"https://graph.facebook.com/v22.0/{PHONE_NUMBER_ID}/messages"
-
+API_URL = f"https://graph.facebook.com/v23.0/{PHONE_NUMBER_ID}/messages"
 
 # === Root route ===
 @app.route('/')
 def home():
     return "✅ WhatsApp Integration App is running!"
 
-
 # === Webhook route (GET + POST) ===
 @app.route('/webhook', methods=['GET', 'POST'])
 def webhook():
     if request.method == 'GET':
+        # ✅ Verification handshake with Meta
         mode = request.args.get("hub.mode")
         token = request.args.get("hub.verify_token")
         challenge = request.args.get("hub.challenge")
@@ -36,33 +35,40 @@ def webhook():
             return "Verification token mismatch", 403
 
     elif request.method == 'POST':
-        data = request.get_json()
-        print("📩 Incoming message payload:")
-        print(json.dumps(data, indent=2))
-
+        # ✅ Handle incoming webhook messages
         try:
-            entry = data["entry"][0]
-            changes = entry["changes"][0]
-            value = changes["value"]
-            messages = value.get("messages")
+            data = request.get_json()
+            print("\n📩 Incoming message payload:")
+            print(json.dumps(data, indent=2))
 
-            if messages:
-                msg = messages[0]
-                sender = msg["from"]
-                text = msg["text"]["body"]
-                print(f"💬 Message from {sender}: {text}")
+            # Check if message exists in payload
+            entry = data.get("entry", [])[0]
+            changes = entry.get("changes", [])[0]
+            value = changes.get("value", {})
+            messages = value.get("messages", [])
 
-                # ✅ Auto-reply to sender
-                send_message(sender, f"Hello! 👋 I got your message: '{text}'")
+            if not messages:
+                print("⚠️ No 'messages' field found in payload.")
+                return jsonify({"status": "no_messages"}), 200
+
+            # Extract sender and text
+            msg = messages[0]
+            sender = msg.get("from")
+            text = msg.get("text", {}).get("body", "")
+
+            print(f"💬 Message from {sender}: {text}")
+
+            if sender and text:
+                reply_text = f"Hello 👋! I got your message: “{text}”"
+                send_message(sender, reply_text)
+
         except Exception as e:
             print(f"⚠️ Error handling incoming message: {e}")
 
-        return "EVENT_RECEIVED", 200
+        return jsonify({"status": "event_received"}), 200
 
-
-# === Helper function to send a message ===
+# === Helper function to send a WhatsApp message ===
 def send_message(to, text):
-    url = f"https://graph.facebook.com/v22.0/{PHONE_NUMBER_ID}/messages"
     headers = {
         "Authorization": f"Bearer {ACCESS_TOKEN}",
         "Content-Type": "application/json"
@@ -74,10 +80,12 @@ def send_message(to, text):
         "text": {"body": text}
     }
 
-    response = requests.post(url, headers=headers, json=payload)
-    print(f"➡️ Sent message response: {response.status_code}, {response.text}")
-    return response
-
+    try:
+        response = requests.post(API_URL, headers=headers, json=payload)
+        print("➡️ Sent message response:", response.status_code, response.text)
+        return response
+    except Exception as e:
+        print(f"⚠️ Failed to send message: {e}")
 
 # === Manual message sending endpoint (optional) ===
 @app.route('/send', methods=['POST'])
@@ -90,8 +98,7 @@ def manual_send():
         return jsonify({"error": "Missing 'to' or 'message'"}), 400
 
     response = send_message(to, message)
-    return jsonify(response.json()), response.status_code
-
+    return jsonify({"status": "sent"}), 200
 
 # === Run the app ===
 if __name__ == "__main__":
