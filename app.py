@@ -10,9 +10,11 @@ app = Flask(__name__)
 # -------------------------------------------
 # CONFIGURATION
 # -------------------------------------------
-VERIFY_TOKEN = "my_verify_token"  # Must match the token set in Meta Developer portal
-ACCESS_TOKEN = "YOUR_WHATSAPP_ACCESS_TOKEN"
-PHONE_NUMBER_ID = "YOUR_PHONE_NUMBER_ID"  # From WhatsApp Cloud API
+import os
+
+VERIFY_TOKEN = os.getenv("VERIFY_TOKEN")
+ACCESS_TOKEN = os.getenv("ACCESS_TOKEN")
+PHONE_NUMBER_ID = os.getenv("PHONE_NUMBER_ID")
 
 # Set up logging
 logging.basicConfig(level=logging.INFO, format='%(message)s')
