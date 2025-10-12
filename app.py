@@ -4,12 +4,10 @@ import os
 import datetime
 import sys
 import pytz
-import pg8000
-import urllib.parse
+import psycopg
 from config import Config
 
 app = Flask(__name__)
-
 # -------------------------------------------
 # CONFIGURATION
 # -------------------------------------------
@@ -57,18 +55,8 @@ def home():
 def test_database():
     """Test database connection"""
     try:
-        # Parse the database URL
-        url = urllib.parse.urlparse(Config.DATABASE_URL)
-        
-        # Connect using pg8000
-        conn = pg8000.connect(
-            host=url.hostname,
-            port=url.port,
-            database=url.path[1:],  # Remove leading slash
-            user=url.username,
-            password=url.password
-        )
-        
+        # Simple connection with new psycopg
+        conn = psycopg.connect(Config.DATABASE_URL)
         cursor = conn.cursor()
         cursor.execute("SELECT version();")
         db_version = cursor.fetchone()
@@ -77,7 +65,7 @@ def test_database():
         
         log_info(f"✅ Database connected: {db_version[0]}", LogColors.GREEN)
         return jsonify({
-            "status": "Database connected successfully",
+            "status": "Database connected successfully", 
             "version": db_version[0]
         }), 200
         
