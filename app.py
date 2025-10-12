@@ -36,6 +36,7 @@ def log_info(message, color=LogColors.BLUE):
     sys.stdout.write(f"{color}[{timestamp}] {message}{LogColors.RESET}\n")
     sys.stdout.flush()
 
+
 # -------------------------------------------
 # ROUTES
 # -------------------------------------------
