@@ -7,7 +7,8 @@ import sys
 app = Flask(__name__)
 
 # WhatsApp credentials from environment variables
-ACCESS_TOKEN = os.getenv("WHATSAPP_ACCESS_TOKEN")
+VERIFY_TOKEN = os.getenv("VERIFY_TOKEN")
+ACCESS_TOKEN = os.getenv("ACCESS_TOKEN")
 PHONE_NUMBER_ID = os.getenv("PHONE_NUMBER_ID")
 
 # Nigerian timezone offset (+1 hour)
