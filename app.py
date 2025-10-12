@@ -90,6 +90,9 @@ def send_whatsapp_message(to_number, message):
         response = requests.post(url, headers=headers, json=payload)
         if response.status_code != 200:
             log_info(f"⚠️ WhatsApp API error {response.status_code}: {response.text}", LogColors.RED)
+        else:
+            log_info(f"📤 API responded OK: {response.text}", LogColors.GREEN)
+
     except Exception as e:
         log_info(f"❌ Failed to send message: {e}", LogColors.RED)
 
