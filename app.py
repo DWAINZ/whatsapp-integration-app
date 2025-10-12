@@ -1,7 +1,6 @@
 from flask import Flask, request, jsonify
 import requests
 import os
-import datetime
 import sys
 import pytz
 import psycopg
@@ -9,8 +8,6 @@ import hashlib
 import secrets
 from datetime import datetime, timedelta
 from config import Config
-
-app = Flask(__name__)
 
 # -------------------------------------------
 # CONFIGURATION
@@ -31,7 +28,7 @@ class LogColors:
 
 def get_timestamp():
     """Return current Nigerian timestamp."""
-    return datetime.datetime.now(pytz.timezone("Africa/Lagos"))
+    return datetime.now(pytz.timezone("Africa/Lagos"))
 
 def log_info(message, color=LogColors.BLUE):
     """Prints timestamped colored log lines with flush for Render."""
