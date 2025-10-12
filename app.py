@@ -74,6 +74,138 @@ def test_database():
         return jsonify({"error": str(e)}), 500
 
 # -------------------------------------------
+# INITIALIZE DATABASE ROUTE
+# -------------------------------------------
+@app.route("/init-db", methods=["GET"])
+def initialize_database_route():
+    """Initialize database tables"""
+    if init_database():
+        return jsonify({"status": "Database tables created successfully"}), 200
+    else:
+        return jsonify({"error": "Database initialization failed"}), 500
+
+# -------------------------------------------
+# DATABASE INITIALIZATION
+# -------------------------------------------
+def init_database():
+    """Create all necessary tables"""
+    try:
+        conn = psycopg.connect(Config.DATABASE_URL)
+        cursor = conn.cursor()
+        
+        # Table 1: Staff (Client Team & Vendor Team)
+        cursor.execute("""
+            CREATE TABLE IF NOT EXISTS staff (
+                id SERIAL PRIMARY KEY,
+                phone_number VARCHAR(20) UNIQUE NOT NULL,
+                role VARCHAR(20) NOT NULL CHECK (role IN ('client_team', 'vendor_team', 'admin')),
+                display_name VARCHAR(50),
+                is_active BOOLEAN DEFAULT TRUE,
+                created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+            )
+        """)
+        
+        # Table 2: Clients (with temporary/permanent status)
+        cursor.execute("""
+            CREATE TABLE IF NOT EXISTS clients (
+                id SERIAL PRIMARY KEY,
+                encrypted_id VARCHAR(20) UNIQUE NOT NULL,
+                real_phone_number VARCHAR(20) UNIQUE NOT NULL,
+                status VARCHAR(20) DEFAULT 'temporary' CHECK (status IN ('temporary', 'permanent')),
+                first_interaction TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+                last_interaction TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+                total_deals INTEGER DEFAULT 0
+            )
+        """)
+        
+        # Table 3: Vendors (pre-registered by admin)
+        cursor.execute("""
+            CREATE TABLE IF NOT EXISTS vendors (
+                id SERIAL PRIMARY KEY,
+                encrypted_id VARCHAR(20) UNIQUE NOT NULL,
+                real_phone_number VARCHAR(20) UNIQUE NOT NULL,
+                vendor_name VARCHAR(100),
+                category VARCHAR(50),
+                is_active BOOLEAN DEFAULT TRUE,
+                created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+            )
+        """)
+        
+        # Table 4: Conversations (Client-side)
+        cursor.execute("""
+            CREATE TABLE IF NOT EXISTS conversations (
+                id SERIAL PRIMARY KEY,
+                client_id INTEGER REFERENCES clients(id),
+                assigned_staff_id INTEGER REFERENCES staff(id),
+                status VARCHAR(20) DEFAULT 'open' CHECK (status IN ('open', 'closed', 'pending_vendor')),
+                current_deal_description TEXT,
+                last_activity TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+                auto_close_time TIMESTAMP,
+                created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+            )
+        """)
+        
+        # Table 5: Internal Conversations (Client Team ↔ Vendor Team)
+        cursor.execute("""
+            CREATE TABLE IF NOT EXISTS internal_conversations (
+                id SERIAL PRIMARY KEY,
+                client_conversation_id INTEGER REFERENCES conversations(id),
+                client_staff_id INTEGER REFERENCES staff(id),
+                vendor_staff_id INTEGER REFERENCES staff(id),
+                vendor_id INTEGER REFERENCES vendors(id),
+                status VARCHAR(20) DEFAULT 'open' CHECK (status IN ('open', 'closed', 'quote_received')),
+                created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+            )
+        """)
+        
+        # Table 6: Messages (All messages storage)
+        cursor.execute("""
+            CREATE TABLE IF NOT EXISTS messages (
+                id SERIAL PRIMARY KEY,
+                conversation_id INTEGER,
+                internal_conversation_id INTEGER,
+                from_number VARCHAR(20),
+                to_number VARCHAR(20),
+                content TEXT,
+                message_type VARCHAR(20) DEFAULT 'text',
+                direction VARCHAR(10) CHECK (direction IN ('incoming', 'outgoing')),
+                timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+                encrypted_sender_id VARCHAR(20),
+                encrypted_receiver_id VARCHAR(20)
+            )
+        """)
+        
+        # Table 7: Staff-Vendor Permissions (Admin controls)
+        cursor.execute("""
+            CREATE TABLE IF NOT EXISTS staff_vendor_permissions (
+                id SERIAL PRIMARY KEY,
+                staff_id INTEGER REFERENCES staff(id),
+                vendor_id INTEGER REFERENCES vendors(id),
+                can_access BOOLEAN DEFAULT TRUE,
+                assigned_by INTEGER REFERENCES staff(id),
+                assigned_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+            )
+        """)
+        
+        conn.commit()
+        cursor.close()
+        conn.close()
+        
+        log_info("✅ Database tables created successfully!", LogColors.GREEN)
+        return True
+        
+    except Exception as e:
+        log_info(f"❌ Database initialization failed: {e}", LogColors.RED)
+        return False
+
+# -------------------------------------------
+# INITIALIZE DATABASE ON STARTUP
+# -------------------------------------------
+@app.before_first_request
+def initialize_database():
+    init_database()
+
+# -------------------------------------------
 # WEBHOOK VERIFICATION
 # -------------------------------------------
 @app.route("/webhook", methods=["GET"])
