@@ -26,5 +26,5 @@ class Config:
     # ========================
     # BUSINESS RULES
     # ========================
-    DEAL_AUTO_CLOSE_DAYS = 3
+    DEAL_AUTO_CLOSE_DAYS = 3  # Default 3-day timeout
     TIMEZONE = pytz.timezone("Africa/Lagos")
