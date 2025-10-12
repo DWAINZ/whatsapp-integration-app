@@ -9,6 +9,8 @@ import secrets
 from datetime import datetime, timedelta
 from config import Config
 
+app = Flask(__name__)
+
 # -------------------------------------------
 # CONFIGURATION
 # -------------------------------------------
