@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>D'WAINZ — WAEC & JAMB Exam Prep</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,900&family=Work+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500;600&display=swap">
+<link rel="stylesheet" href="shared.css">
+</head>
+<body>
+<div class="dw-shell">
+  <div class="dw-topbar">
+    <a class="dw-brand" href="index.html">
+      <span class="mark">D</span><span class="name">D'WAINZ</span>
+    </a>
+    <nav class="dw-nav">
+      <a href="index.html" class="active">Study</a>
+      <a href="fast-prep.html">Fast Exam Prep</a>
+    </nav>
+  </div>
+
+  <div class="dw-hero">
+    <div class="dw-eyebrow">WAEC &amp; JAMB · Deep understanding, not memorization</div>
+    <h1 class="dw-h1">Pick a subject to start studying</h1>
+    <p class="dw-lede">Each subject follows the WAEC syllabus: major topics, broken into sub-topics, broken into small lesson reels that build real understanding — then a Fast Exam Prep track of past questions cross-referenced back to the exact lesson that explains each answer.</p>
+  </div>
+
+  <div>
+    <p class="dw-section-title">Subjects</p>
+    <div class="dw-grid" id="subjectGrid" style="margin-top:10px;"></div>
+  </div>
+
+  <div class="dw-footer">D'WAINZ · Built for Nigerian WAEC &amp; JAMB students.</div>
+</div>
+
+<script>
+  var subjects = [
+    { id: 'biology', title: 'Biology', desc: 'Cells, genetics, ecology, physiology — the full WAEC syllabus.', status: 'live' },
+    { id: 'physics', title: 'Physics', desc: 'Mechanics, electricity, waves and more.', status: 'soon' },
+    { id: 'chemistry', title: 'Chemistry', desc: 'Atomic structure, bonding, reactions and more.', status: 'soon' },
+    { id: 'mathematics', title: 'Mathematics', desc: 'Algebra, geometry, statistics and more.', status: 'soon' }
+  ];
+  var grid = document.getElementById('subjectGrid');
+  subjects.forEach(function (s) {
+    var isLive = s.status === 'live';
+    var el = document.createElement(isLive ? 'a' : 'div');
+    el.className = 'dw-card' + (isLive ? '' : ' disabled');
+    if (isLive) el.href = 'topic.html?subject=' + s.id;
+    el.innerHTML =
+      '<div class="meta"><span class="dw-badge ' + (isLive ? 'live' : 'soon') + '">' + (isLive ? 'Available now' : 'Coming soon') + '</span></div>' +
+      '<h3>' + s.title + '</h3>' +
+      '<p>' + s.desc + '</p>';
+    grid.appendChild(el);
+  });
+</script>
+</body>
+</html>

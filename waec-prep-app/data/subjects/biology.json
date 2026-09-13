@@ -1,0 +1,688 @@
+{
+  "subject": "biology",
+  "subjectTitle": "Biology",
+  "topics": [
+    {
+      "id": "cell-structure-organisation",
+      "title": "Cell Structure & Organisation",
+      "description": "The cell as the unit of life, its internal structure, and how cells combine into tissues, organs and systems.",
+      "subtopics": [
+        {
+          "id": "cell-theory",
+          "title": "Cell Theory & Discovery of the Cell",
+          "stories": [
+            {
+              "tag": "Etymology · 1665",
+              "sub": "Why do we call it a ‘cell’?",
+              "heading": "A word borrowed from monks' rooms",
+              "list": [
+                "Robert Hooke examined a thin slice of cork bark under a primitive microscope in 1665.",
+                "He saw tiny box-like compartments and thought they resembled the small rooms (‘cellulae’) monks lived in.",
+                "He named them ‘cells’ — the word has stuck for over 350 years.",
+                "What he actually saw were dead plant cell walls, not living cells — living cells weren't properly described until later."
+              ],
+              "narration": "In 1665, Robert Hooke looked at cork bark under a microscope and saw tiny box-like compartments. They reminded him of the small rooms monks lived in, called cellulae, so he named them cells. The word has stuck for over three hundred and fifty years, even though what he actually saw were dead plant cell walls, not living cells."
+            },
+            {
+              "tag": "The big idea · 1838–1855",
+              "sub": "One idea, three scientists, seventeen years",
+              "heading": "How Cell Theory came together",
+              "list": [
+                "Matthias Schleiden (1838) studied plants and concluded all plant tissue is made of cells.",
+                "Theodor Schwann (1839) extended this to animals: all animals are made of cells too.",
+                "Rudolf Virchow (1855) added the missing piece: ‘Omnis cellula e cellula’ — every cell comes from a pre-existing cell.",
+                "Together, these three statements became the Cell Theory you're tested on today."
+              ],
+              "narration": "Between 1838 and 1855, three scientists built Cell Theory piece by piece. Schleiden showed all plants are made of cells. Schwann showed all animals are made of cells too. And Virchow added the final rule: every cell comes from a cell that already existed."
+            }
+          ],
+          "lessons": [
+            {
+              "eyebrow": "The big picture",
+              "big": "🔬",
+              "heading": "What is a cell?",
+              "list": [
+                "A cell is the smallest structural and functional unit of life.",
+                "Every living thing — bacterium, mushroom, oak tree, elephant, you — is built from cells.",
+                "Some organisms are just one cell (unicellular); others are trillions of cells working together (multicellular)."
+              ],
+              "sub": "Think of a cell as the smallest ‘brick’ that is still alive on its own.",
+              "narration": "A cell is the smallest structural and functional unit of life. Every living thing is built from cells — some organisms are just one cell, others are made of trillions working together."
+            },
+            {
+              "eyebrow": "Cell Theory",
+              "heading": "The three laws of Cell Theory",
+              "list": [
+                "1. All living organisms are composed of one or more cells.",
+                "2. The cell is the basic unit of structure and function in organisms.",
+                "3. All cells arise from pre-existing cells, by cell division."
+              ],
+              "sub": "WAEC loves to test these three statements word-for-word — learn them exactly.",
+              "narration": "Cell Theory has three parts. All living organisms are made of one or more cells. The cell is the basic unit of structure and function. And all cells arise from pre-existing cells by division."
+            },
+            {
+              "eyebrow": "Tools of the trade",
+              "heading": "Light microscope vs electron microscope",
+              "list": [
+                "Light microscope: uses light and glass lenses; magnifies up to about ×1500; can view living cells.",
+                "Electron microscope: uses a beam of electrons; magnifies over ×500,000; shows fine organelle detail; cannot view living cells.",
+                "Magnification is how much bigger an image looks; resolution is how clearly two close points can be told apart."
+              ],
+              "sub": "A microscope can magnify a blur bigger without improving resolution — that's why resolution matters more.",
+              "narration": "A light microscope uses light and glass lenses and can view living cells, but only magnifies up to about fifteen hundred times. An electron microscope uses a beam of electrons, magnifies over five hundred thousand times, but cannot view living cells."
+            },
+            {
+              "eyebrow": "Why cells stay tiny",
+              "big": "S.A. : Vol",
+              "heading": "Surface area to volume ratio",
+              "list": [
+                "As a cell grows bigger, its volume increases faster than its surface area.",
+                "A large cell would struggle to exchange enough oxygen, nutrients and waste across its surface fast enough to serve all that volume.",
+                "This is a major reason cells stay microscopically small."
+              ],
+              "sub": "Small cells = more surface area per unit volume = faster exchange with the environment.",
+              "narration": "As a cell grows bigger, its volume increases faster than its surface area. A large cell would struggle to exchange enough oxygen, nutrients and waste across its surface — which is a major reason cells stay microscopically small."
+            },
+            {
+              "eyebrow": "Levels of life",
+              "heading": "Unicellular vs multicellular organisms",
+              "list": [
+                "Unicellular organisms (e.g. Amoeba, bacteria, Paramecium) are made of just one cell that carries out every life process alone.",
+                "Multicellular organisms (e.g. humans, plants, mushrooms) are made of many cells that specialise and cooperate.",
+                "Specialisation lets multicellular organisms grow larger and more complex than any single cell could manage alone."
+              ],
+              "sub": "One cell doing everything, versus many cells each doing one job well.",
+              "narration": "Unicellular organisms are made of just one cell that does everything. Multicellular organisms are made of many cells that specialise and cooperate, letting them grow larger and more complex."
+            },
+            {
+              "eyebrow": "Exam alert",
+              "heading": "Common WAEC pitfalls on Cell Theory",
+              "list": [
+                "Do not say Hooke discovered living cells — he only saw dead cork cell walls.",
+                "Do not merge the three cell theory statements into one vague sentence; WAEC often asks you to state them separately.",
+                "Viruses are NOT made of cells, so strictly they fall outside the ‘all organisms are made of cells’ statement — a favourite trick question."
+              ],
+              "sub": "Read past questions carefully: WAEC often asks which statement is NOT part of the cell theory.",
+              "narration": "Common WAEC pitfalls: don't say Hooke discovered living cells — he only saw dead cork walls. Don't merge the three cell theory statements into one vague sentence. And remember, viruses are not made of cells."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "According to Cell Theory, where do new cells come from?",
+              "options": ["They arise from pre-existing cells", "They form spontaneously from non-living matter", "They are created only inside the nucleolus", "They only arise in multicellular organisms"],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — Virchow's principle: every cell comes from a cell that already existed.",
+              "explainWrong": "Cell Theory states new cells arise only from pre-existing cells by division, not from non-living matter.",
+              "refCard": 2,
+              "narration": "According to Cell Theory, where do new cells come from?"
+            },
+            {
+              "question": "Which statement correctly distinguishes a light microscope from an electron microscope?",
+              "options": ["A light microscope can be used to view living cells; an electron microscope cannot", "Both can view living cells equally well", "An electron microscope uses light instead of electrons", "A light microscope has higher resolution than an electron microscope"],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — light microscopes can view living specimens; electron microscopes need a vacuum and cannot.",
+              "explainWrong": "A light microscope, not an electron microscope, can be used to view living cells.",
+              "refCard": 3,
+              "narration": "Which statement correctly distinguishes a light microscope from an electron microscope?"
+            },
+            {
+              "question": "Why do cells generally stay very small instead of growing very large?",
+              "options": ["A small size keeps the surface-area-to-volume ratio high enough for efficient exchange", "Small cells need less DNA", "Large cells cannot divide by mitosis", "Small cells are structurally stronger"],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — a high surface-area-to-volume ratio keeps exchange of materials efficient.",
+              "explainWrong": "The real reason is the surface-area-to-volume ratio: bigger cells struggle to exchange materials fast enough.",
+              "refCard": 4,
+              "narration": "Why do cells generally stay very small instead of growing very large?"
+            },
+            {
+              "question": "Which of the following is NOT considered part of the classical Cell Theory?",
+              "options": ["All viruses are made of cells", "All organisms are composed of one or more cells", "The cell is the basic unit of structure and function", "Cells arise only from pre-existing cells"],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — viruses are not made of cells, so this statement is NOT part of Cell Theory.",
+              "explainWrong": "Viruses are not made of cells — that statement is the false one, and NOT part of Cell Theory.",
+              "refCard": 6,
+              "narration": "Which of the following is NOT considered part of the classical Cell Theory?"
+            }
+          ]
+        },
+        {
+          "id": "cell-organelles",
+          "title": "Cell Structure: Organelles and Their Functions",
+          "stories": [
+            {
+              "tag": "Analogy",
+              "sub": "A cell is a tiny, busy factory",
+              "heading": "Meet the departments",
+              "list": [
+                "The nucleus is the head office — it holds the master instructions (DNA) and directs activity.",
+                "Mitochondria are the power plants — they release energy from food during respiration.",
+                "Ribosomes are the workshops — they assemble proteins from instructions sent by the nucleus.",
+                "The cell membrane is the factory gate — it controls exactly what goes in and out."
+              ],
+              "narration": "Think of a cell as a tiny factory. The nucleus is the head office holding the master instructions. Mitochondria are the power plants. Ribosomes are the workshops that assemble proteins. And the cell membrane is the factory gate controlling what goes in and out."
+            },
+            {
+              "tag": "Surprise origin",
+              "sub": "Mitochondria used to be free-living bacteria",
+              "heading": "The endosymbiotic theory",
+              "list": [
+                "This theory proposes that mitochondria were once independent bacteria.",
+                "Billions of years ago, a larger cell engulfed one of these bacteria instead of digesting it.",
+                "The two began living together permanently — the bacterium became the mitochondrion we know today.",
+                "Evidence: mitochondria have their own small circle of DNA, separate from the nucleus, just like bacteria do."
+              ],
+              "narration": "The endosymbiotic theory proposes that mitochondria were once independent bacteria. A larger cell engulfed one instead of digesting it, and the two began living together permanently. Mitochondria still carry their own small circle of DNA today, just like bacteria do."
+            }
+          ],
+          "lessons": [
+            {
+              "eyebrow": "Control centre",
+              "heading": "The nucleus",
+              "list": [
+                "Bound by a nuclear envelope with pores that let materials pass through.",
+                "Contains chromatin (DNA + protein) which condenses into chromosomes during cell division.",
+                "Contains the nucleolus, which manufactures ribosomes.",
+                "Controls the cell's activities and carries the hereditary information passed to offspring."
+              ],
+              "sub": "The nucleus is the cell's head office and its DNA archive in one.",
+              "narration": "The nucleus is bound by a nuclear envelope, contains chromatin that condenses into chromosomes during division, and controls the cell's activities and hereditary information."
+            },
+            {
+              "eyebrow": "The powerhouse",
+              "heading": "Mitochondria",
+              "list": [
+                "Site of aerobic respiration, where energy is released from glucose and stored as ATP.",
+                "Has a folded inner membrane (cristae) that increases surface area for respiration reactions.",
+                "Cells with high energy demand, like muscle cells, contain many mitochondria."
+              ],
+              "sub": "More mitochondria usually means more energy demand.",
+              "narration": "Mitochondria are the site of aerobic respiration, releasing energy from glucose and storing it as ATP. Their folded inner membrane, called cristae, increases surface area for these reactions."
+            },
+            {
+              "eyebrow": "Protein factories",
+              "heading": "Ribosomes",
+              "list": [
+                "Tiny structures, either free in the cytoplasm or attached to the rough endoplasmic reticulum.",
+                "Site of protein synthesis — they read genetic instructions (mRNA) and link amino acids together.",
+                "Not membrane-bound, unlike most other organelles."
+              ],
+              "sub": "Every protein in your body was assembled on a ribosome.",
+              "narration": "Ribosomes are the site of protein synthesis, reading genetic instructions and linking amino acids together. Unlike most organelles, they are not membrane-bound."
+            },
+            {
+              "eyebrow": "The transport network",
+              "heading": "Endoplasmic reticulum",
+              "list": [
+                "Rough ER: studded with ribosomes; folds and transports proteins made by those ribosomes.",
+                "Smooth ER: no ribosomes; makes lipids and helps detoxify certain substances.",
+                "Forms a network of membranes connecting different parts of the cell."
+              ],
+              "sub": "Rough ER handles proteins, smooth ER handles lipids.",
+              "narration": "Rough endoplasmic reticulum is studded with ribosomes and transports the proteins they make. Smooth endoplasmic reticulum has no ribosomes and instead makes lipids and helps detoxify substances."
+            },
+            {
+              "eyebrow": "The packaging plant",
+              "heading": "Golgi apparatus",
+              "list": [
+                "A stack of flattened, membrane-bound sacs.",
+                "Receives proteins from the ER, modifies them (e.g. adds sugar groups), then packages them into vesicles.",
+                "Sends finished products to their correct destination inside or outside the cell."
+              ],
+              "sub": "Think of it as the factory's dispatch department.",
+              "narration": "The Golgi apparatus receives proteins from the endoplasmic reticulum, modifies and packages them into vesicles, and sends them to their correct destination."
+            },
+            {
+              "eyebrow": "Clean-up crew",
+              "heading": "Lysosomes",
+              "list": [
+                "Small sacs containing digestive enzymes.",
+                "Break down worn-out organelles, food particles, and foreign material such as bacteria inside the cell.",
+                "Sometimes called the cell's recycling centre."
+              ],
+              "sub": "Lysosomes keep the cell's interior clean and recycled.",
+              "narration": "Lysosomes are small sacs containing digestive enzymes. They break down worn-out organelles, food particles and foreign material, acting as the cell's recycling centre."
+            },
+            {
+              "eyebrow": "The gatekeeper",
+              "heading": "Cell membrane — the fluid mosaic model",
+              "list": [
+                "Made mainly of a phospholipid bilayer with proteins floating within it, like tiles in a mosaic.",
+                "It is selectively permeable — it allows some substances through freely and restricts others.",
+                "Controls movement of substances in and out of the cell via diffusion, osmosis and active transport."
+              ],
+              "sub": "‘Fluid mosaic’ describes both the flexible layer and the scattered proteins in it.",
+              "narration": "The fluid mosaic model describes the cell membrane as a phospholipid bilayer with proteins floating within it. It is selectively permeable, controlling what moves in and out by diffusion, osmosis and active transport."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Which organelle contains chromatin and controls the cell's activities?",
+              "options": ["Nucleus", "Golgi apparatus", "Ribosome", "Lysosome"],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — the nucleus contains chromatin and controls cell activities.",
+              "explainWrong": "That's the nucleus — it contains chromatin and directs the cell's activities.",
+              "refCard": 1,
+              "narration": "Which organelle contains chromatin and controls the cell's activities?"
+            },
+            {
+              "question": "Which organelle is the main site of aerobic respiration and ATP production?",
+              "options": ["Mitochondrion", "Ribosome", "Nucleus", "Golgi apparatus"],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — mitochondria are the main site of aerobic respiration and ATP production.",
+              "explainWrong": "That's the mitochondrion — the site of aerobic respiration and ATP production.",
+              "refCard": 2,
+              "narration": "Which organelle is the main site of aerobic respiration and ATP production?"
+            },
+            {
+              "question": "Which organelle modifies and packages proteins for transport out of the cell?",
+              "options": ["Golgi apparatus", "Lysosome", "Nucleolus", "Cell membrane"],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — the Golgi apparatus modifies and packages proteins into vesicles.",
+              "explainWrong": "That's the Golgi apparatus — it modifies and packages proteins for transport.",
+              "refCard": 5,
+              "narration": "Which organelle modifies and packages proteins for transport out of the cell?"
+            },
+            {
+              "question": "According to the fluid mosaic model, the cell membrane is mainly composed of…?",
+              "options": ["A phospholipid bilayer with floating proteins", "Cellulose fibres only", "A single layer of protein", "Chromatin strands"],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — a phospholipid bilayer with proteins scattered through it, like tiles in a mosaic.",
+              "explainWrong": "The membrane is a phospholipid bilayer with floating proteins — not cellulose or chromatin.",
+              "refCard": 7,
+              "narration": "According to the fluid mosaic model, the cell membrane is mainly composed of what?"
+            }
+          ]
+        },
+        {
+          "id": "plant-vs-animal",
+          "title": "Plant Cell vs Animal Cell",
+          "stories": [
+            {
+              "tag": "Two designs",
+              "sub": "Two factories, two blueprints",
+              "heading": "Why plant and animal cells look different",
+              "list": [
+                "Plants can't run from danger — they must stand firm and grow toward light, so their cells build in rigid support.",
+                "Animals move around to find food and escape threats, so their cells stay flexible instead of rigid.",
+                "Every structural difference between the two cell types traces back to this one difference in lifestyle."
+              ],
+              "narration": "Plants can't run from danger, so their cells build in rigid support to stand firm and grow toward light. Animals move around instead, so their cells stay flexible. Every structural difference between the two traces back to this one difference in lifestyle."
+            },
+            {
+              "tag": "Real life",
+              "sub": "Why a leaf feels firm but your skin feels soft",
+              "heading": "Turgor pressure at work",
+              "list": [
+                "A plant cell's large vacuole fills with water and pushes outward against its rigid cell wall.",
+                "This water pressure, called turgor pressure, is what keeps leaves and stems crisp and upright.",
+                "Animal cells have no cell wall to push against, so tissue stays soft and flexible instead."
+              ],
+              "narration": "A plant cell's large vacuole fills with water and pushes outward against its rigid cell wall. This turgor pressure is what keeps leaves and stems crisp. Animal cells have no wall to push against, so their tissue stays soft."
+            }
+          ],
+          "lessons": [
+            {
+              "eyebrow": "Structural support",
+              "heading": "Cell wall",
+              "list": [
+                "Plant cells have a rigid cell wall made of cellulose, outside the cell membrane.",
+                "It gives shape, support and protection.",
+                "Animal cells have no cell wall — only a flexible cell membrane."
+              ],
+              "sub": "Cell wall = present in plants, absent in animals.",
+              "narration": "Plant cells have a rigid cell wall made of cellulose, giving shape, support and protection. Animal cells have no cell wall — only a flexible cell membrane."
+            },
+            {
+              "eyebrow": "Food-making organelle",
+              "heading": "Chloroplasts",
+              "list": [
+                "Plant cells, in their green parts, contain chloroplasts with chlorophyll for photosynthesis.",
+                "Chloroplasts trap light energy and use it to make glucose from carbon dioxide and water.",
+                "Animal cells have no chloroplasts and cannot photosynthesise."
+              ],
+              "sub": "Chloroplast = present in (green) plant cells, absent in animal cells.",
+              "narration": "Plant cells contain chloroplasts with chlorophyll, which trap light energy for photosynthesis. Animal cells have no chloroplasts and cannot photosynthesise."
+            },
+            {
+              "eyebrow": "Storage & pressure",
+              "heading": "Vacuole size",
+              "list": [
+                "Mature plant cells usually have one large, permanent central vacuole for storage and maintaining turgor pressure.",
+                "Animal cells may have several small, temporary vacuoles instead."
+              ],
+              "sub": "One big permanent vacuole (plant) vs several small temporary ones (animal).",
+              "narration": "Mature plant cells usually have one large permanent vacuole for storage and turgor pressure. Animal cells may have several small, temporary vacuoles instead."
+            },
+            {
+              "eyebrow": "Outward appearance",
+              "heading": "Shape",
+              "list": [
+                "Plant cells tend to have a fixed, regular shape, often rectangular, due to the cell wall.",
+                "Animal cells tend to have irregular, rounded shapes since they only have a flexible membrane."
+              ],
+              "sub": "Fixed shape (plant) vs irregular shape (animal).",
+              "narration": "Plant cells tend to have a fixed, regular shape because of the cell wall. Animal cells tend to have irregular, rounded shapes since they only have a flexible membrane."
+            },
+            {
+              "eyebrow": "Cell division helpers",
+              "heading": "Centrioles",
+              "list": [
+                "Animal cells contain centrioles that help organise spindle fibres during cell division.",
+                "Most plant cells lack centrioles."
+              ],
+              "sub": "Centrioles = present in animal cells, generally absent in plant cells.",
+              "narration": "Animal cells contain centrioles that help organise spindle fibres during cell division. Most plant cells lack centrioles."
+            },
+            {
+              "eyebrow": "Exam tip",
+              "heading": "Summary: the 4 key differences",
+              "list": [
+                "Cell wall — present in plants, absent in animals.",
+                "Chloroplast — present in green plant cells, absent in animals.",
+                "Vacuole — one large permanent one in plants, small/temporary in animals.",
+                "Centriole — present in animals, generally absent in plants."
+              ],
+              "sub": "WAEC often gives a labelled diagram and asks you to identify whether it's a plant or animal cell from just one of these features.",
+              "narration": "The four key differences to remember: cell wall, chloroplast, vacuole size, and centrioles. WAEC often gives a labelled diagram and asks you to identify plant or animal cell from just one of these."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "What structure gives plant cells a rigid, fixed shape that animal cells lack?",
+              "options": ["Cell wall made of cellulose", "Cell membrane", "Nucleus", "Cytoplasm"],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — the cellulose cell wall gives plant cells their rigid, fixed shape.",
+              "explainWrong": "It's the cellulose cell wall — animal cells lack this and only have a flexible membrane.",
+              "refCard": 1,
+              "narration": "What structure gives plant cells a rigid, fixed shape that animal cells lack?"
+            },
+            {
+              "question": "Chloroplasts, which carry out photosynthesis, are found in…",
+              "options": ["Plant cells only", "Animal cells only", "Both plant and animal cells", "Neither plant nor animal cells"],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — chloroplasts are found only in plant cells (their green parts).",
+              "explainWrong": "Chloroplasts are found only in plant cells, not animal cells.",
+              "refCard": 2,
+              "narration": "Chloroplasts, which carry out photosynthesis, are found in which cells?"
+            },
+            {
+              "question": "A mature plant cell typically has one large permanent vacuole. What is one of its main roles?",
+              "options": ["Maintaining turgor pressure and support", "Producing ATP", "Synthesising proteins", "Controlling cell division"],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — the large vacuole maintains turgor pressure, keeping the plant firm.",
+              "explainWrong": "The large vacuole's main role is maintaining turgor pressure and support.",
+              "refCard": 3,
+              "narration": "A mature plant cell's large permanent vacuole has what main role?"
+            },
+            {
+              "question": "Which structure, involved in organising spindle fibres during division, is found in animal cells but is generally absent in plant cells?",
+              "options": ["Centriole", "Chloroplast", "Cell wall", "Large central vacuole"],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — centrioles organise spindle fibres in animal cells and are generally absent in plant cells.",
+              "explainWrong": "That's the centriole — found in animal cells, generally absent in plant cells.",
+              "refCard": 5,
+              "narration": "Which structure, involved in organising spindle fibres during division, is found in animal cells but generally absent in plant cells?"
+            }
+          ]
+        },
+        {
+          "id": "prokaryote-vs-eukaryote",
+          "title": "Prokaryotic vs Eukaryotic Cells",
+          "stories": [
+            {
+              "tag": "1670s",
+              "sub": "The man who saw ‘animalcules’",
+              "heading": "Leeuwenhoek's tiny discovery",
+              "list": [
+                "Antonie van Leeuwenhoek built simple but powerful microscopes by hand.",
+                "In the 1670s, he became the first person to observe bacteria, calling the tiny moving organisms he saw ‘animalcules’.",
+                "He had no idea he was looking at some of the simplest cells on Earth — prokaryotic cells."
+              ],
+              "narration": "In the 1670s, Antonie van Leeuwenhoek built simple but powerful microscopes and became the first person to observe bacteria, calling them animalcules. He had no idea he was looking at prokaryotic cells — some of the simplest cells on Earth."
+            },
+            {
+              "tag": "3.5 billion years ago",
+              "sub": "Earth's first citizens",
+              "heading": "Life before the nucleus",
+              "list": [
+                "Prokaryote-like organisms are thought to be among the earliest forms of life, roughly 3.5 billion years ago.",
+                "This was long before any nucleus-containing (eukaryotic) cell existed.",
+                "Every eukaryotic cell alive today — including yours — evolved from ancestors that started out this simple."
+              ],
+              "narration": "Prokaryote-like organisms are thought to be among the earliest forms of life, roughly three and a half billion years ago — long before any nucleus-containing cell existed."
+            }
+          ],
+          "lessons": [
+            {
+              "eyebrow": "Definitions",
+              "heading": "Defining the two types",
+              "list": [
+                "Prokaryotic cells have no true, membrane-bound nucleus.",
+                "Eukaryotic cells have a true nucleus enclosed by a nuclear membrane."
+              ],
+              "sub": "‘Pro-karyote’ = before a nucleus. ‘Eu-karyote’ = true nucleus.",
+              "narration": "Prokaryotic cells have no true, membrane-bound nucleus. Eukaryotic cells have a true nucleus enclosed by a nuclear membrane."
+            },
+            {
+              "eyebrow": "Where the DNA sits",
+              "heading": "Nucleoid vs nucleus",
+              "list": [
+                "In prokaryotes, DNA lies free in the cytoplasm, in a region called the nucleoid.",
+                "In eukaryotes, DNA is enclosed within a membrane-bound nucleus."
+              ],
+              "sub": "No membrane around the DNA = prokaryote. Membrane around the DNA = eukaryote.",
+              "narration": "In prokaryotes, DNA lies free in the cytoplasm in a region called the nucleoid. In eukaryotes, DNA is enclosed within a membrane-bound nucleus."
+            },
+            {
+              "eyebrow": "Scale",
+              "heading": "Size comparison",
+              "list": [
+                "Prokaryotic cells are generally much smaller: about 0.1–5 micrometres.",
+                "Eukaryotic cells are generally larger: about 10–100 micrometres."
+              ],
+              "sub": "Eukaryotic cells are typically 10 to 100 times bigger than prokaryotic cells.",
+              "narration": "Prokaryotic cells are generally much smaller, about zero point one to five micrometres. Eukaryotic cells are generally larger, about ten to one hundred micrometres."
+            },
+            {
+              "eyebrow": "Real examples",
+              "heading": "Which organisms are which?",
+              "list": [
+                "Prokaryotes: bacteria and archaea, e.g. Escherichia coli.",
+                "Eukaryotes: protists, fungi, plants and animals, e.g. Amoeba, yeast, humans."
+              ],
+              "sub": "If it has a nucleus, it's a eukaryote — whatever kingdom it belongs to.",
+              "narration": "Prokaryotes include bacteria and archaea, such as Escherichia coli. Eukaryotes include protists, fungi, plants and animals, such as Amoeba, yeast and humans."
+            },
+            {
+              "eyebrow": "Internal complexity",
+              "heading": "Organelles present",
+              "list": [
+                "Eukaryotic cells contain membrane-bound organelles: mitochondria, endoplasmic reticulum, Golgi apparatus, and more.",
+                "Prokaryotic cells lack these membrane-bound organelles."
+              ],
+              "sub": "Eukaryotes are internally compartmentalised; prokaryotes mostly are not.",
+              "narration": "Eukaryotic cells contain membrane-bound organelles such as mitochondria, the endoplasmic reticulum and the Golgi apparatus. Prokaryotic cells lack these membrane-bound organelles."
+            },
+            {
+              "eyebrow": "Making more cells",
+              "heading": "Reproduction",
+              "list": [
+                "Prokaryotes reproduce mainly by binary fission — a simple splitting into two.",
+                "Eukaryotic cells reproduce by mitosis (body cells) or meiosis (sex cells), both more complex processes."
+              ],
+              "sub": "Binary fission is simpler and faster than mitosis or meiosis.",
+              "narration": "Prokaryotes reproduce mainly by binary fission, a simple splitting into two. Eukaryotic cells reproduce by mitosis or meiosis, both more complex processes."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "The main feature that distinguishes a eukaryotic cell from a prokaryotic cell is…",
+              "options": ["A true, membrane-bound nucleus", "The presence of a cell membrane", "The presence of cytoplasm", "The ability to move"],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — a true, membrane-bound nucleus is the defining feature of eukaryotic cells.",
+              "explainWrong": "The defining feature is a true, membrane-bound nucleus — both cell types have a membrane and cytoplasm.",
+              "refCard": 1,
+              "narration": "The main feature that distinguishes a eukaryotic cell from a prokaryotic cell is what?"
+            },
+            {
+              "question": "In a prokaryotic cell, where is the genetic material (DNA) mainly located?",
+              "options": ["Free in the cytoplasm, in a region called the nucleoid", "Inside a membrane-bound nucleus", "Inside the mitochondria only", "Inside the cell wall"],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — prokaryotic DNA lies free in the cytoplasm, in the nucleoid region.",
+              "explainWrong": "Prokaryotic DNA lies free in the cytoplasm, in a region called the nucleoid — not inside a membrane-bound nucleus.",
+              "refCard": 2,
+              "narration": "In a prokaryotic cell, where is the genetic material mainly located?"
+            },
+            {
+              "question": "Which of the following is an example of a prokaryotic organism?",
+              "options": ["Escherichia coli (a bacterium)", "Human liver cell", "Yeast cell", "Amoeba"],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — Escherichia coli is a bacterium, a prokaryotic organism.",
+              "explainWrong": "Escherichia coli is the prokaryote here — the others are all eukaryotic.",
+              "refCard": 4,
+              "narration": "Which of the following is an example of a prokaryotic organism?"
+            },
+            {
+              "question": "Which of these organelles would you expect to find in a eukaryotic cell but NOT in a typical prokaryotic cell?",
+              "options": ["Mitochondrion", "Cell membrane", "Cytoplasm", "Ribosome"],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — mitochondria are membrane-bound organelles found in eukaryotes, not typical prokaryotes.",
+              "explainWrong": "It's the mitochondrion — note that ribosomes are actually present in both prokaryotes and eukaryotes.",
+              "refCard": 5,
+              "narration": "Which of these organelles would you expect to find in a eukaryotic cell but not in a typical prokaryotic cell?"
+            }
+          ]
+        },
+        {
+          "id": "levels-of-organisation",
+          "title": "Levels of Biological Organisation",
+          "stories": [
+            {
+              "tag": "Zooming out",
+              "sub": "From a single brick to a whole city",
+              "heading": "Cell → tissue → organ → system → organism",
+              "list": [
+                "A single cell is like one brick.",
+                "Similar cells grouped together form a tissue — like a wall made of bricks.",
+                "Different tissues combine to form an organ — like a whole room built from several walls.",
+                "Organs combine into organ systems, and organ systems combine into a whole organism — the whole city."
+              ],
+              "narration": "Imagine zooming a camera out from a single brick to a whole city. A single cell is like one brick. Similar cells grouped together form a tissue, like a wall. Different tissues combine into an organ, like a room. And organs combine into systems, and systems into a whole organism — the whole city."
+            },
+            {
+              "tag": "Real life",
+              "sub": "Departments in a company",
+              "heading": "Division of labour",
+              "list": [
+                "A company has departments — sales, production, logistics — each specialising in one job.",
+                "A multicellular body has organ systems — digestive, circulatory, nervous — each specialising for survival.",
+                "In both cases, specialisation lets the whole system do far more than any single part could do alone."
+              ],
+              "narration": "Just as a company has departments like sales, production and logistics each specialising in one job, a multicellular body has organ systems like digestive, circulatory and nervous, each specialising for survival."
+            }
+          ],
+          "lessons": [
+            {
+              "eyebrow": "The hierarchy",
+              "heading": "The five levels",
+              "list": [
+                "Cell → Tissue → Organ → Organ system → Organism.",
+                "Each level is built from the level directly below it."
+              ],
+              "sub": "Learn this order exactly — WAEC frequently tests it directly.",
+              "narration": "The levels of biological organisation, from smallest to largest, are: cell, tissue, organ, organ system, and organism. Each level is built from the level directly below it."
+            },
+            {
+              "eyebrow": "Level 2",
+              "heading": "What is a tissue?",
+              "list": [
+                "A group of similar cells performing the same function.",
+                "Examples: epithelial tissue (covering/lining), muscle tissue (movement), nervous tissue (signalling), connective tissue (support)."
+              ],
+              "sub": "Similar cells + same function = tissue.",
+              "narration": "A tissue is a group of similar cells performing the same function — examples include epithelial tissue, muscle tissue, nervous tissue and connective tissue."
+            },
+            {
+              "eyebrow": "Level 3",
+              "heading": "What is an organ?",
+              "list": [
+                "A structure made of two or more different tissues working together to perform a specific function.",
+                "Example: the heart is made of muscle, connective and nervous tissue working together to pump blood."
+              ],
+              "sub": "Different tissues + one shared function = organ.",
+              "narration": "An organ is made of two or more different tissues working together for a specific function. For example, the heart combines muscle, connective and nervous tissue to pump blood."
+            },
+            {
+              "eyebrow": "Level 4",
+              "heading": "What is an organ system?",
+              "list": [
+                "A group of organs working together for a broader function.",
+                "Example: the digestive system — mouth, stomach, intestines — breaks down and absorbs food."
+              ],
+              "sub": "Different organs + one broader function = organ system.",
+              "narration": "An organ system is a group of organs working together for a broader function. For example, the digestive system's mouth, stomach and intestines work together to break down and absorb food."
+            },
+            {
+              "eyebrow": "Know your systems",
+              "heading": "Common human organ systems",
+              "list": [
+                "Circulatory (transport), respiratory (gas exchange), digestive (nutrition).",
+                "Nervous (control), excretory (waste removal), reproductive (continuity of species)."
+              ],
+              "sub": "Each system has one clear headline job — learn the pairing.",
+              "narration": "Common human organ systems include circulatory for transport, respiratory for gas exchange, digestive for nutrition, nervous for control, excretory for waste removal, and reproductive for continuity of the species."
+            },
+            {
+              "eyebrow": "Exam tip",
+              "heading": "Don't mix up the levels",
+              "list": [
+                "WAEC often gives a structure and asks you to identify its level: cell, tissue, organ or system.",
+                "Remember: an organ = combination of different tissues. A system = combination of organs."
+              ],
+              "sub": "If it names one function made of several organs, it's a system, not an organ.",
+              "narration": "WAEC often gives a structure and asks you to identify its level. Remember: an organ is a combination of different tissues, and a system is a combination of organs."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Arrange in increasing order of organisation: organ, cell, tissue, organ system.",
+              "options": ["Cell → Tissue → Organ → Organ system", "Tissue → Cell → Organ → Organ system", "Organ → Tissue → Cell → Organ system", "Organ system → Organ → Tissue → Cell"],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — the order is cell, tissue, organ, then organ system.",
+              "explainWrong": "The correct increasing order is cell, then tissue, then organ, then organ system.",
+              "refCard": 1,
+              "narration": "Arrange in increasing order of organisation: organ, cell, tissue, organ system."
+            },
+            {
+              "question": "A tissue is best defined as…",
+              "options": ["A group of similar cells performing the same function", "A single specialised cell", "Two or more organs working together", "The smallest unit of life"],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — a tissue is a group of similar cells performing the same function.",
+              "explainWrong": "A tissue is a group of similar cells performing the same function, not a single cell or a group of organs.",
+              "refCard": 2,
+              "narration": "A tissue is best defined as what?"
+            },
+            {
+              "question": "The heart is considered an organ because it is made up of…",
+              "options": ["Two or more different tissues working together for one function", "Only one type of tissue", "A single giant cell", "Several organ systems"],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — the heart combines muscle, connective and nervous tissue to work as one organ.",
+              "explainWrong": "The heart is an organ because it combines two or more different tissues working together for one function.",
+              "refCard": 3,
+              "narration": "The heart is considered an organ because it is made up of what?"
+            },
+            {
+              "question": "Which of these best describes an organ system?",
+              "options": ["A group of organs working together for a broader function, e.g. digestion", "A single organ working alone", "A tissue made of one cell type", "The cell membrane of an organism"],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — an organ system is a group of organs working together for a broader function.",
+              "explainWrong": "An organ system is a group of organs working together for a broader function, such as digestion.",
+              "refCard": 4,
+              "narration": "Which of these best describes an organ system?"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Study — D'WAINZ</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,900&family=Work+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500;600&display=swap">
+<link rel="stylesheet" href="shared.css">
+<link rel="stylesheet" href="../engine/reel-engine.css">
+</head>
+<body>
+<div class="dw-shell">
+  <div class="dw-topbar">
+    <a class="dw-brand" href="index.html"><span class="mark">D</span><span class="name">D'WAINZ</span></a>
+    <nav class="dw-nav">
+      <a href="index.html">Study</a>
+      <a href="fast-prep.html">Fast Exam Prep</a>
+    </nav>
+  </div>
+  <div class="dw-crumbs" id="crumbs"></div>
+
+  <div class="dw-reelroot">
+    <div class="intro">
+      <div class="dw-eyebrow" id="reelEyebrow">D'WAINZ · Deep understanding, not memorization</div>
+      <h1 class="dw-h1" id="reelTitle" style="font-size:clamp(22px,4.5vw,30px);">Loading…</h1>
+      <p>Tap any dot on the progress bar to jump to a card. Press and hold anywhere on the reel to pause.</p>
+    </div>
+    <div id="reelContainer"></div>
+  </div>
+
+  <div class="dw-footer">D'WAINZ · WAEC Biology — Deep Understanding Track.</div>
+</div>
+
+<script src="shared.js"></script>
+<script src="../engine/reel-engine.js"></script>
+<script>
+  var subjectId = Dwainz.qs('subject') || 'biology';
+  var topicId = Dwainz.qs('topic');
+  var subtopicId = Dwainz.qs('subtopic');
+  var deepCard = Dwainz.qs('card');
+  var fromFastPrep = Dwainz.qs('from') === 'fastprep';
+
+  Dwainz.loadSubject(subjectId).then(function (data) {
+    var found = Dwainz.findSubtopic(data, topicId, subtopicId);
+    if (!found) { document.getElementById('reelTitle').textContent = 'Lesson not found'; return; }
+    var topic = found.topic, subtopic = found.subtopic;
+
+    document.title = subtopic.title + ' — D’WAINZ';
+    document.getElementById('reelEyebrow').textContent = data.subjectTitle + ' · ' + topic.title;
+    document.getElementById('reelTitle').textContent = subtopic.title;
+    document.getElementById('crumbs').innerHTML =
+      '<a href="index.html">Study</a> <span>/</span> ' +
+      '<a href="topic.html?subject=' + subjectId + '&topic=' + topic.id + '">' + topic.title + '</a> <span>/</span> ' +
+      '<span>' + subtopic.title + '</span>';
+
+    var backHref = 'topic.html?subject=' + subjectId + '&topic=' + topic.id;
+    var returnHref = null, returnLabel = null;
+    if (fromFastPrep) {
+      returnHref = 'fast-prep.html?subject=' + subjectId + '&topic=' + topic.id + '#' + subtopic.id;
+      returnLabel = '↩ Back to Fast Exam Prep';
+    }
+
+    DwainzReel.init({
+      container: document.getElementById('reelContainer'),
+      caption: data.subjectTitle + ' · ' + subtopic.title,
+      programTitle: subtopic.title,
+      stories: subtopic.stories || [],
+      lessons: subtopic.lessons || [],
+      quizzes: subtopic.quiz || [],
+      backHref: backHref,
+      backLabel: '← ' + topic.title,
+      deepLinkCard: deepCard ? parseInt(deepCard, 10) : null,
+      returnHref: returnHref,
+      returnLabel: returnLabel,
+      onFinish: function (score) {
+        Dwainz.markSubtopicDone(subjectId, topic.id, subtopic.id, score);
+      }
+    });
+  }).catch(function (err) {
+    document.getElementById('reelTitle').textContent = 'Could not load this lesson';
+    console.error(err);
+  });
+</script>
+</body>
+</html>
