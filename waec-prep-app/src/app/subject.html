@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Subject — D'WAINZ</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,900&family=Work+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500;600&display=swap">
+<link rel="stylesheet" href="shared.css">
+</head>
+<body>
+<div class="dw-shell">
+  <div class="dw-topbar">
+    <a class="dw-brand" href="index.html"><span class="mark">D</span><span class="name">D'WAINZ</span></a>
+    <nav class="dw-nav">
+      <a href="index.html">Study</a>
+      <a href="fast-prep.html">Fast Exam Prep</a>
+    </nav>
+  </div>
+
+  <div class="dw-crumbs" id="crumbs"></div>
+
+  <div class="dw-hero">
+    <div class="dw-eyebrow">WAEC &amp; JAMB Syllabus</div>
+    <h1 class="dw-h1" id="subjectTitle">Loading…</h1>
+    <p class="dw-lede" id="subjectDesc">Pick a topic to start studying. Each topic breaks into sub-topics, each sub-topic into a short lesson reel.</p>
+  </div>
+
+  <div>
+    <p class="dw-section-title">Topics</p>
+    <div class="dw-list" id="topicList" style="margin-top:10px;"></div>
+  </div>
+
+  <div class="dw-footer">D'WAINZ · Built for Nigerian WAEC &amp; JAMB students.</div>
+</div>
+
+<script src="shared.js"></script>
+<script>
+  var subjectId = Dwainz.qs('subject') || 'biology';
+
+  Dwainz.loadSubject(subjectId).then(function (data) {
+    document.title = data.subjectTitle + ' — D’WAINZ';
+    document.getElementById('subjectTitle').textContent = data.subjectTitle;
+    document.getElementById('crumbs').innerHTML =
+      '<a href="index.html">Study</a> <span>/</span> <span>' + data.subjectTitle + '</span>';
+
+    var listEl = document.getElementById('topicList');
+    data.topics.forEach(function (topic, i) {
+      var color = Dwainz.topicColor(i);
+      var progress = Dwainz.getTopicProgress(subjectId, topic.id);
+      var doneCount = topic.subtopics.filter(function (s) { return progress[s.id] && progress[s.id].done; }).length;
+      var row = document.createElement('a');
+      row.className = 'dw-row';
+      row.style.setProperty('--topic-accent', color.accent);
+      row.href = 'topic.html?subject=' + subjectId + '&topic=' + topic.id;
+      row.innerHTML =
+        '<span class="title">' + (i + 1) + '. ' + topic.title + '</span>' +
+        '<span class="meta" style="font:600 11px \'IBM Plex Mono\',monospace; color:var(--dim);">' +
+          doneCount + '/' + topic.subtopics.length + ' sub-topics done <span class="arrow">→</span></span>';
+      listEl.appendChild(row);
+    });
+  }).catch(function (err) {
+    document.getElementById('subjectTitle').textContent = 'Could not load this subject';
+    console.error(err);
+  });
+</script>
+</body>
+</html>
+</content>

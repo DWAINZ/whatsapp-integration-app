@@ -24,7 +24,7 @@
     <div class="intro">
       <div class="dw-eyebrow" id="reelEyebrow">D'WAINZ · Deep understanding, not memorization</div>
       <h1 class="dw-h1" id="reelTitle" style="font-size:clamp(22px,4.5vw,30px);">Loading…</h1>
-      <p>Tap any dot on the progress bar to jump to a card. Press and hold anywhere on the reel to pause.</p>
+      <p>Use the ⏮ ⏸ ⏭ controls to move card by card, or press and hold anywhere on the reel to pause.</p>
     </div>
     <div id="reelContainer"></div>
   </div>
@@ -46,11 +46,14 @@
     if (!found) { document.getElementById('reelTitle').textContent = 'Lesson not found'; return; }
     var topic = found.topic, subtopic = found.subtopic;
 
+    var topicColor = Dwainz.topicColor(data.topics.indexOf(topic));
+
     document.title = subtopic.title + ' — D’WAINZ';
     document.getElementById('reelEyebrow').textContent = data.subjectTitle + ' · ' + topic.title;
     document.getElementById('reelTitle').textContent = subtopic.title;
     document.getElementById('crumbs').innerHTML =
       '<a href="index.html">Study</a> <span>/</span> ' +
+      '<a href="subject.html?subject=' + subjectId + '">' + data.subjectTitle + '</a> <span>/</span> ' +
       '<a href="topic.html?subject=' + subjectId + '&topic=' + topic.id + '">' + topic.title + '</a> <span>/</span> ' +
       '<span>' + subtopic.title + '</span>';
 
@@ -70,6 +73,7 @@
       quizzes: subtopic.quiz || [],
       backHref: backHref,
       backLabel: '← ' + topic.title,
+      topicColor: topicColor,
       deepLinkCard: deepCard ? parseInt(deepCard, 10) : null,
       returnHref: returnHref,
       returnLabel: returnLabel,

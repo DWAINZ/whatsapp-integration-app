@@ -55,8 +55,10 @@
 
       var topicWrap = document.createElement('div');
       topicWrap.style.marginTop = '18px';
+      var tColor = Dwainz.topicColor(subjectData.topics.indexOf(topic));
+      topicWrap.style.setProperty('--topic-accent', tColor.accent);
       var totalQCount = Object.keys(topicQs).reduce(function (n, k) { return n + topicQs[k].length; }, 0);
-      topicWrap.innerHTML = '<p class="dw-section-title">' + topic.title + ' · ' + totalQCount + ' questions across ' + Object.keys(topicQs).length + ' sub-topics</p>';
+      topicWrap.innerHTML = '<p class="dw-section-title" style="border-left:4px solid ' + tColor.accent + '; padding-left:8px;">' + topic.title + ' · ' + totalQCount + ' questions across ' + Object.keys(topicQs).length + ' sub-topics</p>';
 
       topic.subtopics.forEach(function (sub) {
         var qs = topicQs[sub.id];
@@ -74,18 +76,20 @@
         qs.forEach(function (q) {
           var card = document.createElement('div');
           card.className = 'dw-qcard';
+          card.style.setProperty('--topic-accent', tColor.accent);
+          var correctIdx = q.answer.charCodeAt(0) - 65;
           var optionsHtml = q.options.map(function (opt, i) {
             var letter = String.fromCharCode(65 + i);
-            var isCorrect = letter === q.answer;
-            return '<div class="opt' + (isCorrect ? ' correct' : '') + '">' + letter + '. ' + opt + (isCorrect ? ' ✓' : '') + '</div>';
+            return '<button type="button" class="opt" data-idx="' + i + '">' + letter + '. ' + opt + '</button>';
           }).join('');
           var refCard = q.ref && q.ref.card;
           var reviewHref = 'study.html?subject=' + subjectId + '&topic=' + topic.id + '&subtopic=' + sub.id + '&card=' + refCard + '&from=fastprep';
           card.innerHTML =
             '<div class="qmeta"><span>' + q.year + '</span><span>' + (q.paper || '') + '</span></div>' +
             '<p class="qtext">' + q.question + '</p>' +
-            '<div class="opts">' + optionsHtml + '</div>' +
-            '<details><summary>Show explanation</summary><p class="explain">' + q.explanation + '</p></details>' +
+            '<p class="attempt-hint">Tap an option to answer</p>' +
+            '<div class="opts" data-correct="' + correctIdx + '">' + optionsHtml + '</div>' +
+            '<details class="explain-details" data-locked="1"><summary>🔒 Answer first to unlock the explanation</summary><p class="explain">' + q.explanation + '</p></details>' +
             (refCard ? '<a class="reviewlink" href="' + reviewHref + '">→ Review the lesson card that explains this</a>' : '');
           details.appendChild(card);
         });
@@ -100,6 +104,31 @@
       var target = document.getElementById(window.location.hash.slice(1));
       if (target) { target.open = true; target.scrollIntoView({ behavior: 'smooth', block: 'start' }); }
     }
+
+    content.addEventListener('click', function (e) {
+      var btn = e.target.closest('.dw-qcard .opts .opt');
+      if (!btn) return;
+      var group = btn.closest('.opts');
+      if (group.dataset.answered) return;
+      group.dataset.answered = '1';
+      var correctIdx = parseInt(group.dataset.correct, 10);
+      var chosenIdx = parseInt(btn.dataset.idx, 10);
+      var hint = group.previousElementSibling;
+      if (hint && hint.classList.contains('attempt-hint')) {
+        hint.textContent = chosenIdx === correctIdx ? 'Correct ✓' : 'Not quite — correct answer highlighted';
+      }
+      Array.prototype.forEach.call(group.querySelectorAll('.opt'), function (o, i) {
+        o.disabled = true;
+        if (i === correctIdx) o.classList.add('correct');
+      });
+      if (chosenIdx !== correctIdx) btn.classList.add('wrong');
+
+      var details = group.closest('.dw-qcard').querySelector('.explain-details');
+      if (details) {
+        details.removeAttribute('data-locked');
+        details.querySelector('summary').textContent = 'Show explanation';
+      }
+    });
   }).catch(function (err) {
     document.getElementById('content').textContent = 'Could not load exam prep data.';
     console.error(err);

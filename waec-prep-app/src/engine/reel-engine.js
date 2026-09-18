@@ -26,6 +26,11 @@ window.DwainzReel = (function () {
     var returnHref = cfg.returnHref || null;     // where the floating "back" button should go when deep-linked
     var returnLabel = cfg.returnLabel || 'Back';
 
+    if (cfg.topicColor) {
+      container.style.setProperty('--dw-topic-accent', cfg.topicColor.accent);
+      container.style.setProperty('--dw-topic-accent-ink', cfg.topicColor.ink);
+    }
+
     container.innerHTML =
       '<div class="dw-reel-stage">' +
         '<div class="phone" id="dwPhone">' +
@@ -33,11 +38,15 @@ window.DwainzReel = (function () {
           (backHref ? '<a class="exitbtn" href="' + esc(backHref) + '" aria-label="' + esc(backLabel) + '">←</a>' : '') +
           '<div class="progressbar" id="dwProgressbar"></div>' +
           '<div class="balloon" id="dwBalloon">1</div>' +
-          '<button class="playpause" id="dwPlaypause" aria-label="Pause">⏸</button>' +
           '<button class="voicebtn" id="dwVoicebtn" aria-pressed="false" aria-label="Turn narration on">🔇</button>' +
           '<div class="cardwrap" id="dwCardwrap"></div>' +
           '<div class="voice-warning" id="dwVoiceWarning" hidden>Voice didn’t start — try a different browser or a new tab.</div>' +
           '<button class="backbtn" id="dwBackToQ" hidden></button>' +
+          '<div class="transport">' +
+            '<button class="tbtn tprev" id="dwPrev" aria-label="Previous card">⏮</button>' +
+            '<button class="tbtn play" id="dwPlaypause" aria-label="Pause">⏸</button>' +
+            '<button class="tbtn tnext" id="dwNext" aria-label="Next card">⏭</button>' +
+          '</div>' +
           '<div class="caption">' + esc(caption) + ' · <span id="dwIdxLabel">1</span>/<span id="dwTotalLabel">1</span></div>' +
           '<div class="modal-backdrop" id="dwModalBackdrop">' +
             '<div class="modal-box">' +
@@ -130,6 +139,8 @@ window.DwainzReel = (function () {
 
     var phone = container.querySelector('#dwPhone');
     var playpause = container.querySelector('#dwPlaypause');
+    var prevBtn = container.querySelector('#dwPrev');
+    var nextBtn = container.querySelector('#dwNext');
     var voicebtn = container.querySelector('#dwVoicebtn');
     var idxLabel = container.querySelector('#dwIdxLabel');
     var backToQ = container.querySelector('#dwBackToQ');
@@ -320,6 +331,8 @@ window.DwainzReel = (function () {
         }
       });
       idxLabel.textContent = idx + 1;
+      prevBtn.disabled = idx === 0;
+      nextBtn.disabled = idx === TOTAL - 1;
       updateBalloon();
       if (idx >= QUIZ_START && idx < STATS_IDX) {
         var qi = idx - QUIZ_START;
@@ -358,6 +371,9 @@ window.DwainzReel = (function () {
       goTo(idx + 1, { auto: false });
     }
     function userPrev() { goTo(idx - 1, { auto: false }); }
+
+    prevBtn.addEventListener('click', userPrev);
+    nextBtn.addEventListener('click', userNext);
 
     phone.addEventListener('click', function (e) {
       if (e.target.closest('button, input, a, .modal-backdrop, .progressbar')) return;

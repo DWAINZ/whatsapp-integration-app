@@ -64,15 +64,20 @@
 
   Dwainz.loadSubject(subjectId).then(function (data) {
     document.getElementById('subjectLabel').textContent = data.subjectTitle;
-    document.getElementById('crumbs').innerHTML = '<a href="index.html">Study</a> <span>/</span> <span>' + data.subjectTitle + '</span>';
 
     var topic = topicId ? Dwainz.findTopic(data, topicId) : (data.topics[0]);
     if (!topic) { document.getElementById('topicTitle').textContent = 'Topic not found'; return; }
 
+    var topicColor = Dwainz.topicColor(data.topics.indexOf(topic));
+    document.getElementById('crumbs').innerHTML =
+      '<a href="index.html">Study</a> <span>/</span> ' +
+      '<a href="subject.html?subject=' + subjectId + '">' + data.subjectTitle + '</a> <span>/</span> ' +
+      '<span>' + topic.title + '</span>';
+
     document.title = topic.title + ' — D’WAINZ';
     document.getElementById('topicTitle').textContent = topic.title;
     document.getElementById('topicDesc').textContent = topic.description || '';
-    document.getElementById('crumbs').innerHTML += ' <span>/</span> <span>' + topic.title + '</span>';
+    document.getElementById('topicTitle').style.color = topicColor.ink;
 
     var progress = Dwainz.getTopicProgress(subjectId, topic.id);
     var listEl = document.getElementById('subtopicList');
@@ -83,6 +88,7 @@
       if (!done) allDone = false;
       var row = document.createElement('a');
       row.className = 'dw-row';
+      row.style.setProperty('--topic-accent', topicColor.accent);
       row.href = 'study.html?subject=' + subjectId + '&topic=' + topic.id + '&subtopic=' + sub.id;
       var scoreText = done ? (progress[sub.id].correct + '/' + progress[sub.id].total + ' correct') : ((sub.lessons.length + sub.stories.length) + ' cards');
       row.innerHTML =

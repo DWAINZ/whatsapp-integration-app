@@ -23,7 +23,7 @@
 .dw-reel-stage .progressbar{position:relative; z-index:3; display:flex; gap:3px; padding:12px 12px 0;}
 .dw-reel-stage .seg{flex:1; height:4px; border-radius:2px; background:rgba(46,143,224,.16); overflow:visible; position:relative; cursor:pointer;}
 .dw-reel-stage .seg::before{content:""; position:absolute; top:-10px; bottom:-10px; left:0; right:0;}
-.dw-reel-stage .seg i{display:block; height:100%; width:0%; background:#2E8FE0; border-radius:2px; pointer-events:none;}
+.dw-reel-stage .seg i{display:block; height:100%; width:0%; background:var(--dw-topic-accent, #2E8FE0); border-radius:2px; pointer-events:none;}
 .dw-reel-stage .seg.done i{width:100%;}
 .dw-reel-stage .seg.active i{animation:dw-fillbar var(--dur) linear forwards;}
 .dw-reel-stage .seg.active.no-anim i{width:100%; animation:none; background:#9DBFDA;}
@@ -33,26 +33,25 @@
 .dw-reel-stage .balloon{
   position:absolute; z-index:4; top:24px; transform:translateX(-50%);
   min-width:24px; height:24px; padding:0 6px; border-radius:12px;
-  background:#2E8FE0; color:#FFFFFF;
+  background:var(--dw-topic-accent, #2E8FE0); color:#FFFFFF;
   font:700 12px "IBM Plex Mono",monospace; display:flex; align-items:center; justify-content:center;
   transition:left .35s cubic-bezier(.2,.8,.2,1);
   box-shadow:0 3px 8px rgba(30,80,140,.3); pointer-events:none;
 }
 .dw-reel-stage .balloon::before{
   content:""; position:absolute; left:50%; bottom:100%; transform:translateX(-50%);
-  border:5px solid transparent; border-bottom-color:#2E8FE0;
+  border:5px solid transparent; border-bottom-color:var(--dw-topic-accent, #2E8FE0);
 }
 
-.dw-reel-stage .playpause, .dw-reel-stage .voicebtn{
+.dw-reel-stage .voicebtn{
   position:absolute; top:56px; z-index:4; width:42px; height:42px; border-radius:50%;
   border:1px solid rgba(30,80,140,.18); background:rgba(255,255,255,.9); color:#16202B;
   font-size:17px; line-height:1; cursor:pointer; display:flex; align-items:center; justify-content:center;
   box-shadow:0 3px 8px rgba(30,80,140,.15);
 }
-.dw-reel-stage .playpause{right:12px;}
-.dw-reel-stage .voicebtn{right:62px;}
-.dw-reel-stage .playpause:focus-visible, .dw-reel-stage .voicebtn:focus-visible{outline:2px solid #2E8FE0; outline-offset:2px;}
-.dw-reel-stage .voicebtn[aria-pressed="true"]{background:#2E8FE0; color:#FFFFFF; border-color:#2E8FE0;}
+.dw-reel-stage .voicebtn{right:12px;}
+.dw-reel-stage .voicebtn:focus-visible{outline:2px solid #2E8FE0; outline-offset:2px;}
+.dw-reel-stage .voicebtn[aria-pressed="true"]{background:var(--dw-topic-accent, #2E8FE0); color:#FFFFFF; border-color:var(--dw-topic-accent, #2E8FE0);}
 .dw-reel-stage .exitbtn{
   position:absolute; left:12px; top:56px; z-index:4; width:42px; height:42px; border-radius:50%;
   border:1px solid rgba(30,80,140,.18); background:rgba(255,255,255,.9); color:#16202B;
@@ -60,7 +59,23 @@
   box-shadow:0 3px 8px rgba(30,80,140,.15); text-decoration:none;
 }
 
-.dw-reel-stage .cardwrap{position:relative; z-index:1; height:100%; padding:76px 22px 40px;}
+.dw-reel-stage .transport{
+  position:absolute; left:50%; bottom:32px; z-index:4; transform:translateX(-50%);
+  display:flex; align-items:center; gap:6px;
+  background:rgba(255,255,255,.92); border:1px solid rgba(30,80,140,.16); border-radius:26px;
+  padding:5px; box-shadow:0 6px 16px -8px rgba(30,80,140,.3);
+}
+.dw-reel-stage .transport .tbtn{
+  width:34px; height:34px; border-radius:50%; border:none; background:transparent; color:#16202B;
+  font-size:14px; line-height:1; display:flex; align-items:center; justify-content:center; cursor:pointer;
+}
+.dw-reel-stage .transport .tbtn.play{
+  width:40px; height:40px; background:var(--dw-topic-accent, #2E8FE0); color:#FFFFFF; font-size:16px;
+}
+.dw-reel-stage .transport .tbtn:disabled{opacity:.32; cursor:default;}
+.dw-reel-stage .transport .tbtn:focus-visible{outline:2px solid #2E8FE0; outline-offset:2px;}
+
+.dw-reel-stage .cardwrap{position:relative; z-index:1; height:100%; padding:76px 22px 96px;}
 .dw-reel-stage .card{display:none; height:100%; flex-direction:column; justify-content:center; gap:12px; overflow-y:auto;}
 .dw-reel-stage .card.active{display:flex; animation:dw-cardEnter .45s cubic-bezier(.2,.8,.2,1);}
 .dw-reel-stage .card.shake{animation:dw-shake .4s ease;}
@@ -71,22 +86,22 @@
 }
 
 .dw-reel-stage .card .eyebrow2{
-  font:600 11px/1 "IBM Plex Mono",monospace; letter-spacing:.14em; text-transform:uppercase; color:#1C6FB8;
+  font:600 11px/1 "IBM Plex Mono",monospace; letter-spacing:.14em; text-transform:uppercase; color:var(--dw-topic-accent-ink, #1C6FB8);
 }
 .dw-reel-stage .card h2{
   font:700 clamp(18px,6vw,24px)/1.28 "Fraunces",serif;
   margin:0; text-wrap:balance; color:#16202B;
 }
 .dw-reel-stage .card .bigword{
-  font:900 clamp(22px,7vw,28px)/1.15 "Fraunces",serif; color:#1C6FB8; text-align:center;
+  font:900 clamp(22px,7vw,28px)/1.15 "Fraunces",serif; color:var(--dw-topic-accent-ink, #1C6FB8); text-align:center;
 }
-.dw-reel-stage .card .hook{ font:italic 600 16px/1.4 "Fraunces",serif; color:#1C6FB8; margin:0; text-wrap:balance; }
+.dw-reel-stage .card .hook{ font:italic 600 16px/1.4 "Fraunces",serif; color:var(--dw-topic-accent-ink, #1C6FB8); margin:0; text-wrap:balance; }
 .dw-reel-stage .card ul{margin:0; padding:0; list-style:none; display:flex; flex-direction:column; gap:6px;}
 .dw-reel-stage .card li{font:500 13px/1.4 "Work Sans",sans-serif; color:#33414D;}
 .dw-reel-stage .card .sub{margin:0; font-size:13px; line-height:1.55; color:#5B6B78; max-width:34ch;}
 
 .dw-reel-stage .qhead{display:flex; flex-direction:column; gap:2px; margin-bottom:2px;}
-.dw-reel-stage .qnum{font:800 clamp(20px,7vw,26px)/1.1 "Fraunces",serif; color:#1C6FB8;}
+.dw-reel-stage .qnum{font:800 clamp(20px,7vw,26px)/1.1 "Fraunces",serif; color:var(--dw-topic-accent-ink, #1C6FB8);}
 .dw-reel-stage .qof{font:600 10.5px "IBM Plex Mono",monospace; letter-spacing:.1em; text-transform:uppercase; color:#5B6B78;}
 
 .dw-reel-stage .quiz-opts{display:flex; flex-direction:column; gap:8px; margin-top:2px;}
@@ -108,12 +123,12 @@
 }
 
 .dw-reel-stage .voice-warning{
-  position:absolute; left:12px; right:12px; bottom:70px; z-index:5; text-align:center;
+  position:absolute; left:12px; right:12px; bottom:126px; z-index:5; text-align:center;
   font:600 10px/1.4 "IBM Plex Mono",monospace; color:#B23636; background:rgba(255,255,255,.95);
   border:1px solid rgba(209,67,67,.35); border-radius:8px; padding:7px 9px;
 }
 .dw-reel-stage .backbtn{
-  position:absolute; left:12px; right:12px; bottom:40px; z-index:5;
+  position:absolute; left:12px; right:12px; bottom:84px; z-index:5;
   font:600 11px "Work Sans"; color:#FFFFFF; background:#12946B; border:none;
   border-radius:20px; padding:8px 10px; cursor:pointer;
 }
@@ -147,7 +162,7 @@
 .dw-reel-stage .stat-rows{width:100%; display:flex; flex-direction:column; gap:5px;}
 .dw-reel-stage .stat-row{display:flex; justify-content:space-between; font-size:12px; border-top:1px solid rgba(30,80,140,.12); padding-top:6px;}
 .dw-reel-stage .stat-row:first-child{border-top:none; padding-top:0;}
-.dw-reel-stage .stat-row span:last-child{font:600 12px "IBM Plex Mono",monospace; color:#1C6FB8;}
+.dw-reel-stage .stat-row span:last-child{font:600 12px "IBM Plex Mono",monospace; color:var(--dw-topic-accent-ink, #1C6FB8);}
 .dw-reel-stage .viz-title{font:700 10px "IBM Plex Mono",monospace; letter-spacing:.08em; text-transform:uppercase; color:#5B6B78; margin-top:2px;}
 .dw-reel-stage .donut-wrap{display:flex; align-items:center; gap:12px;}
 .dw-reel-stage .donut-wrap svg{width:76px; height:76px;}
@@ -159,8 +174,8 @@
 .dw-reel-stage .barchart .bar span{font:600 9px "IBM Plex Mono"; color:#5B6B78;}
 .dw-reel-stage .stackbar{display:flex; width:100%; height:14px; border-radius:7px; overflow:hidden; background:rgba(30,80,140,.1);}
 .dw-reel-stage .stackbar div{height:100%;}
-.dw-reel-stage .pill-btn{padding:9px 16px; border-radius:20px; border:1px solid #2E8FE0; background:#2E8FE0; color:#FFFFFF; font:700 12.5px "Work Sans"; cursor:pointer;}
-.dw-reel-stage .pill-btn.ghost{background:transparent; color:#2E8FE0;}
+.dw-reel-stage .pill-btn{padding:9px 16px; border-radius:20px; border:1px solid var(--dw-topic-accent, #2E8FE0); background:var(--dw-topic-accent, #2E8FE0); color:#FFFFFF; font:700 12.5px "Work Sans"; cursor:pointer;}
+.dw-reel-stage .pill-btn.ghost{background:transparent; color:var(--dw-topic-accent, #2E8FE0);}
 
 @media (prefers-reduced-motion: reduce){
   .dw-reel-stage .glow{animation:none;}

@@ -34,6 +34,7 @@
   <div class="dw-footer">D'WAINZ · Built for Nigerian WAEC &amp; JAMB students.</div>
 </div>
 
+<script src="shared.js"></script>
 <script>
   var subjects = [
     { id: 'biology', title: 'Biology', desc: 'Cells, genetics, ecology, physiology — the full WAEC syllabus.', status: 'live' },
@@ -42,11 +43,14 @@
     { id: 'mathematics', title: 'Mathematics', desc: 'Algebra, geometry, statistics and more.', status: 'soon' }
   ];
   var grid = document.getElementById('subjectGrid');
-  subjects.forEach(function (s) {
+  subjects.forEach(function (s, i) {
     var isLive = s.status === 'live';
     var el = document.createElement(isLive ? 'a' : 'div');
     el.className = 'dw-card' + (isLive ? '' : ' disabled');
-    if (isLive) el.href = 'topic.html?subject=' + s.id;
+    if (isLive) {
+      el.href = 'subject.html?subject=' + s.id;
+      el.style.setProperty('--topic-accent', Dwainz.topicColor(i).accent);
+    }
     el.innerHTML =
       '<div class="meta"><span class="dw-badge ' + (isLive ? 'live' : 'soon') + '">' + (isLive ? 'Available now' : 'Coming soon') + '</span></div>' +
       '<h3>' + s.title + '</h3>' +
