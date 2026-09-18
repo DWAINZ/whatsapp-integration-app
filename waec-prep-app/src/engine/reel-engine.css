@@ -60,10 +60,10 @@
 }
 
 .dw-reel-stage .transport{
-  position:absolute; left:50%; bottom:32px; z-index:4; transform:translateX(-50%);
+  position:fixed; left:50%; bottom:calc(16px + env(safe-area-inset-bottom, 0px)); z-index:40; transform:translateX(-50%);
   display:flex; align-items:center; gap:6px;
-  background:rgba(255,255,255,.92); border:1px solid rgba(30,80,140,.16); border-radius:26px;
-  padding:5px; box-shadow:0 6px 16px -8px rgba(30,80,140,.3);
+  background:rgba(255,255,255,.96); border:1px solid rgba(30,80,140,.16); border-radius:26px;
+  padding:5px; box-shadow:0 8px 22px -6px rgba(30,80,140,.4);
 }
 .dw-reel-stage .transport .tbtn{
   width:34px; height:34px; border-radius:50%; border:none; background:transparent; color:#16202B;
@@ -74,6 +74,8 @@
 }
 .dw-reel-stage .transport .tbtn:disabled{opacity:.32; cursor:default;}
 .dw-reel-stage .transport .tbtn:focus-visible{outline:2px solid #2E8FE0; outline-offset:2px;}
+.dw-reel-stage .phone.modal-open .transport,
+.dw-reel-stage .phone.modal-open .backbtn{opacity:0; pointer-events:none; transition:opacity .15s;}
 
 .dw-reel-stage .cardwrap{position:relative; z-index:1; height:100%; padding:76px 22px 96px;}
 .dw-reel-stage .card{display:none; height:100%; flex-direction:column; justify-content:center; gap:12px; overflow-y:auto;}
@@ -123,14 +125,16 @@
 }
 
 .dw-reel-stage .voice-warning{
-  position:absolute; left:12px; right:12px; bottom:126px; z-index:5; text-align:center;
+  position:fixed; left:12px; right:12px; max-width:328px; margin:0 auto;
+  bottom:calc(126px + env(safe-area-inset-bottom, 0px)); z-index:41; text-align:center;
   font:600 10px/1.4 "IBM Plex Mono",monospace; color:#B23636; background:rgba(255,255,255,.95);
   border:1px solid rgba(209,67,67,.35); border-radius:8px; padding:7px 9px;
 }
 .dw-reel-stage .backbtn{
-  position:absolute; left:12px; right:12px; bottom:84px; z-index:5;
+  position:fixed; left:12px; right:12px; max-width:328px; margin:0 auto;
+  bottom:calc(72px + env(safe-area-inset-bottom, 0px)); z-index:41;
   font:600 11px "Work Sans"; color:#FFFFFF; background:#12946B; border:none;
-  border-radius:20px; padding:8px 10px; cursor:pointer;
+  border-radius:20px; padding:8px 10px; cursor:pointer; box-shadow:0 8px 20px -8px rgba(18,148,107,.5);
 }
 .dw-reel-stage .backbtn:focus-visible{outline:2px solid #2E8FE0; outline-offset:2px;}
 

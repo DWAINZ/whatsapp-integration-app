@@ -414,8 +414,9 @@ window.DwainzReel = (function () {
         modalSecondary.hidden = true;
       }
       modalBackdrop.classList.add('show');
+      phone.classList.add('modal-open');
     }
-    function closeModal() { modalBackdrop.classList.remove('show'); }
+    function closeModal() { modalBackdrop.classList.remove('show'); phone.classList.remove('modal-open'); }
 
     cardwrap.addEventListener('click', function (e) {
       var btn = e.target.closest('button[data-opt]');
