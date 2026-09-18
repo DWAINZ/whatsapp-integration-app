@@ -1,29 +1,36 @@
-# D'WAINZ — WAEC & JAMB Exam Prep (Phase 1 pilot)
+# D'WAINZ — WAEC & JAMB Exam Prep
 
 A subscription-style exam-prep platform for Nigerian WAEC/JAMB students, built around
 short "lesson reel" cards (story → deep-understanding lesson → gated quiz) plus a
 **Fast Exam Prep** track of past questions cross-referenced back to the exact lesson
 card that explains the answer.
 
-This is the Phase 1 pilot, agreed as: **Biology → Cell Structure & Organisation**,
-used to validate the whole content model, the app shell, and the cross-referencing
-mechanic before scaling to the rest of the WAEC syllabus.
+**Biology is now complete**: all 22 topics of the standard WAEC/NECO/JAMB syllabus,
+grouped into 7 themes (Organisation of Life; Diversity of Organisms; Nutrition,
+Transport & Gas Exchange; Excretion, Support & Growth; Reproduction & Coordination;
+Ecology; Genetics, Evolution & Applications), 49 sub-topics total, each a full
+story/lesson/quiz reel. This validated the content model, app shell and
+cross-referencing mechanic, now proven at full-subject scale — the same pattern is
+ready to scale to the rest of the WAEC subjects (Physics, Chemistry, Mathematics, etc.).
 
 ## Status
 
 - ✅ Content model: Subject → Topic → Sub-topic → Lessons (JSON, not hardcoded per-page)
 - ✅ Reusable reel engine (stories, gated quizzes with 3-try retry, stats, voice narration,
-  press-and-hold pause, tap-to-jump progress bar) — generalized from the earlier
-  prototype reels into `src/engine/`
-- ✅ App shell: subject picker → topic → sub-topic list with progress → lesson reel
+  press-and-hold pause, tap-to-jump progress bar, Previous/Play-Pause/Next transport
+  buttons) — generalized into `src/engine/`
+- ✅ App shell: subject picker → subject topic list → sub-topic list with progress →
+  lesson reel, with a clickable breadcrumb at every level
 - ✅ Fast Exam Prep: syllabus browser showing every past question per topic/sub-topic,
-  with year, options, correct answer, explanation, and a **"Review the lesson card that
-  explains this"** link that deep-links into the exact card and can return to where you
-  came from
+  answers withheld until attempted, with a **"Review the lesson card that explains
+  this"** link that deep-links into the exact card and can return to where you came from
 - ✅ Per-topic certificate, unlocked once every sub-topic is completed
+- ✅ Per-topic accent colour, cycled from a shared palette, for visual variety across topics
+- ✅ **Biology: all 22 syllabus topics built** (49 sub-topics)
 - ⚠️ **Past-exam questions are placeholder/fabricated** — see below
 - 🔲 Not yet built: user accounts, payments/subscriptions, backend/database (this phase
-  is a static, localStorage-backed prototype of the real product)
+  is a static, localStorage-backed prototype of the real product); other WAEC subjects
+  beyond Biology
 
 ## Placeholder exam data — read before using this for real study
 
@@ -102,17 +109,19 @@ Then open `http://localhost:8080/src/app/index.html`.
 - **Progress**: currently stored in `localStorage` (`dwainz_progress_v1`), keyed by
   subject/topic/subtopic. This is a placeholder for real per-user progress once accounts
   exist — swapping it for an API call is a small change localized to `shared.js`.
-- **Scaling past the pilot**: once this is validated, the same JSON shape should move
-  into a real database (so content can be authored/edited without redeploying static
-  files) and the past-question bank should grow to cover every WAEC topic. Nigeria-specific
-  items still to decide before public launch: payment gateway (Paystack/Flutterwave),
-  NDPR-compliant handling of any student data, and hosting/domain.
+- **Scaling past Biology**: the same JSON shape should move into a real database (so
+  content can be authored/edited without redeploying static files) and the
+  past-question bank should grow to cover every WAEC topic with real questions.
+  Nigeria-specific items still to decide before public launch: payment gateway
+  (Paystack/Flutterwave), NDPR-compliant handling of any student data, and
+  hosting/domain.
 
 ## Things that need your input / access before going further
 
 - **Real past WAEC questions** for Biology (and eventually other subjects) — you
   mentioned you'd supply these; the data shape above is ready for them.
-- **Hosting + domain** for a public deployment (this pilot only runs locally / from this
-  repo so far).
+- **Hosting + domain** for a public deployment (this currently only runs locally / from
+  this repo).
 - **Payment gateway account** (Paystack or Flutterwave) once subscriptions are wired up.
-- Confirmation of which WAEC subjects/topics to build next after Biology is validated.
+- Confirmation of which WAEC subject to build next after Biology (Physics, Chemistry,
+  Mathematics, etc.).
