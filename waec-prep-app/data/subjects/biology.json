@@ -4459,6 +4459,1042 @@
           ]
         }
       ]
+    },
+    {
+      "id": "reproduction-in-plants",
+      "title": "Reproduction in Plants",
+      "description": "How flowering plants reproduce sexually — flower structure, pollination and fertilisation — and how some reproduce asexually.",
+      "subtopics": [
+        {
+          "id": "flower-structure-pollination",
+          "title": "Flower Structure & Pollination",
+          "stories": [
+            {
+              "tag": "Not just decoration",
+              "sub": "Every petal has a job",
+              "heading": "A flower is a reproduction machine",
+              "list": [
+                "Flowers evolved as reproductive structures, not as decoration — their colour and scent exist to attract pollinators.",
+                "Every part of a flower — petals, stamens, carpels — has a specific reproductive function.",
+                "Understanding flower structure is really understanding a delivery system for pollen."
+              ],
+              "narration": "Flowers evolved as reproductive structures, not decoration — their colour and scent exist to attract pollinators. Every part of a flower has a specific reproductive function, and understanding flower structure means understanding a delivery system for pollen."
+            },
+            {
+              "tag": "An ancient partnership",
+              "sub": "Bees didn't choose flowers — they co-evolved",
+              "heading": "The plant–pollinator deal",
+              "list": [
+                "Flowers offer nectar and pollen as food rewards for visiting insects and birds.",
+                "In exchange, the pollinator unknowingly carries pollen from flower to flower as it feeds.",
+                "This mutual benefit is why bright colours, sweet scent and nectar all evolved together over millions of years."
+              ],
+              "narration": "Flowers offer nectar and pollen as food rewards for visiting insects and birds, who unknowingly carry pollen from flower to flower as they feed. This mutual benefit is why bright colours, scent and nectar evolved together."
+            }
+          ],
+          "lessons": [
+            {
+              "eyebrow": "The big picture",
+              "big": "🌸",
+              "heading": "The parts of a flower",
+              "list": [
+                "Sepals: protect the flower bud before it opens.",
+                "Petals: often brightly coloured/scented, to attract pollinators.",
+                "Stamens (male part): anther (produces pollen) on a filament. Carpel/pistil (female part): stigma, style, and ovary (containing ovules)."
+              ],
+              "sub": "Sepals protect, petals attract, stamens make pollen, carpels hold the ovules.",
+              "narration": "Sepals protect the flower bud. Petals attract pollinators. The stamens, the male part, have an anther producing pollen on a filament. The carpel, the female part, has a stigma, style, and an ovary containing ovules."
+            },
+            {
+              "eyebrow": "Pollination",
+              "heading": "What pollination actually is",
+              "list": [
+                "Pollination is the transfer of pollen from the anther to the stigma.",
+                "Self-pollination: pollen moves to a stigma on the same plant.",
+                "Cross-pollination: pollen moves to a stigma on a different plant of the same species — this increases genetic variation more than self-pollination."
+              ],
+              "sub": "Pollination ≠ fertilisation. Pollination is the delivery; fertilisation happens afterward.",
+              "narration": "Pollination is the transfer of pollen from the anther to the stigma. Self-pollination moves pollen within the same plant; cross-pollination moves it between different plants, increasing genetic variation more than self-pollination."
+            },
+            {
+              "eyebrow": "Insect vs wind pollination",
+              "heading": "Two very different flower strategies",
+              "list": [
+                "Insect-pollinated flowers: large, brightly coloured petals, strong scent, nectar, and sticky or spiky pollen that clings to insects.",
+                "Wind-pollinated flowers: small, dull petals (or none), no scent or nectar, and large amounts of light, smooth pollen released into the air.",
+                "Wind-pollinated flowers also typically have large, feathery stigmas to catch drifting pollen."
+              ],
+              "sub": "Showy + sticky pollen = insect-pollinated. Dull + huge pollen quantities = wind-pollinated.",
+              "narration": "Insect-pollinated flowers are large, colourful, scented, with nectar and sticky pollen. Wind-pollinated flowers are small, dull, scentless, releasing huge amounts of light, smooth pollen into the air, and have large feathery stigmas to catch it."
+            },
+            {
+              "eyebrow": "Agents of pollination",
+              "heading": "Who or what carries the pollen",
+              "list": [
+                "Biotic agents: insects (bees, butterflies), birds, sometimes bats — attracted by colour, scent, nectar.",
+                "Abiotic agents: wind (most common in grasses and many trees), and occasionally water (rare, mainly aquatic plants).",
+                "The pollination agent shapes almost every visible feature of the flower."
+              ],
+              "sub": "Every flower feature is a clue pointing to its pollination agent.",
+              "narration": "Biotic pollination agents include insects and birds, attracted by colour, scent and nectar. Abiotic agents include wind, the most common method in grasses and many trees, and occasionally water in aquatic plants."
+            },
+            {
+              "eyebrow": "Exam alert",
+              "heading": "Reading a flower diagram for its pollination method",
+              "list": [
+                "Large petals + scent + nectar guides + sticky pollen → insect-pollinated.",
+                "No/small petals + feathery stigma + huge pollen output → wind-pollinated.",
+                "WAEC often shows a flower diagram or description and asks you to identify the pollination method from these features alone."
+              ],
+              "sub": "You should be able to name the pollination method from a flower's features, without being told directly.",
+              "narration": "Large petals with scent, nectar and sticky pollen point to insect pollination. Small or absent petals with a feathery stigma and huge pollen output point to wind pollination — a common WAEC question type."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "The transfer of pollen from the anther to the stigma is called",
+              "options": [
+                "pollination",
+                "fertilisation",
+                "germination",
+                "respiration"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — pollination is the transfer of pollen from anther to stigma, occurring before fertilisation.",
+              "explainWrong": "Pollen moving from anther to stigma is pollination — fertilisation is a separate, later step.",
+              "refCard": 2,
+              "narration": "The transfer of pollen from the anther to the stigma is called"
+            },
+            {
+              "question": "Pollen transferring to a stigma on a different plant of the same species is called",
+              "options": [
+                "cross-pollination",
+                "self-pollination",
+                "fertilisation",
+                "germination"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — cross-pollination moves pollen between different plants, increasing genetic variation.",
+              "explainWrong": "Movement between different plants is cross-pollination — self-pollination stays within the same plant.",
+              "refCard": 2,
+              "narration": "Pollen transferring to a stigma on a different plant of the same species is called"
+            },
+            {
+              "question": "A flower with small, dull petals, no scent, and huge amounts of light pollen is most likely",
+              "options": [
+                "wind-pollinated",
+                "insect-pollinated",
+                "self-fertilising only",
+                "unable to reproduce"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — dull, scentless flowers releasing huge pollen amounts are adapted for wind pollination.",
+              "explainWrong": "Dull, scentless flowers with heavy pollen output are adapted for wind pollination, not insect pollination.",
+              "refCard": 3,
+              "narration": "A flower with small, dull petals, no scent, and huge amounts of light pollen is most likely"
+            },
+            {
+              "question": "The male part of a flower, made up of the anther and filament, is called the",
+              "options": [
+                "stamen",
+                "carpel",
+                "sepal",
+                "stigma"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — the stamen is the flower's male part, consisting of the anther on a filament.",
+              "explainWrong": "Anther plus filament together form the stamen, the male part — the carpel is the female part.",
+              "refCard": 1,
+              "narration": "The male part of a flower, made up of the anther and filament, is called the"
+            }
+          ]
+        },
+        {
+          "id": "fertilisation-seed-dispersal",
+          "title": "Fertilisation, Seeds & Dispersal",
+          "stories": [
+            {
+              "tag": "A journey inside a tube",
+              "sub": "How pollen actually reaches the egg",
+              "heading": "The pollen tube's remarkable trip",
+              "list": [
+                "Landing on a stigma is only the beginning — the pollen grain must still reach the ovule deep inside the ovary.",
+                "It does this by growing a microscopic pollen tube all the way down through the style to the ovule.",
+                "Only then can fertilisation — the actual fusion of male and female sex cells — take place."
+              ],
+              "narration": "Landing on a stigma is only the beginning — the pollen grain must grow a microscopic pollen tube all the way down through the style to reach the ovule. Only then can fertilisation, the fusion of male and female sex cells, take place."
+            },
+            {
+              "tag": "Nature's shipping department",
+              "sub": "A seed that can't move needs a ride",
+              "heading": "Why seeds travel far from the parent plant",
+              "list": [
+                "If all of a plant's seeds fell right beneath it, they would compete fiercely with the parent and each other for light, water and space.",
+                "Seed dispersal spreads offspring out, reducing this competition and helping the species colonise new areas.",
+                "Plants have evolved wildly different dispersal ‘vehicles’: wind, animals, water, and even explosive pods."
+              ],
+              "narration": "If all of a plant's seeds fell right beneath it, they would compete fiercely with the parent for light, water and space. Seed dispersal spreads offspring out, reducing competition and helping the species colonise new areas, using wind, animals, water or explosive pods."
+            }
+          ],
+          "lessons": [
+            {
+              "eyebrow": "The big picture",
+              "big": "🌰",
+              "heading": "From pollination to fertilisation",
+              "list": [
+                "After pollination, the pollen grain germinates on the stigma, growing a pollen tube down through the style to an ovule.",
+                "The male sex cell travels down the pollen tube and fuses with the female sex cell inside the ovule — this fusion is fertilisation.",
+                "After fertilisation, the ovule develops into a seed, and the ovary develops into a fruit."
+              ],
+              "sub": "Pollination → pollen tube grows → fertilisation → ovule becomes seed, ovary becomes fruit.",
+              "narration": "After pollination, the pollen grain grows a tube down through the style to an ovule. The male sex cell travels down this tube and fuses with the female sex cell — fertilisation. Afterward, the ovule becomes a seed, and the ovary becomes a fruit."
+            },
+            {
+              "eyebrow": "Inside a seed",
+              "heading": "What a seed actually contains",
+              "list": [
+                "A seed contains an embryo (a tiny, undeveloped new plant) and a food store, protected by a tough seed coat (testa).",
+                "The food store nourishes the embryo until it can photosynthesise for itself after germination.",
+                "This packaging is what lets a seed survive harsh conditions and wait for the right time to germinate."
+              ],
+              "sub": "Seed = embryo + food store + protective coat, built for waiting and surviving.",
+              "narration": "A seed contains an embryo, a food store, and a tough protective seed coat called the testa. The food store nourishes the embryo until it can photosynthesise for itself, allowing the seed to survive harsh conditions until the right time to germinate."
+            },
+            {
+              "eyebrow": "Seed dispersal methods",
+              "heading": "How seeds travel away from the parent plant",
+              "list": [
+                "Wind dispersal: light seeds with wing-like or parachute-like structures (e.g. dandelion, sycamore).",
+                "Animal dispersal: hooked seeds that cling to fur (e.g. burdock), or fleshy fruits eaten and the seeds passed out elsewhere (e.g. mango, guava).",
+                "Water dispersal: buoyant, waterproof seeds/fruits that float (e.g. coconut). Explosive dispersal: pods that dry and burst, flinging seeds out (e.g. some legumes)."
+              ],
+              "sub": "Look at the seed's shape and structure to identify its dispersal method — light and winged, hooked, fleshy, or buoyant.",
+              "narration": "Wind dispersal uses light, winged or parachute-like seeds. Animal dispersal uses hooked seeds that cling to fur, or fleshy fruits that are eaten and pass through the animal. Water dispersal uses buoyant, waterproof seeds, and explosive dispersal flings seeds from bursting pods."
+            },
+            {
+              "eyebrow": "Germination",
+              "heading": "The seed wakes up",
+              "list": [
+                "Germination is the process by which a seed begins to grow into a new plant.",
+                "It requires three conditions: water (to activate enzymes and swell the seed), oxygen (for respiration), and a suitable temperature.",
+                "Most seeds also need to be viable (alive) and not dormant to germinate, even with all three conditions present."
+              ],
+              "sub": "Water + oxygen + suitable temperature = the three requirements for germination.",
+              "narration": "Germination is the process by which a seed begins to grow into a new plant. It requires water to activate enzymes, oxygen for respiration, and a suitable temperature — all three must be present."
+            },
+            {
+              "eyebrow": "Exam alert",
+              "heading": "Common pitfalls on fertilisation and dispersal",
+              "list": [
+                "Do not confuse pollination (pollen reaching the stigma) with fertilisation (fusion of sex cells) — pollination happens first, and doesn't guarantee fertilisation.",
+                "Light doesn't appear in the three germination requirements — many seeds germinate perfectly well in darkness (e.g. underground).",
+                "Match the dispersal method to the seed's visible features: wings/hairs = wind, hooks = animal (clinging), fleshy = animal (eaten), waterproof/buoyant = water."
+              ],
+              "sub": "Germination needs water, oxygen, warmth — NOT light. A common trap.",
+              "narration": "Do not confuse pollination with fertilisation — pollination happens first and doesn't guarantee fertilisation. And remember, light is not one of the three germination requirements; many seeds germinate perfectly well underground, in darkness."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "The fusion of a male and female sex cell inside the ovule is called",
+              "options": [
+                "fertilisation",
+                "pollination",
+                "germination",
+                "dispersal"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — fertilisation is the fusion of male and female sex cells, happening after pollination.",
+              "explainWrong": "The fusion of sex cells is fertilisation — pollination is the earlier step of pollen reaching the stigma.",
+              "refCard": 1,
+              "narration": "The fusion of a male and female sex cell inside the ovule is called"
+            },
+            {
+              "question": "After fertilisation, the ovary of a flower typically develops into the",
+              "options": [
+                "fruit",
+                "seed coat",
+                "petal",
+                "root"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — the ovary develops into the fruit, while the ovule develops into the seed.",
+              "explainWrong": "The ovary develops into the fruit — the ovule (inside the ovary) is what develops into the seed.",
+              "refCard": 1,
+              "narration": "After fertilisation, the ovary of a flower typically develops into the"
+            },
+            {
+              "question": "Seeds with hooks that cling to an animal's fur are dispersed by",
+              "options": [
+                "animal dispersal",
+                "wind dispersal",
+                "water dispersal",
+                "explosive dispersal"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — hooked seeds cling to fur and are carried away by the animal, a form of animal dispersal.",
+              "explainWrong": "Hooked seeds clinging to fur are an animal dispersal adaptation, not wind or water dispersal.",
+              "refCard": 3,
+              "narration": "Seeds with hooks that cling to an animal's fur are dispersed by"
+            },
+            {
+              "question": "Which three conditions are required for a seed to germinate?",
+              "options": [
+                "Water, oxygen, and a suitable temperature",
+                "Light, water, and soil",
+                "Darkness, cold, and carbon dioxide",
+                "Wind, sunlight, and minerals only"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — water, oxygen and a suitable temperature are the three requirements for germination; light is not required.",
+              "explainWrong": "Germination needs water, oxygen and a suitable temperature — light is not one of the three requirements.",
+              "refCard": 4,
+              "narration": "Which three conditions are required for a seed to germinate?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reproduction-in-animals",
+      "title": "Reproduction in Animals",
+      "description": "Sexual vs asexual reproduction in animals, and the human reproductive system.",
+      "subtopics": [
+        {
+          "id": "sexual-vs-asexual",
+          "title": "Sexual vs Asexual Reproduction",
+          "stories": [
+            {
+              "tag": "Two very different strategies",
+              "sub": "Copy yourself, or mix with someone else?",
+              "heading": "The fundamental reproductive choice",
+              "list": [
+                "Some animals can produce offspring entirely alone; others always need a partner.",
+                "These two strategies — asexual and sexual reproduction — trade off speed and simplicity against genetic variety.",
+                "Many simple organisms actually use both strategies at different times, depending on conditions."
+              ],
+              "narration": "Some animals can produce offspring entirely alone; others always need a partner. Asexual and sexual reproduction trade off speed and simplicity against genetic variety — many simple organisms actually use both, depending on conditions."
+            },
+            {
+              "tag": "A hydra's trick",
+              "sub": "Growing a whole new animal out of your own side",
+              "heading": "Budding: reproduction without a partner",
+              "list": [
+                "A Hydra (a small freshwater coelenterate) can grow a small bud on its body wall.",
+                "The bud grows, develops its own mouth and tentacles, and eventually detaches as a complete new, genetically identical Hydra.",
+                "No mate, no fertilisation, no delay — just a clone appearing from the parent's own tissue."
+              ],
+              "narration": "A Hydra can grow a small bud on its body wall, which develops its own mouth and tentacles and eventually detaches as a complete new, genetically identical Hydra — no mate, no fertilisation, no delay, just a clone from the parent's own tissue."
+            }
+          ],
+          "lessons": [
+            {
+              "eyebrow": "The big picture",
+              "big": "🧬",
+              "heading": "Two modes of reproduction",
+              "list": [
+                "Asexual reproduction: one parent, no fusion of sex cells; offspring are genetically identical clones of the parent.",
+                "Sexual reproduction: (usually) two parents; a male sex cell fuses with a female sex cell (fertilisation), producing genetically varied offspring.",
+                "Sexual reproduction's genetic variety gives a population more options for surviving a changing environment."
+              ],
+              "sub": "Asexual = fast, identical clones. Sexual = slower, but genetically varied offspring.",
+              "narration": "Asexual reproduction involves one parent and no fusion of sex cells, producing genetically identical clones. Sexual reproduction usually involves two parents whose sex cells fuse at fertilisation, producing genetically varied offspring."
+            },
+            {
+              "eyebrow": "Asexual methods in simple animals",
+              "heading": "Budding and binary fission",
+              "list": [
+                "Budding: a new individual grows as an outgrowth on the parent's body, then detaches (e.g. Hydra).",
+                "Binary fission: a single-celled organism splits into two roughly equal, genetically identical cells (e.g. Amoeba).",
+                "Both methods are fast and don't require finding a mate — useful when conditions are stable and favourable."
+              ],
+              "sub": "Budding = grow-and-detach. Binary fission = split-in-two.",
+              "narration": "Budding is when a new individual grows as an outgrowth on the parent's body, then detaches, as in Hydra. Binary fission is when a single-celled organism splits into two identical cells, as in Amoeba — both are fast and need no mate."
+            },
+            {
+              "eyebrow": "Sexual reproduction",
+              "heading": "Gametes, fertilisation and variation",
+              "list": [
+                "Sexual reproduction combines a male gamete (sperm) and a female gamete (egg/ovum) through fertilisation.",
+                "Because gametes come from two different parents, and are formed by meiosis, offspring inherit a unique mix of genes.",
+                "Fertilisation can be external (outside the body, e.g. many fish, frogs) or internal (inside the body, e.g. mammals, birds, reptiles)."
+              ],
+              "sub": "Two parents + meiosis + fertilisation = genetically unique offspring, every time.",
+              "narration": "Sexual reproduction combines a sperm and an egg through fertilisation. Because gametes come from two parents and are formed by meiosis, offspring inherit a unique mix of genes. Fertilisation can be external, as in many fish, or internal, as in mammals."
+            },
+            {
+              "eyebrow": "External vs internal fertilisation",
+              "heading": "Why the strategy matters for survival",
+              "list": [
+                "External fertilisation (e.g. fish, frogs): happens in water, needs huge numbers of gametes released, since fertilisation and survival chances are low.",
+                "Internal fertilisation (e.g. mammals, birds, reptiles): happens inside the female's body, giving eggs/embryos more protection, so far fewer are needed.",
+                "This is why a fish can release thousands of eggs at once, while a mammal typically produces very few offspring per pregnancy."
+              ],
+              "sub": "External = many gametes, low protection. Internal = few gametes, high protection.",
+              "narration": "External fertilisation, as in fish and frogs, happens in water and needs huge numbers of gametes, since survival chances are low. Internal fertilisation, as in mammals, happens inside the body with much better protection, so far fewer gametes are needed."
+            },
+            {
+              "eyebrow": "Exam alert",
+              "heading": "Advantages and disadvantages compared",
+              "list": [
+                "Asexual advantage: fast, no mate needed, all offspring keep the parent's successful traits.",
+                "Asexual disadvantage: no genetic variation, so the whole population is equally vulnerable to the same disease or environmental change.",
+                "Sexual advantage: genetic variation helps a population adapt; sexual disadvantage: slower, and requires finding a mate."
+              ],
+              "sub": "No variation is asexual's biggest weakness. Needing a mate is sexual reproduction's biggest cost.",
+              "narration": "Asexual reproduction is fast and needs no mate, but produces no genetic variation, leaving the population equally vulnerable to disease. Sexual reproduction produces variation that helps a population adapt, but is slower and requires finding a mate."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Reproduction involving only one parent and no fusion of sex cells is called",
+              "options": [
+                "asexual reproduction",
+                "sexual reproduction",
+                "internal fertilisation",
+                "external fertilisation"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — asexual reproduction involves one parent, with no sex-cell fusion, producing identical clones.",
+              "explainWrong": "One parent with no sex-cell fusion is asexual reproduction — sexual reproduction always involves fusion of gametes.",
+              "refCard": 1,
+              "narration": "Reproduction involving only one parent and no fusion of sex cells is called"
+            },
+            {
+              "question": "A Hydra producing a new individual by growing an outgrowth that later detaches is reproducing by",
+              "options": [
+                "budding",
+                "binary fission",
+                "internal fertilisation",
+                "external fertilisation"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — budding is when a new individual grows as an outgrowth on the parent's body and detaches.",
+              "explainWrong": "Growing and detaching an outgrowth is budding — binary fission is splitting into two, not growing a bud.",
+              "refCard": 2,
+              "narration": "A Hydra producing a new individual by growing an outgrowth that later detaches is reproducing by"
+            },
+            {
+              "question": "Why do fish that use external fertilisation typically release very large numbers of eggs?",
+              "options": [
+                "Because fertilisation and survival chances in open water are low",
+                "Because internal fertilisation is impossible in water",
+                "Because fish eggs are asexually produced",
+                "Because fish cannot produce sperm"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — external fertilisation has low success/survival odds, so many gametes are released to compensate.",
+              "explainWrong": "Large egg numbers compensate for the low survival odds of external fertilisation in open water.",
+              "refCard": 4,
+              "narration": "Why do fish that use external fertilisation typically release very large numbers of eggs?"
+            },
+            {
+              "question": "The main disadvantage of asexual reproduction compared to sexual reproduction is",
+              "options": [
+                "a lack of genetic variation among offspring",
+                "it happens too slowly",
+                "it always requires two parents",
+                "it cannot occur in animals at all"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — asexual offspring are genetically identical, leaving the population equally vulnerable to disease or change.",
+              "explainWrong": "Lack of genetic variation is the key downside of asexual reproduction — it's actually faster and needs only one parent.",
+              "refCard": 5,
+              "narration": "The main disadvantage of asexual reproduction compared to sexual reproduction is"
+            }
+          ]
+        },
+        {
+          "id": "human-reproductive-system",
+          "title": "The Human Reproductive System",
+          "stories": [
+            {
+              "tag": "Nine months, one cell to trillions",
+              "sub": "A single cell becomes a whole human",
+              "heading": "The scale of what fertilisation starts",
+              "list": [
+                "A fertilised human egg is a single cell, roughly the size of a full stop on this page.",
+                "In about nine months, it becomes a baby made of trillions of cells.",
+                "Understanding the reproductive system means understanding how that single starting cell is made possible."
+              ],
+              "narration": "A fertilised human egg is a single cell, roughly the size of a full stop on this page. In about nine months, it becomes a baby made of trillions of cells — understanding the reproductive system means understanding how that single starting cell is made possible."
+            },
+            {
+              "tag": "A month-long cycle",
+              "sub": "Timed for one purpose",
+              "heading": "Why the menstrual cycle exists",
+              "list": [
+                "Each month, a woman's body prepares the uterus lining in case a fertilised egg needs to implant.",
+                "If fertilisation does not happen, that lining is shed — menstruation.",
+                "This roughly 28-day cycle repeats throughout a woman's reproductive years, synchronised with the release of an egg."
+              ],
+              "narration": "Each month, a woman's body prepares the uterus lining in case a fertilised egg needs to implant. If fertilisation doesn't happen, that lining is shed as menstruation — a roughly twenty-eight day cycle, synchronised with the release of an egg."
+            }
+          ],
+          "lessons": [
+            {
+              "eyebrow": "The big picture",
+              "big": "👶",
+              "heading": "Male and female reproductive organs",
+              "list": [
+                "Male: testes (produce sperm and testosterone), sperm ducts, and the penis (delivers sperm during copulation).",
+                "Female: ovaries (produce eggs and hormones), oviducts/fallopian tubes (where fertilisation usually occurs), uterus (where a fertilised egg develops), vagina.",
+                "Both systems exist to bring sperm and egg together, and to support development afterward (in females)."
+              ],
+              "sub": "Male system makes and delivers sperm. Female system makes eggs and supports pregnancy.",
+              "narration": "The male reproductive system includes the testes, which produce sperm, and the penis, which delivers it. The female system includes the ovaries, which produce eggs, the oviducts where fertilisation usually occurs, and the uterus, where the fertilised egg develops."
+            },
+            {
+              "eyebrow": "Fertilisation and implantation",
+              "heading": "From sperm meeting egg to pregnancy",
+              "list": [
+                "Fertilisation usually happens in the oviduct (fallopian tube), when a sperm fuses with an egg.",
+                "The fertilised egg (zygote) divides repeatedly as it travels toward the uterus.",
+                "It then embeds itself into the thickened uterus lining — implantation — marking the start of pregnancy."
+              ],
+              "sub": "Fertilise in the oviduct → travel and divide → implant in the uterus → pregnancy begins.",
+              "narration": "Fertilisation usually happens in the oviduct, when sperm fuses with an egg. The resulting zygote divides repeatedly while travelling toward the uterus, then implants in the thickened uterus lining, marking the start of pregnancy."
+            },
+            {
+              "eyebrow": "The menstrual cycle",
+              "heading": "The roughly 28-day cycle",
+              "list": [
+                "Around day 14 of a typical cycle, an egg is released from an ovary — ovulation.",
+                "The uterus lining thickens with blood vessels in preparation for a possible implantation.",
+                "If fertilisation does not occur, the thickened lining breaks down and is shed as the menstrual flow, and the cycle begins again."
+              ],
+              "sub": "Ovulation around day 14; lining shed if no fertilisation — then the cycle repeats.",
+              "narration": "Around day fourteen of a typical cycle, an egg is released from an ovary — ovulation. The uterus lining thickens in preparation, and if fertilisation doesn't occur, the lining is shed as the menstrual flow, and the cycle begins again."
+            },
+            {
+              "eyebrow": "Pregnancy and the placenta",
+              "heading": "How a developing baby is supported",
+              "list": [
+                "The placenta forms in the uterus and connects mother and developing fetus via the umbilical cord.",
+                "It allows oxygen and nutrients to pass from mother to fetus, and waste products to pass from fetus to mother — without their blood actually mixing.",
+                "After roughly nine months, birth occurs, ending the pregnancy."
+              ],
+              "sub": "Placenta = the exchange point between mother and fetus, blood supplies kept separate.",
+              "narration": "The placenta connects mother and developing fetus via the umbilical cord, allowing oxygen and nutrients to pass to the fetus and waste to pass back to the mother, without their blood actually mixing. After roughly nine months, birth occurs."
+            },
+            {
+              "eyebrow": "Exam alert",
+              "heading": "Key terms not to mix up",
+              "list": [
+                "Ovulation: release of an egg from the ovary (not the same as menstruation).",
+                "Fertilisation: fusion of sperm and egg, in the oviduct (not the uterus).",
+                "Implantation: the fertilised egg embedding in the uterus lining (happens after fertilisation, and after travelling from the oviduct)."
+              ],
+              "sub": "Ovulation, fertilisation and implantation are three separate events, in that order, in different places.",
+              "narration": "Ovulation is the release of an egg from the ovary. Fertilisation is the fusion of sperm and egg, happening in the oviduct, not the uterus. Implantation is the fertilised egg embedding in the uterus lining — three separate events, in that order."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "In the human female reproductive system, fertilisation normally takes place in the",
+              "options": [
+                "oviduct (fallopian tube)",
+                "uterus",
+                "vagina",
+                "ovary"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — fertilisation normally happens in the oviduct, before the zygote travels to the uterus.",
+              "explainWrong": "Fertilisation happens in the oviduct — the uterus is where the fertilised egg later implants, not where fertilisation occurs.",
+              "refCard": 2,
+              "narration": "In the human female reproductive system, fertilisation normally takes place in the"
+            },
+            {
+              "question": "The release of an egg from the ovary is called",
+              "options": [
+                "ovulation",
+                "menstruation",
+                "implantation",
+                "fertilisation"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — ovulation is the release of an egg from the ovary, typically around day 14 of the cycle.",
+              "explainWrong": "Egg release is ovulation — menstruation is the shedding of the uterus lining, a different event.",
+              "refCard": 3,
+              "narration": "The release of an egg from the ovary is called"
+            },
+            {
+              "question": "The structure that allows exchange of nutrients, oxygen and waste between mother and fetus is the",
+              "options": [
+                "placenta",
+                "ovary",
+                "oviduct",
+                "cervix"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — the placenta allows exchange between mother and fetus without their blood mixing.",
+              "explainWrong": "The placenta is the exchange structure — the ovary and oviduct are involved earlier, before pregnancy begins.",
+              "refCard": 4,
+              "narration": "The structure that allows exchange of nutrients, oxygen and waste between mother and fetus is the"
+            },
+            {
+              "question": "If fertilisation does not occur, the thickened uterus lining is",
+              "options": [
+                "shed as the menstrual flow",
+                "retained permanently",
+                "converted directly into an egg",
+                "absorbed into the placenta"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — without fertilisation, the built-up uterus lining breaks down and is shed as menstruation.",
+              "explainWrong": "Without fertilisation, the lining is shed as the menstrual flow, and the cycle starts again — it isn't retained or absorbed.",
+              "refCard": 3,
+              "narration": "If fertilisation does not occur, the thickened uterus lining is"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coordination-and-control",
+      "title": "Coordination & Control",
+      "description": "How the nervous system and hormones let the body sense, decide and respond.",
+      "subtopics": [
+        {
+          "id": "nervous-system",
+          "title": "The Nervous System",
+          "stories": [
+            {
+              "tag": "Faster than you can think about it",
+              "sub": "Why you pull your hand off a hot stove before you feel the pain",
+              "heading": "The reflex arc: your body's shortcut",
+              "list": [
+                "Touch something painfully hot, and your hand jerks away before you consciously register the pain.",
+                "This happens because the signal takes a shortcut through the spinal cord, skipping the brain entirely for the initial response.",
+                "This fast, automatic, protective circuit is called a reflex arc."
+              ],
+              "narration": "Touch something painfully hot, and your hand jerks away before you consciously register the pain. This happens because the signal takes a shortcut through the spinal cord, skipping the brain — a fast, automatic, protective circuit called a reflex arc."
+            },
+            {
+              "tag": "A cellular relay race",
+              "sub": "How a signal crosses your whole body in milliseconds",
+              "heading": "Nerve impulses are electrical, not instant teleportation",
+              "list": [
+                "A nerve signal is an electrical impulse that travels along a chain of specialised cells called neurones.",
+                "Each neurone passes the signal to the next across a tiny gap called a synapse.",
+                "Despite all these handoffs, the whole relay can happen in a fraction of a second."
+              ],
+              "narration": "A nerve signal is an electrical impulse travelling along a chain of specialised cells called neurones, each passing the signal to the next across a tiny gap called a synapse — a relay that can happen in a fraction of a second."
+            }
+          ],
+          "lessons": [
+            {
+              "eyebrow": "The big picture",
+              "big": "🧠",
+              "heading": "What the nervous system does",
+              "list": [
+                "The nervous system detects changes (stimuli), processes information, and coordinates a fast response.",
+                "It has two main parts: the central nervous system (brain and spinal cord), and the peripheral nervous system (nerves connecting the CNS to the rest of the body).",
+                "Signals travel as electrical impulses along neurones (nerve cells)."
+              ],
+              "sub": "Central = brain + spinal cord (the control centre). Peripheral = the nerve wiring reaching everywhere else.",
+              "narration": "The nervous system detects stimuli, processes information, and coordinates a fast response. It has a central part, the brain and spinal cord, and a peripheral part, the nerves connecting the CNS to the rest of the body, carrying signals as electrical impulses."
+            },
+            {
+              "eyebrow": "Types of neurone",
+              "heading": "Sensory, relay and motor neurones",
+              "list": [
+                "Sensory neurones carry impulses from a receptor (e.g. skin, eye) to the central nervous system.",
+                "Relay neurones (inside the spinal cord/brain) connect sensory and motor neurones.",
+                "Motor neurones carry impulses from the central nervous system to an effector (a muscle or gland) that carries out the response."
+              ],
+              "sub": "Sensory: in. Relay: middle. Motor: out. A signal usually passes through all three, in that order.",
+              "narration": "Sensory neurones carry impulses from a receptor to the central nervous system. Relay neurones connect sensory and motor neurones inside the CNS. Motor neurones carry impulses out to an effector, a muscle or gland, that carries out the response."
+            },
+            {
+              "eyebrow": "The reflex arc",
+              "heading": "Stimulus to response, the shortest path",
+              "list": [
+                "Pathway: stimulus → receptor → sensory neurone → relay neurone (in spinal cord) → motor neurone → effector → response.",
+                "A reflex arc bypasses conscious brain processing, making the response extremely fast.",
+                "Reflexes are automatic and protective — e.g. withdrawing a hand from something painfully hot, or the knee-jerk reflex."
+              ],
+              "sub": "Reflex arc = the fixed, six-step express route from danger to reaction.",
+              "narration": "The reflex arc pathway is: stimulus, receptor, sensory neurone, relay neurone in the spinal cord, motor neurone, effector, response. It bypasses conscious brain processing, making automatic, protective reflexes extremely fast."
+            },
+            {
+              "eyebrow": "The brain",
+              "heading": "Major regions and their roles",
+              "list": [
+                "Cerebrum: the largest part; controls conscious thought, memory, voluntary movement, and interpretation of senses.",
+                "Cerebellum: coordinates balance and fine muscle control/movement.",
+                "Medulla oblongata: controls involuntary (automatic) functions like heartbeat and breathing rate."
+              ],
+              "sub": "Cerebrum thinks, cerebellum balances, medulla keeps the automatic systems running.",
+              "narration": "The cerebrum, the largest part of the brain, controls conscious thought, memory and voluntary movement. The cerebellum coordinates balance and fine muscle control. The medulla oblongata controls involuntary functions like heartbeat and breathing."
+            },
+            {
+              "eyebrow": "Exam alert",
+              "heading": "The reflex arc order — don't skip a step",
+              "list": [
+                "WAEC often asks you to arrange reflex arc components in the correct order — memorise it exactly.",
+                "Stimulus → Receptor → Sensory neurone → Relay neurone → Motor neurone → Effector → Response.",
+                "A common trap: swapping sensory and motor neurone order, or forgetting the relay neurone in the middle."
+              ],
+              "sub": "Stimulus, Receptor, Sensory, Relay, Motor, Effector, Response — say it until it's automatic.",
+              "narration": "WAEC often asks for the reflex arc components in order: stimulus, receptor, sensory neurone, relay neurone, motor neurone, effector, response. A common trap is swapping the sensory and motor neurone order, or skipping the relay neurone."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Which type of neurone carries impulses from a receptor to the central nervous system?",
+              "options": [
+                "Sensory neurone",
+                "Motor neurone",
+                "Relay neurone",
+                "Effector neurone"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — sensory neurones carry impulses from receptors to the CNS.",
+              "explainWrong": "Carrying impulses from a receptor to the CNS is the sensory neurone's job — motor neurones carry impulses out.",
+              "refCard": 2,
+              "narration": "Which type of neurone carries impulses from a receptor to the central nervous system?"
+            },
+            {
+              "question": "In the correct order, a reflex arc pathway is",
+              "options": [
+                "Stimulus → Receptor → Sensory neurone → Relay neurone → Motor neurone → Effector → Response",
+                "Response → Effector → Motor neurone → Relay neurone → Sensory neurone → Receptor → Stimulus",
+                "Stimulus → Effector → Receptor → Response",
+                "Receptor → Effector → Sensory neurone → Response"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — this is the standard reflex arc order, from detecting the stimulus to producing the response.",
+              "explainWrong": "The correct order is Stimulus, Receptor, Sensory neurone, Relay neurone, Motor neurone, Effector, Response.",
+              "refCard": 3,
+              "narration": "In the correct order, a reflex arc pathway is"
+            },
+            {
+              "question": "Which part of the brain controls involuntary functions such as heartbeat and breathing rate?",
+              "options": [
+                "Medulla oblongata",
+                "Cerebrum",
+                "Cerebellum",
+                "Spinal cord"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — the medulla oblongata controls automatic, involuntary functions like heartbeat and breathing.",
+              "explainWrong": "Involuntary functions like heartbeat and breathing are controlled by the medulla oblongata, not the cerebrum or cerebellum.",
+              "refCard": 4,
+              "narration": "Which part of the brain controls involuntary functions such as heartbeat and breathing rate?"
+            },
+            {
+              "question": "A reflex action is faster than a conscious response mainly because it",
+              "options": [
+                "bypasses conscious processing in the brain, via the spinal cord",
+                "does not involve any neurones",
+                "only happens during sleep",
+                "uses hormones instead of nerves"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — reflexes bypass conscious brain processing via a shortcut through the spinal cord, making them very fast.",
+              "explainWrong": "Reflexes are fast because they bypass conscious brain processing — they still use neurones, just via a shortcut.",
+              "refCard": 3,
+              "narration": "A reflex action is faster than a conscious response mainly because it"
+            }
+          ]
+        },
+        {
+          "id": "hormonal-coordination",
+          "title": "Hormonal Coordination & Sense Organs",
+          "stories": [
+            {
+              "tag": "Slow but far-reaching",
+              "sub": "A different kind of messenger",
+              "heading": "Why the body needs hormones as well as nerves",
+              "list": [
+                "Nerve impulses are fast but short-lived and travel along fixed pathways to specific destinations.",
+                "Hormones are chemical messengers carried in the blood, reaching almost every cell in the body, but acting more slowly and lasting longer.",
+                "The body uses nerves for split-second reactions, and hormones for slower, longer-lasting regulation like growth or the menstrual cycle."
+              ],
+              "narration": "Nerve impulses are fast but short-lived, travelling along fixed pathways. Hormones are chemical messengers carried in the blood, reaching almost every cell but acting more slowly and lasting longer — nerves handle split-second reactions, hormones handle slower, longer regulation."
+            },
+            {
+              "tag": "Five windows to the world",
+              "sub": "Every sense is really just a specialised receptor",
+              "heading": "How sense organs turn the world into nerve signals",
+              "list": [
+                "Every sense organ contains receptor cells specialised to detect one kind of stimulus: light, sound, chemicals, or pressure.",
+                "The eye's receptors detect light; the ear's detect sound and balance; the nose's and tongue's detect chemicals; the skin's detect touch, pressure and temperature.",
+                "Whatever the input, the receptor's job is always the same: convert the stimulus into a nerve impulse the brain can interpret."
+              ],
+              "narration": "Every sense organ contains receptor cells specialised to detect one kind of stimulus — light in the eye, sound and balance in the ear, chemicals in the nose and tongue, touch and pressure in the skin — always converting the stimulus into a nerve impulse."
+            }
+          ],
+          "lessons": [
+            {
+              "eyebrow": "The big picture",
+              "big": "💉",
+              "heading": "What hormones are",
+              "list": [
+                "Hormones are chemical messengers, produced by endocrine glands, and carried around the body in the blood.",
+                "Unlike nerve impulses, hormones act more slowly but their effects often last much longer.",
+                "Each hormone affects only its specific ‘target organ(s)’, even though it travels everywhere in the blood."
+              ],
+              "sub": "Hormones travel everywhere in blood, but only act on their specific target organ.",
+              "narration": "Hormones are chemical messengers produced by endocrine glands, carried around the body in the blood. They act more slowly than nerve impulses but often last much longer, and each hormone affects only its specific target organ."
+            },
+            {
+              "eyebrow": "Key human hormones",
+              "heading": "A few examples WAEC tests directly",
+              "list": [
+                "Insulin (from the pancreas): lowers blood glucose level after a meal.",
+                "Adrenaline (from the adrenal glands): prepares the body for ‘fight or flight’ — raises heart rate, breathing rate, and blood glucose.",
+                "Testosterone (testes) and oestrogen (ovaries): control the development of male and female secondary sexual characteristics."
+              ],
+              "sub": "Insulin lowers blood sugar. Adrenaline preps for danger. Testosterone/oestrogen drive puberty changes.",
+              "narration": "Insulin, from the pancreas, lowers blood glucose after a meal. Adrenaline, from the adrenal glands, prepares the body for fight or flight, raising heart rate and blood glucose. Testosterone and oestrogen control secondary sexual characteristics."
+            },
+            {
+              "eyebrow": "Nerves vs hormones",
+              "heading": "The comparison table WAEC loves",
+              "list": [
+                "Nervous control: transmission by electrical impulse; very fast; short-lived effect; travels along specific nerve pathways.",
+                "Hormonal control: transmission by chemical in the blood; slower; longer-lasting effect; travels everywhere but acts only on target organs.",
+                "The two systems work together, not separately, to coordinate the body's overall response to a situation."
+              ],
+              "sub": "Nerves: fast, electrical, short pathways, brief. Hormones: slow, chemical, whole body, lasting.",
+              "narration": "Nervous control uses fast electrical impulses along specific pathways with short-lived effects. Hormonal control uses chemicals travelling in the blood, acting more slowly but with longer-lasting effects — the two systems work together."
+            },
+            {
+              "eyebrow": "The eye",
+              "heading": "How the eye detects light",
+              "list": [
+                "Light enters through the cornea and pupil, is focused by the lens, and forms an image on the retina.",
+                "The retina contains light-sensitive receptor cells (rods and cones) that convert light into nerve impulses.",
+                "The optic nerve then carries these impulses to the brain for interpretation."
+              ],
+              "sub": "Cornea/lens focus light → retina detects it → optic nerve carries the signal to the brain.",
+              "narration": "Light enters through the cornea and pupil, is focused by the lens, and forms an image on the retina. The retina's light-sensitive rods and cones convert light into nerve impulses, carried to the brain by the optic nerve."
+            },
+            {
+              "eyebrow": "Exam alert",
+              "heading": "Matching hormone to its effect",
+              "list": [
+                "Blood sugar too high after a meal → insulin lowers it.",
+                "Sudden danger/stress → adrenaline raises heart rate and blood glucose for quick energy.",
+                "Puberty changes (voice, body hair, etc.) → sex hormones (testosterone/oestrogen), not insulin or adrenaline."
+              ],
+              "sub": "Match the situation described to the correct hormone — this is a very common WAEC question style.",
+              "narration": "High blood sugar after a meal is corrected by insulin. Sudden danger triggers adrenaline, raising heart rate and blood glucose. Puberty changes are driven by testosterone or oestrogen — matching a situation to its hormone is a common WAEC question."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Hormones are best described as",
+              "options": [
+                "chemical messengers carried in the blood, produced by endocrine glands",
+                "electrical impulses carried by neurones",
+                "enzymes that digest food",
+                "waste products removed by the kidney"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — hormones are chemical messengers, produced by endocrine glands, carried in the blood.",
+              "explainWrong": "Hormones are chemical messengers in the blood — electrical impulses describe nerve transmission, a different system.",
+              "refCard": 1,
+              "narration": "Hormones are best described as"
+            },
+            {
+              "question": "The hormone that lowers blood glucose level after a meal is",
+              "options": [
+                "insulin",
+                "adrenaline",
+                "testosterone",
+                "oestrogen"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — insulin, produced by the pancreas, lowers blood glucose after a meal.",
+              "explainWrong": "Insulin lowers blood glucose — adrenaline raises it, as part of a stress response.",
+              "refCard": 2,
+              "narration": "The hormone that lowers blood glucose level after a meal is"
+            },
+            {
+              "question": "Compared with nervous control, hormonal control is",
+              "options": [
+                "slower to act but longer-lasting in effect",
+                "faster to act but shorter-lasting in effect",
+                "identical in speed and duration",
+                "not involved in body coordination at all"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — hormonal control is slower to act than nervous control, but its effects last much longer.",
+              "explainWrong": "Hormonal control is slower but longer-lasting — nervous control is the fast, short-lived system.",
+              "refCard": 3,
+              "narration": "Compared with nervous control, hormonal control is"
+            },
+            {
+              "question": "The light-sensitive cells in the retina that convert light into nerve impulses are called",
+              "options": [
+                "rods and cones",
+                "the cornea and lens",
+                "the optic nerve",
+                "the pupil"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — rods and cones are the retina's light-sensitive receptor cells.",
+              "explainWrong": "Rods and cones detect light and convert it to nerve impulses — the cornea and lens only focus the light.",
+              "refCard": 4,
+              "narration": "The light-sensitive cells in the retina that convert light into nerve impulses are called"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "homeostasis",
+      "title": "Homeostasis",
+      "description": "How the body keeps its internal conditions stable, no matter what's happening outside.",
+      "subtopics": [
+        {
+          "id": "homeostasis-principles",
+          "title": "Principles of Homeostasis",
+          "stories": [
+            {
+              "tag": "A word worth knowing",
+              "sub": "One Greek word, one huge biological idea",
+              "heading": "Where ‘homeostasis’ comes from",
+              "list": [
+                "‘Homeostasis’ combines Greek roots meaning ‘similar’ and ‘standing still’ — staying the same.",
+                "It describes how organisms keep their internal environment stable, despite constant change outside.",
+                "Physiologist Claude Bernard first observed this principle in the 1800s, calling the internal environment the ‘milieu intérieur’."
+              ],
+              "narration": "Homeostasis combines Greek roots meaning similar and standing still — staying the same. It describes how organisms keep their internal environment stable despite constant change outside, a principle first observed by Claude Bernard in the 1800s."
+            },
+            {
+              "tag": "A household thermostat",
+              "sub": "You already understand the core idea",
+              "heading": "The same logic as a thermostat controlling a room",
+              "list": [
+                "A thermostat senses room temperature, compares it to a set target, and switches heating or cooling on or off to correct any difference.",
+                "The human body regulates temperature, blood glucose, and water balance using this exact same sense-compare-correct logic.",
+                "This self-correcting loop is called negative feedback."
+              ],
+              "narration": "A thermostat senses room temperature, compares it to a target, and switches heating or cooling on or off to correct the difference. The human body regulates temperature, blood glucose and water balance using this exact same sense-compare-correct logic, called negative feedback."
+            }
+          ],
+          "lessons": [
+            {
+              "eyebrow": "The big picture",
+              "big": "⚖️",
+              "heading": "What homeostasis means",
+              "list": [
+                "Homeostasis is the maintenance of a stable internal environment within the body, despite external changes.",
+                "Things the body keeps stable include: body temperature, blood glucose level, water content, and blood pH.",
+                "Homeostasis is essential because cells (and their enzymes) only work properly within narrow, stable conditions."
+              ],
+              "sub": "Stable internal conditions = enzymes and cells can keep working properly.",
+              "narration": "Homeostasis is the maintenance of a stable internal environment, despite changes outside. The body keeps temperature, blood glucose, water content and pH stable, because cells and their enzymes only work properly within narrow, stable conditions."
+            },
+            {
+              "eyebrow": "Negative feedback",
+              "heading": "The self-correcting loop behind homeostasis",
+              "list": [
+                "A receptor detects a change (e.g. rising body temperature) away from the normal set point.",
+                "A control centre (often part of the brain) compares this to the ideal set point and triggers a corrective response.",
+                "The response pushes the condition back toward normal — and once it's back to normal, the corrective response switches off."
+              ],
+              "sub": "Detect the change → correct it → the correction stops once things are back to normal.",
+              "narration": "A receptor detects a change away from the normal set point. A control centre compares it to the ideal and triggers a corrective response, which pushes the condition back toward normal — and switches off once things are back to normal."
+            },
+            {
+              "eyebrow": "Worked example",
+              "heading": "Negative feedback for blood glucose",
+              "list": [
+                "After a meal, blood glucose rises above normal.",
+                "The pancreas detects this and releases insulin, which causes cells to absorb glucose, lowering blood glucose back to normal.",
+                "As blood glucose returns to normal, insulin release decreases — the feedback loop switches itself off."
+              ],
+              "sub": "Rise detected → insulin released → glucose lowered → insulin release stops. Classic negative feedback.",
+              "narration": "After a meal, blood glucose rises. The pancreas detects this and releases insulin, which lowers blood glucose back to normal. As glucose returns to normal, insulin release decreases, switching the feedback loop off — a textbook example of negative feedback."
+            },
+            {
+              "eyebrow": "The skin's role",
+              "heading": "Temperature regulation basics",
+              "list": [
+                "When body temperature rises: sweat glands produce more sweat (evaporation cools the skin), and skin blood vessels widen (vasodilation) to lose more heat.",
+                "When body temperature falls: sweating decreases, skin blood vessels narrow (vasoconstriction) to conserve heat, and shivering (rapid muscle contraction) generates extra heat.",
+                "The skin is the main organ carrying out these temperature-correcting actions."
+              ],
+              "sub": "Hot: sweat more, blood vessels widen. Cold: shiver, blood vessels narrow.",
+              "narration": "When body temperature rises, sweat glands produce more sweat and skin blood vessels widen to lose heat. When temperature falls, sweating decreases, blood vessels narrow to conserve heat, and shivering generates extra heat."
+            },
+            {
+              "eyebrow": "Exam alert",
+              "heading": "Vasodilation vs vasoconstriction — don't mix these up",
+              "list": [
+                "Vasodilation: blood vessels near the skin widen, increasing blood flow to the skin surface, losing more heat. Happens when the body is too hot.",
+                "Vasoconstriction: blood vessels near the skin narrow, reducing blood flow to the skin surface, conserving heat. Happens when the body is too cold.",
+                "‘Dilate’ = widen = lose heat. ‘Constrict’ = narrow = conserve heat — a simple word-root trick to remember which is which."
+              ],
+              "sub": "Dilate = wide = hot weather response. Constrict = narrow = cold weather response.",
+              "narration": "Vasodilation is when skin blood vessels widen, losing more heat, happening when the body is too hot. Vasoconstriction is when they narrow, conserving heat, happening when the body is too cold — dilate means widen, constrict means narrow."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Homeostasis is best defined as",
+              "options": [
+                "the maintenance of a stable internal environment despite external changes",
+                "the growth of an organism over time",
+                "the removal of undigested food from the body",
+                "the process of making new cells by mitosis"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — homeostasis is keeping internal conditions stable despite changes in the external environment.",
+              "explainWrong": "Homeostasis is about maintaining a stable internal environment — it's not about growth or waste removal directly.",
+              "refCard": 1,
+              "narration": "Homeostasis is best defined as"
+            },
+            {
+              "question": "In a negative feedback loop, once a corrective response has restored the normal set point, the response",
+              "options": [
+                "switches off, or decreases",
+                "increases even further",
+                "reverses into a completely different response",
+                "has no effect on the original change"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — negative feedback is self-limiting: the correction switches off once the set point is restored.",
+              "explainWrong": "Once the set point is restored, the corrective response switches off or decreases — it doesn't keep increasing.",
+              "refCard": 2,
+              "narration": "In a negative feedback loop, once a corrective response has restored the normal set point, the response"
+            },
+            {
+              "question": "After a meal, rising blood glucose is corrected mainly by the release of",
+              "options": [
+                "insulin, which lowers blood glucose",
+                "adrenaline, which raises blood glucose",
+                "sweat, which has no effect on glucose",
+                "urea, which has no effect on glucose"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — insulin release lowers blood glucose back toward normal after a meal.",
+              "explainWrong": "Insulin lowers blood glucose after a meal — adrenaline actually raises blood glucose, the opposite effect needed here.",
+              "refCard": 3,
+              "narration": "After a meal, rising blood glucose is corrected mainly by the release of"
+            },
+            {
+              "question": "When the body is too hot, blood vessels near the skin surface",
+              "options": [
+                "widen (vasodilation), increasing heat loss",
+                "narrow (vasoconstriction), conserving heat",
+                "disappear entirely",
+                "stop carrying blood altogether"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — vasodilation widens skin blood vessels, increasing heat loss when the body is too hot.",
+              "explainWrong": "When too hot, blood vessels widen (vasodilation) to lose heat — narrowing (vasoconstriction) is the cold-weather response.",
+              "refCard": 4,
+              "narration": "When the body is too hot, blood vessels near the skin surface"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

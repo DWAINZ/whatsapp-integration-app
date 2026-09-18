@@ -1256,6 +1256,280 @@
           }
         }
       ]
+    },
+    "reproduction-in-plants": {
+      "flower-structure-pollination": [
+        {
+          "id": "rp-fp-1",
+          "year": 2018,
+          "paper": "Paper 1",
+          "question": "The transfer of pollen grains from the anther to the stigma is known as",
+          "options": [
+            "pollination",
+            "fertilisation",
+            "dispersal",
+            "germination"
+          ],
+          "answer": "A",
+          "explanation": "Pollination is the transfer of pollen from anther to stigma, occurring before fertilisation.",
+          "ref": {
+            "subtopic": "flower-structure-pollination",
+            "card": 2
+          }
+        },
+        {
+          "id": "rp-fp-2",
+          "year": 2016,
+          "paper": "Paper 1",
+          "question": "A wind-pollinated flower typically has",
+          "options": [
+            "small, dull petals and large amounts of light pollen",
+            "large, brightly coloured petals and nectar",
+            "strong scent to attract insects",
+            "sticky pollen grains only"
+          ],
+          "answer": "A",
+          "explanation": "Wind-pollinated flowers are small and dull, producing large amounts of light pollen for the wind to carry.",
+          "ref": {
+            "subtopic": "flower-structure-pollination",
+            "card": 3
+          }
+        }
+      ],
+      "fertilisation-seed-dispersal": [
+        {
+          "id": "rp-fd-1",
+          "year": 2019,
+          "paper": "Paper 1",
+          "question": "Which of these is NOT one of the conditions required for seed germination?",
+          "options": [
+            "Light",
+            "Water",
+            "Oxygen",
+            "Suitable temperature"
+          ],
+          "answer": "A",
+          "explanation": "Germination requires water, oxygen and a suitable temperature — light is not required.",
+          "ref": {
+            "subtopic": "fertilisation-seed-dispersal",
+            "card": 4
+          }
+        },
+        {
+          "id": "rp-fd-2",
+          "year": 2015,
+          "paper": "Paper 1",
+          "question": "A coconut is dispersed mainly by",
+          "options": [
+            "water",
+            "wind",
+            "explosive mechanism",
+            "animals eating it whole"
+          ],
+          "answer": "A",
+          "explanation": "A coconut's buoyant, waterproof husk adapts it for dispersal by water.",
+          "ref": {
+            "subtopic": "fertilisation-seed-dispersal",
+            "card": 3
+          }
+        }
+      ]
+    },
+    "reproduction-in-animals": {
+      "sexual-vs-asexual": [
+        {
+          "id": "ra-sa-1",
+          "year": 2017,
+          "paper": "Paper 1",
+          "question": "Amoeba reproduces asexually by",
+          "options": [
+            "binary fission",
+            "budding",
+            "internal fertilisation",
+            "external fertilisation"
+          ],
+          "answer": "A",
+          "explanation": "Amoeba, a single-celled organism, reproduces by binary fission, splitting into two identical cells.",
+          "ref": {
+            "subtopic": "sexual-vs-asexual",
+            "card": 2
+          }
+        },
+        {
+          "id": "ra-sa-2",
+          "year": 2020,
+          "paper": "Paper 1",
+          "question": "The main advantage of sexual reproduction over asexual reproduction is that it",
+          "options": [
+            "produces genetic variation among offspring",
+            "is always faster",
+            "needs only one parent",
+            "never requires fertilisation"
+          ],
+          "answer": "A",
+          "explanation": "Sexual reproduction produces genetically varied offspring, unlike asexual reproduction's identical clones.",
+          "ref": {
+            "subtopic": "sexual-vs-asexual",
+            "card": 5
+          }
+        }
+      ],
+      "human-reproductive-system": [
+        {
+          "id": "ra-hr-1",
+          "year": 2018,
+          "paper": "Paper 1",
+          "question": "In humans, fertilisation normally occurs in the",
+          "options": [
+            "oviduct",
+            "uterus",
+            "ovary",
+            "vagina"
+          ],
+          "answer": "A",
+          "explanation": "Fertilisation normally occurs in the oviduct (fallopian tube), before the zygote travels to the uterus.",
+          "ref": {
+            "subtopic": "human-reproductive-system",
+            "card": 2
+          }
+        },
+        {
+          "id": "ra-hr-2",
+          "year": 2015,
+          "paper": "Paper 1",
+          "question": "The structure connecting the fetus to the mother, allowing exchange of nutrients and waste, is the",
+          "options": [
+            "placenta",
+            "cervix",
+            "oviduct",
+            "vagina"
+          ],
+          "answer": "A",
+          "explanation": "The placenta, connected via the umbilical cord, allows exchange between mother and fetus.",
+          "ref": {
+            "subtopic": "human-reproductive-system",
+            "card": 4
+          }
+        }
+      ]
+    },
+    "coordination-and-control": {
+      "nervous-system": [
+        {
+          "id": "cc-ns-1",
+          "year": 2018,
+          "paper": "Paper 1",
+          "question": "The type of neurone that carries impulses from the central nervous system to an effector is the",
+          "options": [
+            "motor neurone",
+            "sensory neurone",
+            "relay neurone",
+            "receptor neurone"
+          ],
+          "answer": "A",
+          "explanation": "Motor neurones carry impulses from the CNS to an effector (muscle or gland) to produce a response.",
+          "ref": {
+            "subtopic": "nervous-system",
+            "card": 2
+          }
+        },
+        {
+          "id": "cc-ns-2",
+          "year": 2016,
+          "paper": "Paper 1",
+          "question": "A quick, automatic response to a stimulus, bypassing conscious thought, is called a",
+          "options": [
+            "reflex action",
+            "voluntary action",
+            "hormonal response",
+            "digestive response"
+          ],
+          "answer": "A",
+          "explanation": "A reflex action is a fast, automatic response that bypasses conscious brain processing.",
+          "ref": {
+            "subtopic": "nervous-system",
+            "card": 3
+          }
+        }
+      ],
+      "hormonal-coordination": [
+        {
+          "id": "cc-hc-1",
+          "year": 2019,
+          "paper": "Paper 1",
+          "question": "The hormone released in response to danger, raising heart rate and blood glucose, is",
+          "options": [
+            "adrenaline",
+            "insulin",
+            "oestrogen",
+            "testosterone"
+          ],
+          "answer": "A",
+          "explanation": "Adrenaline is released for the 'fight or flight' response, raising heart rate, breathing rate and blood glucose.",
+          "ref": {
+            "subtopic": "hormonal-coordination",
+            "card": 2
+          }
+        },
+        {
+          "id": "cc-hc-2",
+          "year": 2014,
+          "paper": "Paper 1",
+          "question": "The light-sensitive part of the eye that converts light into nerve impulses is the",
+          "options": [
+            "retina",
+            "cornea",
+            "lens",
+            "pupil"
+          ],
+          "answer": "A",
+          "explanation": "The retina contains rods and cones, which convert light into nerve impulses sent to the brain.",
+          "ref": {
+            "subtopic": "hormonal-coordination",
+            "card": 4
+          }
+        }
+      ]
+    },
+    "homeostasis": {
+      "homeostasis-principles": [
+        {
+          "id": "hm-hp-1",
+          "year": 2018,
+          "paper": "Paper 1",
+          "question": "The maintenance of a constant internal environment in the body is called",
+          "options": [
+            "homeostasis",
+            "excretion",
+            "respiration",
+            "digestion"
+          ],
+          "answer": "A",
+          "explanation": "Homeostasis is the maintenance of a stable internal environment despite external changes.",
+          "ref": {
+            "subtopic": "homeostasis-principles",
+            "card": 1
+          }
+        },
+        {
+          "id": "hm-hp-2",
+          "year": 2020,
+          "paper": "Paper 1",
+          "question": "When the body is too cold, blood vessels near the skin surface undergo",
+          "options": [
+            "vasoconstriction, to conserve heat",
+            "vasodilation, to lose heat",
+            "no change at all",
+            "permanent closure"
+          ],
+          "answer": "A",
+          "explanation": "Vasoconstriction narrows skin blood vessels when the body is cold, conserving heat.",
+          "ref": {
+            "subtopic": "homeostasis-principles",
+            "card": 5
+          }
+        }
+      ]
     }
   }
 }
