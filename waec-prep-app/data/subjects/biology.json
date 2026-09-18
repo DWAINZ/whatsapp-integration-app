@@ -5495,6 +5495,891 @@
           ]
         }
       ]
+    },
+    {
+      "id": "habitats-and-ecosystems",
+      "title": "Habitats & Ecosystems",
+      "description": "The vocabulary of ecology — habitats, populations, communities and ecosystems — and how organisms are adapted to where they live.",
+      "subtopics": [
+        {
+          "id": "ecological-vocabulary",
+          "title": "Ecological Vocabulary",
+          "stories": [
+            {
+              "tag": "Precision matters",
+              "sub": "Five words that sound similar but mean different things",
+              "heading": "Why ecology has such a strict vocabulary",
+              "list": [
+                "In everyday speech, ‘habitat’, ‘population’ and ‘community’ might all sound roughly interchangeable.",
+                "In biology, each has a precise, non-overlapping meaning, and WAEC tests the difference directly.",
+                "Getting this vocabulary exactly right is often worth easy marks in the ecology section."
+              ],
+              "narration": "In everyday speech, habitat, population and community might sound roughly interchangeable. In biology, each has a precise, non-overlapping meaning, and getting this vocabulary exactly right is often worth easy marks."
+            },
+            {
+              "tag": "Nested like Russian dolls",
+              "sub": "Zooming out, one level at a time",
+              "heading": "From one organism to the whole planet",
+              "list": [
+                "Ecology studies life at increasing scales: organism → population → community → ecosystem → biosphere.",
+                "Each level is built from the ones before it, like nested Russian dolls.",
+                "Understanding where a term sits in this ladder makes the vocabulary far easier to remember."
+              ],
+              "narration": "Ecology studies life at increasing scales: organism, population, community, ecosystem, biosphere — each level built from the ones before it, like nested Russian dolls, which makes the vocabulary far easier to remember."
+            }
+          ],
+          "lessons": [
+            {
+              "eyebrow": "The big picture",
+              "big": "🌍",
+              "heading": "The five core ecological terms",
+              "list": [
+                "Habitat: the specific place where an organism normally lives (e.g. a pond, a forest floor).",
+                "Population: all the members of one species living in a habitat at the same time.",
+                "Community: all the different populations (of all species) living and interacting together in a habitat."
+              ],
+              "sub": "Habitat = the place. Population = one species there. Community = all species there.",
+              "narration": "A habitat is the specific place an organism lives. A population is all the members of one species in a habitat. A community is all the different populations of all species living and interacting together in that habitat."
+            },
+            {
+              "eyebrow": "Zooming out further",
+              "heading": "Ecosystem and biosphere",
+              "list": [
+                "Ecosystem: a community of living organisms interacting with each other AND with their non-living (physical) environment.",
+                "Biosphere: the entire part of the Earth (land, water, air) that supports life — the sum of every ecosystem on the planet.",
+                "‘Ecosystem’ specifically includes non-living factors (soil, water, climate); ‘community’ refers only to the living organisms."
+              ],
+              "sub": "Ecosystem = community + non-living environment. Biosphere = every ecosystem, everywhere.",
+              "narration": "An ecosystem is a community interacting with both each other and their non-living physical environment. The biosphere is the entire part of Earth that supports life — the sum of every ecosystem on the planet."
+            },
+            {
+              "eyebrow": "Biotic and abiotic factors",
+              "heading": "The two kinds of environmental factor",
+              "list": [
+                "Biotic factors: living components of an environment — other organisms, competitors, predators, food sources, disease.",
+                "Abiotic factors: non-living components — temperature, light intensity, rainfall, soil pH, oxygen availability.",
+                "Both types of factor influence which organisms can survive in a given habitat."
+              ],
+              "sub": "Biotic = living influences. Abiotic = non-living, physical/chemical influences.",
+              "narration": "Biotic factors are living components of an environment, like competitors, predators and food sources. Abiotic factors are non-living components, like temperature, light, rainfall and soil pH — both shape which organisms can survive in a habitat."
+            },
+            {
+              "eyebrow": "Adaptations",
+              "heading": "Fitting the habitat",
+              "list": [
+                "An adaptation is a feature that helps an organism survive and reproduce in its particular habitat.",
+                "Structural adaptations: physical features (e.g. a camel's fat-storing hump, a cactus's thick waxy skin).",
+                "Behavioural adaptations: actions or behaviours (e.g. migration, hibernation, nocturnal activity to avoid daytime heat)."
+              ],
+              "sub": "Structural = body features. Behavioural = what the organism does.",
+              "narration": "An adaptation is a feature that helps an organism survive in its habitat. Structural adaptations are physical features, like a camel's hump. Behavioural adaptations are actions, like migration, hibernation, or being active only at night to avoid heat."
+            },
+            {
+              "eyebrow": "Exam alert",
+              "heading": "The ecological vocabulary ladder — memorise the order",
+              "list": [
+                "Order (smallest to largest scope): Organism → Population → Community → Ecosystem → Biosphere.",
+                "A common WAEC trap: describing a community (‘all the organisms in a pond’) but calling it an ecosystem — remember, ecosystem MUST include the non-living environment too.",
+                "Another trap: confusing population (one species) with community (all species)."
+              ],
+              "sub": "If non-living factors like water or soil are mentioned, it's ‘ecosystem’, not ‘community’.",
+              "narration": "The ladder runs organism, population, community, ecosystem, biosphere. A common trap is calling a community an ecosystem — remember, ecosystem must include the non-living environment too, not just the living organisms."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "All the members of one species living in a habitat at the same time make up a",
+              "options": [
+                "population",
+                "community",
+                "ecosystem",
+                "biosphere"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — a population consists of all members of one species in a habitat.",
+              "explainWrong": "One species in a habitat is a population — a community includes all the different species present.",
+              "refCard": 1,
+              "narration": "All the members of one species living in a habitat at the same time make up a"
+            },
+            {
+              "question": "A community together with its non-living physical environment is called",
+              "options": [
+                "an ecosystem",
+                "a population",
+                "a biome only",
+                "a habitat only"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — an ecosystem is a community plus its non-living (abiotic) environment.",
+              "explainWrong": "Community plus non-living environment defines an ecosystem — a population refers to only one species.",
+              "refCard": 2,
+              "narration": "A community together with its non-living physical environment is called"
+            },
+            {
+              "question": "Which of these is an abiotic (non-living) factor affecting an ecosystem?",
+              "options": [
+                "Soil pH",
+                "A predator",
+                "A disease-causing parasite",
+                "Competition for food"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — soil pH is a non-living, chemical factor; the others are biotic (living) factors.",
+              "explainWrong": "Soil pH is abiotic (non-living) — predators, parasites and competition are all biotic factors.",
+              "refCard": 3,
+              "narration": "Which of these is an abiotic (non-living) factor affecting an ecosystem?"
+            },
+            {
+              "question": "A desert animal that is active only at night to avoid extreme daytime heat is showing",
+              "options": [
+                "a behavioural adaptation",
+                "a structural adaptation",
+                "no adaptation at all",
+                "an abiotic factor"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — being active only at night (nocturnal behaviour) is a behavioural, not structural, adaptation.",
+              "explainWrong": "Nocturnal activity is a behavioural adaptation — structural adaptations are physical body features, not behaviours.",
+              "refCard": 4,
+              "narration": "A desert animal that is active only at night to avoid extreme daytime heat is showing"
+            }
+          ]
+        },
+        {
+          "id": "aquatic-terrestrial-habitats",
+          "title": "Aquatic & Terrestrial Habitats",
+          "stories": [
+            {
+              "tag": "Different rules apply",
+              "sub": "Water and land are two very different games",
+              "heading": "Why living in water is a whole different challenge",
+              "list": [
+                "Water is far denser than air, supports body weight, and holds far less dissolved oxygen.",
+                "Organisms adapted to water often struggle badly on land, and vice versa.",
+                "This is why aquatic and terrestrial organisms tend to have very different, specialised adaptations."
+              ],
+              "narration": "Water is far denser than air, supports body weight, and holds far less dissolved oxygen. Organisms adapted to water often struggle badly on land, and vice versa, which is why aquatic and terrestrial organisms have very different adaptations."
+            },
+            {
+              "tag": "A living case study",
+              "sub": "One organism, two completely different lives",
+              "heading": "The frog: an animal caught between two habitats",
+              "list": [
+                "A tadpole is built entirely for water: gills, a tail for swimming, no legs.",
+                "As it becomes an adult frog, it grows lungs and legs, adapted for life partly on land.",
+                "The frog's whole life cycle is a vivid demonstration of how habitat shapes body structure."
+              ],
+              "narration": "A tadpole is built entirely for water: gills, a tail, no legs. As it becomes an adult frog, it grows lungs and legs for life partly on land — the frog's whole life cycle vividly demonstrates how habitat shapes body structure."
+            }
+          ],
+          "lessons": [
+            {
+              "eyebrow": "The big picture",
+              "big": "🐟",
+              "heading": "Two broad habitat categories",
+              "list": [
+                "Aquatic habitats: freshwater (rivers, ponds, lakes) and marine/saltwater (seas, oceans).",
+                "Terrestrial habitats: forests, grasslands, deserts and more — any land-based environment.",
+                "Each habitat type presents a different set of challenges, shaping the organisms that live there."
+              ],
+              "sub": "Aquatic: fresh or salt water. Terrestrial: any land-based environment.",
+              "narration": "Aquatic habitats are freshwater, like rivers and ponds, or marine, like seas and oceans. Terrestrial habitats are land-based, like forests, grasslands and deserts — each presenting different challenges to the organisms living there."
+            },
+            {
+              "eyebrow": "Adaptations to water",
+              "heading": "Structural features of aquatic organisms",
+              "list": [
+                "Streamlined (torpedo-shaped) bodies reduce resistance (drag) while swimming.",
+                "Gills extract dissolved oxygen directly from the water.",
+                "Fins provide propulsion and balance; a swim bladder (in bony fish) helps control buoyancy."
+              ],
+              "sub": "Streamlined + gills + fins = the classic aquatic body plan.",
+              "narration": "Aquatic organisms often have streamlined bodies to reduce drag, gills to extract oxygen from water, fins for propulsion and balance, and, in bony fish, a swim bladder to control buoyancy."
+            },
+            {
+              "eyebrow": "Adaptations to land",
+              "heading": "Structural features of terrestrial organisms",
+              "list": [
+                "Strong, supportive limbs and skeletons to resist gravity without water's buoyancy support.",
+                "Waterproof outer coverings (e.g. waxy cuticle in plants, scaly/dry skin in reptiles) to reduce water loss.",
+                "Lungs or tracheae to extract oxygen directly from air, which is much richer in oxygen than water."
+              ],
+              "sub": "Strong support + waterproofing + air-breathing structures = terrestrial body plan.",
+              "narration": "Terrestrial organisms need strong, supportive limbs to resist gravity without water's buoyancy, waterproof coverings to prevent water loss, and lungs or tracheae to extract oxygen from air."
+            },
+            {
+              "eyebrow": "Freshwater vs marine",
+              "heading": "A challenge even within ‘aquatic’",
+              "list": [
+                "Freshwater organisms face a constant risk of taking in too much water by osmosis, and must actively excrete excess water.",
+                "Marine organisms face the opposite problem: losing water to their salty surroundings by osmosis, and must conserve water.",
+                "This is why a typical freshwater fish cannot simply be placed into seawater, or vice versa, and survive."
+              ],
+              "sub": "Freshwater fish fight to expel excess water in. Marine fish fight to keep water from leaving.",
+              "narration": "Freshwater organisms constantly risk taking in too much water by osmosis and must excrete the excess. Marine organisms face the opposite problem, losing water to their salty surroundings, and must conserve it — which is why a freshwater fish can't simply survive in seawater."
+            },
+            {
+              "eyebrow": "Exam alert",
+              "heading": "Matching an adaptation to its habitat challenge",
+              "list": [
+                "Streamlined body + gills + fins → aquatic adaptation for movement and oxygen uptake.",
+                "Waxy cuticle / scaly skin → terrestrial adaptation against water loss.",
+                "If a question mentions ‘preventing water loss’ or ‘gravity support’, it's almost always describing a terrestrial adaptation."
+              ],
+              "sub": "‘Prevents water loss’ or ‘supports weight against gravity’ = terrestrial. ‘Extracts oxygen from water’ = aquatic.",
+              "narration": "A streamlined body with gills and fins is an aquatic adaptation. A waxy cuticle or scaly skin is a terrestrial adaptation against water loss. A question about preventing water loss or supporting weight against gravity is almost always about a terrestrial adaptation."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "A streamlined body shape in fish mainly helps to",
+              "options": [
+                "reduce resistance (drag) while swimming through water",
+                "prevent water loss to the environment",
+                "support body weight against gravity",
+                "absorb sunlight for warmth"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — a streamlined, torpedo-like shape reduces drag, making swimming more efficient.",
+              "explainWrong": "A streamlined shape reduces drag in water — it isn't primarily about water loss or gravity support, which are land concerns.",
+              "refCard": 2,
+              "narration": "A streamlined body shape in fish mainly helps to"
+            },
+            {
+              "question": "A waxy cuticle on a land plant's leaf mainly serves to",
+              "options": [
+                "reduce water loss through the leaf surface",
+                "increase oxygen uptake from water",
+                "help the plant swim",
+                "attract fish"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — a waxy cuticle is a terrestrial adaptation that reduces water loss.",
+              "explainWrong": "A waxy cuticle reduces water loss on land — it has no role in aquatic oxygen uptake.",
+              "refCard": 3,
+              "narration": "A waxy cuticle on a land plant's leaf mainly serves to"
+            },
+            {
+              "question": "Freshwater fish placed suddenly into seawater would struggle mainly because",
+              "options": [
+                "they would lose water to the surrounding salty environment by osmosis",
+                "seawater has no oxygen at all",
+                "seawater is too warm for any fish",
+                "they cannot swim in salt water"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — freshwater fish are adapted to prevent water loss, not gain it, so seawater causes dangerous water loss by osmosis.",
+              "explainWrong": "Freshwater fish are adapted to expel excess water, not conserve it, so seawater causes them to lose water by osmosis instead.",
+              "refCard": 4,
+              "narration": "Freshwater fish placed suddenly into seawater would struggle mainly because"
+            },
+            {
+              "question": "Which feature is a typical adaptation for extracting oxygen efficiently from air, on land?",
+              "options": [
+                "Lungs or tracheae",
+                "Gills",
+                "A swim bladder",
+                "Fins"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — lungs and tracheae are adapted for extracting oxygen from air, unlike gills, which work in water.",
+              "explainWrong": "Lungs or tracheae extract oxygen from air on land — gills, swim bladders and fins are aquatic adaptations.",
+              "refCard": 3,
+              "narration": "Which feature is a typical adaptation for extracting oxygen efficiently from air, on land?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "energy-flow-nutrient-cycles",
+      "title": "Energy Flow & Nutrient Cycles",
+      "description": "How energy passes through a food chain and is mostly lost, and how carbon and nitrogen are endlessly recycled.",
+      "subtopics": [
+        {
+          "id": "food-chains-webs-pyramids",
+          "title": "Food Chains, Webs & Pyramids",
+          "stories": [
+            {
+              "tag": "A leaky bucket",
+              "sub": "Why there are no ‘apex mega-predators’ eating lions",
+              "heading": "Why food chains are almost always short",
+              "list": [
+                "Energy is lost as heat at every single step of a food chain — a huge fraction, not a small one.",
+                "This is exactly why food chains rarely have more than four or five links — there simply isn't enough energy left to support a fifth or sixth level.",
+                "It's also why there's no realistic predator that survives purely by eating lions — too little energy would remain."
+              ],
+              "narration": "Energy is lost as heat at every step of a food chain — a huge fraction, not a small one. This is exactly why food chains rarely have more than four or five links, and why there's no realistic predator that survives purely by eating lions."
+            },
+            {
+              "tag": "Reality is messier",
+              "sub": "Nobody eats just one thing",
+              "heading": "Why ‘food web’ is more accurate than ‘food chain’",
+              "list": [
+                "A simple food chain shows one straight line: grass → grasshopper → frog → snake.",
+                "In reality, a frog eats more than just grasshoppers, and is eaten by more than just snakes.",
+                "A food web captures this real complexity by linking many overlapping food chains together."
+              ],
+              "narration": "A simple food chain shows one straight line: grass, grasshopper, frog, snake. In reality, a frog eats more than just grasshoppers and is eaten by more than just snakes — a food web captures this real complexity by linking many chains together."
+            }
+          ],
+          "lessons": [
+            {
+              "eyebrow": "The big picture",
+              "big": "🌾",
+              "heading": "Producers, consumers, decomposers",
+              "list": [
+                "Producers: organisms that make their own food (mainly green plants, via photosynthesis) — the starting point of every food chain.",
+                "Consumers: organisms that feed on other organisms. Primary consumers eat producers; secondary consumers eat primary consumers, and so on.",
+                "Decomposers: organisms (mainly bacteria and fungi) that break down dead matter and waste, releasing nutrients back into the environment."
+              ],
+              "sub": "Producer makes food. Consumer eats other organisms. Decomposer breaks down the dead.",
+              "narration": "Producers, mainly green plants, make their own food and start every food chain. Consumers feed on other organisms — primary consumers eat producers, secondary consumers eat primary consumers. Decomposers break down dead matter, releasing nutrients back into the environment."
+            },
+            {
+              "eyebrow": "Food chains and food webs",
+              "heading": "Tracing the flow of energy",
+              "list": [
+                "A food chain shows a single, simplified pathway of energy transfer, e.g. grass → grasshopper → frog → snake → hawk.",
+                "The arrow in a food chain always means ‘energy flows to’ or ‘is eaten by’.",
+                "A food web links many overlapping food chains together, showing the real feeding relationships in a community."
+              ],
+              "sub": "Arrows point in the direction energy flows — from eaten to eater.",
+              "narration": "A food chain shows a single, simplified pathway of energy transfer, with arrows pointing in the direction energy flows, from eaten to eater. A food web links many overlapping food chains together, showing the real feeding relationships in a community."
+            },
+            {
+              "eyebrow": "Trophic levels",
+              "heading": "Naming each position in the chain",
+              "list": [
+                "Trophic level 1: producers. Trophic level 2: primary consumers (herbivores). Trophic level 3: secondary consumers (carnivores/omnivores eating herbivores).",
+                "Trophic level 4: tertiary consumers (eat secondary consumers) — and so on, though chains rarely go much further.",
+                "An organism's trophic level depends on its position in a specific food chain, not a fixed label."
+              ],
+              "sub": "Trophic level = position number in the chain, counting from the producer as level 1.",
+              "narration": "Trophic level one is producers. Level two is primary consumers, the herbivores. Level three is secondary consumers, which eat herbivores. Level four is tertiary consumers — an organism's trophic level depends on its position in a specific chain."
+            },
+            {
+              "eyebrow": "Pyramid of energy",
+              "heading": "Why energy shrinks at every level",
+              "list": [
+                "Only about 10% of the energy at one trophic level is typically passed on to the next; the rest is lost as heat (mainly through respiration).",
+                "This is why a pyramid of energy is always widest at the base (producers) and narrows sharply at each level up.",
+                "It also explains why there are always far fewer top predators than there are plants in an ecosystem."
+              ],
+              "sub": "Roughly 90% of energy is lost at each step — only about 10% passes to the next level.",
+              "narration": "Only about ten percent of energy at one trophic level typically passes to the next; the rest is lost as heat. This is why a pyramid of energy is widest at the base and narrows sharply at each level, and why there are always far fewer top predators than plants."
+            },
+            {
+              "eyebrow": "Exam alert",
+              "heading": "Reading pyramid and food chain questions",
+              "list": [
+                "An arrow in a food chain diagram always points FROM what is eaten TO what eats it (direction of energy flow).",
+                "‘Why are food chains short?’ → answer with energy loss at each level, not with food availability alone.",
+                "A pyramid of energy is always a true pyramid shape (never inverted) — unlike a pyramid of numbers, which sometimes can be."
+              ],
+              "sub": "Energy pyramids are always wide-base-to-narrow-top — that's a guaranteed exam fact.",
+              "narration": "An arrow in a food chain always points from what is eaten to what eats it. If asked why food chains are short, the answer is energy loss at each level. And a pyramid of energy is always a true pyramid shape, never inverted."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "In a food chain, the arrow between two organisms always represents",
+              "options": [
+                "the direction energy flows, from eaten to eater",
+                "the direction the organisms physically move",
+                "which organism is bigger",
+                "which organism lives longer"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — the arrow shows the direction of energy flow, from what is eaten to what eats it.",
+              "explainWrong": "The arrow represents energy flow direction, from eaten to eater — it says nothing about size or movement.",
+              "refCard": 2,
+              "narration": "In a food chain, the arrow between two organisms always represents"
+            },
+            {
+              "question": "Organisms that break down dead organic matter, releasing nutrients back into the environment, are called",
+              "options": [
+                "decomposers",
+                "producers",
+                "primary consumers",
+                "secondary consumers"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — decomposers, mainly bacteria and fungi, break down dead matter and recycle nutrients.",
+              "explainWrong": "Breaking down dead matter and recycling nutrients is the decomposer's role, not a producer's or consumer's.",
+              "refCard": 1,
+              "narration": "Organisms that break down dead organic matter, releasing nutrients back into the environment, are called"
+            },
+            {
+              "question": "Roughly what percentage of energy is passed from one trophic level to the next?",
+              "options": [
+                "About 10%",
+                "About 90%",
+                "About 50%",
+                "100%, with no loss"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — only about 10% of energy is typically passed on; the rest is lost mainly as heat.",
+              "explainWrong": "Only about 10% of energy typically passes to the next level — most is lost as heat during respiration.",
+              "refCard": 4,
+              "narration": "Roughly what percentage of energy is passed from one trophic level to the next?"
+            },
+            {
+              "question": "Food chains are usually short (rarely more than 4-5 links) mainly because",
+              "options": [
+                "a large amount of energy is lost as heat at each level",
+                "there are too few decomposers",
+                "predators cannot digest more than 3 prey types",
+                "producers reproduce too slowly"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — energy loss at each trophic level leaves too little energy to support many more levels.",
+              "explainWrong": "The main reason is energy loss at each level, leaving too little to support further levels, not decomposer numbers.",
+              "refCard": 4,
+              "narration": "Food chains are usually short (rarely more than 4-5 links) mainly because"
+            }
+          ]
+        },
+        {
+          "id": "carbon-nitrogen-cycles",
+          "title": "The Carbon & Nitrogen Cycles",
+          "stories": [
+            {
+              "tag": "A well-travelled atom",
+              "sub": "The carbon in your body has quite a history",
+              "heading": "Where the carbon atoms in you have been",
+              "list": [
+                "Every carbon atom in your body has been part of the atmosphere as carbon dioxide at some point.",
+                "It's cycled through countless plants, animals, and possibly the ocean and rocks, over millions of years.",
+                "Nothing is destroyed in this cycle — atoms are endlessly reused, generation after generation."
+              ],
+              "narration": "Every carbon atom in your body has been part of the atmosphere as carbon dioxide at some point, cycling through countless plants and animals over millions of years — nothing is destroyed, atoms are endlessly reused."
+            },
+            {
+              "tag": "The invisible farmers",
+              "sub": "Bacteria you'll never see doing essential work",
+              "heading": "Why soil bacteria matter more than most people realise",
+              "list": [
+                "Plants cannot use nitrogen gas from the air directly, even though air is nearly 80% nitrogen.",
+                "Specific soil bacteria convert unusable nitrogen gas into forms plants can actually absorb.",
+                "Without these invisible bacterial ‘farmers’, life on land as we know it couldn't exist."
+              ],
+              "narration": "Plants cannot use nitrogen gas from the air directly, even though air is nearly eighty percent nitrogen. Specific soil bacteria convert this unusable gas into forms plants can absorb — without these invisible bacteria, life on land couldn't exist."
+            }
+          ],
+          "lessons": [
+            {
+              "eyebrow": "The big picture",
+              "big": "♻️",
+              "heading": "Why nutrients must be recycled",
+              "list": [
+                "Unlike energy (which flows through an ecosystem and is eventually lost as heat), matter — like carbon and nitrogen atoms — must be recycled, since Earth's supply is fixed.",
+                "Nutrient cycles move elements between living organisms and the non-living environment, over and over.",
+                "The two most commonly tested cycles are the carbon cycle and the nitrogen cycle."
+              ],
+              "sub": "Energy flows one-way and runs out. Matter cycles endlessly and never runs out.",
+              "narration": "Unlike energy, which flows one way and is eventually lost as heat, matter like carbon and nitrogen must be recycled, since Earth's supply is fixed. Nutrient cycles move elements between living organisms and the environment, over and over."
+            },
+            {
+              "eyebrow": "The carbon cycle",
+              "heading": "How carbon moves through the living world",
+              "list": [
+                "Photosynthesis removes CO2 from the air, building it into plant tissue (as carbohydrates).",
+                "Respiration (by all living things) and combustion (burning fuels) release CO2 back into the air.",
+                "Decomposers break down dead organisms, also releasing CO2 back into the atmosphere."
+              ],
+              "sub": "Photosynthesis pulls CO2 in. Respiration, decay and burning push CO2 back out.",
+              "narration": "Photosynthesis removes carbon dioxide from the air, building it into plant tissue. Respiration and combustion release carbon dioxide back into the air, and decomposers, breaking down dead organisms, also release it back."
+            },
+            {
+              "eyebrow": "The nitrogen cycle",
+              "heading": "The trickier cycle, step by step",
+              "list": [
+                "Nitrogen fixation: certain soil bacteria (and some found in root nodules of legumes) convert atmospheric nitrogen gas into nitrates plants can absorb.",
+                "Plants absorb nitrates and build them into proteins; these pass to animals that eat the plants (or other animals).",
+                "Decomposers break down dead organisms and waste, releasing ammonia; other bacteria convert this into nitrates again (nitrification), completing the cycle."
+              ],
+              "sub": "Fixation → absorption → passed up food chain → decomposition → nitrification → repeat.",
+              "narration": "Nitrogen fixation converts atmospheric nitrogen into nitrates plants can absorb. Plants build nitrates into proteins, passed along the food chain. Decomposers release ammonia from dead matter and waste, which other bacteria convert back into nitrates, completing the cycle."
+            },
+            {
+              "eyebrow": "Legumes and nodules",
+              "heading": "A famous nitrogen-fixing partnership",
+              "list": [
+                "Legume plants (beans, groundnut, cowpea) have swellings on their roots called root nodules.",
+                "These nodules house nitrogen-fixing bacteria (Rhizobium) in a mutually beneficial relationship.",
+                "This is why farmers often rotate crops with legumes — it naturally enriches soil nitrogen for the next crop."
+              ],
+              "sub": "Legume + Rhizobium bacteria in root nodules = natural, built-in nitrogen fertiliser factory.",
+              "narration": "Legume plants have root nodules housing nitrogen-fixing Rhizobium bacteria, in a mutually beneficial relationship. This is why farmers rotate crops with legumes — it naturally enriches soil nitrogen for the next crop."
+            },
+            {
+              "eyebrow": "Exam alert",
+              "heading": "Getting cycle direction right",
+              "list": [
+                "Carbon: photosynthesis removes CO2 from air; respiration, decay and combustion return it.",
+                "Nitrogen: nitrogen fixation converts gas → usable nitrates; decomposition + nitrification return dead matter to usable nitrates again.",
+                "A common trap: forgetting that plants cannot absorb nitrogen gas directly — they need it converted to nitrates first."
+              ],
+              "sub": "Plants need NITRATES, not nitrogen gas — that single fact resolves most nitrogen-cycle exam questions.",
+              "narration": "For carbon, photosynthesis removes it from the air, and respiration, decay and combustion return it. For nitrogen, fixation converts gas into usable nitrates. A common trap is forgetting that plants cannot absorb nitrogen gas directly — they need nitrates."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Which process removes carbon dioxide from the atmosphere and builds it into plant tissue?",
+              "options": [
+                "Photosynthesis",
+                "Respiration",
+                "Combustion",
+                "Decomposition"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — photosynthesis removes CO2 from the air and converts it into carbohydrates in plant tissue.",
+              "explainWrong": "Photosynthesis removes CO2 from the air — respiration, combustion and decomposition all release CO2 back into it.",
+              "refCard": 2,
+              "narration": "Which process removes carbon dioxide from the atmosphere and builds it into plant tissue?"
+            },
+            {
+              "question": "The conversion of atmospheric nitrogen gas into a form plants can absorb is called",
+              "options": [
+                "nitrogen fixation",
+                "nitrification only",
+                "denitrification",
+                "respiration"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — nitrogen fixation converts atmospheric nitrogen gas into nitrates plants can absorb.",
+              "explainWrong": "Converting atmospheric nitrogen gas into a usable form is nitrogen fixation, carried out by specific bacteria.",
+              "refCard": 3,
+              "narration": "The conversion of atmospheric nitrogen gas into a form plants can absorb is called"
+            },
+            {
+              "question": "Root nodules on legume plants contain bacteria that",
+              "options": [
+                "fix atmospheric nitrogen into a usable form",
+                "photosynthesise on behalf of the plant",
+                "cause disease in the roots",
+                "convert glucose into starch"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — Rhizobium bacteria in root nodules fix atmospheric nitrogen for the plant to use.",
+              "explainWrong": "Root nodule bacteria fix nitrogen for the plant — they don't photosynthesise or cause disease.",
+              "refCard": 4,
+              "narration": "Root nodules on legume plants contain bacteria that"
+            },
+            {
+              "question": "Why can plants not use nitrogen gas from the air directly?",
+              "options": [
+                "They can only absorb nitrogen in the form of nitrates, not gas",
+                "There is no nitrogen gas in the air",
+                "Plants have no roots to absorb gas",
+                "Nitrogen gas is toxic to all plants"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — plants can only absorb nitrogen as nitrates (via roots), not as atmospheric gas.",
+              "explainWrong": "Plants need nitrogen in nitrate form, absorbed through roots — nitrogen gas itself cannot be used directly.",
+              "refCard": 5,
+              "narration": "Why can plants not use nitrogen gas from the air directly?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "population-pollution-conservation",
+      "title": "Population, Pollution & Conservation",
+      "description": "What controls how populations grow, how human activity pollutes ecosystems, and how natural resources can be conserved.",
+      "subtopics": [
+        {
+          "id": "population-dynamics",
+          "title": "Population Dynamics",
+          "stories": [
+            {
+              "tag": "Nothing grows forever",
+              "sub": "Why rabbits don't take over the world",
+              "heading": "The limits every growing population eventually hits",
+              "list": [
+                "A single pair of rabbits, breeding unchecked, could theoretically produce millions of descendants within a few years.",
+                "In reality, this never happens — food, space, predators and disease all place hard limits on growth.",
+                "Understanding these limits is central to understanding how real populations actually behave."
+              ],
+              "narration": "A single pair of rabbits, breeding unchecked, could theoretically produce millions of descendants within a few years. In reality, this never happens — food, space, predators and disease all place hard limits on growth."
+            },
+            {
+              "tag": "A balancing act",
+              "sub": "Predators and prey, locked in a slow dance",
+              "heading": "How predator and prey populations rise and fall together",
+              "list": [
+                "When prey are abundant, predator numbers rise, since there's plenty of food.",
+                "More predators then reduce the prey population, which in turn causes predator numbers to fall from lack of food.",
+                "Fewer predators let prey numbers recover, and the whole cycle repeats — a classic pattern seen in real ecosystems."
+              ],
+              "narration": "When prey are abundant, predator numbers rise. More predators then reduce the prey population, which causes predator numbers to fall from lack of food. Fewer predators let prey numbers recover, and the cycle repeats."
+            }
+          ],
+          "lessons": [
+            {
+              "eyebrow": "The big picture",
+              "big": "📊",
+              "heading": "What controls population size",
+              "list": [
+                "A population's size at any time depends on births, deaths, immigration (moving in) and emigration (moving out).",
+                "Population increases when births + immigration exceed deaths + emigration, and vice versa.",
+                "Left unchecked, populations tend to grow exponentially — but real environments always impose limits."
+              ],
+              "sub": "Births and immigration add. Deaths and emigration subtract.",
+              "narration": "A population's size depends on births, deaths, immigration and emigration. It increases when births and immigration exceed deaths and emigration — but left unchecked, environments always impose limits on growth."
+            },
+            {
+              "eyebrow": "Limiting factors",
+              "heading": "What actually caps population growth",
+              "list": [
+                "Food and water availability: a population cannot exceed what its habitat can feed and hydrate.",
+                "Predation and disease: more predators or disease outbreaks reduce population size.",
+                "Competition and space: individuals compete for limited resources and living space, especially as density rises."
+              ],
+              "sub": "Food, predators, disease and competition — the classic four limiting factors.",
+              "narration": "Population growth is limited by food and water availability, predation and disease, and competition for limited resources and space, especially as population density rises."
+            },
+            {
+              "eyebrow": "Carrying capacity",
+              "heading": "The habitat's maximum sustainable population",
+              "list": [
+                "Carrying capacity is the maximum population size a habitat can sustainably support long-term, given its resources.",
+                "A population that overshoots carrying capacity typically crashes afterward, as resources run out.",
+                "This is why population size often settles into a stable, fluctuating pattern around the carrying capacity, rather than growing forever."
+              ],
+              "sub": "Carrying capacity = the ceiling a population naturally levels off around.",
+              "narration": "Carrying capacity is the maximum population size a habitat can sustainably support. A population that overshoots it typically crashes afterward — which is why population size tends to settle into a stable pattern around the carrying capacity."
+            },
+            {
+              "eyebrow": "Predator-prey cycles",
+              "heading": "A visible, repeating pattern",
+              "list": [
+                "Predator and prey populations often show a cyclical relationship: prey numbers rise, then predator numbers rise in response, then prey numbers fall, then predator numbers fall.",
+                "This cycle then repeats, often with predator peaks slightly lagging behind prey peaks.",
+                "This pattern has been documented in real long-term studies, such as lynx and snowshoe hare populations."
+              ],
+              "sub": "Prey peaks first, predator peaks shortly after — a repeating lag pattern.",
+              "narration": "Predator and prey populations often cycle: prey numbers rise, predators rise in response, prey then fall, and predators follow — a repeating pattern, with predator peaks slightly lagging behind prey peaks."
+            },
+            {
+              "eyebrow": "Exam alert",
+              "heading": "Reading a population graph",
+              "list": [
+                "If a graph shows a population rising rapidly then levelling off into a plateau, that plateau represents the carrying capacity.",
+                "If a graph shows a population overshoot followed by a sharp decline, this represents a population crash after exceeding carrying capacity.",
+                "In predator-prey graphs, always check which curve peaks first — prey numbers rise before predator numbers do, not the other way round."
+              ],
+              "sub": "Plateau = carrying capacity. Overshoot then crash = resource exhaustion. Prey peaks before predators.",
+              "narration": "A population graph that rises then plateaus shows the carrying capacity. A graph showing overshoot then sharp decline shows a population crash. In predator-prey graphs, prey numbers always peak first, before predator numbers follow."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "A population increases in size when",
+              "options": [
+                "births and immigration exceed deaths and emigration",
+                "deaths exceed births",
+                "emigration exceeds immigration",
+                "food becomes scarce"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — a population grows when births plus immigration outweigh deaths plus emigration.",
+              "explainWrong": "Population increase happens when births and immigration exceed deaths and emigration — the reverse causes decline.",
+              "refCard": 1,
+              "narration": "A population increases in size when"
+            },
+            {
+              "question": "The maximum population size that a habitat can sustainably support is called its",
+              "options": [
+                "carrying capacity",
+                "population density",
+                "growth rate",
+                "biomass"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — carrying capacity is the maximum sustainable population size a habitat can support.",
+              "explainWrong": "The maximum sustainable population size is the carrying capacity, not population density or growth rate.",
+              "refCard": 3,
+              "narration": "The maximum population size that a habitat can sustainably support is called its"
+            },
+            {
+              "question": "In a typical predator-prey population cycle,",
+              "options": [
+                "prey numbers rise first, followed by a rise in predator numbers",
+                "predator numbers always rise before prey numbers",
+                "predator and prey numbers rise and fall at exactly the same time",
+                "predator numbers have no effect on prey numbers"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — prey numbers typically rise first, with predator numbers following shortly after.",
+              "explainWrong": "Prey numbers rise first, with predator numbers following — the reverse order is a common misconception.",
+              "refCard": 4,
+              "narration": "In a typical predator-prey population cycle,"
+            },
+            {
+              "question": "Which of these is NOT typically a limiting factor on population growth?",
+              "options": [
+                "The colour of the organism's fur",
+                "Availability of food",
+                "Predation",
+                "Disease"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — fur colour is not a limiting factor; food, predation and disease are classic limiting factors.",
+              "explainWrong": "Fur colour doesn't limit population growth — food availability, predation and disease are the real limiting factors.",
+              "refCard": 2,
+              "narration": "Which of these is NOT typically a limiting factor on population growth?"
+            }
+          ]
+        },
+        {
+          "id": "pollution-conservation",
+          "title": "Pollution & Conservation",
+          "stories": [
+            {
+              "tag": "A modern problem",
+              "sub": "The one species reshaping every ecosystem on Earth",
+              "heading": "Why humans get their own ecology sub-topic",
+              "list": [
+                "No other single species has altered Earth's ecosystems as dramatically as humans have.",
+                "Farming, industry, waste and construction all put pressure on natural systems humans still depend on.",
+                "This is why understanding pollution and conservation is now considered a core part of biology, not a side note."
+              ],
+              "narration": "No other single species has altered Earth's ecosystems as dramatically as humans have. Farming, industry, waste and construction all put pressure on natural systems humans still depend on — which is why pollution and conservation is now a core part of biology."
+            },
+            {
+              "tag": "An invisible thief",
+              "sub": "The oxygen a fish never gets to breathe",
+              "heading": "How a farm miles away can kill fish in a river",
+              "list": [
+                "Fertiliser washed from farmland into a river feeds explosive algae growth — a process called eutrophication.",
+                "When all that extra algae eventually dies, decomposing bacteria multiply and consume huge amounts of dissolved oxygen.",
+                "Fish and other aquatic life can then suffocate — killed by an oxygen shortage that began as fertiliser on a distant field."
+              ],
+              "narration": "Fertiliser washed from farmland into a river feeds explosive algae growth, called eutrophication. When the algae dies, decomposing bacteria multiply and consume huge amounts of dissolved oxygen, and fish can suffocate as a result."
+            }
+          ],
+          "lessons": [
+            {
+              "eyebrow": "The big picture",
+              "big": "🏭",
+              "heading": "What pollution means",
+              "list": [
+                "Pollution is the introduction of harmful substances or effects into the environment, causing damage to living things.",
+                "Major types: air pollution, water pollution, land (soil) pollution, and noise pollution.",
+                "Pollution can come from industry, agriculture, transportation, and household/domestic waste."
+              ],
+              "sub": "Pollution = harmful stuff introduced into air, water, soil or sound levels.",
+              "narration": "Pollution is the introduction of harmful substances or effects into the environment. Major types include air, water, land and noise pollution, coming from industry, agriculture, transport and household waste."
+            },
+            {
+              "eyebrow": "Water pollution",
+              "heading": "Eutrophication — a chain reaction",
+              "list": [
+                "Excess fertiliser (or sewage) entering water causes algae to grow explosively — eutrophication.",
+                "The excess algae eventually die and are broken down by decomposers, which use up dissolved oxygen in the water.",
+                "The resulting drop in oxygen can kill fish and other aquatic organisms — a slow, indirect chain of cause and effect."
+              ],
+              "sub": "Fertiliser → algae bloom → algae dies → decomposers use up oxygen → fish suffocate.",
+              "narration": "Excess fertiliser or sewage causes algae to grow explosively — eutrophication. When the algae dies, decomposers use up dissolved oxygen breaking it down, and the resulting oxygen drop can kill fish and other aquatic organisms."
+            },
+            {
+              "eyebrow": "Air pollution",
+              "heading": "Common air pollutants and their effects",
+              "list": [
+                "Carbon dioxide from burning fuels contributes to the greenhouse effect and global warming.",
+                "Sulphur dioxide and nitrogen oxides from vehicles and industry dissolve in rainwater, causing acid rain, which damages plants and buildings.",
+                "Smoke and dust particles can cause respiratory illness in humans and animals."
+              ],
+              "sub": "CO2 → global warming. Sulphur/nitrogen oxides → acid rain. Particles → respiratory harm.",
+              "narration": "Carbon dioxide from burning fuels contributes to global warming. Sulphur dioxide and nitrogen oxides cause acid rain, damaging plants and buildings. Smoke and dust particles can cause respiratory illness."
+            },
+            {
+              "eyebrow": "Conservation",
+              "heading": "Protecting resources for the future",
+              "list": [
+                "Conservation is the careful management and protection of natural resources, to prevent their depletion or destruction.",
+                "Methods include: afforestation (planting new trees/forests), establishing protected areas (national parks, game reserves), controlled/sustainable hunting and fishing, and recycling waste.",
+                "Conservation aims to balance human needs today with keeping resources available for future generations."
+              ],
+              "sub": "Conservation = using resources wisely enough that they're still there for the future.",
+              "narration": "Conservation is the careful management and protection of natural resources. Methods include afforestation, protected areas like national parks, sustainable hunting and fishing, and recycling — balancing today's needs with future availability."
+            },
+            {
+              "eyebrow": "Exam alert",
+              "heading": "Matching cause to environmental effect",
+              "list": [
+                "Excess fertiliser in water → eutrophication → oxygen depletion → fish deaths (learn this exact chain).",
+                "Burning fossil fuels → CO2 → global warming. Vehicle/industrial gases → acid rain.",
+                "Deforestation removes carbon-absorbing trees and destroys habitats — always link it to BOTH effects in an answer, not just one."
+              ],
+              "sub": "For deforestation questions, mention habitat loss AND reduced carbon dioxide absorption — both, not just one.",
+              "narration": "Excess fertiliser causes eutrophication, oxygen depletion and fish deaths — learn this exact chain. Burning fossil fuels causes global warming; vehicle and industrial gases cause acid rain. For deforestation, always mention both habitat loss and reduced carbon dioxide absorption."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Excess fertiliser washing into a river can lead to fish deaths mainly through the process of",
+              "options": [
+                "eutrophication, which depletes dissolved oxygen",
+                "direct poisoning by the fertiliser chemicals only",
+                "an increase in water temperature",
+                "excess sunlight reaching the fish"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — eutrophication causes algae blooms, and their decomposition depletes oxygen, killing fish.",
+              "explainWrong": "The main cause is eutrophication and the resulting oxygen depletion, not direct chemical poisoning.",
+              "refCard": 2,
+              "narration": "Excess fertiliser washing into a river can lead to fish deaths mainly through the process of"
+            },
+            {
+              "question": "Sulphur dioxide and nitrogen oxides released from vehicles and industry mainly contribute to",
+              "options": [
+                "acid rain",
+                "eutrophication",
+                "the ozone layer's formation",
+                "increased soil fertility"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — sulphur dioxide and nitrogen oxides dissolve in rainwater, forming acid rain.",
+              "explainWrong": "These gases cause acid rain when dissolved in rainwater — eutrophication is caused by excess nutrients in water, not air pollutants.",
+              "refCard": 3,
+              "narration": "Sulphur dioxide and nitrogen oxides released from vehicles and industry mainly contribute to"
+            },
+            {
+              "question": "Planting new trees and forests to replace those lost is called",
+              "options": [
+                "afforestation",
+                "eutrophication",
+                "deforestation",
+                "pollination"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — afforestation is the planting of new trees and forests, a conservation method.",
+              "explainWrong": "Planting new trees is afforestation — deforestation is the opposite, the removal of trees.",
+              "refCard": 4,
+              "narration": "Planting new trees and forests to replace those lost is called"
+            },
+            {
+              "question": "Deforestation is harmful to the environment mainly because it",
+              "options": [
+                "destroys habitats and reduces carbon dioxide absorption",
+                "increases the population of forest animals",
+                "has no effect on climate at all",
+                "always improves soil fertility"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — deforestation destroys habitats and removes trees that would otherwise absorb carbon dioxide.",
+              "explainWrong": "Deforestation destroys habitats and reduces carbon dioxide absorption — it does not increase animal populations or soil fertility.",
+              "refCard": 5,
+              "narration": "Deforestation is harmful to the environment mainly because it"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

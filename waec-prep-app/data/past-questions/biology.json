@@ -1530,6 +1530,240 @@
           }
         }
       ]
+    },
+    "habitats-and-ecosystems": {
+      "ecological-vocabulary": [
+        {
+          "id": "he-ev-1",
+          "year": 2017,
+          "paper": "Paper 1",
+          "question": "A community of living organisms interacting with their non-living environment is called",
+          "options": [
+            "an ecosystem",
+            "a population",
+            "a habitat only",
+            "a species"
+          ],
+          "answer": "A",
+          "explanation": "An ecosystem is a community plus its non-living (abiotic) physical environment.",
+          "ref": {
+            "subtopic": "ecological-vocabulary",
+            "card": 2
+          }
+        },
+        {
+          "id": "he-ev-2",
+          "year": 2019,
+          "paper": "Paper 1",
+          "question": "Which of the following is a biotic factor in an ecosystem?",
+          "options": [
+            "Predation",
+            "Rainfall",
+            "Temperature",
+            "Soil pH"
+          ],
+          "answer": "A",
+          "explanation": "Predation involves living organisms, making it a biotic factor, unlike rainfall, temperature and soil pH.",
+          "ref": {
+            "subtopic": "ecological-vocabulary",
+            "card": 3
+          }
+        }
+      ],
+      "aquatic-terrestrial-habitats": [
+        {
+          "id": "he-at-1",
+          "year": 2016,
+          "paper": "Paper 1",
+          "question": "A streamlined body shape in aquatic animals is an adaptation for",
+          "options": [
+            "reducing resistance while moving through water",
+            "preventing water loss",
+            "supporting weight against gravity",
+            "attracting a mate only"
+          ],
+          "answer": "A",
+          "explanation": "A streamlined body reduces drag, making swimming through water more efficient.",
+          "ref": {
+            "subtopic": "aquatic-terrestrial-habitats",
+            "card": 2
+          }
+        },
+        {
+          "id": "he-at-2",
+          "year": 2018,
+          "paper": "Paper 1",
+          "question": "A waterproof cuticle on land plants mainly helps to",
+          "options": [
+            "reduce water loss",
+            "increase photosynthesis rate directly",
+            "attract pollinators",
+            "absorb minerals from soil"
+          ],
+          "answer": "A",
+          "explanation": "A waterproof cuticle reduces uncontrolled water loss, an important terrestrial adaptation.",
+          "ref": {
+            "subtopic": "aquatic-terrestrial-habitats",
+            "card": 3
+          }
+        }
+      ]
+    },
+    "energy-flow-nutrient-cycles": {
+      "food-chains-webs-pyramids": [
+        {
+          "id": "en-fc-1",
+          "year": 2018,
+          "paper": "Paper 1",
+          "question": "In a food chain, green plants occupy which trophic level?",
+          "options": [
+            "The first trophic level, as producers",
+            "The second trophic level, as primary consumers",
+            "The third trophic level, as secondary consumers",
+            "They do not belong to any trophic level"
+          ],
+          "answer": "A",
+          "explanation": "Green plants are producers and always occupy the first trophic level.",
+          "ref": {
+            "subtopic": "food-chains-webs-pyramids",
+            "card": 3
+          }
+        },
+        {
+          "id": "en-fc-2",
+          "year": 2015,
+          "paper": "Paper 1",
+          "question": "A pyramid of energy is always widest at its",
+          "options": [
+            "base, representing producers",
+            "top, representing top carnivores",
+            "middle level only",
+            "It is never wider at any particular level"
+          ],
+          "answer": "A",
+          "explanation": "A pyramid of energy is always widest at the base (producers), narrowing at each higher trophic level.",
+          "ref": {
+            "subtopic": "food-chains-webs-pyramids",
+            "card": 4
+          }
+        }
+      ],
+      "carbon-nitrogen-cycles": [
+        {
+          "id": "en-cn-1",
+          "year": 2019,
+          "paper": "Paper 1",
+          "question": "The process by which atmospheric nitrogen is converted into nitrates usable by plants is called",
+          "options": [
+            "nitrogen fixation",
+            "photosynthesis",
+            "respiration",
+            "transpiration"
+          ],
+          "answer": "A",
+          "explanation": "Nitrogen fixation, carried out by certain bacteria, converts atmospheric nitrogen gas into usable nitrates.",
+          "ref": {
+            "subtopic": "carbon-nitrogen-cycles",
+            "card": 3
+          }
+        },
+        {
+          "id": "en-cn-2",
+          "year": 2017,
+          "paper": "Paper 1",
+          "question": "Carbon dioxide is returned to the atmosphere mainly through",
+          "options": [
+            "respiration, decay and combustion",
+            "photosynthesis only",
+            "nitrogen fixation",
+            "pollination"
+          ],
+          "answer": "A",
+          "explanation": "Respiration, decomposition and the burning of fuels (combustion) all release CO2 back into the atmosphere.",
+          "ref": {
+            "subtopic": "carbon-nitrogen-cycles",
+            "card": 2
+          }
+        }
+      ]
+    },
+    "population-pollution-conservation": {
+      "population-dynamics": [
+        {
+          "id": "pc-pd-1",
+          "year": 2018,
+          "paper": "Paper 1",
+          "question": "The maximum population size an environment can sustainably support is known as its",
+          "options": [
+            "carrying capacity",
+            "growth rate",
+            "birth rate",
+            "population density"
+          ],
+          "answer": "A",
+          "explanation": "Carrying capacity is the maximum sustainable population size a habitat's resources can support.",
+          "ref": {
+            "subtopic": "population-dynamics",
+            "card": 3
+          }
+        },
+        {
+          "id": "pc-pd-2",
+          "year": 2016,
+          "paper": "Paper 1",
+          "question": "Which of the following is a factor that limits population growth?",
+          "options": [
+            "Availability of food",
+            "The organism's favourite colour",
+            "Its scientific name",
+            "The season it was born in only"
+          ],
+          "answer": "A",
+          "explanation": "Food availability is a classic limiting factor on population growth, alongside predation, disease and competition.",
+          "ref": {
+            "subtopic": "population-dynamics",
+            "card": 2
+          }
+        }
+      ],
+      "pollution-conservation": [
+        {
+          "id": "pc-pv-1",
+          "year": 2019,
+          "paper": "Paper 1",
+          "question": "The enrichment of water with excess nutrients, leading to algal bloom and oxygen depletion, is called",
+          "options": [
+            "eutrophication",
+            "afforestation",
+            "nitrification",
+            "conservation"
+          ],
+          "answer": "A",
+          "explanation": "Eutrophication is the process by which excess nutrients cause algal blooms that deplete oxygen.",
+          "ref": {
+            "subtopic": "pollution-conservation",
+            "card": 2
+          }
+        },
+        {
+          "id": "pc-pv-2",
+          "year": 2015,
+          "paper": "Paper 1",
+          "question": "Which of these is a method of conserving natural resources?",
+          "options": [
+            "Afforestation",
+            "Uncontrolled deforestation",
+            "Overfishing",
+            "Indiscriminate bush burning"
+          ],
+          "answer": "A",
+          "explanation": "Afforestation, planting new trees, is a conservation method that helps restore and protect natural resources.",
+          "ref": {
+            "subtopic": "pollution-conservation",
+            "card": 4
+          }
+        }
+      ]
     }
   }
 }
