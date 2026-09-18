@@ -2538,6 +2538,1186 @@
           ]
         }
       ]
+    },
+    {
+      "id": "nutrition-in-plants",
+      "title": "Nutrition in Plants",
+      "description": "How plants make their own food from sunlight, and how they get the minerals they can't make themselves.",
+      "subtopics": [
+        {
+          "id": "photosynthesis",
+          "title": "Photosynthesis",
+          "stories": [
+            {
+              "tag": "The chemistry of sunlight",
+              "sub": "Every meal you've ever eaten traces back to this",
+              "heading": "The reaction that feeds the planet",
+              "list": [
+                "Almost every food chain on Earth begins with photosynthesis — plants capturing light energy and turning it into food.",
+                "The oxygen you're breathing right now was very likely released by a plant during photosynthesis.",
+                "It is, arguably, the single most important chemical reaction on the planet."
+              ],
+              "narration": "Almost every food chain on Earth begins with photosynthesis — plants capturing light energy and turning it into food. The oxygen you're breathing right now was very likely released by a plant during this exact reaction."
+            },
+            {
+              "tag": "The proof · 1770s",
+              "sub": "A plant in a jar, a mouse, and a candle",
+              "heading": "How Joseph Priestley discovered plants ‘purify’ air",
+              "list": [
+                "Joseph Priestley found that a mouse or candle in a sealed jar would soon die out or go out.",
+                "But if a living plant was placed in the same sealed jar, the mouse survived and the candle kept burning longer.",
+                "He had discovered, without yet knowing the full chemistry, that plants release oxygen."
+              ],
+              "narration": "Joseph Priestley found that a mouse or candle sealed in a jar would soon die out or go out. But if a living plant was placed in the same jar, the mouse survived and the candle burned longer — he had discovered that plants release oxygen."
+            }
+          ],
+          "lessons": [
+            {
+              "eyebrow": "The big picture",
+              "big": "☀️",
+              "heading": "What is photosynthesis?",
+              "list": [
+                "Photosynthesis is the process by which green plants make their own food using light energy.",
+                "It happens mainly in the leaf, inside cells containing the green pigment chlorophyll.",
+                "Word equation: carbon dioxide + water --(light energy, chlorophyll)--> glucose + oxygen."
+              ],
+              "sub": "Sunlight + CO2 + water, trapped by chlorophyll, becomes sugar + oxygen.",
+              "narration": "Photosynthesis is the process by which green plants make their own food using light energy, mainly in leaf cells containing chlorophyll. Carbon dioxide plus water, with light energy and chlorophyll, produces glucose plus oxygen."
+            },
+            {
+              "eyebrow": "Where it happens",
+              "heading": "The leaf as a food factory",
+              "list": [
+                "Chloroplasts, containing chlorophyll, are concentrated in the palisade mesophyll layer near the leaf's upper surface.",
+                "Tiny pores called stomata (mostly on the leaf's underside) let carbon dioxide in and oxygen and water vapour out.",
+                "A network of veins (vascular bundles) delivers water in and carries glucose away."
+              ],
+              "sub": "Chloroplasts trap light; stomata handle gas exchange; veins handle transport.",
+              "narration": "Chloroplasts are concentrated in the palisade mesophyll layer near the leaf's upper surface. Tiny pores called stomata let carbon dioxide in and oxygen and water vapour out, while a network of veins delivers water in and carries glucose away."
+            },
+            {
+              "eyebrow": "What plants need",
+              "heading": "The essential raw materials",
+              "list": [
+                "Carbon dioxide — absorbed from air through the stomata.",
+                "Water — absorbed from soil by the roots, transported up via xylem.",
+                "Light energy — absorbed by chlorophyll, usually from sunlight."
+              ],
+              "sub": "Remove any one of these three, and photosynthesis stops.",
+              "narration": "Photosynthesis needs carbon dioxide absorbed through the stomata, water absorbed from soil through the roots, and light energy absorbed by chlorophyll — remove any one of the three and the reaction stops."
+            },
+            {
+              "eyebrow": "The products",
+              "heading": "What happens to the glucose made?",
+              "list": [
+                "Some glucose is used immediately for respiration, to release energy for the plant's own activities.",
+                "Some is converted to starch for storage — the standard test for photosynthesis is testing a leaf for starch.",
+                "Some is converted into cellulose (for cell walls), or combined with minerals to build proteins and other compounds."
+              ],
+              "sub": "Glucose → used now (respiration), stored (starch), or built into the plant (cellulose, proteins).",
+              "narration": "Some glucose is used immediately for respiration; some is converted to starch for storage, which is why testing a leaf for starch is the standard test for photosynthesis; and some is built into cellulose or, combined with minerals, into proteins."
+            },
+            {
+              "eyebrow": "Exam alert",
+              "heading": "Factors that limit the rate of photosynthesis",
+              "list": [
+                "Light intensity, carbon dioxide concentration, and temperature can each become a ‘limiting factor’.",
+                "A limiting factor is whichever one of these is in shortest supply — increasing it speeds up the reaction; increasing the others makes no difference until that factor improves.",
+                "WAEC often shows a graph and asks which factor limits the rate at a given point."
+              ],
+              "sub": "The scarcest factor sets the pace — like the slowest runner in a relay team.",
+              "narration": "Light intensity, carbon dioxide concentration and temperature can each become a limiting factor — whichever is in shortest supply sets the pace of the reaction, no matter how much of the other two are available."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Which gas is absorbed by a plant during photosynthesis?",
+              "options": [
+                "Carbon dioxide",
+                "Oxygen",
+                "Nitrogen",
+                "Hydrogen"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — carbon dioxide is absorbed through the stomata and combined with water to make glucose.",
+              "explainWrong": "Photosynthesis absorbs carbon dioxide, not oxygen — oxygen is released as a product, not taken in.",
+              "refCard": 1,
+              "narration": "Which gas is absorbed by a plant during photosynthesis?"
+            },
+            {
+              "question": "In which leaf cell layer are most chloroplasts concentrated?",
+              "options": [
+                "Palisade mesophyll",
+                "Lower epidermis",
+                "Xylem",
+                "Root hair cells"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — the palisade mesophyll, near the leaf's upper surface, contains the most chloroplasts.",
+              "explainWrong": "Chloroplasts are concentrated in the palisade mesophyll, not in the lower epidermis, xylem, or root cells.",
+              "refCard": 2,
+              "narration": "In which leaf cell layer are most chloroplasts concentrated?"
+            },
+            {
+              "question": "The standard test to show that photosynthesis has occurred in a leaf checks for the presence of",
+              "options": [
+                "starch",
+                "glucose",
+                "chlorophyll",
+                "carbon dioxide"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — glucose made in photosynthesis is quickly converted to starch for storage, which is what the iodine test detects.",
+              "explainWrong": "The standard leaf test checks for starch, since glucose is rapidly converted to starch for storage.",
+              "refCard": 4,
+              "narration": "The standard test to show that photosynthesis has occurred in a leaf checks for the presence of"
+            },
+            {
+              "question": "What is meant by a ‘limiting factor’ in photosynthesis?",
+              "options": [
+                "Whichever factor is in shortest supply, setting the pace of the reaction",
+                "A factor that stops photosynthesis permanently",
+                "Any factor not needed for the reaction",
+                "The total amount of chlorophyll present"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — a limiting factor is the scarcest of light, CO2 or temperature, which caps the rate regardless of the others.",
+              "explainWrong": "A limiting factor is the factor in shortest supply, capping the reaction rate — not a permanent stopper or unrelated variable.",
+              "refCard": 5,
+              "narration": "What is meant by a ‘limiting factor’ in photosynthesis?"
+            }
+          ]
+        },
+        {
+          "id": "mineral-nutrition",
+          "title": "Mineral Nutrition in Plants",
+          "stories": [
+            {
+              "tag": "Beyond sugar",
+              "sub": "Photosynthesis alone isn't enough",
+              "heading": "Why plants still need soil nutrients",
+              "list": [
+                "Photosynthesis gives a plant energy-rich glucose — but glucose alone can't build every part of a plant.",
+                "Proteins, chlorophyll and DNA all require extra elements like nitrogen, magnesium and phosphorus.",
+                "Plants absorb these as dissolved mineral ions through their roots."
+              ],
+              "narration": "Photosynthesis gives a plant energy-rich glucose, but glucose alone can't build every part of a plant. Proteins, chlorophyll and DNA all require extra elements like nitrogen, magnesium and phosphorus, absorbed as dissolved mineral ions through the roots."
+            },
+            {
+              "tag": "Reading the symptoms",
+              "sub": "A plant's version of a food-deficiency disease",
+              "heading": "Yellow leaves are a cry for help",
+              "list": [
+                "Farmers can often diagnose a mineral deficiency just by looking at leaf colour and growth pattern.",
+                "Pale yellow leaves often mean nitrogen or magnesium deficiency — both are needed to make chlorophyll.",
+                "This is why fertiliser exists: to replace minerals that crops remove from the soil each season."
+              ],
+              "narration": "Farmers can often diagnose a mineral deficiency just by looking at leaf colour and growth pattern. Pale yellow leaves often mean nitrogen or magnesium deficiency, since both are needed to make chlorophyll — which is exactly why fertiliser exists."
+            }
+          ],
+          "lessons": [
+            {
+              "eyebrow": "The big picture",
+              "big": "🌱",
+              "heading": "Mineral ions plants absorb from soil",
+              "list": [
+                "Plants absorb dissolved mineral ions from soil water through root hair cells.",
+                "Needed in relatively large amounts: nitrogen, phosphorus, potassium, magnesium.",
+                "Root hairs give roots a huge surface area for absorbing water and these minerals efficiently."
+              ],
+              "sub": "Root hairs = the plant's mineral-absorbing surface.",
+              "narration": "Plants absorb dissolved mineral ions from soil water through root hair cells, which give roots a huge surface area for absorbing water and minerals like nitrogen, phosphorus, potassium and magnesium."
+            },
+            {
+              "eyebrow": "Nitrogen",
+              "heading": "Why nitrogen matters most",
+              "list": [
+                "Nitrogen is needed to make proteins, chlorophyll, and DNA.",
+                "Deficiency symptom: stunted growth and yellowing of older leaves (chlorosis).",
+                "Nitrogen is absorbed mainly as nitrate ions."
+              ],
+              "sub": "No nitrogen, no protein, no chlorophyll — the plant can't grow or stay green.",
+              "narration": "Nitrogen is needed to make proteins, chlorophyll and DNA, and is absorbed mainly as nitrate ions. A nitrogen deficiency causes stunted growth and yellowing of older leaves."
+            },
+            {
+              "eyebrow": "Magnesium & Phosphorus",
+              "heading": "Two more essential minerals",
+              "list": [
+                "Magnesium is a core component of the chlorophyll molecule itself — deficiency causes yellowing between leaf veins.",
+                "Phosphorus is needed for healthy root growth and for energy transfer within cells.",
+                "Phosphorus deficiency shows as poor root development and stunted, sometimes purplish, leaves."
+              ],
+              "sub": "Magnesium builds chlorophyll directly; phosphorus fuels roots and energy transfer.",
+              "narration": "Magnesium is a core part of the chlorophyll molecule itself, so its deficiency causes yellowing between leaf veins. Phosphorus is needed for healthy root growth and energy transfer, and its deficiency shows as poor roots and stunted, sometimes purplish, leaves."
+            },
+            {
+              "eyebrow": "Solving deficiencies",
+              "heading": "Fertilisers replace what crops remove",
+              "list": [
+                "Every harvest removes minerals from the soil, locked inside the harvested plant material.",
+                "Fertilisers (organic, like manure and compost, or inorganic, like NPK fertiliser) return these minerals to the soil.",
+                "‘NPK’ fertiliser is named for its three main minerals: Nitrogen, Phosphorus, Potassium."
+              ],
+              "sub": "NPK = Nitrogen, Phosphorus, Potassium — the big three replaced by fertiliser.",
+              "narration": "Every harvest removes minerals from the soil, locked inside the harvested plant material. Fertilisers return these minerals — NPK fertiliser is named for its three main minerals: nitrogen, phosphorus and potassium."
+            },
+            {
+              "eyebrow": "Exam alert",
+              "heading": "Matching deficiency symptoms to minerals",
+              "list": [
+                "General yellowing of older leaves + stunted growth → nitrogen deficiency.",
+                "Yellowing between the veins specifically → magnesium deficiency.",
+                "Poor root growth + stunted, purplish leaves → phosphorus deficiency."
+              ],
+              "sub": "WAEC loves matching a described symptom to the missing mineral — learn these three patterns.",
+              "narration": "Nitrogen deficiency shows as general yellowing of older leaves with stunted growth. Magnesium deficiency shows as yellowing specifically between the veins. Phosphorus deficiency shows as poor root growth and stunted, purplish leaves."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Root hairs increase a root's efficiency mainly by",
+              "options": [
+                "increasing the surface area available for absorbing water and minerals",
+                "producing chlorophyll",
+                "photosynthesising underground",
+                "storing starch only"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — root hairs greatly increase surface area for water and mineral absorption.",
+              "explainWrong": "Root hairs increase surface area for absorption — they don't photosynthesise or make chlorophyll.",
+              "refCard": 1,
+              "narration": "Root hairs increase a root's efficiency mainly by"
+            },
+            {
+              "question": "A plant with stunted growth and yellowing of its older leaves most likely lacks",
+              "options": [
+                "nitrogen",
+                "phosphorus",
+                "carbon dioxide",
+                "water only"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — nitrogen deficiency shows as stunted growth with yellowing (chlorosis) of older leaves.",
+              "explainWrong": "Stunted growth with yellowing older leaves is the classic nitrogen deficiency symptom, not phosphorus.",
+              "refCard": 2,
+              "narration": "A plant with stunted growth and yellowing of its older leaves most likely lacks"
+            },
+            {
+              "question": "Which mineral is a direct component of the chlorophyll molecule itself?",
+              "options": [
+                "Magnesium",
+                "Phosphorus",
+                "Potassium",
+                "Calcium"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — magnesium is a structural component of chlorophyll; its deficiency causes yellowing between veins.",
+              "explainWrong": "Magnesium is built directly into the chlorophyll molecule — phosphorus and potassium play different roles.",
+              "refCard": 3,
+              "narration": "Which mineral is a direct component of the chlorophyll molecule itself?"
+            },
+            {
+              "question": "In ‘NPK’ fertiliser, what does the ‘P’ stand for?",
+              "options": [
+                "Phosphorus",
+                "Potassium",
+                "Photosynthesis",
+                "Protein"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — NPK stands for Nitrogen, Phosphorus, Potassium.",
+              "explainWrong": "In NPK fertiliser, P stands for Phosphorus — K stands for Potassium, which is a separate letter.",
+              "refCard": 4,
+              "narration": "In ‘NPK’ fertiliser, what does the ‘P’ stand for?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nutrition-in-animals",
+      "title": "Nutrition in Animals",
+      "description": "How animals obtain and process food — feeding modes and the human digestive system.",
+      "subtopics": [
+        {
+          "id": "modes-of-feeding",
+          "title": "Modes of Feeding",
+          "stories": [
+            {
+              "tag": "Same goal, different tools",
+              "sub": "Every animal needs food — the methods vary wildly",
+              "heading": "Four ways animals get their food",
+              "list": [
+                "Unlike plants, animals cannot make their own food — they are heterotrophic, feeding on other organisms.",
+                "A mosquito, a cow and a lion all eat completely differently, but each strategy solves the same problem.",
+                "Biologists group feeding methods into a handful of recognisable patterns."
+              ],
+              "narration": "Unlike plants, animals cannot make their own food — they are heterotrophic, feeding on other organisms. A mosquito, a cow and a lion all eat completely differently, but each strategy solves the same problem, and biologists group these into recognisable patterns."
+            },
+            {
+              "tag": "A specialist's toolkit",
+              "sub": "Teeth tell a story",
+              "heading": "You can read an animal's diet from its mouth",
+              "list": [
+                "A lion's sharp, pointed teeth are built for gripping and tearing flesh.",
+                "A cow's flat, ridged teeth are built for grinding tough plant fibre.",
+                "This is why comparing skulls and teeth is a classic way WAEC tests feeding adaptations."
+              ],
+              "narration": "A lion's sharp, pointed teeth are built for gripping and tearing flesh, while a cow's flat, ridged teeth are built for grinding tough plant fibre — comparing teeth like this is a classic way exams test feeding adaptations."
+            }
+          ],
+          "lessons": [
+            {
+              "eyebrow": "The big picture",
+              "big": "🍽️",
+              "heading": "Herbivores, carnivores, omnivores",
+              "list": [
+                "Herbivores feed only on plants (e.g. cow, grasshopper, rabbit).",
+                "Carnivores feed only on other animals (e.g. lion, hawk).",
+                "Omnivores feed on both plants and animals (e.g. humans, pigs, chickens)."
+              ],
+              "sub": "Diet type = the first split in classifying feeding modes.",
+              "narration": "Herbivores feed only on plants, like the cow and grasshopper. Carnivores feed only on other animals, like the lion and hawk. Omnivores, like humans and pigs, feed on both."
+            },
+            {
+              "eyebrow": "Method matters too",
+              "heading": "Holozoic, parasitic and saprophytic feeding",
+              "list": [
+                "Holozoic feeding: taking in solid, complex food and digesting it internally — how most animals (including humans) feed.",
+                "Parasitic feeding: an organism (parasite) lives on or in a host and feeds off it, often harming it (e.g. tapeworm).",
+                "Saprophytic feeding: feeding on dead and decaying organic matter by external digestion (mainly fungi and some bacteria, not typical animals)."
+              ],
+              "sub": "Holozoic = eat and digest inside. Parasitic = feed off a living host. Saprophytic = feed on the dead.",
+              "narration": "Holozoic feeding means taking in solid food and digesting it internally, how most animals feed. Parasitic feeding means living on or in a host and feeding off it, like a tapeworm. Saprophytic feeding means feeding on dead matter by external digestion, mainly in fungi."
+            },
+            {
+              "eyebrow": "Reading the evidence",
+              "heading": "Teeth and feeding adaptations",
+              "list": [
+                "Carnivore teeth: sharp canines for gripping and tearing, and pointed molars for shearing flesh.",
+                "Herbivore teeth: broad, flat, ridged molars for grinding plant fibre; canines often reduced or absent.",
+                "A long gut (intestine) is typical of herbivores, since plant fibre is harder to digest and needs more processing time."
+              ],
+              "sub": "Sharp teeth + short gut = carnivore. Flat teeth + long gut = herbivore.",
+              "narration": "Carnivores have sharp canines for gripping and tearing, and pointed molars for shearing flesh. Herbivores have broad, flat, ridged molars for grinding plant fibre, and typically a longer gut, since plant fibre takes more processing time to digest."
+            },
+            {
+              "eyebrow": "Filter feeding & fluid feeding",
+              "heading": "Two more specialised feeding methods",
+              "list": [
+                "Filter feeders (e.g. some fish, baleen whales) strain tiny food particles out of large volumes of water.",
+                "Fluid feeders (e.g. mosquito, aphid, butterfly) use needle-like or tube-like mouthparts to feed on liquids like blood, sap or nectar.",
+                "Both are adaptations that avoid the need to chew solid food at all."
+              ],
+              "sub": "Filter = strain solids from water. Fluid feeder = sip liquid through a tube.",
+              "narration": "Filter feeders strain tiny food particles out of large volumes of water, like baleen whales. Fluid feeders use needle-like or tube-like mouthparts to feed on liquids such as blood, sap or nectar, like the mosquito and the butterfly."
+            },
+            {
+              "eyebrow": "Exam alert",
+              "heading": "Matching mouthparts and gut length to diet",
+              "list": [
+                "Sharp canines + short gut → carnivore. Flat grinding molars + long gut → herbivore.",
+                "Needle-like mouthparts (mosquito) → fluid feeder. Straining structures → filter feeder.",
+                "WAEC often shows a skull or mouthpart diagram and asks you to identify the feeding type."
+              ],
+              "sub": "Match the tool to the job — teeth and mouthparts always match the diet.",
+              "narration": "Sharp canines with a short gut mean a carnivore; flat grinding molars with a long gut mean a herbivore. Needle-like mouthparts mean a fluid feeder, and straining structures mean a filter feeder."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "An animal that feeds only on other animals is called a",
+              "options": [
+                "carnivore",
+                "herbivore",
+                "omnivore",
+                "saprophyte"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — carnivores feed exclusively on other animals.",
+              "explainWrong": "Feeding only on other animals defines a carnivore — herbivores eat only plants, omnivores eat both.",
+              "refCard": 1,
+              "narration": "An animal that feeds only on other animals is called a"
+            },
+            {
+              "question": "A tapeworm living inside a host's intestine and feeding off it is an example of",
+              "options": [
+                "parasitic feeding",
+                "holozoic feeding",
+                "saprophytic feeding",
+                "filter feeding"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — a parasite lives on or in a host and feeds off it, usually harming it.",
+              "explainWrong": "A tapeworm is a parasite, so this is parasitic feeding — not holozoic (internal digestion of solid food) or saprophytic (dead matter).",
+              "refCard": 2,
+              "narration": "A tapeworm living inside a host's intestine and feeding off it is an example of"
+            },
+            {
+              "question": "An animal with sharp canine teeth, pointed molars and a relatively short gut is most likely a",
+              "options": [
+                "carnivore",
+                "herbivore",
+                "filter feeder",
+                "saprophyte"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — sharp canines, shearing molars and a short gut are carnivore adaptations for a flesh diet.",
+              "explainWrong": "Sharp canines and a short gut are carnivore features — herbivores have flat molars and a longer gut.",
+              "refCard": 3,
+              "narration": "An animal with sharp canine teeth, pointed molars and a relatively short gut is most likely a"
+            },
+            {
+              "question": "A mosquito feeding on blood through a needle-like mouthpart is best described as a",
+              "options": [
+                "fluid feeder",
+                "filter feeder",
+                "saprophyte",
+                "herbivore"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — fluid feeders use needle-like or tube-like mouthparts to feed on liquids such as blood, sap or nectar.",
+              "explainWrong": "Feeding on liquid through a needle-like mouthpart describes a fluid feeder, not a filter feeder or herbivore.",
+              "refCard": 4,
+              "narration": "A mosquito feeding on blood through a needle-like mouthpart is best described as a"
+            }
+          ]
+        },
+        {
+          "id": "digestion-in-mammals",
+          "title": "Digestion in Mammals",
+          "stories": [
+            {
+              "tag": "The long journey",
+              "sub": "Nine metres, several hours, one goal",
+              "heading": "What happens to your last meal",
+              "list": [
+                "Food you swallow travels through roughly nine metres of digestive tract before what's left leaves your body.",
+                "Along the way, large food molecules are broken down into pieces small enough to enter your blood.",
+                "Every bite you eat is really a chemistry problem your gut has to solve."
+              ],
+              "narration": "Food you swallow travels through roughly nine metres of digestive tract before what's left leaves your body. Along the way, large food molecules are broken down into pieces small enough to enter your blood — every bite is really a chemistry problem your gut has to solve."
+            },
+            {
+              "tag": "Molecular scissors",
+              "sub": "Why you can't just absorb a sandwich whole",
+              "heading": "The role of enzymes",
+              "list": [
+                "Starch, protein and fat molecules are far too large to pass through the gut wall into the blood.",
+                "Digestive enzymes act like molecular scissors, cutting these large molecules into small, absorbable units.",
+                "Without enzymes, most of the food you eat would simply pass straight through you, unused."
+              ],
+              "narration": "Starch, protein and fat molecules are far too large to pass through the gut wall into the blood. Digestive enzymes act like molecular scissors, cutting these large molecules into small, absorbable units — without them, most food would simply pass through unused."
+            }
+          ],
+          "lessons": [
+            {
+              "eyebrow": "The big picture",
+              "big": "🍞",
+              "heading": "What digestion means",
+              "list": [
+                "Digestion is the breakdown of large, insoluble food molecules into small, soluble molecules that can be absorbed.",
+                "It happens in two ways: mechanical digestion (chewing, churning — physically breaking food into smaller pieces) and chemical digestion (enzymes breaking chemical bonds).",
+                "The alimentary canal is the tube food passes through, from mouth to anus."
+              ],
+              "sub": "Mechanical = smaller pieces. Chemical = enzymes cutting molecules apart.",
+              "narration": "Digestion is the breakdown of large, insoluble food molecules into small, soluble molecules that can be absorbed. It happens by mechanical digestion, like chewing, and chemical digestion, where enzymes break chemical bonds."
+            },
+            {
+              "eyebrow": "The route",
+              "heading": "Mouth → stomach → small intestine",
+              "list": [
+                "Mouth: chewing (mechanical) plus salivary amylase begins starch digestion.",
+                "Stomach: churns food and adds acid and pepsin, which begins protein digestion.",
+                "Small intestine: bile (from the liver) emulsifies fat; pancreatic and intestinal enzymes complete digestion of starch, protein and fat."
+              ],
+              "sub": "Starch starts in the mouth, protein starts in the stomach, fat digestion mainly happens in the small intestine.",
+              "narration": "In the mouth, chewing and salivary amylase begin starch digestion. In the stomach, acid and pepsin begin protein digestion. In the small intestine, bile emulsifies fat, and pancreatic and intestinal enzymes complete digestion of starch, protein and fat."
+            },
+            {
+              "eyebrow": "Absorption",
+              "heading": "The small intestine — built to absorb",
+              "list": [
+                "The inner wall of the small intestine is covered in finger-like projections called villi.",
+                "Villi hugely increase the surface area available for absorbing digested food into the blood.",
+                "Each villus has a rich blood supply to carry absorbed nutrients away quickly, keeping the concentration gradient steep."
+              ],
+              "sub": "Villi = the small intestine's surface-area trick, just like root hairs for a plant.",
+              "narration": "The inner wall of the small intestine is covered in finger-like projections called villi, which hugely increase the surface area for absorbing digested food. Each villus has a rich blood supply, carrying nutrients away quickly."
+            },
+            {
+              "eyebrow": "The large intestine",
+              "heading": "What's left after absorption",
+              "list": [
+                "The large intestine mainly absorbs water from the remaining undigested material.",
+                "This turns liquid waste into semi-solid faeces.",
+                "Faeces are stored in the rectum and expelled through the anus (egestion)."
+              ],
+              "sub": "Large intestine's job: reclaim water, not digest more food.",
+              "narration": "The large intestine mainly absorbs water from the remaining undigested material, turning it into semi-solid faeces, which are stored in the rectum and expelled through the anus."
+            },
+            {
+              "eyebrow": "Exam alert",
+              "heading": "Enzyme, substrate and product — the trio WAEC tests",
+              "list": [
+                "Amylase breaks down starch into maltose (and further into glucose).",
+                "Protease (e.g. pepsin) breaks down protein into amino acids.",
+                "Lipase breaks down fat into fatty acids and glycerol."
+              ],
+              "sub": "Amylase → starch. Protease → protein. Lipase → fat. Learn this table exactly.",
+              "narration": "Amylase breaks down starch into maltose and glucose. Protease, like pepsin, breaks down protein into amino acids. Lipase breaks down fat into fatty acids and glycerol — a table WAEC tests directly and often."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Digestion is best defined as",
+              "options": [
+                "the breakdown of large, insoluble food molecules into small, soluble ones",
+                "the absorption of digested food into the blood",
+                "the removal of undigested waste from the body",
+                "the making of food by green plants"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — digestion breaks large insoluble molecules into small, soluble, absorbable ones.",
+              "explainWrong": "Digestion is the breakdown step itself — absorption and egestion are separate, later processes.",
+              "refCard": 1,
+              "narration": "Digestion is best defined as"
+            },
+            {
+              "question": "Villi in the small intestine mainly function to",
+              "options": [
+                "increase the surface area for absorption of digested food",
+                "produce hydrochloric acid",
+                "churn food mechanically",
+                "store undigested waste"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — villi greatly increase surface area for absorption, with a rich blood supply to carry nutrients away.",
+              "explainWrong": "Villi's job is increasing surface area for absorption — acid production happens in the stomach, not here.",
+              "refCard": 3,
+              "narration": "Villi in the small intestine mainly function to"
+            },
+            {
+              "question": "Which enzyme breaks down protein into amino acids?",
+              "options": [
+                "Protease",
+                "Amylase",
+                "Lipase",
+                "Catalase"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — protease (e.g. pepsin) breaks protein down into amino acids.",
+              "explainWrong": "Protease digests protein into amino acids — amylase acts on starch, lipase acts on fat.",
+              "refCard": 5,
+              "narration": "Which enzyme breaks down protein into amino acids?"
+            },
+            {
+              "question": "The main function of the large intestine is to",
+              "options": [
+                "absorb water from undigested material, forming faeces",
+                "digest starch into glucose",
+                "absorb digested food into the blood",
+                "produce bile for fat digestion"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — the large intestine's main job is reabsorbing water, turning waste into semi-solid faeces.",
+              "explainWrong": "The large intestine mainly absorbs water — most digestion and nutrient absorption already happened in the small intestine.",
+              "refCard": 4,
+              "narration": "The main function of the large intestine is to"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "transport-systems",
+      "title": "Transport Systems in Plants & Animals",
+      "description": "How plants move water and food through xylem and phloem, and how the circulatory system moves blood in animals.",
+      "subtopics": [
+        {
+          "id": "transport-in-plants",
+          "title": "Transport in Plants",
+          "stories": [
+            {
+              "tag": "Physics at work",
+              "sub": "No pump, no problem",
+              "heading": "How water climbs a 100-metre tree with no heart",
+              "list": [
+                "Unlike animals, plants have no pump like a heart to push fluids around.",
+                "Yet giant trees move water from roots to leaves over 100 metres high.",
+                "The secret is a chain of physical forces: root pressure, capillarity, and most importantly, transpiration pull."
+              ],
+              "narration": "Unlike animals, plants have no pump like a heart to push fluids around, yet giant trees move water from roots to leaves over one hundred metres high. The secret is a chain of physical forces, most importantly transpiration pull."
+            },
+            {
+              "tag": "The cost of cooling",
+              "sub": "A leaf sweats too",
+              "heading": "Why a tree can ‘drink’ hundreds of litres a day",
+              "list": [
+                "A single large tree can lose hundreds of litres of water a day as vapour through its leaves.",
+                "This water loss, called transpiration, is mostly a side effect of gas exchange, not the main goal.",
+                "But the constant upward pull it creates is exactly what drags water up from the roots."
+              ],
+              "narration": "A single large tree can lose hundreds of litres of water a day as vapour through its leaves — a process called transpiration, mostly a side effect of gas exchange, but the constant upward pull it creates is what drags water up from the roots."
+            }
+          ],
+          "lessons": [
+            {
+              "eyebrow": "The big picture",
+              "big": "🌳",
+              "heading": "Two transport tissues, two directions",
+              "list": [
+                "Xylem transports water and dissolved minerals, in one direction only: upward, from roots to leaves.",
+                "Phloem transports food (mainly dissolved sugars), in both directions: from leaves (or storage organs) to wherever it's needed.",
+                "Together they form the plant's vascular system, running through roots, stems and leaves."
+              ],
+              "sub": "Xylem: water, one-way, up. Phloem: food, both ways.",
+              "narration": "Xylem transports water and dissolved minerals in one direction only, upward from roots to leaves. Phloem transports food in both directions, from leaves or storage organs to wherever it is needed."
+            },
+            {
+              "eyebrow": "Xylem in detail",
+              "heading": "How xylem vessels are built for the job",
+              "list": [
+                "Xylem vessels are made of dead cells joined end to end, forming continuous hollow tubes.",
+                "Their walls are strengthened with a waterproof substance called lignin.",
+                "Being dead and hollow removes any obstruction, letting water flow through easily under tension."
+              ],
+              "sub": "Dead, hollow, lignified tubes — built purely for flow and strength, not living function.",
+              "narration": "Xylem vessels are made of dead cells joined end to end into continuous hollow tubes, with walls strengthened by lignin. Being dead and hollow removes any obstruction, letting water flow through easily."
+            },
+            {
+              "eyebrow": "Transpiration pull",
+              "heading": "The engine behind water movement",
+              "list": [
+                "Water evaporates from cells inside the leaf and exits mainly through the stomata (transpiration).",
+                "This creates a slight suction that pulls more water up through the xylem to replace what was lost.",
+                "Water molecules stick to each other (cohesion), so the whole column of water in the xylem is pulled up together, like a drinking straw."
+              ],
+              "sub": "Losing water at the top creates suction that pulls water up from the bottom.",
+              "narration": "Water evaporates from leaf cells and exits mainly through the stomata, creating a slight suction that pulls more water up through the xylem. Because water molecules stick together, the whole column is pulled up together, like a drinking straw."
+            },
+            {
+              "eyebrow": "Factors affecting transpiration rate",
+              "heading": "What speeds up or slows down water loss",
+              "list": [
+                "Higher temperature, lower humidity, and more wind all increase the rate of transpiration.",
+                "More light usually increases transpiration too, because stomata open wider in light for photosynthesis.",
+                "A waxy cuticle on the leaf surface reduces uncontrolled water loss."
+              ],
+              "sub": "Hot, dry, windy, bright conditions all speed up transpiration.",
+              "narration": "Higher temperature, lower humidity and more wind all increase the rate of transpiration, as does brighter light, since stomata open wider for photosynthesis. A waxy cuticle on the leaf surface helps reduce uncontrolled water loss."
+            },
+            {
+              "eyebrow": "Exam alert",
+              "heading": "Xylem vs phloem — the comparison table",
+              "list": [
+                "Xylem: dead cells, lignified walls, transports water/minerals, one direction (up).",
+                "Phloem: living cells, no lignin, transports dissolved food, both directions.",
+                "WAEC frequently asks you to identify a tissue from a description of just one or two of these features."
+              ],
+              "sub": "Dead + lignin + water = xylem. Living + food + both ways = phloem.",
+              "narration": "Xylem is made of dead, lignified cells transporting water and minerals upward only. Phloem is made of living cells with no lignin, transporting dissolved food in both directions — a comparison WAEC tests often."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Which tissue transports water and dissolved minerals upward from the roots?",
+              "options": [
+                "Xylem",
+                "Phloem",
+                "Epidermis",
+                "Cortex"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — xylem transports water and minerals upward from roots to leaves.",
+              "explainWrong": "Xylem carries water and minerals upward — phloem carries food, and epidermis/cortex are not transport tissues.",
+              "refCard": 1,
+              "narration": "Which tissue transports water and dissolved minerals upward from the roots?"
+            },
+            {
+              "question": "Xylem vessels are able to withstand tension partly because their walls are strengthened by",
+              "options": [
+                "lignin",
+                "chlorophyll",
+                "chitin",
+                "cellulose only, with no lignin"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — lignin strengthens and waterproofs xylem vessel walls.",
+              "explainWrong": "Lignin is the strengthening substance in xylem walls — chlorophyll and chitin play no role here.",
+              "refCard": 2,
+              "narration": "Xylem vessels are able to withstand tension partly because their walls are strengthened by"
+            },
+            {
+              "question": "The loss of water vapour from a plant, mainly through the stomata, is called",
+              "options": [
+                "transpiration",
+                "photosynthesis",
+                "translocation",
+                "respiration"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — transpiration is water loss as vapour, mainly through the stomata.",
+              "explainWrong": "Water vapour loss through stomata is transpiration — translocation refers to food movement in phloem.",
+              "refCard": 3,
+              "narration": "The loss of water vapour from a plant, mainly through the stomata, is called"
+            },
+            {
+              "question": "Which condition would increase the rate of transpiration?",
+              "options": [
+                "High temperature and low humidity",
+                "Low temperature and high humidity",
+                "Complete darkness",
+                "Still, windless air"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — heat and dry air both speed up water evaporation from the leaf.",
+              "explainWrong": "High temperature and low humidity increase transpiration — darkness and still air would slow it down.",
+              "refCard": 4,
+              "narration": "Which condition would increase the rate of transpiration?"
+            }
+          ]
+        },
+        {
+          "id": "transport-in-animals",
+          "title": "Transport in Animals",
+          "stories": [
+            {
+              "tag": "The delivery network",
+              "sub": "100,000 km of pipes inside you",
+              "heading": "Your circulatory system, by the numbers",
+              "list": [
+                "If you laid out all the blood vessels in an adult human end to end, they would stretch about 100,000 kilometres.",
+                "That's enough to circle the Earth roughly two and a half times.",
+                "The heart pumps blood through this entire network, once around roughly every minute at rest."
+              ],
+              "narration": "If you laid out all the blood vessels in an adult human end to end, they would stretch about one hundred thousand kilometres — enough to circle the Earth roughly two and a half times. The heart pumps blood through this whole network about once a minute at rest."
+            },
+            {
+              "tag": "Two loops, one pump",
+              "sub": "Why your heart has four chambers, not one",
+              "heading": "The double circulation advantage",
+              "list": [
+                "Humans have a double circulatory system: blood passes through the heart twice on each full circuit.",
+                "One loop sends blood to the lungs for oxygen; the other loop sends oxygenated blood to the rest of the body.",
+                "This keeps oxygen-rich and oxygen-poor blood mostly separate, so the body gets blood at full oxygen strength."
+              ],
+              "narration": "Humans have a double circulatory system: blood passes through the heart twice on each full circuit — once to the lungs for oxygen, and once to deliver that oxygenated blood to the rest of the body, keeping oxygen-rich and oxygen-poor blood mostly separate."
+            }
+          ],
+          "lessons": [
+            {
+              "eyebrow": "The big picture",
+              "big": "❤️",
+              "heading": "What the circulatory system does",
+              "list": [
+                "The circulatory system transports oxygen, digested food, hormones, and waste products around the body.",
+                "It consists of the heart (the pump), blood vessels (the pipes), and blood (the fluid carrying everything).",
+                "Humans have a closed double circulatory system: blood stays inside vessels and passes through the heart twice per circuit."
+              ],
+              "sub": "Heart = pump. Vessels = pipes. Blood = delivery fluid.",
+              "narration": "The circulatory system transports oxygen, digested food, hormones and waste around the body, using the heart as a pump, blood vessels as pipes, and blood as the fluid. Humans have a closed double circulatory system."
+            },
+            {
+              "eyebrow": "The three vessel types",
+              "heading": "Arteries, veins and capillaries",
+              "list": [
+                "Arteries carry blood away from the heart, under high pressure, with thick, muscular, elastic walls.",
+                "Veins carry blood back to the heart, under low pressure, with thinner walls and valves to prevent backflow.",
+                "Capillaries are microscopic vessels, one cell thick, where actual exchange of substances with body tissues happens."
+              ],
+              "sub": "Arteries away, veins back, capillaries where the real exchange happens.",
+              "narration": "Arteries carry blood away from the heart under high pressure, with thick, muscular walls. Veins carry blood back to the heart under low pressure, with valves to prevent backflow. Capillaries are microscopic, one cell thick, where exchange with tissues happens."
+            },
+            {
+              "eyebrow": "The heart",
+              "heading": "Four chambers, one-way flow",
+              "list": [
+                "The heart has four chambers: two upper atria (receive blood) and two lower ventricles (pump blood out).",
+                "The right side handles deoxygenated blood (to the lungs); the left side handles oxygenated blood (to the body).",
+                "One-way valves between chambers prevent blood from flowing backward."
+              ],
+              "sub": "Right side = lungs. Left side = body. Valves keep flow one-way.",
+              "narration": "The heart has four chambers: two atria that receive blood, and two ventricles that pump it out. The right side handles deoxygenated blood going to the lungs; the left side handles oxygenated blood going to the body, with valves keeping flow one-way."
+            },
+            {
+              "eyebrow": "Blood itself",
+              "heading": "What's actually flowing through the pipes",
+              "list": [
+                "Red blood cells carry oxygen, using the pigment haemoglobin.",
+                "White blood cells defend the body against infection.",
+                "Platelets help blood clot; plasma is the liquid part that carries dissolved substances like glucose, hormones and waste."
+              ],
+              "sub": "Red cells carry oxygen, white cells fight germs, platelets clot, plasma carries everything dissolved.",
+              "narration": "Red blood cells carry oxygen using haemoglobin. White blood cells defend against infection. Platelets help blood clot, and plasma, the liquid part, carries dissolved substances like glucose, hormones and waste."
+            },
+            {
+              "eyebrow": "Exam alert",
+              "heading": "Artery vs vein — the quick test",
+              "list": [
+                "Thick, muscular, elastic wall + no valves + carries blood away from heart → artery.",
+                "Thinner wall + valves present + carries blood toward heart → vein.",
+                "Exception to memorise: the pulmonary artery carries deoxygenated blood, and the pulmonary vein carries oxygenated blood — the ‘artery/vein’ naming is about direction from the heart, not oxygen content."
+              ],
+              "sub": "Artery vs vein is about direction (away/toward heart), NOT about oxygen content.",
+              "narration": "A thick, muscular wall with no valves, carrying blood away from the heart, is an artery. A thinner wall with valves, carrying blood toward the heart, is a vein. Remember: the pulmonary artery and vein are the one exception where naming is about direction, not oxygen content."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Which blood vessel type carries blood away from the heart under high pressure?",
+              "options": [
+                "Artery",
+                "Vein",
+                "Capillary",
+                "Lymph vessel"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — arteries carry blood away from the heart, with thick, muscular, elastic walls to handle high pressure.",
+              "explainWrong": "Carrying blood away from the heart under high pressure is the artery's job — veins carry blood back, under low pressure.",
+              "refCard": 2,
+              "narration": "Which blood vessel type carries blood away from the heart under high pressure?"
+            },
+            {
+              "question": "Exchange of substances between blood and body tissues happens mainly across the walls of the",
+              "options": [
+                "capillaries",
+                "arteries",
+                "veins",
+                "heart chambers"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — capillaries are one cell thick, allowing efficient exchange with surrounding tissue.",
+              "explainWrong": "Exchange happens at capillaries, which are thin enough for substances to pass through — arteries and veins are not.",
+              "refCard": 2,
+              "narration": "Exchange of substances between blood and body tissues happens mainly across the walls of the"
+            },
+            {
+              "question": "Which side of the heart pumps oxygenated blood to the rest of the body?",
+              "options": [
+                "The left side",
+                "The right side",
+                "Both sides equally",
+                "Neither side — the lungs pump it"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — the left side of the heart handles oxygenated blood, pumping it out to the body.",
+              "explainWrong": "The left side handles oxygenated blood to the body; the right side handles deoxygenated blood to the lungs.",
+              "refCard": 3,
+              "narration": "Which side of the heart pumps oxygenated blood to the rest of the body?"
+            },
+            {
+              "question": "Which blood component is responsible for carrying oxygen around the body?",
+              "options": [
+                "Red blood cells (using haemoglobin)",
+                "White blood cells",
+                "Platelets",
+                "Plasma alone"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — red blood cells carry oxygen bound to the pigment haemoglobin.",
+              "explainWrong": "Oxygen transport is the job of red blood cells and haemoglobin — white blood cells fight infection, platelets clot blood.",
+              "refCard": 4,
+              "narration": "Which blood component is responsible for carrying oxygen around the body?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "respiration-gas-exchange",
+      "title": "Respiration & Gaseous Exchange",
+      "description": "How living things release energy from food, and how oxygen gets in while carbon dioxide gets out.",
+      "subtopics": [
+        {
+          "id": "cellular-respiration",
+          "title": "Cellular Respiration",
+          "stories": [
+            {
+              "tag": "A common mix-up",
+              "sub": "Two words, two very different processes",
+              "heading": "Respiration is not the same as breathing",
+              "list": [
+                "Many students confuse ‘respiration’ with ‘breathing’ — but they are not the same process.",
+                "Breathing is the physical movement of air in and out of the lungs.",
+                "Respiration is the chemical release of energy from food, happening inside every living cell, all the time."
+              ],
+              "narration": "Many students confuse respiration with breathing, but they are not the same. Breathing is the physical movement of air in and out of the lungs. Respiration is the chemical release of energy from food, happening inside every living cell, all the time."
+            },
+            {
+              "tag": "When oxygen runs out",
+              "sub": "Why your muscles burn during a sprint",
+              "heading": "The body's emergency backup plan",
+              "list": [
+                "During intense exercise, muscles can use oxygen faster than the blood can deliver it.",
+                "When this happens, cells switch briefly to anaerobic respiration, which doesn't need oxygen.",
+                "The lactic acid this produces is part of why muscles feel a burning fatigue during a hard sprint."
+              ],
+              "narration": "During intense exercise, muscles can use oxygen faster than the blood can deliver it. When this happens, cells switch briefly to anaerobic respiration, which doesn't need oxygen — the lactic acid it produces is part of why muscles feel a burning fatigue."
+            }
+          ],
+          "lessons": [
+            {
+              "eyebrow": "The big picture",
+              "big": "🔥",
+              "heading": "What respiration actually is",
+              "list": [
+                "Respiration is the chemical process that releases energy from food inside cells.",
+                "It happens continuously in every living cell, in both plants and animals, day and night.",
+                "The energy released powers every cell activity: movement, growth, repair, and more."
+              ],
+              "sub": "Respiration = releasing usable energy from food, inside cells.",
+              "narration": "Respiration is the chemical process that releases energy from food inside cells. It happens continuously, in every living cell, and the energy released powers every cell activity — movement, growth and repair."
+            },
+            {
+              "eyebrow": "Aerobic respiration",
+              "heading": "Respiration using oxygen",
+              "list": [
+                "Aerobic respiration uses oxygen to fully break down glucose, releasing a large amount of energy.",
+                "Word equation: glucose + oxygen → carbon dioxide + water (+ energy).",
+                "This is the main type of respiration in most cells, most of the time."
+              ],
+              "sub": "Aerobic = with oxygen = most energy released, most efficient.",
+              "narration": "Aerobic respiration uses oxygen to fully break down glucose, releasing a large amount of energy: glucose plus oxygen yields carbon dioxide, water and energy. This is the main type of respiration in most cells, most of the time."
+            },
+            {
+              "eyebrow": "Anaerobic respiration",
+              "heading": "Respiration without oxygen",
+              "list": [
+                "Anaerobic respiration releases energy from glucose without using oxygen — but releases far less energy per glucose molecule.",
+                "In humans, it produces lactic acid: glucose → lactic acid (+ energy).",
+                "In yeast (and some plants), it produces alcohol and carbon dioxide instead: glucose → ethanol + carbon dioxide (+ energy) — this is fermentation."
+              ],
+              "sub": "Anaerobic = no oxygen = less energy = lactic acid (animals) or alcohol + CO2 (yeast).",
+              "narration": "Anaerobic respiration releases energy from glucose without oxygen, but far less per glucose molecule. In humans it produces lactic acid; in yeast, it produces alcohol and carbon dioxide, a process called fermentation."
+            },
+            {
+              "eyebrow": "Comparing the two",
+              "heading": "Aerobic vs anaerobic, side by side",
+              "list": [
+                "Aerobic: needs oxygen; products are CO2 and water; releases much more energy.",
+                "Anaerobic: no oxygen needed; products are lactic acid (animals) or alcohol + CO2 (yeast); releases much less energy.",
+                "Anaerobic respiration is a short-term backup, not a long-term substitute for aerobic respiration."
+              ],
+              "sub": "Anaerobic buys time; aerobic does the real, efficient work.",
+              "narration": "Aerobic respiration needs oxygen and produces carbon dioxide and water, releasing much more energy. Anaerobic respiration needs no oxygen but releases far less energy, and is only a short-term backup, not a long-term substitute."
+            },
+            {
+              "eyebrow": "Exam alert",
+              "heading": "Uses of fermentation and common pitfalls",
+              "list": [
+                "Fermentation by yeast is used industrially to make bread rise (CO2 bubbles) and to brew alcoholic drinks (ethanol).",
+                "Do not say plants only respire at night — plants respire all the time; they only photosynthesise in light.",
+                "Do not confuse respiration (releases energy, happens always) with photosynthesis (stores energy, needs light)."
+              ],
+              "sub": "Plants respire 24/7; they only photosynthesise when there's light.",
+              "narration": "Fermentation by yeast is used industrially to make bread rise and to brew alcoholic drinks. Remember: plants respire all the time, not just at night — they only photosynthesise in light, and respiration and photosynthesis are not the same process."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Respiration is best described as",
+              "options": [
+                "the release of energy from food inside cells",
+                "the physical movement of air into and out of the lungs",
+                "the making of food using light energy",
+                "the absorption of oxygen by the blood"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — respiration is the chemical release of energy from food inside living cells.",
+              "explainWrong": "Respiration is the chemical energy release inside cells — moving air in and out of the lungs is breathing, a separate process.",
+              "refCard": 1,
+              "narration": "Respiration is best described as"
+            },
+            {
+              "question": "The word equation for aerobic respiration is",
+              "options": [
+                "glucose + oxygen → carbon dioxide + water (+ energy)",
+                "carbon dioxide + water → glucose + oxygen",
+                "glucose → lactic acid (+ energy)",
+                "glucose → ethanol + carbon dioxide"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — aerobic respiration breaks down glucose using oxygen, releasing carbon dioxide, water and energy.",
+              "explainWrong": "Aerobic respiration is glucose plus oxygen yielding carbon dioxide, water and energy — the other options describe photosynthesis or anaerobic respiration.",
+              "refCard": 2,
+              "narration": "The word equation for aerobic respiration is"
+            },
+            {
+              "question": "During intense exercise, when oxygen supply to muscles is insufficient, the muscle cells produce",
+              "options": [
+                "lactic acid, via anaerobic respiration",
+                "ethanol, via aerobic respiration",
+                "glucose, via photosynthesis",
+                "oxygen, via fermentation"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — human muscle cells produce lactic acid during anaerobic respiration when oxygen is insufficient.",
+              "explainWrong": "Human cells produce lactic acid under anaerobic conditions — ethanol is the yeast product, not the human one.",
+              "refCard": 3,
+              "narration": "During intense exercise, when oxygen supply to muscles is insufficient, the muscle cells produce"
+            },
+            {
+              "question": "Compared with aerobic respiration, anaerobic respiration",
+              "options": [
+                "releases much less energy from the same amount of glucose",
+                "releases much more energy from the same amount of glucose",
+                "requires oxygen just like aerobic respiration",
+                "only happens in plants, never in animals"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — anaerobic respiration is far less efficient, releasing much less energy per glucose molecule.",
+              "explainWrong": "Anaerobic respiration releases much less energy than aerobic respiration — it does not require oxygen, unlike aerobic.",
+              "refCard": 4,
+              "narration": "Compared with aerobic respiration, anaerobic respiration"
+            }
+          ]
+        },
+        {
+          "id": "gaseous-exchange-surfaces",
+          "title": "Gaseous Exchange Surfaces",
+          "stories": [
+            {
+              "tag": "One rule, many solutions",
+              "sub": "Fish, frogs, insects and humans all solve the same problem",
+              "heading": "The universal exchange surface rule",
+              "list": [
+                "Every gas exchange surface in nature — gills, lungs, skin, leaf — follows the same underlying design rules.",
+                "It must be thin, moist, have a large surface area, and a good blood or gas supply.",
+                "Evolution has produced very different-looking structures that all obey this one shared blueprint."
+              ],
+              "narration": "Every gas exchange surface in nature — gills, lungs, skin, leaf — follows the same underlying design rules: thin, moist, large surface area, and a good blood or gas supply. Evolution has produced very different structures that all obey this one shared blueprint."
+            },
+            {
+              "tag": "300 million of them",
+              "sub": "The lung's secret weapon",
+              "heading": "Why your lungs are full of tiny air sacs",
+              "list": [
+                "Human lungs contain roughly 300 million tiny air sacs called alveoli.",
+                "If you spread out all their surfaces flat, they would cover roughly the area of a tennis court.",
+                "That enormous surface area is exactly why lungs can supply enough oxygen for the whole body."
+              ],
+              "narration": "Human lungs contain roughly three hundred million tiny air sacs called alveoli. If spread out flat, their combined surface would cover roughly the area of a tennis court — which is exactly why lungs can supply enough oxygen for the whole body."
+            }
+          ],
+          "lessons": [
+            {
+              "eyebrow": "The big picture",
+              "big": "🫁",
+              "heading": "What makes a good gas exchange surface",
+              "list": [
+                "Large surface area — to allow enough gas to diffuse across at once.",
+                "Thin (often one cell thick) — to keep the diffusion distance short.",
+                "Moist surface, and a good supply of blood (or air/gas) on each side — to maintain a steep concentration gradient."
+              ],
+              "sub": "Large, thin, moist, well-supplied — the four requirements, in every exchange surface.",
+              "narration": "A good gas exchange surface needs a large surface area, a thin structure to keep diffusion distance short, a moist surface, and a good blood or gas supply to maintain a steep concentration gradient."
+            },
+            {
+              "eyebrow": "Human lungs",
+              "heading": "Alveoli — the human exchange surface",
+              "list": [
+                "Air travels: nose/mouth → trachea → bronchi → bronchioles → alveoli.",
+                "Alveoli are tiny air sacs, one cell thick, surrounded by a dense network of capillaries.",
+                "Oxygen diffuses from alveolar air into the blood; carbon dioxide diffuses from blood into alveolar air, to be breathed out."
+              ],
+              "sub": "Alveoli: millions of tiny, thin, capillary-wrapped sacs — a textbook exchange surface.",
+              "narration": "Air travels from the nose or mouth through the trachea, bronchi and bronchioles, into the alveoli — tiny, one-cell-thick air sacs wrapped in capillaries, where oxygen diffuses into the blood and carbon dioxide diffuses out."
+            },
+            {
+              "eyebrow": "Fish gills",
+              "heading": "Breathing underwater",
+              "list": [
+                "Fish gills are made of thin filaments covered in even thinner lamellae, giving a very large surface area.",
+                "Blood in the gill lamellae flows in the opposite direction to the water flowing over them — countercurrent flow — maximising oxygen uptake.",
+                "This lets fish extract dissolved oxygen from water, which contains far less oxygen than air."
+              ],
+              "sub": "Countercurrent flow: blood and water pass each other in opposite directions for maximum extraction.",
+              "narration": "Fish gills are made of thin filaments covered in even thinner lamellae, giving a large surface area. Blood flows through the gills in the opposite direction to the water passing over them — countercurrent flow — maximising oxygen uptake from water."
+            },
+            {
+              "eyebrow": "Insects & leaves",
+              "heading": "Tracheae and stomata",
+              "list": [
+                "Insects breathe through small holes called spiracles, leading into a network of air tubes called tracheae, carrying air directly to tissues — no blood needed.",
+                "Leaves exchange gases mainly through stomata, tiny pores usually on the underside, opened and closed by guard cells.",
+                "In both cases, gas moves by diffusion, without needing to dissolve in blood first."
+              ],
+              "sub": "Insects: air tubes straight to tissues. Leaves: stomata + air spaces inside.",
+              "narration": "Insects breathe through spiracles leading into tracheae, air tubes that carry air directly to tissues, with no blood needed. Leaves exchange gases mainly through stomata, tiny pores opened and closed by guard cells."
+            },
+            {
+              "eyebrow": "Exam alert",
+              "heading": "Matching structure to organism",
+              "list": [
+                "Lungs with alveoli → mammals (including humans).",
+                "Gills with lamellae and countercurrent flow → fish.",
+                "Tracheae and spiracles → insects. Stomata → leaves (plants)."
+              ],
+              "sub": "If a question names ‘alveoli’, ‘lamellae’, ‘spiracles’ or ‘stomata’, you can name the organism immediately.",
+              "narration": "Lungs with alveoli belong to mammals. Gills with lamellae and countercurrent flow belong to fish. Tracheae and spiracles belong to insects, and stomata belong to leaves — naming the structure names the organism."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Which of these is NOT a requirement of an efficient gas exchange surface?",
+              "options": [
+                "A thick, dry surface",
+                "A large surface area",
+                "A moist surface",
+                "A good blood or gas supply"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — an efficient exchange surface must be thin and moist, not thick and dry.",
+              "explainWrong": "A thick, dry surface is the opposite of what's needed — efficient exchange surfaces are thin and moist.",
+              "refCard": 1,
+              "narration": "Which of these is NOT a requirement of an efficient gas exchange surface?"
+            },
+            {
+              "question": "In human lungs, gas exchange takes place across the walls of the",
+              "options": [
+                "alveoli",
+                "trachea",
+                "bronchi",
+                "larynx"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — alveoli are the tiny, thin, capillary-wrapped air sacs where gas exchange happens.",
+              "explainWrong": "Gas exchange happens at the alveoli, deep in the lungs — the trachea and bronchi are just airways.",
+              "refCard": 2,
+              "narration": "In human lungs, gas exchange takes place across the walls of the"
+            },
+            {
+              "question": "In fish gills, blood flowing in the opposite direction to water flow is called",
+              "options": [
+                "countercurrent flow",
+                "concurrent flow",
+                "diffusion reversal",
+                "osmotic flow"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — countercurrent flow maximises oxygen extraction from water passing over the gills.",
+              "explainWrong": "Opposite-direction blood and water flow is countercurrent flow, which maximises oxygen extraction.",
+              "refCard": 3,
+              "narration": "In fish gills, blood flowing in the opposite direction to water flow is called"
+            },
+            {
+              "question": "Insects exchange gases through a network of air tubes called",
+              "options": [
+                "tracheae, opening through spiracles",
+                "alveoli, opening through the mouth",
+                "gill lamellae",
+                "stomata"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — insects breathe through spiracles into tracheae, air tubes carrying gas directly to tissues.",
+              "explainWrong": "Insects use tracheae opening through spiracles — alveoli and gills belong to mammals and fish, not insects.",
+              "refCard": 4,
+              "narration": "Insects exchange gases through a network of air tubes called"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

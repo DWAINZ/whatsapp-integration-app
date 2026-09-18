@@ -748,6 +748,318 @@
           }
         }
       ]
+    },
+    "nutrition-in-plants": {
+      "photosynthesis": [
+        {
+          "id": "np-ph-1",
+          "year": 2018,
+          "paper": "Paper 1",
+          "question": "The raw materials needed for photosynthesis are",
+          "options": [
+            "carbon dioxide and water",
+            "oxygen and water",
+            "glucose and oxygen",
+            "nitrogen and water"
+          ],
+          "answer": "A",
+          "explanation": "Photosynthesis uses carbon dioxide and water, with light energy, to make glucose and oxygen.",
+          "ref": {
+            "subtopic": "photosynthesis",
+            "card": 1
+          }
+        },
+        {
+          "id": "np-ph-2",
+          "year": 2015,
+          "paper": "Paper 1",
+          "question": "Which of these is a limiting factor of photosynthesis?",
+          "options": [
+            "Light intensity",
+            "Height of the plant",
+            "Colour of the flower",
+            "Age of the leaf only"
+          ],
+          "answer": "A",
+          "explanation": "Light intensity, CO2 concentration and temperature are the three classic limiting factors.",
+          "ref": {
+            "subtopic": "photosynthesis",
+            "card": 5
+          }
+        }
+      ],
+      "mineral-nutrition": [
+        {
+          "id": "np-mn-1",
+          "year": 2017,
+          "paper": "Paper 1",
+          "question": "A plant showing yellowing between the veins of its leaves is most likely deficient in",
+          "options": [
+            "magnesium",
+            "nitrogen",
+            "phosphorus",
+            "potassium"
+          ],
+          "answer": "A",
+          "explanation": "Magnesium deficiency causes yellowing specifically between the leaf veins, since magnesium is part of chlorophyll.",
+          "ref": {
+            "subtopic": "mineral-nutrition",
+            "card": 3
+          }
+        },
+        {
+          "id": "np-mn-2",
+          "year": 2019,
+          "paper": "Paper 1",
+          "question": "Mineral ions are absorbed into a plant mainly through the",
+          "options": [
+            "root hairs",
+            "stomata",
+            "chloroplasts",
+            "petals"
+          ],
+          "answer": "A",
+          "explanation": "Root hair cells give the root a large surface area for absorbing dissolved mineral ions.",
+          "ref": {
+            "subtopic": "mineral-nutrition",
+            "card": 1
+          }
+        }
+      ]
+    },
+    "nutrition-in-animals": {
+      "modes-of-feeding": [
+        {
+          "id": "na-mf-1",
+          "year": 2016,
+          "paper": "Paper 1",
+          "question": "An organism that feeds on dead and decaying matter by external digestion is described as",
+          "options": [
+            "saprophytic",
+            "holozoic",
+            "parasitic",
+            "carnivorous"
+          ],
+          "answer": "A",
+          "explanation": "Saprophytic feeding is external digestion of dead organic matter, typical of fungi.",
+          "ref": {
+            "subtopic": "modes-of-feeding",
+            "card": 2
+          }
+        },
+        {
+          "id": "na-mf-2",
+          "year": 2020,
+          "paper": "Paper 1",
+          "question": "A herbivore's dentition typically shows",
+          "options": [
+            "broad, ridged molars for grinding plant material",
+            "sharp canines for tearing flesh",
+            "no teeth at all",
+            "needle-like mouthparts"
+          ],
+          "answer": "A",
+          "explanation": "Herbivores have broad, ridged molars adapted for grinding fibrous plant material.",
+          "ref": {
+            "subtopic": "modes-of-feeding",
+            "card": 3
+          }
+        }
+      ],
+      "digestion-in-mammals": [
+        {
+          "id": "na-dm-1",
+          "year": 2018,
+          "paper": "Paper 1",
+          "question": "Bile produced by the liver helps in the digestion of",
+          "options": [
+            "fats",
+            "proteins",
+            "starch",
+            "vitamins"
+          ],
+          "answer": "A",
+          "explanation": "Bile emulsifies fats, breaking them into smaller droplets for lipase to act on more effectively.",
+          "ref": {
+            "subtopic": "digestion-in-mammals",
+            "card": 2
+          }
+        },
+        {
+          "id": "na-dm-2",
+          "year": 2014,
+          "paper": "Paper 1",
+          "question": "The enzyme amylase digests",
+          "options": [
+            "starch",
+            "protein",
+            "fat",
+            "cellulose"
+          ],
+          "answer": "A",
+          "explanation": "Amylase breaks down starch into maltose and eventually glucose.",
+          "ref": {
+            "subtopic": "digestion-in-mammals",
+            "card": 5
+          }
+        }
+      ]
+    },
+    "transport-systems": {
+      "transport-in-plants": [
+        {
+          "id": "ts-tp-1",
+          "year": 2017,
+          "paper": "Paper 1",
+          "question": "Water and dissolved mineral salts are transported in a plant through the",
+          "options": [
+            "xylem",
+            "phloem",
+            "cortex",
+            "epidermis"
+          ],
+          "answer": "A",
+          "explanation": "Xylem transports water and dissolved minerals from roots to leaves.",
+          "ref": {
+            "subtopic": "transport-in-plants",
+            "card": 1
+          }
+        },
+        {
+          "id": "ts-tp-2",
+          "year": 2019,
+          "paper": "Paper 1",
+          "question": "The loss of water vapour from the aerial parts of a plant is called",
+          "options": [
+            "transpiration",
+            "translocation",
+            "respiration",
+            "germination"
+          ],
+          "answer": "A",
+          "explanation": "Transpiration is the loss of water vapour, mainly through the leaf stomata.",
+          "ref": {
+            "subtopic": "transport-in-plants",
+            "card": 3
+          }
+        }
+      ],
+      "transport-in-animals": [
+        {
+          "id": "ts-ta-1",
+          "year": 2018,
+          "paper": "Paper 1",
+          "question": "Blood vessels that carry blood back to the heart, and possess valves, are called",
+          "options": [
+            "veins",
+            "arteries",
+            "capillaries",
+            "aorta"
+          ],
+          "answer": "A",
+          "explanation": "Veins carry blood toward the heart under low pressure and have valves to prevent backflow.",
+          "ref": {
+            "subtopic": "transport-in-animals",
+            "card": 2
+          }
+        },
+        {
+          "id": "ts-ta-2",
+          "year": 2015,
+          "paper": "Paper 1",
+          "question": "The pigment in red blood cells responsible for carrying oxygen is",
+          "options": [
+            "haemoglobin",
+            "chlorophyll",
+            "melanin",
+            "insulin"
+          ],
+          "answer": "A",
+          "explanation": "Haemoglobin in red blood cells binds and carries oxygen around the body.",
+          "ref": {
+            "subtopic": "transport-in-animals",
+            "card": 4
+          }
+        }
+      ]
+    },
+    "respiration-gas-exchange": {
+      "cellular-respiration": [
+        {
+          "id": "rg-cr-1",
+          "year": 2019,
+          "paper": "Paper 1",
+          "question": "The process by which energy is released from food in living cells is called",
+          "options": [
+            "respiration",
+            "breathing",
+            "photosynthesis",
+            "excretion"
+          ],
+          "answer": "A",
+          "explanation": "Respiration is the chemical release of energy from food inside cells, distinct from breathing.",
+          "ref": {
+            "subtopic": "cellular-respiration",
+            "card": 1
+          }
+        },
+        {
+          "id": "rg-cr-2",
+          "year": 2016,
+          "paper": "Paper 1",
+          "question": "The product of anaerobic respiration in human muscle cells is",
+          "options": [
+            "lactic acid",
+            "ethanol",
+            "oxygen",
+            "starch"
+          ],
+          "answer": "A",
+          "explanation": "Human muscle cells produce lactic acid during anaerobic respiration when oxygen supply is insufficient.",
+          "ref": {
+            "subtopic": "cellular-respiration",
+            "card": 3
+          }
+        }
+      ],
+      "gaseous-exchange-surfaces": [
+        {
+          "id": "rg-ge-1",
+          "year": 2018,
+          "paper": "Paper 1",
+          "question": "Gas exchange in the human lungs occurs across the walls of the",
+          "options": [
+            "alveoli",
+            "trachea",
+            "bronchi",
+            "pleura"
+          ],
+          "answer": "A",
+          "explanation": "The alveoli, tiny thin-walled air sacs, are where gas exchange takes place in the lungs.",
+          "ref": {
+            "subtopic": "gaseous-exchange-surfaces",
+            "card": 2
+          }
+        },
+        {
+          "id": "rg-ge-2",
+          "year": 2014,
+          "paper": "Paper 1",
+          "question": "Fish gills use which mechanism to maximise oxygen uptake from water?",
+          "options": [
+            "Countercurrent flow of blood and water",
+            "Concurrent flow of blood and water",
+            "Diffusion through a thick membrane",
+            "Active pumping of oxygen"
+          ],
+          "answer": "A",
+          "explanation": "Countercurrent flow, where blood and water move in opposite directions, maximises oxygen extraction in gills.",
+          "ref": {
+            "subtopic": "gaseous-exchange-surfaces",
+            "card": 3
+          }
+        }
+      ]
     }
   }
 }
