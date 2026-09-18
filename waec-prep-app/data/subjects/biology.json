@@ -1222,6 +1222,1322 @@
           ]
         }
       ]
+    },
+    {
+      "id": "classification-living-things",
+      "title": "Classification of Living Things",
+      "description": "Why and how biologists sort every living thing into a nested system of groups, from kingdom down to species.",
+      "subtopics": [
+        {
+          "id": "taxonomic-hierarchy",
+          "title": "The Taxonomic Hierarchy",
+          "stories": [
+            {
+              "tag": "The problem · pre-1700s",
+              "sub": "One creature, a hundred different names",
+              "heading": "Why biology needed a filing system",
+              "list": [
+                "Before formal classification, the same plant or animal could have a different local name in every region and language.",
+                "Scientists writing to each other across countries often had no idea they were describing the same organism.",
+                "Classification (taxonomy) was invented to give every organism one agreed place in a shared system."
+              ],
+              "narration": "Before formal classification, the same plant or animal could have a different local name in every region and language. Scientists writing to each other across countries often had no idea they were describing the same organism. Classification, or taxonomy, was invented to give every organism one agreed place in a shared system."
+            },
+            {
+              "tag": "The method · 1735",
+              "sub": "One Swedish botanist, one nested system",
+              "heading": "Carl Linnaeus and the hierarchy we still use",
+              "list": [
+                "Carl Linnaeus (1735) organised living things into a nested hierarchy of groups within groups.",
+                "Each level groups organisms that share more and more features the further down you go.",
+                "Modern classification has added DNA evidence, but Linnaeus's nested structure is still the backbone."
+              ],
+              "narration": "Carl Linnaeus, in 1735, organised living things into a nested hierarchy of groups within groups, where each level groups organisms that share more and more features the further down you go. Modern classification has added DNA evidence, but his nested structure is still the backbone."
+            }
+          ],
+          "lessons": [
+            {
+              "eyebrow": "The big picture",
+              "big": "🗂️",
+              "heading": "What is classification?",
+              "list": [
+                "Classification is the sorting of living things into groups based on shared characteristics.",
+                "It makes the huge diversity of life easier to study, compare and communicate about.",
+                "The scientific study of classification is called taxonomy."
+              ],
+              "sub": "Classification turns millions of species into a searchable system.",
+              "narration": "Classification is the sorting of living things into groups based on shared characteristics. It makes the huge diversity of life easier to study, compare and communicate about. The scientific study of classification is called taxonomy."
+            },
+            {
+              "eyebrow": "Memorise this order",
+              "heading": "The seven main taxonomic ranks",
+              "list": [
+                "From broadest to narrowest: Kingdom → Phylum → Class → Order → Family → Genus → Species.",
+                "Each rank contains one or more groups of the rank below it — a Kingdom contains many Phyla, a Phylum contains many Classes, and so on.",
+                "A common memory aid: ‘King Philip Came Over For Good Soup’."
+              ],
+              "sub": "Kingdom, Phylum, Class, Order, Family, Genus, Species — in that order, every time.",
+              "narration": "From broadest to narrowest, the seven main ranks are Kingdom, Phylum, Class, Order, Family, Genus and Species. Each rank contains one or more groups of the rank below it. A common memory aid is King Philip Came Over For Good Soup."
+            },
+            {
+              "eyebrow": "Zooming in",
+              "heading": "As you go down the hierarchy",
+              "list": [
+                "The number of organisms in each group gets smaller.",
+                "The number of shared features between members of the group gets larger.",
+                "Species is the smallest, most specific rank — members of a species can interbreed to produce fertile offspring."
+              ],
+              "sub": "Fewer members, more in common — that's the trend going down the ranks.",
+              "narration": "As you move down the hierarchy, the number of organisms in each group gets smaller, while the number of features they share gets larger. Species is the smallest, most specific rank — members of a species can interbreed to produce fertile offspring."
+            },
+            {
+              "eyebrow": "Worked example",
+              "heading": "Classifying the human species",
+              "list": [
+                "Kingdom: Animalia. Phylum: Chordata (has a backbone). Class: Mammalia (has hair, produces milk).",
+                "Order: Primates. Family: Hominidae. Genus: Homo. Species: sapiens.",
+                "Full scientific name: Homo sapiens — genus first, species second."
+              ],
+              "sub": "Humans share Class Mammalia with dogs and whales, but only Species with other humans.",
+              "narration": "Humans are classified as Kingdom Animalia, Phylum Chordata, Class Mammalia, Order Primates, Family Hominidae, Genus Homo, and Species sapiens — giving the full scientific name Homo sapiens."
+            },
+            {
+              "eyebrow": "Exam alert",
+              "heading": "Common WAEC pitfalls on the hierarchy",
+              "list": [
+                "Do not reverse the order — Kingdom is always the broadest, Species always the narrowest.",
+                "A ‘Class’ in biology has nothing to do with a classroom — don't confuse it with everyday English.",
+                "WAEC often gives a partial hierarchy and asks you to fill in the missing rank — know the sequence by heart."
+              ],
+              "sub": "If you can recite King Philip Came Over For Good Soup instantly, this question type is free marks.",
+              "narration": "Do not reverse the order — Kingdom is always the broadest, Species always the narrowest. WAEC often gives a partial hierarchy and asks you to fill in the missing rank, so know the sequence by heart."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Which is the correct order of taxonomic ranks, from broadest to narrowest?",
+              "options": [
+                "Kingdom, Phylum, Class, Order, Family, Genus, Species",
+                "Species, Genus, Family, Order, Class, Phylum, Kingdom",
+                "Phylum, Kingdom, Class, Family, Order, Genus, Species",
+                "Kingdom, Class, Phylum, Family, Order, Species, Genus"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — Kingdom, Phylum, Class, Order, Family, Genus, Species, from broadest to narrowest.",
+              "explainWrong": "The correct order, broadest to narrowest, is Kingdom, Phylum, Class, Order, Family, Genus, Species.",
+              "refCard": 2,
+              "narration": "Which is the correct order of taxonomic ranks, from broadest to narrowest?"
+            },
+            {
+              "question": "As you move down the taxonomic hierarchy from Kingdom to Species, what happens?",
+              "options": [
+                "The number of organisms in each group decreases and shared features increase",
+                "The number of organisms increases and shared features decrease",
+                "Both the number of organisms and shared features increase",
+                "Nothing changes except the group's name"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — lower ranks contain fewer organisms that share more features in common.",
+              "explainWrong": "Moving down the hierarchy, groups get smaller in number but members share more features — not the reverse.",
+              "refCard": 3,
+              "narration": "As you move down the taxonomic hierarchy from Kingdom to Species, what happens?"
+            },
+            {
+              "question": "In the classification of humans, Homo sapiens, what does ‘Homo’ represent?",
+              "options": [
+                "The genus",
+                "The species",
+                "The family",
+                "The kingdom"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — in a scientific name, the first word is always the genus; the second is the species.",
+              "explainWrong": "‘Homo’ is the genus; ‘sapiens’ is the species — the genus always comes first in a scientific name.",
+              "refCard": 4,
+              "narration": "In the classification of humans, Homo sapiens, what does ‘Homo’ represent?"
+            },
+            {
+              "question": "Two organisms belonging to the same species are expected to be able to",
+              "options": [
+                "interbreed and produce fertile offspring",
+                "live in exactly the same habitat only",
+                "belong to different kingdoms",
+                "have completely identical genes with no variation"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — the ability to interbreed and produce fertile offspring is the standard definition of a species.",
+              "explainWrong": "Members of a species can interbreed and produce fertile offspring — habitat and identical genes are not the definition.",
+              "refCard": 3,
+              "narration": "Two organisms belonging to the same species are expected to be able to"
+            }
+          ]
+        },
+        {
+          "id": "five-kingdoms",
+          "title": "The Five Kingdoms",
+          "stories": [
+            {
+              "tag": "The upgrade · 1969",
+              "sub": "From two boxes to five",
+              "heading": "Why ‘plant’ or ‘animal’ wasn't enough",
+              "list": [
+                "For centuries, living things were sorted into only two kingdoms: Plants and Animals.",
+                "But bacteria, fungi and single-celled organisms didn't fit either box neatly.",
+                "In 1969, Robert Whittaker proposed five kingdoms, based on cell structure and how organisms feed."
+              ],
+              "narration": "For centuries, living things were sorted into only two kingdoms: plants and animals. But bacteria, fungi and single-celled organisms didn't fit either box neatly. In 1969, Robert Whittaker proposed five kingdoms instead, based on cell structure and how organisms feed."
+            },
+            {
+              "tag": "Hiding in plain sight",
+              "sub": "A kingdom you meet every day",
+              "heading": "Fungi aren't plants",
+              "list": [
+                "Mushrooms were long grouped with plants because both are rooted in place and don't move.",
+                "But fungi don't photosynthesise — they absorb nutrients from their surroundings, more like a very slow, spread-out form of feeding.",
+                "This feeding difference is exactly why fungi got their own kingdom."
+              ],
+              "narration": "Mushrooms were long grouped with plants because both stay rooted in place. But fungi don't photosynthesise — they absorb nutrients from their surroundings instead — which is exactly why fungi got their own kingdom."
+            }
+          ],
+          "lessons": [
+            {
+              "eyebrow": "The big picture",
+              "big": "5",
+              "heading": "The five kingdoms at a glance",
+              "list": [
+                "Kingdom Monera — bacteria; no true nucleus.",
+                "Kingdom Protista — mostly single-celled, has a nucleus (e.g. Amoeba, Paramecium).",
+                "Kingdom Fungi, Kingdom Plantae, Kingdom Animalia — the three multicellular kingdoms."
+              ],
+              "sub": "Monera, Protista, Fungi, Plantae, Animalia.",
+              "narration": "The five kingdoms are Monera, which are bacteria with no true nucleus; Protista, mostly single-celled organisms with a nucleus; and then Fungi, Plantae and Animalia, the three multicellular kingdoms."
+            },
+            {
+              "eyebrow": "Kingdom Monera",
+              "heading": "Bacteria — life without a nucleus",
+              "list": [
+                "Monerans are prokaryotes: single-celled organisms whose DNA floats freely, not enclosed in a nucleus.",
+                "They are the smallest and most numerous living things on Earth.",
+                "Examples: E. coli, Rhizobium (nitrogen-fixing soil bacteria)."
+              ],
+              "sub": "No nucleus is the single feature that defines this kingdom.",
+              "narration": "Monerans are prokaryotes — single-celled organisms whose DNA floats freely, not enclosed in a nucleus. They are the smallest and most numerous living things on Earth, including bacteria like E. coli."
+            },
+            {
+              "eyebrow": "Kingdom Protista",
+              "heading": "Protists — the ‘odds and ends’ kingdom",
+              "list": [
+                "Protists are eukaryotes (have a true nucleus), mostly single-celled.",
+                "Some resemble tiny animals (Amoeba, Paramecium), some resemble tiny plants (algae like Spirogyra).",
+                "They are grouped together mainly because they don't fit neatly into Fungi, Plantae or Animalia."
+              ],
+              "sub": "If it's single-celled but has a nucleus, it's probably a Protist.",
+              "narration": "Protists are eukaryotes, mostly single-celled, that don't fit neatly into fungi, plants or animals. Some, like Amoeba, resemble tiny animals; others, like Spirogyra, resemble tiny plants."
+            },
+            {
+              "eyebrow": "Kingdom Fungi",
+              "heading": "Fungi — feeders by absorption",
+              "list": [
+                "Fungi have cell walls made of chitin, not cellulose like plants.",
+                "They cannot photosynthesise; they feed by releasing digestive enzymes onto food and absorbing the products.",
+                "Examples: mushrooms, yeast, bread mould (Rhizopus)."
+              ],
+              "sub": "Chitin cell wall + absorptive feeding = Fungi, not Plantae.",
+              "narration": "Fungi have cell walls made of chitin, not cellulose. They cannot photosynthesise — instead they release digestive enzymes onto their food and absorb the products, as in mushrooms, yeast and bread mould."
+            },
+            {
+              "eyebrow": "Exam alert",
+              "heading": "Plantae vs Animalia — the quick test",
+              "list": [
+                "Plantae: cells have a cellulose cell wall and chloroplasts; make their own food by photosynthesis.",
+                "Animalia: cells have no cell wall and no chloroplasts; feed on other organisms (heterotrophic).",
+                "If a question mentions chloroplasts or a cellulose wall, the answer is a plant cell or Kingdom Plantae."
+              ],
+              "sub": "Cell wall + chloroplasts = plant. No cell wall, no chloroplasts = animal.",
+              "narration": "Plant cells have a cellulose cell wall and chloroplasts and make their own food by photosynthesis. Animal cells have no cell wall and no chloroplasts, and feed on other organisms."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Which kingdom consists of organisms whose cells have no true nucleus?",
+              "options": [
+                "Monera",
+                "Protista",
+                "Fungi",
+                "Plantae"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — Monerans (bacteria) are prokaryotes, with DNA not enclosed in a nucleus.",
+              "explainWrong": "Kingdom Monera is defined by the absence of a true nucleus — the other kingdoms are all eukaryotic.",
+              "refCard": 2,
+              "narration": "Which kingdom consists of organisms whose cells have no true nucleus?"
+            },
+            {
+              "question": "Fungi are placed in their own kingdom, separate from plants, mainly because",
+              "options": [
+                "fungi cannot photosynthesise and feed by absorption instead",
+                "fungi have no cell wall at all",
+                "fungi can move around freely like animals",
+                "fungi are always single-celled"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — fungi feed by releasing enzymes and absorbing nutrients, unlike photosynthesising plants.",
+              "explainWrong": "Fungi lack chloroplasts and cannot photosynthesise; they absorb nutrients instead, which sets them apart from plants.",
+              "refCard": 4,
+              "narration": "Fungi are placed in their own kingdom, separate from plants, mainly because"
+            },
+            {
+              "question": "A cell with a cellulose cell wall and chloroplasts most likely belongs to",
+              "options": [
+                "Kingdom Plantae",
+                "Kingdom Animalia",
+                "Kingdom Fungi",
+                "Kingdom Monera"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — a cellulose wall and chloroplasts are defining features of plant cells.",
+              "explainWrong": "A cellulose cell wall with chloroplasts is characteristic of Kingdom Plantae, not the other kingdoms.",
+              "refCard": 5,
+              "narration": "A cell with a cellulose cell wall and chloroplasts most likely belongs to"
+            },
+            {
+              "question": "Organisms such as Amoeba and Paramecium, which are single-celled but have a true nucleus, belong to which kingdom?",
+              "options": [
+                "Protista",
+                "Monera",
+                "Fungi",
+                "Animalia"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — Protists are mostly single-celled eukaryotes that don't fit into the other three multicellular kingdoms.",
+              "explainWrong": "Amoeba and Paramecium are Protists — single-celled but with a true nucleus, unlike Monera.",
+              "refCard": 3,
+              "narration": "Organisms such as Amoeba and Paramecium, which are single-celled but have a true nucleus, belong to which kingdom?"
+            }
+          ]
+        },
+        {
+          "id": "naming-and-keys",
+          "title": "Naming Organisms & Identification Keys",
+          "stories": [
+            {
+              "tag": "One universal rule · 1753",
+              "sub": "A name every scientist on Earth agrees on",
+              "heading": "Binomial nomenclature",
+              "list": [
+                "Before standard naming, a single species could have dozens of common names across different languages.",
+                "Linnaeus's binomial system gives every species exactly one two-word Latin name, used worldwide.",
+                "This is why scientific papers from Nigeria, Japan and Brazil can all refer to Panthera leo and mean the exact same lion."
+              ],
+              "narration": "Before standard naming, a single species could have dozens of common names across languages. Linnaeus's binomial system gives every species exactly one two-word Latin name, used worldwide, so scientists everywhere can refer to Panthera leo and mean the exact same lion."
+            },
+            {
+              "tag": "In the field",
+              "sub": "How do you identify a mystery organism?",
+              "heading": "Twenty questions, biologist-style",
+              "list": [
+                "Field biologists use identification keys — a structured series of either/or questions.",
+                "Each answer narrows down the possibilities until only one species remains.",
+                "This is the same logic as a 20-questions game, applied systematically to biology."
+              ],
+              "narration": "Field biologists use identification keys — a structured series of either/or questions. Each answer narrows down the possibilities until only one species remains, the same logic as a twenty-questions game applied systematically to biology."
+            }
+          ],
+          "lessons": [
+            {
+              "eyebrow": "The big picture",
+              "heading": "The rules of binomial nomenclature",
+              "list": [
+                "Every species gets a two-part Latin name: Genus + species, e.g. Homo sapiens.",
+                "The genus name starts with a capital letter; the species name is all lowercase.",
+                "Both words are italicised when typed, or underlined when handwritten."
+              ],
+              "sub": "Homo sapiens — capital Genus, lowercase species, always italicised.",
+              "narration": "Every species gets a two-part Latin name: genus plus species, such as Homo sapiens. The genus name starts with a capital letter, the species name is lowercase, and both are italicised when typed or underlined when handwritten."
+            },
+            {
+              "eyebrow": "Why Latin?",
+              "heading": "One name, no confusion",
+              "list": [
+                "Latin was chosen because it was the shared scientific language of Linnaeus's time and belongs to no single modern country.",
+                "A binomial name is unique to one species only, avoiding the confusion of local common names.",
+                "Example: what Nigerians may call ‘bush mango’ has one single scientific name recognised worldwide, Irvingia gabonensis."
+              ],
+              "sub": "A scientific name has no ambiguity — a common name often does.",
+              "narration": "Latin was chosen because it was the shared scientific language of Linnaeus's time and belongs to no single modern country. A binomial name is unique to one species, avoiding the confusion that local common names can cause."
+            },
+            {
+              "eyebrow": "Identification keys",
+              "heading": "How a dichotomous key works",
+              "list": [
+                "A dichotomous key presents a series of paired statements about an organism's features.",
+                "At each step, you choose the statement that fits, which either names the organism or sends you to the next pair.",
+                "‘Dichotomous’ means ‘divided into two’ — every step is a fork with exactly two branches."
+              ],
+              "sub": "Each step is a fork in the road with only two paths.",
+              "narration": "A dichotomous key presents a series of paired statements about an organism's features. At each step, you choose the statement that fits, which either names the organism or sends you to the next pair — dichotomous means divided into two."
+            },
+            {
+              "eyebrow": "Worked example",
+              "heading": "Using a simple key",
+              "list": [
+                "1a. Has wings — go to 2. 1b. Has no wings — it is a millipede.",
+                "2a. Has one pair of wings — it is a fly. 2b. Has two pairs of wings — it is a butterfly.",
+                "Following the fitting statement at each numbered step leads you to a final identification."
+              ],
+              "sub": "Read each pair, pick the true one, follow where it sends you.",
+              "narration": "For example: if the organism has wings, go to step two; if not, it is a millipede. At step two, one pair of wings means it is a fly, and two pairs of wings means it is a butterfly. Following the fitting statement at each step leads to a final identification."
+            },
+            {
+              "eyebrow": "Exam alert",
+              "heading": "Common WAEC pitfalls on naming and keys",
+              "list": [
+                "Do not capitalise the species name — only the genus name gets a capital letter.",
+                "Do not swap the order — genus always comes first, species always second.",
+                "When using a key in an exam, work through the pairs in order; don't guess or skip steps."
+              ],
+              "sub": "Homo Sapiens and homo sapiens are both wrong formats — Homo sapiens is correct.",
+              "narration": "Do not capitalise the species name — only the genus name gets a capital letter, and genus always comes first. When using a key in an exam, work through the numbered pairs in order rather than guessing."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "In the scientific name Panthera leo, what does ‘Panthera’ represent?",
+              "options": [
+                "The genus",
+                "The species",
+                "The family",
+                "The common name"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — the first word of a binomial name is always the genus.",
+              "explainWrong": "‘Panthera’ is the genus; ‘leo’ is the species — the genus is always written first.",
+              "refCard": 1,
+              "narration": "In the scientific name Panthera leo, what does ‘Panthera’ represent?"
+            },
+            {
+              "question": "Which of these is correctly formatted as a scientific (binomial) name?",
+              "options": [
+                "Homo sapiens",
+                "homo Sapiens",
+                "HOMO SAPIENS",
+                "Sapiens homo"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — genus capitalised, species lowercase, genus first: Homo sapiens.",
+              "explainWrong": "The correct format capitalises only the genus, keeps the species lowercase, and puts genus first: Homo sapiens.",
+              "refCard": 1,
+              "narration": "Which of these is correctly formatted as a scientific (binomial) name?"
+            },
+            {
+              "question": "A dichotomous key works by",
+              "options": [
+                "presenting paired either/or statements that narrow down an identification step by step",
+                "listing every species alphabetically",
+                "showing only pictures with no text",
+                "requiring DNA testing at every step"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — a dichotomous key is a series of two-choice steps that narrow down the identity of an organism.",
+              "explainWrong": "A dichotomous key uses paired either/or statements at each step, not alphabetical lists or DNA testing.",
+              "refCard": 3,
+              "narration": "A dichotomous key works by"
+            },
+            {
+              "question": "Why is binomial nomenclature preferred over common names in science?",
+              "options": [
+                "Each species gets one unique name recognised worldwide, avoiding confusion",
+                "It is easier to say than any common name",
+                "It only applies to animals, not plants",
+                "It changes every year to stay current"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — a scientific name is unique and globally standardised, unlike local common names.",
+              "explainWrong": "Binomial names give each species one unique, globally recognised name — the benefit is avoiding the ambiguity of local common names.",
+              "refCard": 2,
+              "narration": "Why is binomial nomenclature preferred over common names in science?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "diversity-of-plants",
+      "title": "Diversity of Plants",
+      "description": "From simple algae to flowering trees — the four major plant groups and how they differ.",
+      "subtopics": [
+        {
+          "id": "thallophyta-bryophyta",
+          "title": "Thallophyta & Bryophyta",
+          "stories": [
+            {
+              "tag": "The pioneers",
+              "sub": "Life before roots and stems existed",
+              "heading": "The simplest plant-like organisms",
+              "list": [
+                "Thallophytes were among the very first photosynthesising organisms — mostly aquatic algae.",
+                "Their whole body is a simple structure called a thallus, with no true root, stem or leaf.",
+                "Green pond scum, seaweed and Spirogyra are all everyday examples."
+              ],
+              "narration": "Thallophytes were among the very first photosynthesising organisms, mostly aquatic algae. Their whole body is a simple structure called a thallus, with no true root, stem or leaf — green pond scum, seaweed and Spirogyra are everyday examples."
+            },
+            {
+              "tag": "First steps on land",
+              "sub": "Small, low, and never far from water",
+              "heading": "Why mosses stay tiny",
+              "list": [
+                "Bryophytes (mosses, liverworts) were among the first plants to colonise land, but only partly succeeded.",
+                "They have no true vascular tissue to carry water upward, so they can't grow tall.",
+                "They also need a film of water on their surface for sperm to swim to the egg during reproduction — which is why mosses grow in damp, shady places."
+              ],
+              "narration": "Bryophytes, like mosses and liverworts, were among the first plants to colonise land, but only partly succeeded. They have no vascular tissue to carry water upward, so they can't grow tall, and they need a film of water for sperm to swim to the egg — which is why mosses grow in damp, shady places."
+            }
+          ],
+          "lessons": [
+            {
+              "eyebrow": "The big picture",
+              "big": "🌊",
+              "heading": "Where these groups sit in plant diversity",
+              "list": [
+                "Thallophyta (algae) and Bryophyta (mosses/liverworts) are the two simplest plant groups.",
+                "Neither group has true roots, stems or leaves, and neither produces flowers or seeds.",
+                "They reproduce mainly by spores, not seeds."
+              ],
+              "sub": "Simplest body plan, no seeds, no flowers, no vascular tissue (in Thallophyta).",
+              "narration": "Thallophyta, the algae, and Bryophyta, the mosses and liverworts, are the two simplest plant groups. Neither has true roots, stems or leaves, and neither produces flowers or seeds — they reproduce mainly by spores."
+            },
+            {
+              "eyebrow": "Thallophyta",
+              "heading": "Algae — body plan and habitat",
+              "list": [
+                "The body is called a thallus: undifferentiated, with no separate root, stem or leaf.",
+                "Almost all thallophytes live in water or very damp places.",
+                "Examples: Spirogyra (freshwater, thread-like), Chlamydomonas (single-celled), seaweeds like kelp."
+              ],
+              "sub": "A thallus is a plant body with no proper organs — just a simple mass or thread of cells.",
+              "narration": "The algal body is called a thallus — undifferentiated, with no separate root, stem or leaf. Almost all thallophytes live in water or very damp places, examples including Spirogyra, Chlamydomonas and seaweeds."
+            },
+            {
+              "eyebrow": "Bryophyta",
+              "heading": "Mosses and liverworts — body plan and habitat",
+              "list": [
+                "Bryophytes have simple leaf-like and stem-like parts, but no true vascular tissue (xylem/phloem).",
+                "They are anchored by root-like structures called rhizoids, not true roots.",
+                "They grow low and in clumps, typically in damp, shaded habitats like forest floors and riverbanks."
+              ],
+              "sub": "Rhizoids anchor, but don't absorb water efficiently like true roots do.",
+              "narration": "Bryophytes have simple leaf-like and stem-like parts, but no true vascular tissue. They are anchored by root-like structures called rhizoids, and typically grow low, in damp, shaded habitats."
+            },
+            {
+              "eyebrow": "Reproduction",
+              "heading": "Spores, not seeds",
+              "list": [
+                "Both groups reproduce using spores — tiny, light reproductive cells, not seeds.",
+                "Bryophytes need a film of surface water for the sperm to swim to the egg cell.",
+                "This water-dependence is the main reason bryophytes never colonised dry habitats successfully."
+              ],
+              "sub": "No seed coat, no drought protection — spores need dampness to complete reproduction.",
+              "narration": "Both groups reproduce using spores, not seeds. Bryophytes specifically need a film of surface water for the sperm to swim to the egg — which is the main reason bryophytes never colonised dry habitats successfully."
+            },
+            {
+              "eyebrow": "Exam alert",
+              "heading": "Thallophyta vs Bryophyta — the quick test",
+              "list": [
+                "Thallophyta: body is an undifferentiated thallus; almost always aquatic.",
+                "Bryophyta: has simple leaf-like/stem-like parts and rhizoids; mostly terrestrial but needs dampness.",
+                "Neither group has true vascular tissue, true roots, flowers or seeds — a favourite distractor in WAEC options."
+              ],
+              "sub": "If an option says ‘has seeds’ or ‘has flowers’, it is NOT Thallophyta or Bryophyta.",
+              "narration": "Thallophyta has an undifferentiated thallus and is almost always aquatic. Bryophyta has simple leaf-like and stem-like parts with rhizoids, and is mostly terrestrial but needs dampness. Neither group has true vascular tissue, roots, flowers or seeds."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "The simple, undifferentiated body of an alga is called a",
+              "options": [
+                "thallus",
+                "rhizoid",
+                "frond",
+                "sporophyte"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — a thallus is a plant body with no true root, stem or leaf.",
+              "explainWrong": "The undifferentiated algal body is called a thallus, not a rhizoid, frond or sporophyte.",
+              "refCard": 2,
+              "narration": "The simple, undifferentiated body of an alga is called a"
+            },
+            {
+              "question": "Mosses are anchored to their substrate by structures called",
+              "options": [
+                "rhizoids",
+                "true roots",
+                "tap roots",
+                "prop roots"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — rhizoids anchor bryophytes but are not true roots and don't absorb water as efficiently.",
+              "explainWrong": "Bryophytes are anchored by rhizoids, not true roots — a key feature separating them from higher plants.",
+              "refCard": 3,
+              "narration": "Mosses are anchored to their substrate by structures called"
+            },
+            {
+              "question": "Why are mosses restricted to damp, shaded habitats?",
+              "options": [
+                "Their sperm needs a film of water to swim to the egg cell",
+                "They cannot photosynthesise without direct sunlight",
+                "They have no chlorophyll",
+                "They only grow where there is no soil"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — bryophyte fertilisation depends on surface water for sperm to swim to the egg.",
+              "explainWrong": "Mosses need damp conditions because their sperm must swim through a film of water to reach the egg cell.",
+              "refCard": 4,
+              "narration": "Why are mosses restricted to damp, shaded habitats?"
+            },
+            {
+              "question": "Thallophyta and Bryophyta both reproduce mainly by",
+              "options": [
+                "spores",
+                "seeds",
+                "flowers",
+                "fruits"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — neither group produces seeds or flowers; both rely on spores.",
+              "explainWrong": "Both groups reproduce by spores — neither has evolved seeds, flowers or fruits.",
+              "refCard": 5,
+              "narration": "Thallophyta and Bryophyta both reproduce mainly by"
+            }
+          ]
+        },
+        {
+          "id": "pteridophyta",
+          "title": "Pteridophyta (Ferns)",
+          "stories": [
+            {
+              "tag": "The breakthrough",
+              "sub": "The upgrade that let plants grow tall",
+              "heading": "Ferns invented plant plumbing",
+              "list": [
+                "Ferns were among the first plants to evolve true vascular tissue — xylem to carry water up, phloem to carry food around.",
+                "This ‘plumbing’ let ferns grow much larger than any moss ever could.",
+                "Fossil ferns from over 300 million years ago formed the giant swamp forests that became today's coal deposits."
+              ],
+              "narration": "Ferns were among the first plants to evolve true vascular tissue — xylem to carry water up, and phloem to carry food around. This plumbing let ferns grow much larger than any moss, and fossil ferns from over three hundred million years ago formed the giant swamp forests that became today's coal deposits."
+            },
+            {
+              "tag": "Still tied to water",
+              "sub": "An upgrade with one leftover weakness",
+              "heading": "Why ferns still need damp soil",
+              "list": [
+                "Ferns solved the height problem with vascular tissue — but not the reproduction problem.",
+                "Like bryophytes, fern sperm must still swim through a film of water to reach the egg.",
+                "This is why ferns thrive in humid forests but are rare in deserts."
+              ],
+              "narration": "Ferns solved the height problem with vascular tissue, but not the reproduction problem — like bryophytes, fern sperm must still swim through a film of water to reach the egg, which is why ferns thrive in humid forests but are rare in deserts."
+            }
+          ],
+          "lessons": [
+            {
+              "eyebrow": "The big picture",
+              "big": "🌿",
+              "heading": "What sets Pteridophyta apart",
+              "list": [
+                "Pteridophytes have true roots, stems and leaves, unlike Thallophyta and Bryophyta.",
+                "They have true vascular tissue (xylem and phloem).",
+                "They still reproduce by spores, not seeds."
+              ],
+              "sub": "True vascular tissue + true roots/stems/leaves, but still no seeds.",
+              "narration": "Pteridophytes have true roots, stems and leaves, and true vascular tissue, unlike Thallophyta and Bryophyta — but they still reproduce by spores, not seeds."
+            },
+            {
+              "eyebrow": "Anatomy",
+              "heading": "The parts of a fern",
+              "list": [
+                "The leaf of a fern is called a frond; young fronds are tightly coiled, called fiddleheads.",
+                "Brown dot-like clusters on the underside of fronds, called sori, contain spore-producing structures.",
+                "The underground stem, called a rhizome, anchors the plant and produces new fronds each season."
+              ],
+              "sub": "Frond = leaf. Sori = spore clusters. Rhizome = underground stem.",
+              "narration": "The leaf of a fern is called a frond, and young fronds start tightly coiled, called fiddleheads. Brown dot-like clusters on the underside, called sori, contain spore-producing structures, while the underground stem, the rhizome, anchors the plant."
+            },
+            {
+              "eyebrow": "Vascular tissue",
+              "heading": "Xylem and phloem — the plant's plumbing",
+              "list": [
+                "Xylem transports water and dissolved minerals from roots upward through the plant.",
+                "Phloem transports the food made in photosynthesis to every part of the plant, including roots.",
+                "This is the first plant group in the syllabus to have both — that's what allows real height."
+              ],
+              "sub": "Xylem moves water up; phloem moves food around.",
+              "narration": "Xylem transports water and dissolved minerals upward from the roots. Phloem transports the food made in photosynthesis to every part of the plant, including the roots. This is the first plant group with both, which is what allows real height."
+            },
+            {
+              "eyebrow": "Reproduction",
+              "heading": "The fern life cycle in brief",
+              "list": [
+                "Mature fronds release spores from the sori; spores that land in a damp spot grow into a small, flat structure called a prothallus.",
+                "The prothallus produces sperm and egg cells; the sperm swims through water to fertilise the egg.",
+                "The fertilised egg grows into a new, familiar-looking fern plant."
+              ],
+              "sub": "Spore → prothallus → fertilisation (needs water) → new fern.",
+              "narration": "Mature fronds release spores from the sori. A spore that lands in a damp spot grows into a small, flat structure called a prothallus, which produces sperm and egg cells. The sperm swims through water to fertilise the egg, which then grows into a new fern."
+            },
+            {
+              "eyebrow": "Exam alert",
+              "heading": "Pteridophyta's defining combination",
+              "list": [
+                "True roots, stems, leaves AND true vascular tissue — but reproduces by spores, not seeds.",
+                "This combination (vascular but no seeds) is unique to Pteridophyta in the plant kingdom.",
+                "WAEC often tests this exact contrast: ‘vascular but seedless’ = ferns."
+              ],
+              "sub": "Vascular + seedless is the unique fingerprint of Pteridophyta.",
+              "narration": "The defining combination is true roots, stems, leaves and true vascular tissue, but reproduction by spores, not seeds — vascular but seedless is unique to Pteridophyta, and a combination WAEC often tests directly."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "What is the main feature that separates Pteridophyta from Thallophyta and Bryophyta?",
+              "options": [
+                "Pteridophytes have true vascular tissue (xylem and phloem)",
+                "Pteridophytes produce flowers",
+                "Pteridophytes have no leaves at all",
+                "Pteridophytes live only in the ocean"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — true vascular tissue is the key upgrade Pteridophyta has over the two simpler groups.",
+              "explainWrong": "The key difference is true vascular tissue (xylem and phloem) — Pteridophytes don't produce flowers.",
+              "refCard": 1,
+              "narration": "What is the main feature that separates Pteridophyta from Thallophyta and Bryophyta?"
+            },
+            {
+              "question": "The brown, dot-like clusters found on the underside of a fern frond are called",
+              "options": [
+                "sori",
+                "rhizomes",
+                "fiddleheads",
+                "prothalli"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — sori are clusters containing the fern's spore-producing structures.",
+              "explainWrong": "These clusters are called sori — the rhizome is the underground stem, not a surface structure.",
+              "refCard": 2,
+              "narration": "The brown, dot-like clusters found on the underside of a fern frond are called"
+            },
+            {
+              "question": "In a fern's vascular tissue, which of these correctly describes xylem's function?",
+              "options": [
+                "Transports water and dissolved minerals from the roots upward",
+                "Transports food made in photosynthesis to the roots",
+                "Produces spores for reproduction",
+                "Anchors the fern to the soil"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — xylem carries water and minerals upward; phloem carries food.",
+              "explainWrong": "Xylem's job is transporting water and minerals upward from the roots — transporting food is phloem's job.",
+              "refCard": 3,
+              "narration": "In a fern's vascular tissue, which of these correctly describes xylem's function?"
+            },
+            {
+              "question": "Like mosses, ferns still require water for reproduction because",
+              "options": [
+                "fern sperm must swim through a film of water to reach the egg",
+                "fern spores cannot survive without constant water",
+                "fern roots cannot absorb water without help",
+                "fern leaves dissolve in dry air"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — despite having vascular tissue, ferns retained a bryophyte-like need for water during fertilisation.",
+              "explainWrong": "Fern sperm still needs a film of water to swim to the egg cell — vascular tissue solved height, not reproduction.",
+              "refCard": 4,
+              "narration": "Like mosses, ferns still require water for reproduction because"
+            }
+          ]
+        },
+        {
+          "id": "spermatophyta",
+          "title": "Spermatophyta (Seed Plants)",
+          "stories": [
+            {
+              "tag": "The final upgrade",
+              "sub": "A survival capsule for the next generation",
+              "heading": "The invention of the seed",
+              "list": [
+                "The seed was a breakthrough: an embryo plant packaged with its own food supply, protected by a tough coat.",
+                "Unlike a spore, a seed can survive drought, cold, and being buried, waiting until conditions are right to germinate.",
+                "Seed plants no longer need water for fertilisation — pollen replaced swimming sperm."
+              ],
+              "narration": "The seed was a breakthrough: an embryo plant packaged with its own food supply, protected by a tough coat. Unlike a spore, a seed can survive drought and cold, waiting until conditions are right — and seed plants no longer need water for fertilisation, because pollen replaced swimming sperm."
+            },
+            {
+              "tag": "Two strategies",
+              "sub": "Naked seeds vs seeds inside a fruit",
+              "heading": "Pine cones and flowers took different paths",
+              "list": [
+                "Gymnosperms (e.g. pine trees) produce ‘naked’ seeds, exposed on the scales of cones.",
+                "Angiosperms (flowering plants) enclose their seeds inside a protective fruit, developed from the flower's ovary.",
+                "Angiosperms are now the most successful and diverse plant group on Earth, from grasses to oak trees."
+              ],
+              "narration": "Gymnosperms, like pine trees, produce naked seeds, exposed on the scales of cones. Angiosperms, the flowering plants, enclose their seeds inside a protective fruit, and are now the most successful and diverse plant group on Earth."
+            }
+          ],
+          "lessons": [
+            {
+              "eyebrow": "The big picture",
+              "big": "🌰",
+              "heading": "What makes Spermatophyta the most advanced group",
+              "list": [
+                "Spermatophyta means ‘seed plants’ — they reproduce by seeds, not spores.",
+                "They have true roots, stems, leaves and vascular tissue, like Pteridophyta, plus the seed upgrade.",
+                "They are split into two groups: Gymnosperms (naked seeds) and Angiosperms (flowering plants)."
+              ],
+              "sub": "Spermatophyta = vascular plants that make seeds.",
+              "narration": "Spermatophyta means seed plants — they reproduce by seeds, not spores, and have true roots, stems, leaves and vascular tissue. They split into two groups: Gymnosperms with naked seeds, and Angiosperms, the flowering plants."
+            },
+            {
+              "eyebrow": "Gymnosperms",
+              "heading": "Naked-seed plants",
+              "list": [
+                "‘Gymnosperm’ means ‘naked seed’ — the seed is not enclosed in a fruit.",
+                "Seeds develop exposed on the surface of scales, usually arranged into a cone.",
+                "Examples: pine, cypress, and other cone-bearing (coniferous) trees."
+              ],
+              "sub": "No fruit wrapper — the seed sits exposed on a cone scale.",
+              "narration": "Gymnosperm means naked seed — the seed is not enclosed in a fruit, but develops exposed on the surface of a cone's scales, as in pine and other coniferous trees."
+            },
+            {
+              "eyebrow": "Angiosperms",
+              "heading": "Flowering plants",
+              "list": [
+                "‘Angiosperm’ means ‘seed in a vessel’ — the seed develops enclosed inside a fruit.",
+                "Angiosperms produce flowers, the reproductive structure that develops into fruit after fertilisation.",
+                "They are divided into monocotyledons and dicotyledons, based on the number of seed leaves in the embryo."
+              ],
+              "sub": "Flower → fertilisation → fruit, with seeds protected inside.",
+              "narration": "Angiosperm means seed in a vessel — the seed develops enclosed inside a fruit. Angiosperms produce flowers, and are divided into monocotyledons and dicotyledons, based on the number of seed leaves in the embryo."
+            },
+            {
+              "eyebrow": "Monocot vs Dicot",
+              "heading": "Telling the two angiosperm groups apart",
+              "list": [
+                "Monocotyledons: one seed leaf (cotyledon), parallel leaf veins, fibrous roots. Example: maize, rice, grasses.",
+                "Dicotyledons: two seed leaves, net-like (branching) leaf veins, a tap root. Example: beans, mango, hibiscus.",
+                "Flower parts are also a clue: monocots often have parts in multiples of 3; dicots in multiples of 4 or 5."
+              ],
+              "sub": "One seed leaf + parallel veins = monocot. Two seed leaves + net veins = dicot.",
+              "narration": "Monocotyledons have one seed leaf, parallel leaf veins and fibrous roots, as in maize and rice. Dicotyledons have two seed leaves, net-like leaf veins and a tap root, as in beans and mango."
+            },
+            {
+              "eyebrow": "Exam alert",
+              "heading": "The full plant hierarchy, top to bottom",
+              "list": [
+                "Thallophyta (no vascular tissue, no roots/stems/leaves) → Bryophyta (simple parts, no vascular tissue) → Pteridophyta (vascular, spores) → Spermatophyta (vascular, seeds).",
+                "Within Spermatophyta: Gymnosperms (naked seed, cones) and Angiosperms (seed in fruit, flowers).",
+                "Within Angiosperms: Monocotyledons (1 seed leaf) and Dicotyledons (2 seed leaves)."
+              ],
+              "sub": "Learn this ladder — WAEC tests it as a complete sequence, not isolated facts.",
+              "narration": "The full ladder runs: Thallophyta, then Bryophyta, then Pteridophyta with vascular tissue and spores, then Spermatophyta with vascular tissue and seeds — splitting into Gymnosperms and Angiosperms, and Angiosperms splitting again into monocotyledons and dicotyledons."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "The main reproductive difference between Spermatophyta and Pteridophyta is that Spermatophyta reproduce by",
+              "options": [
+                "seeds, not spores",
+                "spores, not seeds",
+                "budding only",
+                "binary fission"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — ‘Spermatophyta’ means seed plants, unlike the spore-producing Pteridophyta.",
+              "explainWrong": "Spermatophyta reproduce by seeds; Pteridophyta (ferns) reproduce by spores.",
+              "refCard": 1,
+              "narration": "The main reproductive difference between Spermatophyta and Pteridophyta is that Spermatophyta reproduce by"
+            },
+            {
+              "question": "A ‘naked seed’, exposed on the scale of a cone rather than enclosed in a fruit, is characteristic of",
+              "options": [
+                "Gymnosperms",
+                "Angiosperms",
+                "Bryophytes",
+                "Pteridophytes"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — Gymnosperm literally means ‘naked seed’.",
+              "explainWrong": "Naked, cone-exposed seeds are the defining feature of Gymnosperms, not Angiosperms.",
+              "refCard": 2,
+              "narration": "A ‘naked seed’, exposed on the scale of a cone rather than enclosed in a fruit, is characteristic of"
+            },
+            {
+              "question": "A plant with one seed leaf, parallel leaf veins and fibrous roots is a",
+              "options": [
+                "monocotyledon",
+                "dicotyledon",
+                "gymnosperm",
+                "bryophyte"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — one seed leaf and parallel veins are classic monocotyledon features, as in maize.",
+              "explainWrong": "One seed leaf with parallel veins describes a monocotyledon — dicots have two seed leaves and net veins.",
+              "refCard": 4,
+              "narration": "A plant with one seed leaf, parallel leaf veins and fibrous roots is a"
+            },
+            {
+              "question": "Which sequence correctly places these plant groups from simplest to most advanced?",
+              "options": [
+                "Thallophyta → Bryophyta → Pteridophyta → Spermatophyta",
+                "Spermatophyta → Pteridophyta → Bryophyta → Thallophyta",
+                "Bryophyta → Thallophyta → Spermatophyta → Pteridophyta",
+                "Pteridophyta → Thallophyta → Spermatophyta → Bryophyta"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — Thallophyta, Bryophyta, Pteridophyta, Spermatophyta is the correct order of increasing complexity.",
+              "explainWrong": "The correct order, simplest to most advanced, is Thallophyta, Bryophyta, Pteridophyta, then Spermatophyta.",
+              "refCard": 5,
+              "narration": "Which sequence correctly places these plant groups from simplest to most advanced?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "diversity-of-animals",
+      "title": "Diversity of Animals",
+      "description": "From single-celled Amoeba to backboned mammals — the major invertebrate and vertebrate groups.",
+      "subtopics": [
+        {
+          "id": "invertebrates-simple",
+          "title": "Simple Invertebrates",
+          "stories": [
+            {
+              "tag": "No backbone club",
+              "sub": "97% of all animal species",
+              "heading": "Most animals aren't what you think",
+              "list": [
+                "When people imagine ‘animals’, they usually picture backboned ones — but invertebrates make up about 97% of all animal species.",
+                "Invertebrates range from single-celled Amoeba to complex-bodied insects and octopuses.",
+                "This sub-topic covers the simplest invertebrate phyla, ordered roughly by increasing body complexity."
+              ],
+              "narration": "When people imagine animals, they usually picture backboned ones, but invertebrates make up about ninety-seven percent of all animal species, ranging from single-celled Amoeba to complex insects and octopuses."
+            },
+            {
+              "tag": "A worm you don't want",
+              "sub": "Biology with real medical stakes",
+              "heading": "Why flatworms and roundworms matter in West Africa",
+              "list": [
+                "Platyhelminthes (flatworms) include tapeworms and the parasite that causes schistosomiasis (bilharzia).",
+                "Nematodes (roundworms) include species that cause elephantiasis and intestinal worm infections.",
+                "Understanding these phyla isn't just exam content — it's directly relevant to public health."
+              ],
+              "narration": "Platyhelminthes, the flatworms, include tapeworms and the parasite that causes schistosomiasis. Nematodes, the roundworms, include species that cause elephantiasis and intestinal worm infections — understanding these phyla is directly relevant to public health, not just exams."
+            }
+          ],
+          "lessons": [
+            {
+              "eyebrow": "The big picture",
+              "big": "🦠",
+              "heading": "Invertebrates — animals without a backbone",
+              "list": [
+                "Invertebrates are animals with no vertebral column (backbone).",
+                "They are grouped into phyla based on body plan: symmetry, body cavity, and level of organisation.",
+                "This sub-topic covers five simpler phyla: Protozoa, Porifera, Coelenterata, Platyhelminthes and Nematoda."
+              ],
+              "sub": "No backbone = invertebrate. That's the entire test.",
+              "narration": "Invertebrates are animals with no vertebral column, grouped into phyla based on body plan. This sub-topic covers five simpler phyla: Protozoa, Porifera, Coelenterata, Platyhelminthes and Nematoda."
+            },
+            {
+              "eyebrow": "Phylum Protozoa",
+              "heading": "Single-celled animals",
+              "list": [
+                "Protozoa are single-celled organisms that behave like tiny animals: they move and feed on other organisms.",
+                "Examples: Amoeba (moves using flowing pseudopodia), Paramecium (moves using tiny hair-like cilia).",
+                "Plasmodium, the malaria parasite, is also a protozoan."
+              ],
+              "sub": "One cell, but a full life: moving, feeding, reproducing.",
+              "narration": "Protozoa are single-celled organisms that move and feed like tiny animals. Amoeba moves using flowing pseudopodia, Paramecium uses tiny hair-like cilia, and Plasmodium, the malaria parasite, is also a protozoan."
+            },
+            {
+              "eyebrow": "Phylum Porifera & Coelenterata",
+              "heading": "Sponges and stinging animals",
+              "list": [
+                "Porifera (sponges) have a body full of pores, with no true tissues or organs — the simplest true multicellular animals.",
+                "Coelenterata (e.g. Hydra, jellyfish, coral) have a sac-like body with one opening and stinging cells called cnidocytes.",
+                "Both groups show radial symmetry — their body parts are arranged around a central axis."
+              ],
+              "sub": "Pores with no tissues = sponge. Sac body with stinging cells = coelenterate.",
+              "narration": "Porifera, the sponges, have a body full of pores with no true tissues or organs. Coelenterata, like Hydra and jellyfish, have a sac-like body with one opening and stinging cells called cnidocytes. Both show radial symmetry."
+            },
+            {
+              "eyebrow": "Phylum Platyhelminthes",
+              "heading": "Flatworms",
+              "list": [
+                "Platyhelminthes have flattened, ribbon-like bodies with bilateral symmetry (a distinct left and right side).",
+                "Many are parasitic: tapeworms live in the gut; Schistosoma causes schistosomiasis (bilharzia).",
+                "They have no true body cavity and no circulatory system — nutrients simply diffuse through the flat body."
+              ],
+              "sub": "Flat body = short diffusion distance, which is why they don't need a circulatory system.",
+              "narration": "Platyhelminthes, the flatworms, have flattened, ribbon-like bodies with bilateral symmetry. Many are parasitic — tapeworms live in the gut, and Schistosoma causes schistosomiasis. They have no circulatory system; nutrients simply diffuse through the flat body."
+            },
+            {
+              "eyebrow": "Phylum Nematoda",
+              "heading": "Roundworms",
+              "list": [
+                "Nematodes have a cylindrical, unsegmented body, pointed at both ends.",
+                "Unlike Platyhelminthes, they have a complete digestive tract with two openings (mouth and anus).",
+                "Examples: Ascaris (intestinal roundworm), Wuchereria (causes elephantiasis)."
+              ],
+              "sub": "Round in cross-section, pointed at both ends, tube-within-a-tube gut.",
+              "narration": "Nematodes have a cylindrical, unsegmented body, pointed at both ends, with a complete digestive tract that has both a mouth and an anus — unlike flatworms. Examples include Ascaris and Wuchereria, which causes elephantiasis."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Amoeba and Paramecium, which move and feed like tiny animals despite being single-celled, belong to phylum",
+              "options": [
+                "Protozoa",
+                "Porifera",
+                "Nematoda",
+                "Platyhelminthes"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — Protozoa are single-celled organisms that behave like tiny animals.",
+              "explainWrong": "Amoeba and Paramecium are Protozoa — single-celled but showing animal-like movement and feeding.",
+              "refCard": 2,
+              "narration": "Amoeba and Paramecium, which move and feed like tiny animals despite being single-celled, belong to phylum"
+            },
+            {
+              "question": "A sac-like body with one opening and stinging cells (cnidocytes), as in Hydra, is characteristic of phylum",
+              "options": [
+                "Coelenterata",
+                "Porifera",
+                "Nematoda",
+                "Protozoa"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — stinging cells (cnidocytes) and a sac-like single-opening body are defining Coelenterata features.",
+              "explainWrong": "Cnidocytes and a sac-like body with one opening describe Coelenterata, not Porifera or the other phyla.",
+              "refCard": 3,
+              "narration": "A sac-like body with one opening and stinging cells (cnidocytes), as in Hydra, is characteristic of phylum"
+            },
+            {
+              "question": "Tapeworms and Schistosoma, the parasite that causes schistosomiasis, belong to phylum",
+              "options": [
+                "Platyhelminthes",
+                "Nematoda",
+                "Coelenterata",
+                "Porifera"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — flatworms (Platyhelminthes) include tapeworms and Schistosoma.",
+              "explainWrong": "Tapeworms and Schistosoma are Platyhelminthes (flatworms), not roundworms or coelenterates.",
+              "refCard": 4,
+              "narration": "Tapeworms and Schistosoma, the parasite that causes schistosomiasis, belong to phylum"
+            },
+            {
+              "question": "Which feature distinguishes Nematoda from Platyhelminthes?",
+              "options": [
+                "Nematodes have a complete digestive tract with both a mouth and an anus",
+                "Nematodes have no digestive tract at all",
+                "Nematodes are always free-living, never parasitic",
+                "Nematodes have a flattened, ribbon-like body"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — Nematodes have a complete gut with two openings; Platyhelminthes have only one opening.",
+              "explainWrong": "Nematodes have a complete digestive tract with a mouth and an anus — Platyhelminthes have only one gut opening.",
+              "refCard": 5,
+              "narration": "Which feature distinguishes Nematoda from Platyhelminthes?"
+            }
+          ]
+        },
+        {
+          "id": "invertebrates-advanced",
+          "title": "Advanced Invertebrates",
+          "stories": [
+            {
+              "tag": "The overachievers",
+              "sub": "One phylum, over a million known species",
+              "heading": "Arthropods rule the planet",
+              "list": [
+                "Phylum Arthropoda contains more known species than every other animal phylum combined.",
+                "Insects alone make up roughly three-quarters of all known animal species on Earth.",
+                "Their secret weapon: a tough, lightweight exoskeleton and jointed limbs adaptable to almost any habitat."
+              ],
+              "narration": "Phylum Arthropoda contains more known species than every other animal phylum combined — insects alone make up roughly three-quarters of all known animal species. Their secret is a tough, lightweight exoskeleton and jointed limbs adaptable to almost any habitat."
+            },
+            {
+              "tag": "Segmented success",
+              "sub": "Why earthworms are good for soil",
+              "heading": "The value of a segmented body",
+              "list": [
+                "Phylum Annelida (segmented worms) includes earthworms, which constantly burrow through and aerate soil.",
+                "Charles Darwin spent decades studying earthworms, calling them one of the most important creatures in Earth's history.",
+                "Their segmented body plan let each section specialise slightly — an evolutionary innovation echoed in insects and even humans (our segmented spine)."
+              ],
+              "narration": "Phylum Annelida, the segmented worms, includes earthworms, which constantly burrow through and aerate soil. Charles Darwin spent decades studying earthworms, calling them one of the most important creatures in Earth's history."
+            }
+          ],
+          "lessons": [
+            {
+              "eyebrow": "Phylum Annelida",
+              "big": "🪱",
+              "heading": "Segmented worms",
+              "list": [
+                "Annelids have a body divided into repeating ring-like segments.",
+                "Each segment can contain its own set of muscles, nerves and excretory structures.",
+                "Examples: earthworm (Lumbricus), leech."
+              ],
+              "sub": "Segments = the body plan upgrade over simple worms.",
+              "narration": "Annelids have a body divided into repeating ring-like segments, each with its own muscles, nerves and excretory structures — examples include the earthworm and the leech."
+            },
+            {
+              "eyebrow": "Phylum Arthropoda",
+              "heading": "Jointed-leg animals",
+              "list": [
+                "Arthropods have a hard external skeleton (exoskeleton) made of chitin, and jointed limbs.",
+                "The phylum is split into classes: Insecta (3 body parts, 3 pairs of legs, e.g. housefly), Arachnida (2 body parts, 4 pairs of legs, e.g. spider), Crustacea (e.g. crab), Myriapoda (e.g. millipede, centipede — many segments, many legs).",
+                "The exoskeleton must be periodically shed (moulting) for the animal to grow."
+              ],
+              "sub": "Exoskeleton + jointed legs = Arthropoda. Count the legs to find the class.",
+              "narration": "Arthropods have a hard chitin exoskeleton and jointed limbs. The phylum splits into classes: Insecta with three body parts and three pairs of legs, Arachnida with two body parts and four pairs of legs, Crustacea like crabs, and Myriapoda like millipedes and centipedes."
+            },
+            {
+              "eyebrow": "Phylum Mollusca",
+              "heading": "Soft-bodied animals",
+              "list": [
+                "Molluscs have a soft, unsegmented body, often protected by a hard shell made of calcium carbonate.",
+                "Most move using a muscular foot.",
+                "Examples: snail (shelled), octopus (shell reduced/absent), slug, oyster."
+              ],
+              "sub": "Soft body + muscular foot, usually with a shell.",
+              "narration": "Molluscs have a soft, unsegmented body, often protected by a hard calcium carbonate shell, and most move using a muscular foot — examples include the snail, octopus, slug and oyster."
+            },
+            {
+              "eyebrow": "Phylum Echinodermata",
+              "heading": "Spiny-skinned, five-part animals",
+              "list": [
+                "Echinoderms show five-part radial symmetry as adults (think of a starfish's five arms).",
+                "Their skin contains hard, spiny plates made of calcium carbonate, just beneath the surface.",
+                "Examples: starfish, sea urchin, brittle star — all marine, none live on land or in freshwater."
+              ],
+              "sub": "Five-part body plan + spiny skin + always marine.",
+              "narration": "Echinoderms show five-part radial symmetry as adults, like a starfish's five arms, with hard spiny plates just beneath the skin — examples include starfish and sea urchins, and all are marine."
+            },
+            {
+              "eyebrow": "Exam alert",
+              "heading": "Telling the advanced invertebrate phyla apart",
+              "list": [
+                "Segmented, soft body, no shell → Annelida.",
+                "Exoskeleton + jointed legs → Arthropoda (count legs/body parts for the class).",
+                "Soft body + muscular foot (often shelled) → Mollusca. Five-part spiny marine body → Echinodermata."
+              ],
+              "sub": "Four quick checks: segments, exoskeleton+legs, foot+shell, or five-part spiny.",
+              "narration": "A segmented, soft, unshelled body is Annelida. An exoskeleton with jointed legs is Arthropoda. A soft body with a muscular foot, often shelled, is Mollusca. A five-part, spiny, marine body is Echinodermata."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "A body divided into repeating ring-like segments, as seen in the earthworm, is characteristic of phylum",
+              "options": [
+                "Annelida",
+                "Arthropoda",
+                "Mollusca",
+                "Echinodermata"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — Annelida (segmented worms) have a body of repeating ring-like segments.",
+              "explainWrong": "Repeating ring-like segments describe Annelida — Arthropoda has jointed limbs and an exoskeleton instead.",
+              "refCard": 1,
+              "narration": "A body divided into repeating ring-like segments, as seen in the earthworm, is characteristic of phylum"
+            },
+            {
+              "question": "Insects, spiders and crabs are all grouped in phylum Arthropoda mainly because they share",
+              "options": [
+                "a hard exoskeleton and jointed limbs",
+                "a soft, shelled body",
+                "five-part radial symmetry",
+                "no legs at all"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — a chitin exoskeleton with jointed limbs is the defining feature of Arthropoda.",
+              "explainWrong": "Arthropods share a hard exoskeleton and jointed limbs — not a soft shelled body or radial symmetry.",
+              "refCard": 2,
+              "narration": "Insects, spiders and crabs are all grouped in phylum Arthropoda mainly because they share"
+            },
+            {
+              "question": "A snail's soft body, protected by a spiral shell and moved by a muscular foot, places it in phylum",
+              "options": [
+                "Mollusca",
+                "Annelida",
+                "Arthropoda",
+                "Echinodermata"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — a soft body with a muscular foot, often shelled, is characteristic of Mollusca.",
+              "explainWrong": "A soft, shelled body moved by a muscular foot describes Mollusca, not Annelida or Arthropoda.",
+              "refCard": 3,
+              "narration": "A snail's soft body, protected by a spiral shell and moved by a muscular foot, places it in phylum"
+            },
+            {
+              "question": "The starfish shows five-part radial symmetry and spiny skin plates, placing it in phylum",
+              "options": [
+                "Echinodermata",
+                "Mollusca",
+                "Annelida",
+                "Porifera"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — five-part radial symmetry and spiny skin plates are the hallmark of Echinodermata.",
+              "explainWrong": "Five-part radial symmetry with spiny plates describes Echinodermata, all of which are marine animals.",
+              "refCard": 4,
+              "narration": "The starfish shows five-part radial symmetry and spiny skin plates, placing it in phylum"
+            }
+          ]
+        },
+        {
+          "id": "vertebrates",
+          "title": "Vertebrates",
+          "stories": [
+            {
+              "tag": "The 3% club",
+              "sub": "Rare, but familiar",
+              "heading": "Why vertebrates feel so central to biology",
+              "list": [
+                "Vertebrates make up only about 3% of animal species — yet they dominate biology textbooks and everyday attention.",
+                "That's likely because humans are vertebrates, and we find backboned animals easiest to relate to.",
+                "All vertebrates share one defining feature: a vertebral column (backbone) protecting a dorsal nerve cord."
+              ],
+              "narration": "Vertebrates make up only about three percent of animal species, yet they dominate biology textbooks — likely because humans are vertebrates ourselves. All vertebrates share one defining feature: a vertebral column protecting a dorsal nerve cord."
+            },
+            {
+              "tag": "One body plan, five ways",
+              "sub": "Same blueprint, different habitats",
+              "heading": "How one ancestor became fish, frogs and elephants",
+              "list": [
+                "All five vertebrate classes evolved from a shared fish-like ancestor over hundreds of millions of years.",
+                "Each class represents a different solution to living in water, on land, or both.",
+                "Comparing them side by side is one of the clearest illustrations of evolution in the whole syllabus."
+              ],
+              "narration": "All five vertebrate classes evolved from a shared fish-like ancestor over hundreds of millions of years, each representing a different solution to living in water, on land, or both — one of the clearest illustrations of evolution in the whole syllabus."
+            }
+          ],
+          "lessons": [
+            {
+              "eyebrow": "The big picture",
+              "big": "🦴",
+              "heading": "What makes an animal a vertebrate",
+              "list": [
+                "Vertebrates have a vertebral column (backbone) made of individual vertebrae, protecting the spinal cord.",
+                "They also have an internal skeleton (endoskeleton), unlike the exoskeleton of arthropods.",
+                "There are five classes: Pisces, Amphibia, Reptilia, Aves, Mammalia."
+              ],
+              "sub": "Backbone + internal skeleton = vertebrate.",
+              "narration": "Vertebrates have a vertebral column made of individual vertebrae, protecting the spinal cord, and an internal skeleton unlike the exoskeleton of arthropods. There are five classes: Pisces, Amphibia, Reptilia, Aves and Mammalia."
+            },
+            {
+              "eyebrow": "Class Pisces",
+              "heading": "Fish — the original vertebrates",
+              "list": [
+                "Fish breathe using gills and live their entire life in water.",
+                "Their skin is usually covered in scales, and most have fins for swimming.",
+                "Most fish are ectothermic (‘cold-blooded’) — their body temperature matches their surroundings."
+              ],
+              "sub": "Gills + scales + fins + water-only life = Pisces.",
+              "narration": "Fish breathe using gills and live their entire life in water. Their skin is usually covered in scales, and most have fins for swimming — and most fish are ectothermic, meaning their body temperature matches their surroundings."
+            },
+            {
+              "eyebrow": "Class Amphibia & Reptilia",
+              "heading": "The land-and-water in-betweeners, and true land dwellers",
+              "list": [
+                "Amphibians (e.g. frogs, toads) live a double life: gills and water as larvae (tadpoles), lungs and skin breathing as adults — and must return to water to breed.",
+                "Reptiles (e.g. lizards, snakes) have dry, scaly skin that resists water loss, and lay shelled eggs on land — a big step toward full independence from water.",
+                "Both classes are ectothermic, like fish."
+              ],
+              "sub": "Amphibian = needs water to breed. Reptile = dry scales, shelled eggs on land.",
+              "narration": "Amphibians live a double life — gills and water as tadpoles, lungs as adults — and must return to water to breed. Reptiles have dry, scaly skin and lay shelled eggs on land, a big step toward independence from water. Both classes are ectothermic."
+            },
+            {
+              "eyebrow": "Class Aves & Mammalia",
+              "heading": "The warm-blooded classes",
+              "list": [
+                "Birds (Aves) have feathers, forelimbs modified into wings, and lay hard-shelled eggs.",
+                "Mammals (Mammalia) have hair or fur, feed their young on milk from mammary glands, and (with two rare exceptions) give birth to live young.",
+                "Both classes are endothermic (‘warm-blooded’) — they generate and regulate their own body heat."
+              ],
+              "sub": "Feathers + wings = Aves. Hair + milk = Mammalia. Both keep their own body heat.",
+              "narration": "Birds have feathers, wings, and lay hard-shelled eggs. Mammals have hair or fur, feed their young on milk, and mostly give birth to live young. Both classes are endothermic, generating and regulating their own body heat."
+            },
+            {
+              "eyebrow": "Exam alert",
+              "heading": "The five-class comparison table",
+              "list": [
+                "Pisces: gills, scales, water only, ectothermic. Amphibia: gills then lungs, needs water to breed, ectothermic.",
+                "Reptilia: lungs, dry scales, shelled eggs on land, ectothermic. Aves: lungs, feathers, hard-shelled eggs, endothermic.",
+                "Mammalia: lungs, hair/fur, milk from mammary glands, mostly live young, endothermic."
+              ],
+              "sub": "‘Ectothermic’ or ‘endothermic’ + breathing method is often the fastest way to identify the class in an exam.",
+              "narration": "Pisces breathe by gills, are covered in scales and are ectothermic. Amphibia start with gills and end with lungs, needing water to breed. Reptilia have dry scales and shelled eggs on land. Aves have feathers and are endothermic. Mammalia have hair, feed on milk, and are endothermic."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "What single feature defines all vertebrates?",
+              "options": [
+                "A vertebral column (backbone) protecting the spinal cord",
+                "The ability to fly",
+                "Warm-bloodedness",
+                "Living only on land"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — a backbone protecting the spinal cord is the one feature shared by every vertebrate class.",
+              "explainWrong": "Only a vertebral column protecting the spinal cord is shared by all vertebrates — not flight, warm-bloodedness or land life.",
+              "refCard": 1,
+              "narration": "What single feature defines all vertebrates?"
+            },
+            {
+              "question": "An animal that starts life breathing with gills in water, then develops lungs as an adult but must return to water to breed, is a",
+              "options": [
+                "member of Class Amphibia",
+                "member of Class Pisces",
+                "member of Class Reptilia",
+                "member of Class Aves"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — this gills-then-lungs, water-dependent-breeding life cycle is characteristic of amphibians.",
+              "explainWrong": "This double life — gills then lungs, breeding in water — describes Amphibia, not Pisces or Reptilia.",
+              "refCard": 3,
+              "narration": "An animal that starts life breathing with gills in water, then develops lungs as an adult but must return to water to breed, is a"
+            },
+            {
+              "question": "Dry, scaly skin and shelled eggs laid on land, without needing to return to water, are typical of",
+              "options": [
+                "Class Reptilia",
+                "Class Amphibia",
+                "Class Pisces",
+                "Class Mammalia"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — dry scales and land-laid shelled eggs are the reptile solution to independence from water.",
+              "explainWrong": "Dry scaly skin with shelled eggs laid on land describes Reptilia — amphibians must still return to water to breed.",
+              "refCard": 3,
+              "narration": "Dry, scaly skin and shelled eggs laid on land, without needing to return to water, are typical of"
+            },
+            {
+              "question": "Which pair of classes are both endothermic (‘warm-blooded’)?",
+              "options": [
+                "Aves and Mammalia",
+                "Pisces and Amphibia",
+                "Amphibia and Reptilia",
+                "Reptilia and Pisces"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — Aves (birds) and Mammalia (mammals) generate and regulate their own body heat.",
+              "explainWrong": "Only Aves and Mammalia are endothermic — Pisces, Amphibia and Reptilia are all ectothermic.",
+              "refCard": 4,
+              "narration": "Which pair of classes are both endothermic (‘warm-blooded’)?"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

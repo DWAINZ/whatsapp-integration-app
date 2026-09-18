@@ -400,6 +400,354 @@
           }
         }
       ]
+    },
+    "classification-living-things": {
+      "taxonomic-hierarchy": [
+        {
+          "id": "cl-th-1",
+          "year": 2018,
+          "paper": "Paper 1",
+          "question": "The smallest unit in the taxonomic hierarchy is the",
+          "options": [
+            "species",
+            "genus",
+            "family",
+            "kingdom"
+          ],
+          "answer": "A",
+          "explanation": "Species is the narrowest, most specific taxonomic rank.",
+          "ref": {
+            "subtopic": "taxonomic-hierarchy",
+            "card": 3
+          }
+        },
+        {
+          "id": "cl-th-2",
+          "year": 2014,
+          "paper": "Paper 1",
+          "question": "Which taxonomic rank is directly above Genus?",
+          "options": [
+            "Family",
+            "Species",
+            "Kingdom",
+            "Order"
+          ],
+          "answer": "A",
+          "explanation": "The order from narrowest is Species, Genus, Family — so Family sits directly above Genus.",
+          "ref": {
+            "subtopic": "taxonomic-hierarchy",
+            "card": 2
+          }
+        }
+      ],
+      "five-kingdoms": [
+        {
+          "id": "cl-fk-1",
+          "year": 2019,
+          "paper": "Paper 1",
+          "question": "Organisms without a true nucleus are classified under kingdom",
+          "options": [
+            "Monera",
+            "Protista",
+            "Fungi",
+            "Plantae"
+          ],
+          "answer": "A",
+          "explanation": "Kingdom Monera contains prokaryotes, which have no true nucleus.",
+          "ref": {
+            "subtopic": "five-kingdoms",
+            "card": 2
+          }
+        },
+        {
+          "id": "cl-fk-2",
+          "year": 2016,
+          "paper": "Paper 1",
+          "question": "Fungi differ from green plants mainly because fungi",
+          "options": [
+            "lack chlorophyll and cannot photosynthesise",
+            "have no cell wall",
+            "reproduce only by fertilisation",
+            "are always microscopic"
+          ],
+          "answer": "A",
+          "explanation": "Fungi lack chlorophyll/chloroplasts, so they cannot photosynthesise and feed by absorption instead.",
+          "ref": {
+            "subtopic": "five-kingdoms",
+            "card": 4
+          }
+        }
+      ],
+      "naming-and-keys": [
+        {
+          "id": "cl-nk-1",
+          "year": 2017,
+          "paper": "Paper 1",
+          "question": "In binomial nomenclature, the correct way to write a species name is",
+          "options": [
+            "Genus capitalised, species lowercase, both italicised",
+            "Both words capitalised",
+            "Species first, then Genus",
+            "All letters in capitals"
+          ],
+          "answer": "A",
+          "explanation": "Correct binomial format: capitalised Genus, lowercase species, both italicised, genus first.",
+          "ref": {
+            "subtopic": "naming-and-keys",
+            "card": 1
+          }
+        },
+        {
+          "id": "cl-nk-2",
+          "year": 2015,
+          "paper": "Paper 1",
+          "question": "A key in which each step offers exactly two contrasting choices is called a",
+          "options": [
+            "dichotomous key",
+            "binomial key",
+            "taxonomic ladder",
+            "phylogenetic tree"
+          ],
+          "answer": "A",
+          "explanation": "‘Dichotomous’ means divided into two — each step offers exactly two contrasting choices.",
+          "ref": {
+            "subtopic": "naming-and-keys",
+            "card": 3
+          }
+        }
+      ]
+    },
+    "diversity-of-plants": {
+      "thallophyta-bryophyta": [
+        {
+          "id": "dp-tb-1",
+          "year": 2016,
+          "paper": "Paper 1",
+          "question": "The undifferentiated body of a thallophyte is known as a",
+          "options": [
+            "thallus",
+            "frond",
+            "rhizoid",
+            "cone"
+          ],
+          "answer": "A",
+          "explanation": "The algal body, with no true root, stem or leaf, is called a thallus.",
+          "ref": {
+            "subtopic": "thallophyta-bryophyta",
+            "card": 2
+          }
+        },
+        {
+          "id": "dp-tb-2",
+          "year": 2013,
+          "paper": "Paper 1",
+          "question": "Mosses are restricted to damp habitats mainly because",
+          "options": [
+            "their sperm needs water to swim to the egg",
+            "they have no chlorophyll",
+            "they lack a thallus",
+            "they produce seeds that rot in dry air"
+          ],
+          "answer": "A",
+          "explanation": "Bryophyte fertilisation depends on a film of water for the sperm to reach the egg cell.",
+          "ref": {
+            "subtopic": "thallophyta-bryophyta",
+            "card": 4
+          }
+        }
+      ],
+      "pteridophyta": [
+        {
+          "id": "dp-pt-1",
+          "year": 2018,
+          "paper": "Paper 1",
+          "question": "The leaf of a fern is called a",
+          "options": [
+            "frond",
+            "thallus",
+            "rhizoid",
+            "petal"
+          ],
+          "answer": "A",
+          "explanation": "A fern's leaf is called a frond, which starts as a coiled fiddlehead.",
+          "ref": {
+            "subtopic": "pteridophyta",
+            "card": 2
+          }
+        },
+        {
+          "id": "dp-pt-2",
+          "year": 2020,
+          "paper": "Paper 1",
+          "question": "Ferns are described as vascular but seedless because they",
+          "options": [
+            "have xylem and phloem but reproduce by spores",
+            "have no vascular tissue at all",
+            "produce seeds but no roots",
+            "have flowers but no vascular tissue"
+          ],
+          "answer": "A",
+          "explanation": "Ferns have true vascular tissue (xylem and phloem) but still reproduce by spores, not seeds.",
+          "ref": {
+            "subtopic": "pteridophyta",
+            "card": 5
+          }
+        }
+      ],
+      "spermatophyta": [
+        {
+          "id": "dp-sp-1",
+          "year": 2019,
+          "paper": "Paper 1",
+          "question": "A plant that bears its seeds exposed on the scales of a cone belongs to the",
+          "options": [
+            "Gymnosperms",
+            "Angiosperms",
+            "Bryophytes",
+            "Pteridophytes"
+          ],
+          "answer": "A",
+          "explanation": "Gymnosperms bear naked seeds exposed on cone scales, unlike Angiosperms whose seeds are in fruit.",
+          "ref": {
+            "subtopic": "spermatophyta",
+            "card": 2
+          }
+        },
+        {
+          "id": "dp-sp-2",
+          "year": 2014,
+          "paper": "Paper 1",
+          "question": "A dicotyledonous plant is characterised by",
+          "options": [
+            "two seed leaves and net-veined leaves",
+            "one seed leaf and parallel-veined leaves",
+            "no seed leaves at all",
+            "seeds without any embryo"
+          ],
+          "answer": "A",
+          "explanation": "Dicotyledons have two seed leaves (cotyledons) and net-like leaf venation, unlike monocots.",
+          "ref": {
+            "subtopic": "spermatophyta",
+            "card": 4
+          }
+        }
+      ]
+    },
+    "diversity-of-animals": {
+      "invertebrates-simple": [
+        {
+          "id": "da-is-1",
+          "year": 2017,
+          "paper": "Paper 1",
+          "question": "Which phylum is characterised by single-celled organisms such as Amoeba and Paramecium?",
+          "options": [
+            "Protozoa",
+            "Porifera",
+            "Nematoda",
+            "Coelenterata"
+          ],
+          "answer": "A",
+          "explanation": "Protozoa are single-celled organisms showing animal-like movement and feeding, such as Amoeba and Paramecium.",
+          "ref": {
+            "subtopic": "invertebrates-simple",
+            "card": 2
+          }
+        },
+        {
+          "id": "da-is-2",
+          "year": 2015,
+          "paper": "Paper 1",
+          "question": "The human parasite Ascaris belongs to phylum",
+          "options": [
+            "Nematoda",
+            "Platyhelminthes",
+            "Annelida",
+            "Arthropoda"
+          ],
+          "answer": "A",
+          "explanation": "Ascaris is a roundworm, a member of phylum Nematoda, with a complete digestive tract.",
+          "ref": {
+            "subtopic": "invertebrates-simple",
+            "card": 5
+          }
+        }
+      ],
+      "invertebrates-advanced": [
+        {
+          "id": "da-ia-1",
+          "year": 2019,
+          "paper": "Paper 1",
+          "question": "A hard external skeleton made of chitin, with jointed limbs, is typical of phylum",
+          "options": [
+            "Arthropoda",
+            "Annelida",
+            "Mollusca",
+            "Echinodermata"
+          ],
+          "answer": "A",
+          "explanation": "A chitin exoskeleton with jointed limbs is the defining feature of Arthropoda.",
+          "ref": {
+            "subtopic": "invertebrates-advanced",
+            "card": 2
+          }
+        },
+        {
+          "id": "da-ia-2",
+          "year": 2016,
+          "paper": "Paper 1",
+          "question": "The starfish shows which type of body symmetry as an adult?",
+          "options": [
+            "Five-part radial symmetry",
+            "Bilateral symmetry",
+            "No symmetry at all",
+            "Two-part radial symmetry"
+          ],
+          "answer": "A",
+          "explanation": "Echinoderms like the starfish show five-part radial symmetry as adults.",
+          "ref": {
+            "subtopic": "invertebrates-advanced",
+            "card": 4
+          }
+        }
+      ],
+      "vertebrates": [
+        {
+          "id": "da-vt-1",
+          "year": 2018,
+          "paper": "Paper 1",
+          "question": "Which class of vertebrates breathes by gills as larvae and by lungs as adults, needing water to breed?",
+          "options": [
+            "Amphibia",
+            "Reptilia",
+            "Pisces",
+            "Aves"
+          ],
+          "answer": "A",
+          "explanation": "Amphibians have this double life cycle, needing water to breed as adults.",
+          "ref": {
+            "subtopic": "vertebrates",
+            "card": 3
+          }
+        },
+        {
+          "id": "da-vt-2",
+          "year": 2020,
+          "paper": "Paper 1",
+          "question": "Which two classes of vertebrates are endothermic?",
+          "options": [
+            "Aves and Mammalia",
+            "Pisces and Reptilia",
+            "Amphibia and Aves",
+            "Reptilia and Mammalia"
+          ],
+          "answer": "A",
+          "explanation": "Only Aves and Mammalia generate and regulate their own body heat (endothermic); the other three classes are ectothermic.",
+          "ref": {
+            "subtopic": "vertebrates",
+            "card": 4
+          }
+        }
+      ]
     }
   }
 }
