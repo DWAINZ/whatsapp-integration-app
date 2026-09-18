@@ -1060,6 +1060,202 @@
           }
         }
       ]
+    },
+    "excretion-living-organisms": {
+      "excretion-principles": [
+        {
+          "id": "ex-ep-1",
+          "year": 2017,
+          "paper": "Paper 1",
+          "question": "The removal of metabolic waste products such as urea and carbon dioxide from the body is called",
+          "options": [
+            "excretion",
+            "egestion",
+            "secretion",
+            "ingestion"
+          ],
+          "answer": "A",
+          "explanation": "Excretion is the removal of waste made by the body's own metabolism, such as urea and carbon dioxide.",
+          "ref": {
+            "subtopic": "excretion-principles",
+            "card": 1
+          }
+        },
+        {
+          "id": "ex-ep-2",
+          "year": 2020,
+          "paper": "Paper 1",
+          "question": "Which of the following is an example of egestion, not excretion?",
+          "options": [
+            "Passing out faeces",
+            "Breathing out carbon dioxide",
+            "Sweating",
+            "Passing out urine"
+          ],
+          "answer": "A",
+          "explanation": "Faeces consist of undigested food that never entered the body's cells, so its removal is egestion, not excretion.",
+          "ref": {
+            "subtopic": "excretion-principles",
+            "card": 2
+          }
+        }
+      ],
+      "the-kidney": [
+        {
+          "id": "ex-kd-1",
+          "year": 2018,
+          "paper": "Paper 1",
+          "question": "The unselective filtration of blood in the nephron occurs at the",
+          "options": [
+            "glomerulus",
+            "collecting duct",
+            "ureter",
+            "bladder"
+          ],
+          "answer": "A",
+          "explanation": "Ultrafiltration of blood happens at the glomerulus, inside the Bowman's capsule.",
+          "ref": {
+            "subtopic": "the-kidney",
+            "card": 2
+          }
+        },
+        {
+          "id": "ex-kd-2",
+          "year": 2015,
+          "paper": "Paper 1",
+          "question": "The presence of glucose in urine may indicate",
+          "options": [
+            "diabetes",
+            "kidney health",
+            "a normal healthy diet",
+            "dehydration only"
+          ],
+          "answer": "A",
+          "explanation": "Glucose should be fully reabsorbed in a healthy kidney, so its presence in urine can be a sign of diabetes.",
+          "ref": {
+            "subtopic": "the-kidney",
+            "card": 4
+          }
+        }
+      ]
+    },
+    "support-and-movement": {
+      "support-in-plants": [
+        {
+          "id": "sm-sp-1",
+          "year": 2016,
+          "paper": "Paper 1",
+          "question": "The pressure exerted by water inside a plant cell against its cell wall is called",
+          "options": [
+            "turgor pressure",
+            "root pressure",
+            "osmotic pressure loss",
+            "capillary pressure"
+          ],
+          "answer": "A",
+          "explanation": "Turgor pressure is the outward push of a water-filled cell against its cellulose wall, providing support.",
+          "ref": {
+            "subtopic": "support-in-plants",
+            "card": 2
+          }
+        },
+        {
+          "id": "sm-sp-2",
+          "year": 2019,
+          "paper": "Paper 1",
+          "question": "A plant cell that has lost water and become soft and limp is described as",
+          "options": [
+            "flaccid",
+            "turgid",
+            "lignified",
+            "vascular"
+          ],
+          "answer": "A",
+          "explanation": "A cell that has lost turgor pressure due to water loss is described as flaccid.",
+          "ref": {
+            "subtopic": "support-in-plants",
+            "card": 3
+          }
+        }
+      ],
+      "human-skeleton": [
+        {
+          "id": "sm-hs-1",
+          "year": 2018,
+          "paper": "Paper 1",
+          "question": "The skull and ribcage belong to which part of the skeleton?",
+          "options": [
+            "Axial skeleton",
+            "Appendicular skeleton",
+            "Muscular skeleton",
+            "Cartilage skeleton"
+          ],
+          "answer": "A",
+          "explanation": "The skull, vertebral column and ribcage make up the axial skeleton.",
+          "ref": {
+            "subtopic": "human-skeleton",
+            "card": 2
+          }
+        },
+        {
+          "id": "sm-hs-2",
+          "year": 2014,
+          "paper": "Paper 1",
+          "question": "The biceps and triceps muscles at the elbow are an example of",
+          "options": [
+            "an antagonistic muscle pair",
+            "a single contracting muscle",
+            "a fixed joint",
+            "a ball-and-socket joint"
+          ],
+          "answer": "A",
+          "explanation": "Biceps and triceps work as an antagonistic pair — one contracts while the other relaxes.",
+          "ref": {
+            "subtopic": "human-skeleton",
+            "card": 5
+          }
+        }
+      ]
+    },
+    "growth-and-development": {
+      "growth-concepts": [
+        {
+          "id": "gd-gc-1",
+          "year": 2017,
+          "paper": "Paper 1",
+          "question": "The most accurate way to measure the true growth of a seedling over time is by",
+          "options": [
+            "measuring its dry weight",
+            "measuring its height only",
+            "counting its leaves",
+            "observing its colour"
+          ],
+          "answer": "A",
+          "explanation": "Dry weight, after removing water content, gives the most accurate picture of real new material gained through growth.",
+          "ref": {
+            "subtopic": "growth-concepts",
+            "card": 2
+          }
+        },
+        {
+          "id": "gd-gc-2",
+          "year": 2019,
+          "paper": "Paper 1",
+          "question": "An insect that passes through egg, larva, pupa and adult stages undergoes",
+          "options": [
+            "complete metamorphosis",
+            "incomplete metamorphosis",
+            "no development at all",
+            "binary fission"
+          ],
+          "answer": "A",
+          "explanation": "Complete metamorphosis includes four distinct stages: egg, larva, pupa and adult.",
+          "ref": {
+            "subtopic": "growth-concepts",
+            "card": 4
+          }
+        }
+      ]
     }
   }
 }

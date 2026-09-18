@@ -3718,6 +3718,747 @@
           ]
         }
       ]
+    },
+    {
+      "id": "excretion-living-organisms",
+      "title": "Excretion in Living Organisms",
+      "description": "How plants and animals get rid of the waste products their own metabolism creates.",
+      "subtopics": [
+        {
+          "id": "excretion-principles",
+          "title": "Principles of Excretion",
+          "stories": [
+            {
+              "tag": "A common mix-up",
+              "sub": "Waste isn't all the same kind of waste",
+              "heading": "Excretion is not the same as egestion",
+              "list": [
+                "Egestion is getting rid of undigested food that was never actually absorbed into the body (faeces).",
+                "Excretion is getting rid of waste chemicals made by the body's own metabolism (e.g. carbon dioxide, urea).",
+                "Confusing the two is one of the most common mistakes students make in WAEC Biology."
+              ],
+              "narration": "Egestion is getting rid of undigested food that was never absorbed — faeces. Excretion is getting rid of waste chemicals made by the body's own metabolism, like carbon dioxide and urea. Confusing the two is one of the most common WAEC mistakes."
+            },
+            {
+              "tag": "A silent poison",
+              "sub": "Why your body can't just let ammonia build up",
+              "heading": "The danger excretion protects you from",
+              "list": [
+                "Breaking down excess protein produces ammonia, which is highly toxic even in small concentrations.",
+                "If metabolic waste built up unchecked, it would poison the very cells that produced it.",
+                "Excretion is what keeps the internal chemical environment of the body safe and stable."
+              ],
+              "narration": "Breaking down excess protein produces ammonia, which is highly toxic even in small amounts. If metabolic waste built up unchecked, it would poison the very cells that produced it — excretion is what keeps the body's internal chemistry safe."
+            }
+          ],
+          "lessons": [
+            {
+              "eyebrow": "The big picture",
+              "big": "♻️",
+              "heading": "What excretion means",
+              "list": [
+                "Excretion is the removal of waste products made by the body's own metabolic reactions.",
+                "Key excretory products in humans: carbon dioxide (from respiration), urea (from protein breakdown), and excess water and salts.",
+                "Excretory organs: lungs (CO2), kidneys (urea, water, salts), skin (some water, salts, urea in sweat)."
+              ],
+              "sub": "Excretion = removing waste your own cells made, not waste that never entered them.",
+              "narration": "Excretion is the removal of waste products made by the body's own metabolic reactions — carbon dioxide from respiration, urea from protein breakdown, and excess water and salts — removed by the lungs, kidneys and skin."
+            },
+            {
+              "eyebrow": "Exam alert",
+              "heading": "Excretion vs egestion — get this exactly right",
+              "list": [
+                "Excretion removes metabolic waste (made inside cells): CO2, urea, excess salts.",
+                "Egestion removes undigested food (never entered the body's cells): faeces.",
+                "A question asking about ‘removal of faeces’ is testing egestion, NOT excretion — a favourite WAEC trap."
+              ],
+              "sub": "Faeces = egestion. Urea, CO2, sweat = excretion. Never mix these up.",
+              "narration": "Excretion removes metabolic waste made inside cells, like carbon dioxide and urea. Egestion removes undigested food that never entered the body's cells — faeces. A question about removing faeces is testing egestion, not excretion."
+            },
+            {
+              "eyebrow": "Plants excrete too",
+              "heading": "How plants get rid of waste",
+              "list": [
+                "Plants produce far less waste than animals, since they don't break down large amounts of protein for energy.",
+                "Oxygen (excess from photosynthesis) and carbon dioxide (excess from respiration) diffuse out through stomata.",
+                "Some waste is stored harmlessly in old leaves, bark, or as crystals, and removed when the leaf falls or bark peels."
+              ],
+              "sub": "Plants mostly excrete gases through stomata, plus some storage-and-shed strategies.",
+              "narration": "Plants produce far less waste than animals. Excess oxygen and carbon dioxide diffuse out through the stomata, and some waste is simply stored in old leaves or bark and removed when they fall off."
+            },
+            {
+              "eyebrow": "Why excretion matters",
+              "heading": "Homeostasis depends on it",
+              "list": [
+                "Uncontrolled build-up of urea or CO2 in the blood would disturb the body's internal balance (homeostasis).",
+                "Excretion works alongside other systems to keep internal conditions — pH, water balance, temperature — within a safe range.",
+                "This is why excretory organ failure (e.g. kidney failure) is medically serious: waste builds up and poisons the body."
+              ],
+              "sub": "Excretion is one pillar holding up the body's overall internal stability.",
+              "narration": "Uncontrolled build-up of urea or carbon dioxide would disturb the body's internal balance. Excretion works alongside other systems to keep pH, water balance and temperature stable — which is why kidney failure is medically serious."
+            },
+            {
+              "eyebrow": "Preview",
+              "heading": "What's next: the kidney in detail",
+              "list": [
+                "The kidney is the human body's main excretory organ, filtering blood continuously.",
+                "It removes urea, excess water and excess salts, producing urine.",
+                "This process, and the structures involved, are covered in the next lessons."
+              ],
+              "sub": "The kidney does the heaviest lifting of any single excretory organ.",
+              "narration": "The kidney is the body's main excretory organ, filtering blood continuously to remove urea, excess water and excess salts, producing urine — covered in detail in the next lessons."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Excretion is best defined as",
+              "options": [
+                "the removal of waste products made by the body's own metabolism",
+                "the removal of undigested food from the gut",
+                "the intake of oxygen into the lungs",
+                "the absorption of digested food into the blood"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — excretion removes metabolic waste made by the body's own cells.",
+              "explainWrong": "Excretion removes waste made by the body's own metabolism — removing undigested food is egestion, a different process.",
+              "refCard": 1,
+              "narration": "Excretion is best defined as"
+            },
+            {
+              "question": "The removal of undigested food material (faeces) from the body is correctly called",
+              "options": [
+                "egestion",
+                "excretion",
+                "secretion",
+                "respiration"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — egestion, not excretion, is the removal of undigested food that never entered the body's cells.",
+              "explainWrong": "Removing undigested food is egestion — excretion specifically refers to metabolic waste like urea and CO2.",
+              "refCard": 2,
+              "narration": "The removal of undigested food material (faeces) from the body is correctly called"
+            },
+            {
+              "question": "Plants mainly get rid of excess oxygen and carbon dioxide by",
+              "options": [
+                "diffusion out through the stomata",
+                "excreting urea through roots",
+                "sweating through the leaves",
+                "storing them permanently in the stem"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — plants diffuse excess gases out mainly through their stomata.",
+              "explainWrong": "Plants excrete excess gases by diffusion through stomata — they don't produce or excrete urea, and don't sweat.",
+              "refCard": 3,
+              "narration": "Plants mainly get rid of excess oxygen and carbon dioxide by"
+            },
+            {
+              "question": "Why is excretion important for maintaining homeostasis?",
+              "options": [
+                "It prevents toxic metabolic waste from building up and disturbing internal balance",
+                "It helps digest more food faster",
+                "It increases the amount of oxygen in the blood",
+                "It has no connection to homeostasis"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — excretion prevents toxic waste build-up, keeping the body's internal environment stable.",
+              "explainWrong": "Excretion's role in homeostasis is preventing toxic waste build-up — it isn't about digestion speed or oxygen levels.",
+              "refCard": 4,
+              "narration": "Why is excretion important for maintaining homeostasis?"
+            }
+          ]
+        },
+        {
+          "id": "the-kidney",
+          "title": "The Kidney & Urine Formation",
+          "stories": [
+            {
+              "tag": "By the numbers",
+              "sub": "A filter working nonstop",
+              "heading": "What your kidneys quietly do every day",
+              "list": [
+                "Your two kidneys filter your entire blood supply roughly 40 times a day.",
+                "Together they contain about two million tiny filtering units, called nephrons.",
+                "Despite doing this enormous amount of work, most people never think about their kidneys until something goes wrong."
+              ],
+              "narration": "Your two kidneys filter your entire blood supply roughly forty times a day, using about two million tiny filtering units called nephrons — despite this enormous workload, most people never think about their kidneys until something goes wrong."
+            },
+            {
+              "tag": "Selective filtering",
+              "sub": "Not everything gets thrown away",
+              "heading": "The kidney's two-step trick: filter everything, then take back what's useful",
+              "list": [
+                "The kidney's first step filters almost everything out of the blood — including useful glucose and salts.",
+                "The second step then reabsorbs the useful substances back into the blood, leaving only true waste behind.",
+                "This ‘filter everything, then reclaim the good stuff’ strategy is more thorough than filtering selectively from the start."
+              ],
+              "narration": "The kidney's first step filters almost everything out of the blood, including useful glucose and salts. The second step then reabsorbs the useful substances back into the blood, leaving only true waste behind — a more thorough strategy than filtering selectively from the start."
+            }
+          ],
+          "lessons": [
+            {
+              "eyebrow": "The big picture",
+              "big": "🫘",
+              "heading": "The kidney's job",
+              "list": [
+                "The kidneys filter blood to remove urea, excess water and excess salts, producing urine.",
+                "Urine passes from each kidney down a ureter to the bladder, where it's stored until released through the urethra.",
+                "Each kidney contains about a million nephrons, the microscopic functional units that do the actual filtering."
+              ],
+              "sub": "Kidney filters → ureter carries urine → bladder stores it → urethra releases it.",
+              "narration": "The kidneys filter blood to remove urea, excess water and excess salts, producing urine, which passes down the ureter to the bladder and is released through the urethra. Each kidney contains about a million nephrons."
+            },
+            {
+              "eyebrow": "Step 1: Filtration",
+              "heading": "Ultrafiltration in the nephron",
+              "list": [
+                "Blood enters a knot of capillaries called the glomerulus, inside a cup-shaped structure called the Bowman's capsule.",
+                "High blood pressure forces water, glucose, salts and urea out of the blood and into the nephron tube — but blood cells and large proteins are too big to pass through.",
+                "This first, unselective filtering step is called ultrafiltration."
+              ],
+              "sub": "Ultrafiltration = everything small enough gets pushed out, useful or not.",
+              "narration": "Blood enters the glomerulus, a knot of capillaries inside the Bowman's capsule. High blood pressure forces water, glucose, salts and urea into the nephron tube, but blood cells and large proteins are too big to pass through — this step is called ultrafiltration."
+            },
+            {
+              "eyebrow": "Step 2: Reabsorption",
+              "heading": "Taking back what the body still needs",
+              "list": [
+                "As the filtered fluid flows along the nephron tube, useful substances are reabsorbed back into the blood.",
+                "All the glucose is normally reabsorbed — none should appear in healthy urine.",
+                "Most water and some salts are also reabsorbed, in amounts the body adjusts based on its needs."
+              ],
+              "sub": "Reabsorption reclaims glucose (all of it) and water/salts (as much as the body needs).",
+              "narration": "As filtered fluid flows along the nephron tube, useful substances are reabsorbed back into the blood. All the glucose is normally reabsorbed — none should appear in healthy urine — along with most water and some salts, adjusted to the body's needs."
+            },
+            {
+              "eyebrow": "The result",
+              "heading": "What's left becomes urine",
+              "list": [
+                "What isn't reabsorbed continues down the nephron and collects as urine.",
+                "Normal urine contains urea, excess water, and excess salts — but should contain no glucose and no protein.",
+                "Glucose in urine can indicate diabetes; protein in urine can indicate kidney damage."
+              ],
+              "sub": "Glucose or protein in urine is a red flag, not a normal finding.",
+              "narration": "What isn't reabsorbed collects as urine, which should normally contain urea, excess water and excess salts, but no glucose and no protein. Glucose in urine can indicate diabetes; protein in urine can indicate kidney damage."
+            },
+            {
+              "eyebrow": "Exam alert",
+              "heading": "The nephron process in the right order",
+              "list": [
+                "Order: blood enters glomerulus → ultrafiltration into Bowman's capsule → selective reabsorption along the tube → remaining fluid becomes urine.",
+                "Do not say the kidney ‘makes’ urea — urea is made in the liver, from breaking down excess amino acids; the kidney only removes it.",
+                "Remember: filtration is unselective; reabsorption is selective."
+              ],
+              "sub": "Liver makes urea. Kidney removes it. Two different organs, two different jobs.",
+              "narration": "The correct order is: blood enters the glomerulus, ultrafiltration pushes fluid into the Bowman's capsule, selective reabsorption happens along the tube, and what remains becomes urine. Remember: the liver makes urea, and the kidney only removes it."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "The knot of capillaries inside the Bowman's capsule, where blood filtration begins, is called the",
+              "options": [
+                "glomerulus",
+                "nephron",
+                "ureter",
+                "urethra"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — the glomerulus is the capillary knot where ultrafiltration of blood begins.",
+              "explainWrong": "The glomerulus is the filtering capillary knot — the nephron is the whole functional unit it belongs to.",
+              "refCard": 2,
+              "narration": "The knot of capillaries inside the Bowman's capsule, where blood filtration begins, is called the"
+            },
+            {
+              "question": "During ultrafiltration in the kidney, which of these does NOT pass out of the blood into the nephron?",
+              "options": [
+                "Blood cells and large proteins",
+                "Water",
+                "Glucose",
+                "Urea"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — blood cells and large proteins are too big to pass through the filtering membrane.",
+              "explainWrong": "Blood cells and large proteins are too big to filter out — water, glucose and urea all pass through initially.",
+              "refCard": 2,
+              "narration": "During ultrafiltration in the kidney, which of these does NOT pass out of the blood into the nephron?"
+            },
+            {
+              "question": "In a healthy person, what proportion of filtered glucose is normally reabsorbed back into the blood?",
+              "options": [
+                "All of it — healthy urine contains no glucose",
+                "About half of it",
+                "None of it",
+                "Only glucose from a recent meal"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — all filtered glucose is normally reabsorbed; glucose in urine can indicate diabetes.",
+              "explainWrong": "All filtered glucose should be reabsorbed in a healthy kidney — its presence in urine is a warning sign, not normal.",
+              "refCard": 3,
+              "narration": "In a healthy person, what proportion of filtered glucose is normally reabsorbed back into the blood?"
+            },
+            {
+              "question": "Urea, the main nitrogenous waste removed by the kidney, is actually produced by the",
+              "options": [
+                "liver, from the breakdown of excess amino acids",
+                "kidney itself, during filtration",
+                "lungs, during gas exchange",
+                "stomach, during protein digestion"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — the liver produces urea from excess amino acids; the kidney only removes it from the blood.",
+              "explainWrong": "Urea is produced in the liver, not the kidney — the kidney's job is removing urea, not making it.",
+              "refCard": 5,
+              "narration": "Urea, the main nitrogenous waste removed by the kidney, is actually produced by the"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "support-and-movement",
+      "title": "Support & Movement",
+      "description": "How plants stay upright without bones, and how the human skeleton supports the body and enables movement.",
+      "subtopics": [
+        {
+          "id": "support-in-plants",
+          "title": "Support in Plants",
+          "stories": [
+            {
+              "tag": "No skeleton needed",
+              "sub": "How does a sunflower stay upright?",
+              "heading": "Plants solved support differently",
+              "list": [
+                "Plants have no bones, yet some grow over 100 metres tall and support enormous weight.",
+                "Instead of a rigid internal skeleton, plants rely on cell structure and water pressure.",
+                "A wilted plant demonstrates exactly what's missing when this support system fails."
+              ],
+              "narration": "Plants have no bones, yet some grow over one hundred metres tall and support enormous weight. Instead of a rigid internal skeleton, plants rely on cell structure and water pressure — a wilted plant shows exactly what's missing when this system fails."
+            },
+            {
+              "tag": "The wilting clue",
+              "sub": "Why a thirsty plant droops",
+              "heading": "Water pressure is doing more work than you'd think",
+              "list": [
+                "A well-watered plant stands firm; the same plant without water quickly droops and wilts.",
+                "This single observation reveals that water pressure inside plant cells is a major source of structural support.",
+                "Give the plant water again, and — if not too late — it stands back up within hours."
+              ],
+              "narration": "A well-watered plant stands firm, but the same plant without water quickly droops and wilts. This reveals that water pressure inside plant cells is a major source of structural support — give it water again, and it often stands back up within hours."
+            }
+          ],
+          "lessons": [
+            {
+              "eyebrow": "The big picture",
+              "big": "🌻",
+              "heading": "How plants stay upright",
+              "list": [
+                "Plants get support mainly from turgor pressure (water pressure inside cells) and from strengthened tissue.",
+                "Two main support strategies: turgidity in soft tissues (herbaceous plants), and woody, lignified tissue in trees.",
+                "Both approaches ultimately rely on the strength and internal pressure of individual plant cells."
+              ],
+              "sub": "Two support strategies: water pressure (soft plants) and wood (trees).",
+              "narration": "Plants get support mainly from turgor pressure and from strengthened tissue. Herbaceous plants rely on turgidity in soft tissues, while trees rely on woody, lignified tissue — both approaches ultimately rely on the strength of individual cells."
+            },
+            {
+              "eyebrow": "Turgor pressure",
+              "heading": "Water pressure as a support system",
+              "list": [
+                "When a plant cell absorbs water, it swells and pushes outward against its cell wall — this is turgor pressure.",
+                "A rigid cellulose cell wall resists this pressure, keeping the cell (and so the tissue) firm — this state is called turgid.",
+                "Many cells, all turgid at once, together keep a soft plant stem standing upright."
+              ],
+              "sub": "Turgid cell = full of water, firm, pushing against its wall. That firmness adds up to support.",
+              "narration": "When a plant cell absorbs water, it swells and pushes outward against its cell wall — this is turgor pressure. The rigid cellulose wall resists it, keeping the cell turgid, and many turgid cells together keep a soft stem standing upright."
+            },
+            {
+              "eyebrow": "Wilting",
+              "heading": "What happens when water is lost",
+              "list": [
+                "When a plant loses more water than it absorbs, cells lose turgor pressure and become flaccid.",
+                "Without internal pressure pushing outward, the cell walls are no longer held firm, and the plant droops — this is wilting.",
+                "Wilting can also be a protective response, reducing the leaf surface area exposed to further water loss."
+              ],
+              "sub": "Flaccid = lost water pressure = drooping. Wilting can even help conserve remaining water.",
+              "narration": "When a plant loses more water than it absorbs, cells lose turgor pressure and become flaccid — without internal pressure, the plant droops, or wilts. Wilting can even be protective, reducing further water loss."
+            },
+            {
+              "eyebrow": "Woody support",
+              "heading": "How trees achieve permanent rigidity",
+              "list": [
+                "Trees and shrubs build a more permanent support system using lignin, a hard, waterproof substance deposited in cell walls.",
+                "Lignified xylem tissue (wood) does not rely on water pressure — it stays rigid even if the plant loses water.",
+                "This is why a dead, dry tree trunk can still stand upright, while a dead herbaceous plant like a soft weed collapses."
+              ],
+              "sub": "Wood = permanent, lignin-based rigidity, unlike turgor pressure which depends on ongoing water supply.",
+              "narration": "Trees build permanent support using lignin, deposited in xylem cell walls to form wood. Lignified tissue doesn't rely on water pressure, staying rigid even without water — which is why a dead tree trunk can still stand, unlike a dead soft-stemmed weed."
+            },
+            {
+              "eyebrow": "Exam alert",
+              "heading": "Turgidity vs lignification — the quick test",
+              "list": [
+                "Turgidity: temporary support from water pressure; lost quickly without water (wilting).",
+                "Lignification: permanent support from a hardened cell wall; unaffected by water loss.",
+                "If a question describes a plant recovering support after watering, it is testing turgidity, not lignification."
+              ],
+              "sub": "Recovers with water = turgidity. Stays rigid regardless = lignification.",
+              "narration": "Turgidity is temporary support from water pressure, lost quickly without water. Lignification is permanent support from a hardened cell wall, unaffected by water loss. A plant recovering after watering is a turgidity question, not a lignification one."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "The pressure of water pushing a plant cell's contents against its cell wall is called",
+              "options": [
+                "turgor pressure",
+                "osmotic loss",
+                "lignification",
+                "transpiration pressure"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — turgor pressure is the outward push of a water-filled cell against its wall.",
+              "explainWrong": "This outward push is turgor pressure — lignification refers to a different, permanent support strategy.",
+              "refCard": 2,
+              "narration": "The pressure of water pushing a plant cell's contents against its cell wall is called"
+            },
+            {
+              "question": "A plant droops when its cells lose water and become",
+              "options": [
+                "flaccid",
+                "turgid",
+                "lignified",
+                "vascular"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — cells that lose turgor pressure become flaccid, causing the plant to wilt.",
+              "explainWrong": "Losing water pressure makes cells flaccid, causing wilting — ‘turgid’ describes the opposite, water-filled state.",
+              "refCard": 3,
+              "narration": "A plant droops when its cells lose water and become"
+            },
+            {
+              "question": "The substance deposited in xylem cell walls that gives wood its permanent rigidity is",
+              "options": [
+                "lignin",
+                "chlorophyll",
+                "cellulose alone, with no lignin",
+                "chitin"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — lignin hardens xylem walls, giving wood its permanent, water-independent rigidity.",
+              "explainWrong": "Lignin is the substance responsible for wood's permanent rigidity — chlorophyll and chitin play no role here.",
+              "refCard": 4,
+              "narration": "The substance deposited in xylem cell walls that gives wood its permanent rigidity is"
+            },
+            {
+              "question": "Unlike turgor-based support, support from lignified wood",
+              "options": [
+                "remains rigid even if the plant loses water",
+                "disappears immediately if the plant loses water",
+                "only works in single-celled plants",
+                "requires constant sunlight to function"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — lignified tissue stays rigid regardless of water content, unlike turgor pressure.",
+              "explainWrong": "Lignified wood stays rigid even without water — it's turgor-based support that collapses when water is lost.",
+              "refCard": 5,
+              "narration": "Unlike turgor-based support, support from lignified wood"
+            }
+          ]
+        },
+        {
+          "id": "human-skeleton",
+          "title": "The Human Skeleton",
+          "stories": [
+            {
+              "tag": "More parts than you'd guess",
+              "sub": "206 pieces, working as one system",
+              "heading": "Your skeleton is a bigger project than it looks",
+              "list": [
+                "An adult human skeleton is made of 206 individual bones.",
+                "Babies are actually born with around 270 — many fuse together during growth.",
+                "Bones aren't just ‘hard sticks’ — they're living tissue, constantly being rebuilt throughout life."
+              ],
+              "narration": "An adult human skeleton is made of two hundred and six individual bones. Babies are actually born with around two hundred and seventy — many fuse together during growth. Bones aren't just hard sticks; they're living tissue, constantly being rebuilt."
+            },
+            {
+              "tag": "Team effort",
+              "sub": "Bones can't move themselves",
+              "heading": "Why muscles and joints get equal credit",
+              "list": [
+                "A skeleton alone cannot move — bones are rigid and cannot bend or contract on their own.",
+                "Movement happens only where a joint allows motion and a muscle pulls on a bone across that joint.",
+                "This is why studying the skeleton always leads straight into studying joints and muscles together."
+              ],
+              "narration": "A skeleton alone cannot move — bones are rigid and cannot bend or contract on their own. Movement happens only where a joint allows motion and a muscle pulls on a bone across it, which is why the skeleton, joints and muscles are always studied together."
+            }
+          ],
+          "lessons": [
+            {
+              "eyebrow": "The big picture",
+              "big": "🦴",
+              "heading": "What the skeleton does",
+              "list": [
+                "Support: holds the body's shape and posture upright.",
+                "Protection: shields delicate organs — the skull protects the brain, the ribcage protects the heart and lungs.",
+                "Movement: provides rigid attachment points that muscles can pull against; also makes blood cells (in bone marrow) and stores minerals like calcium."
+              ],
+              "sub": "Support, protection, movement — plus blood cell production and mineral storage.",
+              "narration": "The skeleton supports the body's shape, protects delicate organs like the brain and heart, and provides attachment points for muscles to enable movement. It also produces blood cells in the marrow and stores minerals like calcium."
+            },
+            {
+              "eyebrow": "Two divisions",
+              "heading": "Axial and appendicular skeleton",
+              "list": [
+                "The axial skeleton forms the body's central axis: skull, vertebral column (spine), and ribcage.",
+                "The appendicular skeleton forms the limbs and their attachment girdles: arm and leg bones, shoulder girdle, pelvic girdle.",
+                "The axial skeleton mainly protects; the appendicular skeleton mainly enables movement."
+              ],
+              "sub": "Axial = central axis, protection-focused. Appendicular = limbs, movement-focused.",
+              "narration": "The axial skeleton forms the body's central axis — skull, spine, and ribcage — and mainly protects organs. The appendicular skeleton forms the limbs and their girdles, and mainly enables movement."
+            },
+            {
+              "eyebrow": "Joints",
+              "heading": "Where movement actually happens",
+              "list": [
+                "A joint is where two or more bones meet.",
+                "Ball-and-socket joints (e.g. hip, shoulder) allow movement in almost every direction.",
+                "Hinge joints (e.g. knee, elbow) allow movement in one plane only, like a door hinge."
+              ],
+              "sub": "Ball-and-socket = movement in many directions. Hinge = movement in one direction only.",
+              "narration": "A joint is where two or more bones meet. Ball-and-socket joints, like the hip and shoulder, allow movement in almost every direction. Hinge joints, like the knee and elbow, allow movement in only one plane, like a door hinge."
+            },
+            {
+              "eyebrow": "Muscles and movement",
+              "heading": "How a muscle actually moves a bone",
+              "list": [
+                "Skeletal muscles are attached to bones by tendons.",
+                "A muscle can only pull (contract) — it cannot push — so muscles usually work in antagonistic pairs.",
+                "Example: the biceps contracts to bend the arm at the elbow; the triceps contracts to straighten it again."
+              ],
+              "sub": "Muscles only pull. That's why they need a partner muscle to reverse the movement.",
+              "narration": "Skeletal muscles attach to bones by tendons and can only pull, never push, so they work in antagonistic pairs. The biceps contracts to bend the arm at the elbow, and the triceps contracts to straighten it again."
+            },
+            {
+              "eyebrow": "Exam alert",
+              "heading": "Antagonistic muscle pairs — the classic example",
+              "list": [
+                "Biceps and triceps at the elbow is the standard WAEC example of an antagonistic pair.",
+                "When the biceps contracts (shortens), the triceps relaxes (lengthens) — and vice versa for straightening the arm.",
+                "Remember: only one muscle of the pair contracts at a time to produce each movement."
+              ],
+              "sub": "One muscle contracts, its partner relaxes — never both contracting together for one movement.",
+              "narration": "Biceps and triceps at the elbow are the classic antagonistic pair. When the biceps contracts, the triceps relaxes, bending the arm — and for straightening, the roles reverse. Only one muscle of the pair contracts at a time."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Which of these is NOT one of the main functions of the human skeleton?",
+              "options": [
+                "Digesting food",
+                "Supporting the body",
+                "Protecting internal organs",
+                "Enabling movement"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — digestion is not a skeletal function; the skeleton supports, protects and enables movement.",
+              "explainWrong": "Digesting food is not a skeletal function — support, protection and movement are the main roles of the skeleton.",
+              "refCard": 1,
+              "narration": "Which of these is NOT one of the main functions of the human skeleton?"
+            },
+            {
+              "question": "The skull, vertebral column and ribcage together make up the",
+              "options": [
+                "axial skeleton",
+                "appendicular skeleton",
+                "muscular system",
+                "joint system"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — the axial skeleton is the body's central axis: skull, spine and ribcage.",
+              "explainWrong": "Skull, spine and ribcage make up the axial skeleton — the appendicular skeleton covers the limbs and girdles.",
+              "refCard": 2,
+              "narration": "The skull, vertebral column and ribcage together make up the"
+            },
+            {
+              "question": "A joint that allows movement in almost every direction, such as the hip or shoulder, is a",
+              "options": [
+                "ball-and-socket joint",
+                "hinge joint",
+                "fixed joint",
+                "fibrous joint"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — ball-and-socket joints allow a wide range of movement in almost every direction.",
+              "explainWrong": "Wide-ranging movement in almost every direction describes a ball-and-socket joint, not a hinge joint.",
+              "refCard": 3,
+              "narration": "A joint that allows movement in almost every direction, such as the hip or shoulder, is a"
+            },
+            {
+              "question": "In the antagonistic pair at the elbow, when the biceps contracts to bend the arm, the triceps",
+              "options": [
+                "relaxes",
+                "also contracts at the same time",
+                "shortens permanently",
+                "detaches from the bone"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — in an antagonistic pair, one muscle contracts while its partner relaxes.",
+              "explainWrong": "When the biceps contracts, the triceps relaxes — muscles in an antagonistic pair don't contract together.",
+              "refCard": 5,
+              "narration": "In the antagonistic pair at the elbow, when the biceps contracts to bend the arm, the triceps"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "growth-and-development",
+      "title": "Growth & Development",
+      "description": "How living things get bigger and more complex over time, and how we measure and describe that change.",
+      "subtopics": [
+        {
+          "id": "growth-concepts",
+          "title": "Concepts & Measurement of Growth",
+          "stories": [
+            {
+              "tag": "A trickier question than it sounds",
+              "sub": "Is a balloon ‘growing’ when you blow it up?",
+              "heading": "What growth actually means in biology",
+              "list": [
+                "A balloon gets bigger when inflated, but biologists would not call that growth.",
+                "True biological growth means a permanent increase involving new cells, new tissue, or genuine new material.",
+                "The balloon example is a useful trick question: size increase alone isn't enough to define growth."
+              ],
+              "narration": "A balloon gets bigger when inflated, but biologists would not call that growth. True biological growth means a permanent increase involving new cells or tissue — size increase alone isn't enough to define growth, which is why the balloon example is a useful trick question."
+            },
+            {
+              "tag": "Not a straight line",
+              "sub": "Why babies grow fast, then slow, then fast again",
+              "heading": "The famous S-shaped growth curve",
+              "list": [
+                "If you plot most organisms' size against age, you don't get a straight line — you get an S-shape (sigmoid curve).",
+                "Growth starts slow, speeds up rapidly, then levels off as the organism reaches adult size.",
+                "This same S-curve pattern shows up again and again across very different organisms, from bacteria colonies to humans."
+              ],
+              "narration": "If you plot most organisms' size against age, you get an S-shape, called a sigmoid curve — growth starts slow, speeds up rapidly, then levels off as the organism reaches adult size. This same pattern appears across very different organisms."
+            }
+          ],
+          "lessons": [
+            {
+              "eyebrow": "The big picture",
+              "big": "📈",
+              "heading": "What growth means",
+              "list": [
+                "Growth is a permanent, irreversible increase in the size or mass of an organism, involving an increase in cell number, cell size, or both.",
+                "Growth happens through cell division (mitosis) followed by cell enlargement.",
+                "Development is the related process of an organism becoming more complex and specialised, not just bigger."
+              ],
+              "sub": "Growth = bigger, permanently. Development = more complex, not necessarily bigger.",
+              "narration": "Growth is a permanent, irreversible increase in size or mass, through an increase in cell number, cell size, or both. Development is the related process of becoming more complex and specialised, not just bigger."
+            },
+            {
+              "eyebrow": "Measuring growth",
+              "heading": "How biologists actually measure it",
+              "list": [
+                "Linear measurement: tracking height or length over time (simple, but doesn't capture mass gain well).",
+                "Fresh/dry weight: tracking mass over time (dry weight, after removing all water, gives a more accurate picture of true new material).",
+                "Cell counting: directly counting cell number increase (used mainly in research, not routine measurement)."
+              ],
+              "sub": "Height is easy to measure but weight (especially dry weight) tells you more about real growth.",
+              "narration": "Growth can be measured by linear measurement, like tracking height over time; by fresh or dry weight, which gives a more accurate picture of new material gained; or by directly counting cell number increase."
+            },
+            {
+              "eyebrow": "The sigmoid growth curve",
+              "heading": "Three phases of growth",
+              "list": [
+                "Lag phase: slow initial growth, as the organism establishes itself.",
+                "Exponential (log) phase: rapid growth, as cell division happens fast and resources are plentiful.",
+                "Stationary phase: growth levels off, as the organism reaches its mature size or resources become limited."
+              ],
+              "sub": "Slow start → rapid rise → levelling off. Lag, log, stationary.",
+              "narration": "The sigmoid growth curve has three phases: a lag phase of slow initial growth, an exponential phase of rapid growth as cell division speeds up, and a stationary phase where growth levels off as the organism reaches mature size."
+            },
+            {
+              "eyebrow": "Growth in insects: metamorphosis",
+              "heading": "Complete vs incomplete metamorphosis",
+              "list": [
+                "Complete metamorphosis (e.g. butterfly, housefly): egg → larva → pupa → adult — each stage looks completely different.",
+                "Incomplete metamorphosis (e.g. grasshopper, cockroach): egg → nymph → adult — the nymph looks like a small, wingless version of the adult.",
+                "Both involve moulting (shedding an old exoskeleton) as the insect grows, since the exoskeleton itself cannot stretch."
+              ],
+              "sub": "Complete: 4 very different stages, with a pupa. Incomplete: 3 stages, nymph looks like mini-adult.",
+              "narration": "Complete metamorphosis goes egg, larva, pupa, adult, with each stage looking completely different, as in butterflies. Incomplete metamorphosis goes egg, nymph, adult, where the nymph looks like a small wingless version of the adult, as in grasshoppers."
+            },
+            {
+              "eyebrow": "Exam alert",
+              "heading": "Why insects must moult to grow",
+              "list": [
+                "An insect's exoskeleton is hard and cannot expand as the insect's body grows.",
+                "To grow, the insect must periodically shed its old exoskeleton (moulting, or ecdysis) and grow a new, larger one.",
+                "This is a direct consequence of having an exoskeleton rather than an internal skeleton — a link WAEC often tests across topics."
+              ],
+              "sub": "Rigid exoskeleton + growing body = must moult periodically. A great cross-topic link to Arthropoda.",
+              "narration": "An insect's hard exoskeleton cannot expand as its body grows, so to grow it must periodically shed the old exoskeleton and grow a new, larger one — a direct consequence of having an exoskeleton instead of an internal skeleton."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Biological growth is best defined as",
+              "options": [
+                "a permanent increase in size or mass involving new cells or cell enlargement",
+                "any temporary increase in size",
+                "an increase in size with no cell change at all",
+                "a decrease in an organism's mass"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — true growth is permanent, involving new cells, cell enlargement, or both.",
+              "explainWrong": "Growth must be a permanent increase involving cells — a temporary size change, like a balloon inflating, is not growth.",
+              "refCard": 1,
+              "narration": "Biological growth is best defined as"
+            },
+            {
+              "question": "Which method of measuring growth gives the most accurate picture of new material gained?",
+              "options": [
+                "Dry weight",
+                "Height alone",
+                "Fresh weight alone",
+                "Colour change"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — dry weight, after removing water, best reflects true new biological material gained.",
+              "explainWrong": "Dry weight gives the most accurate measure of real growth — height and fresh weight can be misleading due to water content.",
+              "refCard": 2,
+              "narration": "Which method of measuring growth gives the most accurate picture of new material gained?"
+            },
+            {
+              "question": "The phase of the sigmoid growth curve where growth is fastest is the",
+              "options": [
+                "exponential (log) phase",
+                "lag phase",
+                "stationary phase",
+                "decline phase"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — the exponential phase is when growth speeds up rapidly, before levelling off.",
+              "explainWrong": "Fastest growth happens in the exponential phase — the lag phase is slow, and the stationary phase has levelled off.",
+              "refCard": 3,
+              "narration": "The phase of the sigmoid growth curve where growth is fastest is the"
+            },
+            {
+              "question": "An insect that develops through egg, nymph and adult stages, with the nymph resembling a small wingless adult, undergoes",
+              "options": [
+                "incomplete metamorphosis",
+                "complete metamorphosis",
+                "no metamorphosis at all",
+                "binary fission"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — incomplete metamorphosis has three stages, with the nymph resembling a small adult.",
+              "explainWrong": "Egg, nymph, adult with a mini-adult-like nymph describes incomplete metamorphosis — complete metamorphosis includes a pupa stage.",
+              "refCard": 4,
+              "narration": "An insect that develops through egg, nymph and adult stages, with the nymph resembling a small wingless adult, undergoes"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
