@@ -1764,6 +1764,240 @@
           }
         }
       ]
+    },
+    "heredity-and-variation": {
+      "mendelian-genetics": [
+        {
+          "id": "hv-mg-1",
+          "year": 2018,
+          "paper": "Paper 1",
+          "question": "An organism with the genotype Bb for a trait is described as",
+          "options": [
+            "heterozygous",
+            "homozygous",
+            "recessive",
+            "mutated"
+          ],
+          "answer": "A",
+          "explanation": "Two different alleles (Bb) makes an individual heterozygous for that gene.",
+          "ref": {
+            "subtopic": "mendelian-genetics",
+            "card": 3
+          }
+        },
+        {
+          "id": "hv-mg-2",
+          "year": 2016,
+          "paper": "Paper 1",
+          "question": "A cross between two heterozygous individuals (Tt x Tt) is expected to produce offspring in a phenotype ratio of",
+          "options": [
+            "3:1",
+            "1:1",
+            "1:2:1",
+            "9:1"
+          ],
+          "answer": "A",
+          "explanation": "A heterozygous by heterozygous cross classically produces a 3 dominant to 1 recessive phenotype ratio.",
+          "ref": {
+            "subtopic": "mendelian-genetics",
+            "card": 4
+          }
+        }
+      ],
+      "variation": [
+        {
+          "id": "hv-vr-1",
+          "year": 2019,
+          "paper": "Paper 1",
+          "question": "Height and weight in humans are examples of",
+          "options": [
+            "continuous variation",
+            "discontinuous variation",
+            "acquired variation only",
+            "mutation"
+          ],
+          "answer": "A",
+          "explanation": "Height and weight range smoothly across a population, showing continuous variation.",
+          "ref": {
+            "subtopic": "variation",
+            "card": 1
+          }
+        },
+        {
+          "id": "hv-vr-2",
+          "year": 2017,
+          "paper": "Paper 1",
+          "question": "A tattoo acquired during a person's lifetime is an example of",
+          "options": [
+            "environmental variation",
+            "genetic variation",
+            "discontinuous variation",
+            "a mutation passed to offspring"
+          ],
+          "answer": "A",
+          "explanation": "A tattoo is acquired from the environment and is not inherited by offspring, so it is environmental variation.",
+          "ref": {
+            "subtopic": "variation",
+            "card": 2
+          }
+        }
+      ]
+    },
+    "evolution": {
+      "evidence-for-evolution": [
+        {
+          "id": "ev-ee-1",
+          "year": 2018,
+          "paper": "Paper 1",
+          "question": "Structures such as the human arm and a bat's wing, which have a similar internal structure but different functions, are described as",
+          "options": [
+            "homologous structures",
+            "vestigial structures",
+            "fossils",
+            "analogous structures only"
+          ],
+          "answer": "A",
+          "explanation": "Homologous structures share an underlying structure but differ in function, evidence of common ancestry.",
+          "ref": {
+            "subtopic": "evidence-for-evolution",
+            "card": 3
+          }
+        },
+        {
+          "id": "ev-ee-2",
+          "year": 2015,
+          "paper": "Paper 1",
+          "question": "Preserved remains of organisms found in rock layers, used as evidence for evolution, are called",
+          "options": [
+            "fossils",
+            "vestiges",
+            "mutations",
+            "homologues"
+          ],
+          "answer": "A",
+          "explanation": "Fossils are preserved remains found in rock layers, showing a sequence of gradual change over time.",
+          "ref": {
+            "subtopic": "evidence-for-evolution",
+            "card": 2
+          }
+        }
+      ],
+      "natural-selection": [
+        {
+          "id": "ev-ns-1",
+          "year": 2019,
+          "paper": "Paper 1",
+          "question": "The process by which organisms best suited to their environment survive and reproduce is called",
+          "options": [
+            "natural selection",
+            "artificial selection",
+            "mutation",
+            "homeostasis"
+          ],
+          "answer": "A",
+          "explanation": "Natural selection is the process by which better-suited organisms survive and reproduce more successfully.",
+          "ref": {
+            "subtopic": "natural-selection",
+            "card": 1
+          }
+        },
+        {
+          "id": "ev-ns-2",
+          "year": 2017,
+          "paper": "Paper 1",
+          "question": "In the classic peppered moth example, dark moths became more common mainly because they",
+          "options": [
+            "were better camouflaged against soot-darkened tree bark",
+            "were larger than pale moths",
+            "reproduced without any pale moths present",
+            "were unaffected by predators"
+          ],
+          "answer": "A",
+          "explanation": "Dark moths were better camouflaged against darkened tree bark, surviving predation more successfully.",
+          "ref": {
+            "subtopic": "natural-selection",
+            "card": 4
+          }
+        }
+      ]
+    },
+    "economic-importance-of-organisms": {
+      "beneficial-organisms": [
+        {
+          "id": "ei-bo-1",
+          "year": 2018,
+          "paper": "Paper 1",
+          "question": "The main economic importance of bees in agriculture is their role in",
+          "options": [
+            "pollination of crops",
+            "nitrogen fixation",
+            "decomposition of waste",
+            "production of silk"
+          ],
+          "answer": "A",
+          "explanation": "Bees are vital pollinators, essential for the reproduction of many food crops.",
+          "ref": {
+            "subtopic": "beneficial-organisms",
+            "card": 1
+          }
+        },
+        {
+          "id": "ei-bo-2",
+          "year": 2016,
+          "paper": "Paper 1",
+          "question": "The fungus used industrially in baking and brewing, through fermentation, is",
+          "options": [
+            "yeast",
+            "Penicillium",
+            "Rhizobium",
+            "Plasmodium"
+          ],
+          "answer": "A",
+          "explanation": "Yeast ferments sugars, making it central to both baking (bread rising) and brewing (alcohol production).",
+          "ref": {
+            "subtopic": "beneficial-organisms",
+            "card": 3
+          }
+        }
+      ],
+      "harmful-organisms": [
+        {
+          "id": "ei-ho-1",
+          "year": 2019,
+          "paper": "Paper 1",
+          "question": "The insect vector responsible for transmitting the malaria parasite is the",
+          "options": [
+            "female Anopheles mosquito",
+            "tsetse fly",
+            "housefly",
+            "weevil"
+          ],
+          "answer": "A",
+          "explanation": "The female Anopheles mosquito is the vector that transmits Plasmodium, the parasite that causes malaria.",
+          "ref": {
+            "subtopic": "harmful-organisms",
+            "card": 2
+          }
+        },
+        {
+          "id": "ei-ho-2",
+          "year": 2015,
+          "paper": "Paper 1",
+          "question": "Controlling a pest population using its natural predator, rather than chemicals, is called",
+          "options": [
+            "biological control",
+            "chemical control",
+            "genetic engineering",
+            "crop rotation only"
+          ],
+          "answer": "A",
+          "explanation": "Biological control uses a pest's natural predator or competitor to reduce its population without chemicals.",
+          "ref": {
+            "subtopic": "harmful-organisms",
+            "card": 4
+          }
+        }
+      ]
     }
   }
 }

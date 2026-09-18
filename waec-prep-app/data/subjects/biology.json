@@ -6380,6 +6380,891 @@
           ]
         }
       ]
+    },
+    {
+      "id": "heredity-and-variation",
+      "title": "Heredity & Variation",
+      "description": "How traits pass from parents to offspring, and why no two offspring (except identical twins) are ever exactly alike.",
+      "subtopics": [
+        {
+          "id": "mendelian-genetics",
+          "title": "Basic Mendelian Genetics",
+          "stories": [
+            {
+              "tag": "The monk with pea plants · 1860s",
+              "sub": "One garden, thousands of pea plants, one enormous discovery",
+              "heading": "How Gregor Mendel cracked heredity's code",
+              "list": [
+                "Gregor Mendel, an Austrian monk, spent years cross-breeding pea plants and carefully counting offspring traits.",
+                "He noticed traits (like flower colour or seed shape) followed precise, predictable numerical patterns across generations.",
+                "His work, mostly ignored during his lifetime, became the foundation of modern genetics decades later."
+              ],
+              "narration": "Gregor Mendel, an Austrian monk, spent years cross-breeding pea plants and carefully counting offspring traits. He noticed traits followed precise, predictable numerical patterns — work that, though mostly ignored in his lifetime, became the foundation of modern genetics."
+            },
+            {
+              "tag": "Hidden but not gone",
+              "sub": "Why two brown-eyed parents can have a blue-eyed child",
+              "heading": "The mystery Mendel's work explains",
+              "list": [
+                "Two brown-eyed parents having a blue-eyed child seems to break the rules — but it doesn't.",
+                "Each parent can silently carry a hidden (recessive) version of a gene, without showing its effect themselves.",
+                "When both parents happen to pass on that hidden version, it can finally show up in their child."
+              ],
+              "narration": "Two brown-eyed parents having a blue-eyed child seems to break the rules, but it doesn't. Each parent can silently carry a hidden, recessive version of a gene — and when both happen to pass it on, it can finally show up in their child."
+            }
+          ],
+          "lessons": [
+            {
+              "eyebrow": "The big picture",
+              "big": "🧬",
+              "heading": "Key genetics vocabulary",
+              "list": [
+                "Gene: a section of DNA that codes for a particular characteristic (e.g. flower colour).",
+                "Allele: a different version of the same gene (e.g. the ‘purple’ allele vs the ‘white’ allele of a flower-colour gene).",
+                "Genotype: an organism's genetic makeup (its alleles). Phenotype: the physical characteristic actually expressed/observed."
+              ],
+              "sub": "Gene = the trait's instruction. Allele = one version of it. Genotype = the code. Phenotype = what you see.",
+              "narration": "A gene is a section of DNA coding for a characteristic. An allele is a different version of the same gene. Genotype is an organism's genetic makeup, and phenotype is the physical characteristic actually expressed."
+            },
+            {
+              "eyebrow": "Dominant and recessive",
+              "heading": "Why some alleles ‘win’",
+              "list": [
+                "A dominant allele's effect shows up in the phenotype even if only one copy is present.",
+                "A recessive allele's effect only shows up in the phenotype if two copies are present (no dominant allele to override it).",
+                "By convention, a dominant allele is written with a capital letter (e.g. B), and its recessive partner with a lowercase letter (b)."
+              ],
+              "sub": "Dominant hides recessive, unless recessive shows up in a matching pair with no dominant present.",
+              "narration": "A dominant allele's effect shows up even with just one copy. A recessive allele only shows up if two copies are present, with no dominant allele to override it — dominant alleles are written as a capital letter, recessive as lowercase."
+            },
+            {
+              "eyebrow": "Homozygous and heterozygous",
+              "heading": "One allele pair, two possible combinations",
+              "list": [
+                "Homozygous: both alleles for a gene are the same (e.g. BB or bb).",
+                "Heterozygous: the two alleles for a gene are different (e.g. Bb).",
+                "A heterozygous individual (Bb) shows the dominant trait in its phenotype, while still carrying (and able to pass on) the recessive allele."
+              ],
+              "sub": "Homozygous = matching pair. Heterozygous = mixed pair (dominant trait shows, recessive is hidden but present).",
+              "narration": "Homozygous means both alleles for a gene are the same. Heterozygous means they're different. A heterozygous individual shows the dominant trait, while still carrying and able to pass on the hidden recessive allele."
+            },
+            {
+              "eyebrow": "Worked example",
+              "heading": "A simple genetic cross",
+              "list": [
+                "Suppose tallness (T) is dominant over shortness (t). Cross a heterozygous tall plant (Tt) with another heterozygous tall plant (Tt).",
+                "Possible offspring genotypes: TT, Tt, Tt, tt — a ratio of 1 : 2 : 1.",
+                "Since TT and Tt are both tall (T is dominant), the phenotype ratio is 3 tall : 1 short."
+              ],
+              "sub": "Tt × Tt → genotype ratio 1 TT : 2 Tt : 1 tt → phenotype ratio 3 tall : 1 short. The classic Mendelian cross.",
+              "narration": "Crossing two heterozygous tall plants, Tt by Tt, gives offspring genotypes TT, Tt, Tt, tt — a one to two to one ratio. Since both TT and Tt are tall, the phenotype ratio works out to three tall to one short."
+            },
+            {
+              "eyebrow": "Exam alert",
+              "heading": "The classic 3:1 ratio — recognise it instantly",
+              "list": [
+                "A 3:1 phenotype ratio in offspring is the single most recognisable signature of a heterozygous × heterozygous cross.",
+                "WAEC often gives you a cross and asks for the expected ratio, or gives you a ratio and asks you to identify the parent genotypes.",
+                "Always double-check whether the question wants a genotype ratio (1:2:1) or a phenotype ratio (3:1) — they are NOT the same thing."
+              ],
+              "sub": "Genotype ratio 1:2:1 vs phenotype ratio 3:1 — two different questions, easy to mix up under exam pressure.",
+              "narration": "A three-to-one phenotype ratio is the classic signature of a heterozygous by heterozygous cross. Always check whether a question wants the genotype ratio, one to two to one, or the phenotype ratio, three to one — they are not the same thing."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "An organism's actual observable characteristic, such as flower colour, is called its",
+              "options": [
+                "phenotype",
+                "genotype",
+                "allele",
+                "genome only"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — phenotype is the physically expressed, observable characteristic.",
+              "explainWrong": "The observable characteristic is the phenotype — genotype refers to the underlying genetic makeup, not what is seen.",
+              "refCard": 1,
+              "narration": "An organism's actual observable characteristic, such as flower colour, is called its"
+            },
+            {
+              "question": "An allele whose effect only appears in the phenotype when two copies are present is called",
+              "options": [
+                "recessive",
+                "dominant",
+                "heterozygous",
+                "homozygous dominant"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — a recessive allele's effect only shows when no dominant allele is present to override it.",
+              "explainWrong": "An allele needing two copies to show its effect is recessive — a dominant allele shows with just one copy.",
+              "refCard": 2,
+              "narration": "An allele whose effect only appears in the phenotype when two copies are present is called"
+            },
+            {
+              "question": "An individual with the genotype Bb (two different alleles for a gene) is described as",
+              "options": [
+                "heterozygous",
+                "homozygous",
+                "recessive only",
+                "dominant only"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — having two different alleles for a gene makes an individual heterozygous.",
+              "explainWrong": "Two different alleles (Bb) means heterozygous — homozygous requires two identical alleles (BB or bb).",
+              "refCard": 3,
+              "narration": "An individual with the genotype Bb (two different alleles for a gene) is described as"
+            },
+            {
+              "question": "Crossing two heterozygous (Tt × Tt) individuals for a trait typically produces offspring in what phenotype ratio?",
+              "options": [
+                "3 dominant : 1 recessive",
+                "1 dominant : 1 recessive",
+                "1 dominant : 3 recessive",
+                "All offspring identical to the parents"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — a heterozygous by heterozygous cross classically produces a 3:1 phenotype ratio.",
+              "explainWrong": "A Tt by Tt cross gives a 3 dominant to 1 recessive phenotype ratio, the classic Mendelian result.",
+              "refCard": 4,
+              "narration": "Crossing two heterozygous (Tt × Tt) individuals for a trait typically produces offspring in what phenotype ratio?"
+            }
+          ]
+        },
+        {
+          "id": "variation",
+          "title": "Variation in Organisms",
+          "stories": [
+            {
+              "tag": "Look around any classroom",
+              "sub": "No two students are exactly the same",
+              "heading": "Variation is the rule, not the exception",
+              "list": [
+                "Even siblings from the same two parents differ in height, skin tone, facial features and countless other traits.",
+                "This natural difference between individuals of the same species is called variation.",
+                "Without variation, evolution by natural selection would have nothing to work with."
+              ],
+              "narration": "Even siblings from the same two parents differ in height, skin tone, facial features and countless other traits. This natural difference between individuals of the same species is called variation — without it, natural selection would have nothing to work with."
+            },
+            {
+              "tag": "Nature or upbringing?",
+              "sub": "A question that matters more than it seems",
+              "heading": "Why some traits change and others don't",
+              "list": [
+                "A bodybuilder's large muscles came from training, not from a different gene than everyone else.",
+                "But their blood type was fixed the moment they were conceived, and no amount of training changes it.",
+                "Telling these two kinds of variation apart is one of the most practically useful skills in this sub-topic."
+              ],
+              "narration": "A bodybuilder's large muscles came from training, not a different gene. But their blood type was fixed at conception, and no training changes it — telling these two kinds of variation apart is a key skill in this sub-topic."
+            }
+          ],
+          "lessons": [
+            {
+              "eyebrow": "The big picture",
+              "big": "🎭",
+              "heading": "Two categories of variation",
+              "list": [
+                "Continuous variation: a characteristic that ranges smoothly across a spectrum, with no sharp categories (e.g. height, weight, skin colour).",
+                "Discontinuous variation: a characteristic that falls into clear, distinct categories, with nothing in between (e.g. blood group, ability to roll the tongue).",
+                "Continuous variation is usually influenced by many genes plus environment; discontinuous variation is usually controlled by one or few genes."
+              ],
+              "sub": "Continuous = a smooth range. Discontinuous = distinct, separate categories.",
+              "narration": "Continuous variation ranges smoothly, like height or weight. Discontinuous variation falls into clear, distinct categories, like blood group. Continuous variation is usually influenced by many genes plus environment; discontinuous variation by one or few genes."
+            },
+            {
+              "eyebrow": "Sources of variation",
+              "heading": "Genetic vs environmental causes",
+              "list": [
+                "Genetic variation: differences arising from an organism's genes/alleles — inherited, and passed to offspring.",
+                "Environmental variation: differences caused by surroundings and lifestyle (diet, exercise, climate) — not inherited by offspring.",
+                "Many traits (like body weight) are shaped by both genetics AND environment working together."
+              ],
+              "sub": "Genetic variation is inherited. Environmental variation is not — a bodybuilder's muscles aren't passed to their children.",
+              "narration": "Genetic variation arises from an organism's genes and is inherited by offspring. Environmental variation is caused by surroundings and lifestyle, and is not inherited — many traits, like body weight, are shaped by both together."
+            },
+            {
+              "eyebrow": "Where genetic variation comes from",
+              "heading": "Three genetic sources of difference",
+              "list": [
+                "Mutation: a random change in DNA sequence, creating an entirely new allele.",
+                "Crossing over (during meiosis): swapping DNA sections between homologous chromosomes, creating new gene combinations.",
+                "Independent assortment (during meiosis): random orientation of chromosome pairs, mixing which combination of chromosomes ends up in each gamete."
+              ],
+              "sub": "Mutation creates brand-new alleles. Crossing over and independent assortment reshuffle existing ones.",
+              "narration": "Mutation is a random DNA change creating a new allele. Crossing over during meiosis swaps DNA sections between chromosomes. Independent assortment randomly mixes which chromosomes end up in each gamete — all three sources of genetic variation."
+            },
+            {
+              "eyebrow": "Measuring variation",
+              "heading": "How continuous variation looks on a graph",
+              "list": [
+                "Plotting a continuous trait (like height) across a large population typically produces a bell-shaped curve.",
+                "Most individuals cluster near the average; fewer individuals are found at the extreme high or low ends.",
+                "This bell curve pattern is one of the most recognisable and frequently tested graphs in this topic."
+              ],
+              "sub": "Continuous variation → bell-shaped curve, with most values clustered near the middle.",
+              "narration": "Plotting a continuous trait like height across a population typically produces a bell-shaped curve. Most individuals cluster near the average, with fewer at the extreme high or low ends — one of the most recognisable graphs in this topic."
+            },
+            {
+              "eyebrow": "Exam alert",
+              "heading": "Classifying examples correctly",
+              "list": [
+                "Height, weight, skin colour, span of hand → continuous variation.",
+                "Blood group, tongue-rolling ability, earlobe attachment → discontinuous variation.",
+                "A scar from an injury, or muscle size from exercise → environmental variation, NOT genetic — a very common WAEC trap."
+              ],
+              "sub": "A scar is NOT genetic variation — an acquired injury/change is always environmental, never inherited.",
+              "narration": "Height and weight are continuous variation. Blood group and tongue-rolling ability are discontinuous variation. A scar from an injury is environmental variation, not genetic — it was acquired, not inherited, a very common exam trap."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "A characteristic such as height, which ranges smoothly with no distinct categories, shows",
+              "options": [
+                "continuous variation",
+                "discontinuous variation",
+                "no variation at all",
+                "only environmental variation"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — height ranges smoothly across a spectrum, a classic example of continuous variation.",
+              "explainWrong": "Height is continuous variation, ranging smoothly — discontinuous variation falls into clear, separate categories.",
+              "refCard": 1,
+              "narration": "A characteristic such as height, which ranges smoothly with no distinct categories, shows"
+            },
+            {
+              "question": "Blood group, which falls into clear, distinct categories (A, B, AB, O), is an example of",
+              "options": [
+                "discontinuous variation",
+                "continuous variation",
+                "environmental variation only",
+                "acquired variation"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — blood group falls into distinct categories, a classic example of discontinuous variation.",
+              "explainWrong": "Blood group is discontinuous variation, with clear categories — continuous variation ranges smoothly instead.",
+              "refCard": 1,
+              "narration": "Blood group, which falls into clear, distinct categories (A, B, AB, O), is an example of"
+            },
+            {
+              "question": "A scar acquired from a childhood injury is an example of",
+              "options": [
+                "environmental variation, not inherited",
+                "genetic variation, passed to offspring",
+                "discontinuous variation",
+                "mutation"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — a scar is acquired from the environment, not inherited, so it is environmental variation.",
+              "explainWrong": "A scar is acquired, not inherited — it's environmental variation, not genetic variation or a mutation.",
+              "refCard": 2,
+              "narration": "A scar acquired from a childhood injury is an example of"
+            },
+            {
+              "question": "Which of these is a genetic source of variation that creates an entirely new allele?",
+              "options": [
+                "Mutation",
+                "Exercise",
+                "Diet",
+                "Sun exposure"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — mutation is a random change in DNA that creates a brand-new allele.",
+              "explainWrong": "Mutation creates new alleles through random DNA change — exercise, diet and sun exposure are environmental factors.",
+              "refCard": 3,
+              "narration": "Which of these is a genetic source of variation that creates an entirely new allele?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "evolution",
+      "title": "Evolution",
+      "description": "The evidence that species change over time, and the mechanism — natural selection — that drives that change.",
+      "subtopics": [
+        {
+          "id": "evidence-for-evolution",
+          "title": "Evidence for Evolution",
+          "stories": [
+            {
+              "tag": "A voyage that changed biology · 1830s",
+              "sub": "Finches with different beaks started it all",
+              "heading": "Darwin's Galápagos observation",
+              "list": [
+                "On the Galápagos Islands, Charles Darwin noticed finches on different islands had differently shaped beaks.",
+                "Each beak shape closely matched the specific food available on that particular island.",
+                "This observation became one of the founding pieces of evidence for his theory of evolution by natural selection."
+              ],
+              "narration": "On the Galápagos Islands, Charles Darwin noticed finches on different islands had differently shaped beaks, each closely matching the food available on that island — one of the founding pieces of evidence for evolution by natural selection."
+            },
+            {
+              "tag": "Bones that tell a story",
+              "sub": "Why a human arm, a bat's wing and a whale's flipper share a blueprint",
+              "heading": "The clue hidden in skeletons",
+              "list": [
+                "A human arm, a bat's wing, and a whale's flipper look very different on the outside.",
+                "But strip away the skin and muscle, and their internal bone arrangement is strikingly similar.",
+                "This shared underlying structure — despite different outer functions — is strong evidence of a common ancestor."
+              ],
+              "narration": "A human arm, a bat's wing and a whale's flipper look very different on the outside, but strip away skin and muscle, and their internal bone arrangement is strikingly similar — strong evidence of a shared common ancestor."
+            }
+          ],
+          "lessons": [
+            {
+              "eyebrow": "The big picture",
+              "big": "🦴",
+              "heading": "What evolution means",
+              "list": [
+                "Evolution is the gradual change in the inherited characteristics of a species over many generations.",
+                "It happens because of variation in a population, combined with natural selection acting on that variation over time.",
+                "Evolution acts on populations over generations — it does not happen within a single individual's lifetime."
+              ],
+              "sub": "Evolution = gradual change in a whole population's inherited traits, over generations.",
+              "narration": "Evolution is the gradual change in the inherited characteristics of a species over many generations, driven by variation and natural selection. It acts on populations over generations, not within a single individual's lifetime."
+            },
+            {
+              "eyebrow": "Fossil evidence",
+              "heading": "A record preserved in rock",
+              "list": [
+                "Fossils are the preserved remains or traces of organisms that lived long ago.",
+                "Fossils found in progressively deeper (older) rock layers show a sequence of gradual change over time.",
+                "The fossil record shows many transitional forms, linking modern species to their likely ancestors."
+              ],
+              "sub": "Deeper rock layers = older fossils. Studying them in order reveals gradual change.",
+              "narration": "Fossils are the preserved remains of organisms that lived long ago. Found in progressively deeper, older rock layers, they show a sequence of gradual change over time, including transitional forms linking modern species to their likely ancestors."
+            },
+            {
+              "eyebrow": "Anatomical evidence",
+              "heading": "Homologous structures",
+              "list": [
+                "Homologous structures: body parts with a similar underlying structure but different functions, inherited from a shared ancestor (e.g. human arm, bat wing, whale flipper).",
+                "The presence of homologous structures across very different species is strong evidence they share a common evolutionary origin.",
+                "Vestigial structures (e.g. the human appendix, or tiny leg bones in some snakes) are reduced, seemingly non-functional remnants of structures that were useful in an ancestor."
+              ],
+              "sub": "Homologous = same blueprint, different job. Vestigial = leftover structure with no current use.",
+              "narration": "Homologous structures share an underlying structure but have different functions, like the human arm and bat wing, evidence of a shared ancestor. Vestigial structures, like the human appendix, are reduced remnants of structures once useful in an ancestor."
+            },
+            {
+              "eyebrow": "Other evidence",
+              "heading": "Embryology and biochemistry",
+              "list": [
+                "Comparative embryology: embryos of very different vertebrate species (fish, birds, humans) look strikingly similar in early development, hinting at shared ancestry.",
+                "Biochemical/molecular evidence: species that are more closely related tend to have more similar DNA and protein sequences.",
+                "Modern DNA comparison is now one of the strongest and most precise lines of evolutionary evidence available."
+              ],
+              "sub": "Similar early embryos + similar DNA = another strong line of evidence for shared ancestry.",
+              "narration": "Comparative embryology shows that embryos of very different vertebrate species look strikingly similar early on. Biochemical evidence shows that more closely related species have more similar DNA — modern DNA comparison is now one of the strongest lines of evolutionary evidence."
+            },
+            {
+              "eyebrow": "Exam alert",
+              "heading": "Naming each type of evidence correctly",
+              "list": [
+                "Bone/rock evidence of ancient organisms → fossil evidence.",
+                "Similar internal structure, different function, across species → homologous structures (anatomical evidence).",
+                "WAEC often describes a piece of evidence and asks you to name its category — practice recognising each type from its description."
+              ],
+              "sub": "Learn to recognise fossil, anatomical (homologous/vestigial), embryological and biochemical evidence from a description alone.",
+              "narration": "Bone or rock evidence of ancient organisms is fossil evidence. Similar internal structure with different function across species is anatomical, homologous evidence. WAEC often describes evidence and asks you to name its category."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "The preserved remains or traces of organisms that lived long ago are called",
+              "options": [
+                "fossils",
+                "homologous structures",
+                "vestigial organs",
+                "mutations"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — fossils are the preserved remains or traces of ancient organisms.",
+              "explainWrong": "Preserved remains of ancient organisms are fossils — homologous structures and vestigial organs are different types of evidence.",
+              "refCard": 2,
+              "narration": "The preserved remains or traces of organisms that lived long ago are called"
+            },
+            {
+              "question": "Body parts with a similar underlying structure but different functions, such as a human arm and a bat's wing, are called",
+              "options": [
+                "homologous structures",
+                "vestigial structures",
+                "fossils",
+                "mutations"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — homologous structures share an underlying structure despite different functions, evidence of common ancestry.",
+              "explainWrong": "Similar structure with different function describes homologous structures, not vestigial (unused remnant) structures.",
+              "refCard": 3,
+              "narration": "Body parts with a similar underlying structure but different functions, such as a human arm and a bat's wing, are called"
+            },
+            {
+              "question": "A reduced, seemingly non-functional structure, like the human appendix, that was useful in an ancestor, is called a",
+              "options": [
+                "vestigial structure",
+                "homologous structure",
+                "fossil",
+                "gamete"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — a vestigial structure is a reduced remnant of a structure that was functional in an ancestor.",
+              "explainWrong": "A reduced, non-functional leftover structure is vestigial — homologous structures are still functional, just for a different purpose.",
+              "refCard": 3,
+              "narration": "A reduced, seemingly non-functional structure, like the human appendix, that was useful in an ancestor, is called a"
+            },
+            {
+              "question": "Comparing DNA sequences between species to assess how closely related they are is an example of",
+              "options": [
+                "biochemical (molecular) evidence for evolution",
+                "fossil evidence",
+                "embryological evidence",
+                "homologous structure evidence"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — comparing DNA/protein sequences is biochemical (molecular) evidence for evolution.",
+              "explainWrong": "DNA sequence comparison is biochemical evidence — fossil evidence comes from preserved remains, a different category.",
+              "refCard": 4,
+              "narration": "Comparing DNA sequences between species to assess how closely related they are is an example of"
+            }
+          ]
+        },
+        {
+          "id": "natural-selection",
+          "title": "Natural Selection",
+          "stories": [
+            {
+              "tag": "A famous soot-covered case study",
+              "sub": "How pollution accidentally proved a theory",
+              "heading": "The peppered moth: evolution observed in real time",
+              "list": [
+                "Before industrial pollution, most peppered moths in Britain were pale, camouflaged against light tree bark.",
+                "As soot from factories darkened tree trunks, pale moths became easy prey — and dark-coloured moths, once rare, became far more common.",
+                "This shift, driven purely by predation pressure, is one of the best-documented real-world examples of natural selection."
+              ],
+              "narration": "Before industrial pollution, most peppered moths in Britain were pale, camouflaged against light tree bark. As soot darkened tree trunks, pale moths became easy prey, and dark moths became far more common — one of the best-documented real examples of natural selection."
+            },
+            {
+              "tag": "An arms race with no winner",
+              "sub": "Why some diseases keep coming back stronger",
+              "heading": "Natural selection is still happening, right now",
+              "list": [
+                "Antibiotic-resistant bacteria are a modern, urgent example of natural selection in action.",
+                "When antibiotics kill most bacteria, any rare, naturally resistant survivors reproduce and pass on their resistance.",
+                "Over time, entire bacterial populations can become resistant — an evolutionary process happening on a timescale of just years."
+              ],
+              "narration": "Antibiotic-resistant bacteria are a modern example of natural selection in action. When antibiotics kill most bacteria, rare resistant survivors reproduce and pass on their resistance — over time, entire populations can become resistant, in just a few years."
+            }
+          ],
+          "lessons": [
+            {
+              "eyebrow": "The big picture",
+              "big": "🐆",
+              "heading": "The theory of natural selection",
+              "list": [
+                "Proposed by Charles Darwin, natural selection is the process by which organisms better suited to their environment survive and reproduce more successfully than others.",
+                "Over many generations, this causes favourable traits to become more common in a population.",
+                "It is often summarised as ‘survival of the fittest’ — though ‘fittest’ means best suited to the environment, not simply strongest."
+              ],
+              "sub": "Fittest ≠ strongest. Fittest = best suited to survive and reproduce in that specific environment.",
+              "narration": "Natural selection, proposed by Darwin, is the process by which organisms better suited to their environment survive and reproduce more successfully. Over generations, this makes favourable traits more common — often summarised as survival of the fittest, meaning best suited, not strongest."
+            },
+            {
+              "eyebrow": "The four requirements",
+              "heading": "What natural selection needs to operate",
+              "list": [
+                "Variation: individuals in a population must differ from each other.",
+                "Inheritance: the varying traits must be passable from parent to offspring (genetic, not just environmental).",
+                "Overproduction and competition: more offspring are produced than the environment can support, causing a ‘struggle for survival’ for limited resources."
+              ],
+              "sub": "Without variation, without inheritance, or without competition — natural selection cannot occur.",
+              "narration": "Natural selection needs variation between individuals, inheritance of the varying traits from parent to offspring, and overproduction — more offspring than the environment can support, causing a struggle for survival."
+            },
+            {
+              "eyebrow": "How selection acts",
+              "heading": "From variation to a changed population",
+              "list": [
+                "Individuals with traits better suited to their environment are more likely to survive and reproduce.",
+                "They pass their favourable alleles to their offspring, who inherit that survival advantage.",
+                "Over many generations, the favourable trait becomes more common in the population — this is evolutionary change."
+              ],
+              "sub": "Better-suited traits get passed on more often, generation after generation, until they dominate.",
+              "narration": "Individuals with traits better suited to their environment are more likely to survive and reproduce, passing favourable alleles to offspring. Over many generations, the favourable trait becomes more common — this is evolutionary change."
+            },
+            {
+              "eyebrow": "Worked example",
+              "heading": "The peppered moth, explained step by step",
+              "list": [
+                "Variation: both pale and dark moths already existed in the population before pollution.",
+                "Selection pressure: birds could see and eat pale moths more easily once tree bark darkened with soot.",
+                "Result: dark moths survived and reproduced more, so the dark allele became far more common in just a few decades."
+              ],
+              "sub": "Existing variation + a changed environment + differential survival = evolutionary shift, exactly as seen in the peppered moth.",
+              "narration": "Both pale and dark moths already existed before pollution. Once tree bark darkened, birds could see and eat pale moths more easily. Dark moths survived and reproduced more, so the dark allele became far more common in just a few decades."
+            },
+            {
+              "eyebrow": "Exam alert",
+              "heading": "Common misconceptions about natural selection",
+              "list": [
+                "Natural selection does NOT create new traits out of nothing — it selects among traits that already exist through variation.",
+                "Individual organisms do not evolve during their own lifetime; populations evolve, across generations.",
+                "An organism does not develop a trait ‘because it needs it’ — favourable traits already existing by chance are simply selected for."
+              ],
+              "sub": "Natural selection SELECTS existing variation; it does not CREATE new traits on demand.",
+              "narration": "Natural selection does not create new traits out of nothing — it selects among traits that already exist through variation. Individual organisms do not evolve in their own lifetime; populations evolve, across generations."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Natural selection is best described as",
+              "options": [
+                "organisms better suited to their environment surviving and reproducing more successfully",
+                "all organisms evolving identically regardless of environment",
+                "an organism deliberately developing a trait it needs",
+                "a process that only happens to plants, not animals"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — natural selection favours organisms better suited to their environment for survival and reproduction.",
+              "explainWrong": "Natural selection favours better-suited organisms for survival and reproduction — it isn't deliberate trait development.",
+              "refCard": 1,
+              "narration": "Natural selection is best described as"
+            },
+            {
+              "question": "Which of these is NOT one of the requirements for natural selection to occur?",
+              "options": [
+                "All individuals must be genetically identical",
+                "Variation between individuals",
+                "Inheritance of traits from parents",
+                "Overproduction leading to competition"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — natural selection actually requires variation between individuals, not genetic identity.",
+              "explainWrong": "Natural selection requires variation, not identical individuals — without variation, there's nothing to select between.",
+              "refCard": 2,
+              "narration": "Which of these is NOT one of the requirements for natural selection to occur?"
+            },
+            {
+              "question": "In the peppered moth example, why did dark-coloured moths become more common after industrial pollution?",
+              "options": [
+                "They were better camouflaged against darkened tree bark, so fewer were eaten by predators",
+                "They suddenly mutated into a new species",
+                "Pollution directly turned pale moths dark",
+                "Dark moths reproduced faster for unrelated reasons"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — dark moths were better camouflaged against soot-darkened bark, surviving predation better than pale moths.",
+              "explainWrong": "Dark moths survived better because of improved camouflage against darkened bark — pollution didn't directly change moth colour.",
+              "refCard": 4,
+              "narration": "In the peppered moth example, why did dark-coloured moths become more common after industrial pollution?"
+            },
+            {
+              "question": "Which statement about natural selection is correct?",
+              "options": [
+                "It acts on existing variation within a population, over many generations",
+                "It creates brand new traits instantly, whenever needed",
+                "It happens within a single individual's own lifetime",
+                "It requires no variation between individuals at all"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — natural selection acts on existing variation, across many generations, not within one individual's lifetime.",
+              "explainWrong": "Natural selection acts on existing variation over generations — it does not create new traits instantly or act within one lifetime.",
+              "refCard": 5,
+              "narration": "Which statement about natural selection is correct?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "economic-importance-of-organisms",
+      "title": "Economic Importance of Organisms",
+      "description": "How living things help — and sometimes harm — agriculture, health and industry, and why biology matters far beyond the classroom.",
+      "subtopics": [
+        {
+          "id": "beneficial-organisms",
+          "title": "Beneficial Organisms",
+          "stories": [
+            {
+              "tag": "A debt we rarely notice",
+              "sub": "One in three bites of food, thanks to a tiny insect",
+              "heading": "Why bees matter more than their honey",
+              "list": [
+                "Bees are often thought of mainly for producing honey — but their far bigger contribution is pollination.",
+                "Roughly one in three bites of food humans eat depends, directly or indirectly, on animal pollinators like bees.",
+                "Without pollinators, many fruits, vegetables and cash crops would simply fail to produce food at all."
+              ],
+              "narration": "Bees are often thought of mainly for honey, but their far bigger contribution is pollination. Roughly one in three bites of food humans eat depends, directly or indirectly, on pollinators like bees — without them, many crops would simply fail to produce food."
+            },
+            {
+              "tag": "Microscopic factory workers",
+              "sub": "The bacteria doing your baking and brewing",
+              "heading": "Life too small to see, working for us anyway",
+              "list": [
+                "Yeast, a microscopic fungus, makes bread rise and turns sugar into alcohol in brewing.",
+                "Certain bacteria ferment milk into yoghurt and cheese, or cassava into gari.",
+                "Long before anyone understood microbiology, people were already relying on these organisms every single day."
+              ],
+              "narration": "Yeast, a microscopic fungus, makes bread rise and turns sugar into alcohol in brewing. Certain bacteria ferment milk into yoghurt and cheese, or cassava into gari — people relied on these organisms daily, long before understanding microbiology."
+            }
+          ],
+          "lessons": [
+            {
+              "eyebrow": "The big picture",
+              "big": "🐝",
+              "heading": "Organisms beneficial in agriculture",
+              "list": [
+                "Pollinators (bees, butterflies, some birds and bats) are essential for the reproduction of many food crops.",
+                "Nitrogen-fixing bacteria (in legume root nodules) naturally enrich soil fertility, reducing the need for chemical fertiliser.",
+                "Earthworms aerate and enrich soil, improving its structure and fertility for farming."
+              ],
+              "sub": "Pollinators fertilise crops. Nitrogen-fixers and earthworms improve the soil itself.",
+              "narration": "Pollinators are essential for the reproduction of many food crops. Nitrogen-fixing bacteria in root nodules enrich soil fertility naturally. Earthworms aerate and enrich soil, improving its structure for farming."
+            },
+            {
+              "eyebrow": "Organisms in health & medicine",
+              "heading": "Living things that heal",
+              "list": [
+                "Certain fungi (e.g. Penicillium) produce antibiotics, like penicillin, used to treat bacterial infections.",
+                "Some bacteria are used to manufacture insulin and vaccines through modern biotechnology.",
+                "The human gut also hosts beneficial bacteria that aid digestion and help protect against harmful microbes."
+              ],
+              "sub": "Fungi gave us antibiotics; engineered bacteria now manufacture medicines like insulin.",
+              "narration": "Certain fungi, like Penicillium, produce antibiotics such as penicillin. Some bacteria are used to manufacture insulin and vaccines through biotechnology. Beneficial gut bacteria also aid digestion and help protect against harmful microbes."
+            },
+            {
+              "eyebrow": "Organisms in industry",
+              "heading": "Fermentation and industrial uses",
+              "list": [
+                "Yeast is used industrially in baking (making bread rise) and brewing (producing alcoholic drinks).",
+                "Bacteria are used to ferment milk into yoghurt and cheese, and cassava into products like gari and fufu.",
+                "Certain fungi and bacteria are also used to break down waste in sewage treatment."
+              ],
+              "sub": "Fermentation by yeast and bacteria underlies much of the food and drink industry.",
+              "narration": "Yeast is used industrially in baking and brewing. Bacteria ferment milk into yoghurt and cheese, and cassava into gari and fufu. Certain fungi and bacteria are also used to break down waste in sewage treatment."
+            },
+            {
+              "eyebrow": "Direct economic products",
+              "heading": "Organisms as a direct source of goods",
+              "list": [
+                "Animals provide meat, milk, eggs, leather and wool.",
+                "Plants provide timber, fibre (e.g. cotton), rubber, and a vast range of food crops.",
+                "Silk moths (Bombyx mori) produce silk fibre, an entire industry built around one insect species."
+              ],
+              "sub": "Entire industries (leather, textiles, timber, silk) are built directly on specific organisms.",
+              "narration": "Animals provide meat, milk, eggs, leather and wool. Plants provide timber, fibre, rubber and food crops. Silk moths produce silk fibre — an entire industry built around one insect species."
+            },
+            {
+              "eyebrow": "Exam alert",
+              "heading": "Matching an organism to its economic role",
+              "list": [
+                "Bees → pollination (agriculture). Penicillium → antibiotics (health).",
+                "Yeast → baking and brewing (industry). Rhizobium bacteria → nitrogen fixation (agriculture/soil fertility).",
+                "WAEC frequently asks you to name the specific economic importance of a named organism — learn these pairings."
+              ],
+              "sub": "Learn organism-to-role pairings by heart: they're some of the most direct, memorisable marks available.",
+              "narration": "Bees provide pollination. Penicillium provides antibiotics. Yeast is used in baking and brewing. Rhizobium bacteria fix nitrogen for soil fertility — WAEC frequently tests these exact organism-to-role pairings."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "The main economic importance of bees to agriculture is",
+              "options": [
+                "pollination of crops",
+                "producing milk",
+                "fixing nitrogen in soil",
+                "decomposing dead matter"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — bees are vital pollinators, essential for the reproduction of many food crops.",
+              "explainWrong": "Bees are valued mainly for pollination — they don't produce milk or fix nitrogen, which are different organisms' roles.",
+              "refCard": 1,
+              "narration": "The main economic importance of bees to agriculture is"
+            },
+            {
+              "question": "The fungus Penicillium is economically important mainly because it",
+              "options": [
+                "produces the antibiotic penicillin",
+                "ferments milk into cheese",
+                "fixes nitrogen in soil",
+                "produces silk fibre"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — Penicillium produces penicillin, an antibiotic used to treat bacterial infections.",
+              "explainWrong": "Penicillium's key importance is producing the antibiotic penicillin — cheese-making uses different bacteria.",
+              "refCard": 2,
+              "narration": "The fungus Penicillium is economically important mainly because it"
+            },
+            {
+              "question": "Yeast is of major economic importance mainly in",
+              "options": [
+                "baking and brewing, through fermentation",
+                "producing antibiotics",
+                "fixing atmospheric nitrogen",
+                "producing silk"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — yeast ferments sugars, making it essential in baking (bread rising) and brewing (alcohol production).",
+              "explainWrong": "Yeast's major role is fermentation in baking and brewing — antibiotics come from fungi like Penicillium instead.",
+              "refCard": 3,
+              "narration": "Yeast is of major economic importance mainly in"
+            },
+            {
+              "question": "Which organism is the source of silk fibre, an entire industry built around it?",
+              "options": [
+                "The silk moth (Bombyx mori)",
+                "The honeybee",
+                "Rhizobium bacteria",
+                "Penicillium"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — the silk moth, Bombyx mori, produces the fibre that the silk industry is built around.",
+              "explainWrong": "Silk fibre comes from the silk moth, Bombyx mori — the other organisms have entirely different economic roles.",
+              "refCard": 4,
+              "narration": "Which organism is the source of silk fibre, an entire industry built around it?"
+            }
+          ]
+        },
+        {
+          "id": "harmful-organisms",
+          "title": "Harmful Organisms & Their Control",
+          "stories": [
+            {
+              "tag": "A tiny insect, a massive toll",
+              "sub": "One mosquito bite, one of history's biggest killers",
+              "heading": "Why a 2mm insect is one of biology's most studied threats",
+              "list": [
+                "The female Anopheles mosquito, by transmitting the malaria parasite, has influenced human history more than almost any predator ever has.",
+                "Malaria remains a leading cause of illness and death across West Africa and beyond.",
+                "Understanding the mosquito's biology directly shapes real public health strategy, not just exam content."
+              ],
+              "narration": "The female Anopheles mosquito, by transmitting the malaria parasite, has influenced human history more than almost any predator ever has. Malaria remains a leading cause of illness and death across West Africa — understanding mosquito biology directly shapes public health strategy."
+            },
+            {
+              "tag": "A whole season's harvest, gone",
+              "sub": "Why farmers watch the weather AND the insects",
+              "heading": "The constant battle against crop pests",
+              "list": [
+                "A single pest outbreak can destroy a large fraction of a farmer's harvest in just days.",
+                "Weevils, locusts and various caterpillars have caused famine-level crop losses throughout history.",
+                "Understanding pest biology is what allows farmers to fight back effectively, rather than losing entire seasons of work."
+              ],
+              "narration": "A single pest outbreak can destroy a large fraction of a farmer's harvest in just days. Weevils, locusts and caterpillars have caused famine-level crop losses throughout history — understanding pest biology is what allows farmers to fight back effectively."
+            }
+          ],
+          "lessons": [
+            {
+              "eyebrow": "The big picture",
+              "big": "🦟",
+              "heading": "Categories of harmful organisms",
+              "list": [
+                "Disease-causing organisms (pathogens): bacteria, viruses, fungi and parasites that cause illness in humans, animals or crops.",
+                "Agricultural pests: organisms that damage crops or stored food (insects, rodents, some fungi).",
+                "Vectors: organisms (often insects) that transmit disease-causing organisms from one host to another, without necessarily causing the disease themselves."
+              ],
+              "sub": "Pathogen causes disease. Pest damages crops/food. Vector carries disease between hosts.",
+              "narration": "Harmful organisms include pathogens that cause disease, agricultural pests that damage crops or stored food, and vectors — organisms, often insects, that transmit disease-causing organisms from host to host."
+            },
+            {
+              "eyebrow": "Disease vectors",
+              "heading": "The mosquito, tsetse fly and others",
+              "list": [
+                "The female Anopheles mosquito transmits the Plasmodium parasite, which causes malaria.",
+                "The tsetse fly transmits Trypanosoma, which causes sleeping sickness (trypanosomiasis) in humans and cattle.",
+                "The vector itself is usually not harmed by the pathogen it carries — it's simply a transport mechanism between hosts."
+              ],
+              "sub": "Mosquito → malaria. Tsetse fly → sleeping sickness. The vector carries, but the pathogen causes the disease.",
+              "narration": "The female Anopheles mosquito transmits the Plasmodium parasite, causing malaria. The tsetse fly transmits Trypanosoma, causing sleeping sickness. The vector itself is usually unharmed — it's simply a transport mechanism between hosts."
+            },
+            {
+              "eyebrow": "Agricultural pests",
+              "heading": "Threats to crops and stored food",
+              "list": [
+                "Weevils and grain borers destroy stored cereals and legumes, causing major post-harvest losses.",
+                "Locusts can form massive swarms that strip entire fields of crops within hours.",
+                "Various caterpillars and beetles feed directly on growing crops, reducing yield and quality."
+              ],
+              "sub": "Pests attack crops both in the field (locusts, caterpillars) and after harvest, in storage (weevils).",
+              "narration": "Weevils and grain borers destroy stored cereals and legumes. Locusts can form massive swarms stripping entire fields within hours. Caterpillars and beetles feed on growing crops, reducing both yield and quality."
+            },
+            {
+              "eyebrow": "Methods of control",
+              "heading": "Fighting back against harmful organisms",
+              "list": [
+                "Chemical control: pesticides, insecticides — effective but can harm beneficial organisms and the environment if overused.",
+                "Biological control: using a pest's natural predator or competitor to reduce its numbers, without chemicals.",
+                "Other methods: proper sanitation (removing mosquito breeding sites), crop rotation, and using resistant crop varieties."
+              ],
+              "sub": "Chemical, biological, and preventive (sanitation/rotation) — three complementary approaches to pest and disease control.",
+              "narration": "Chemical control uses pesticides, effective but potentially harmful if overused. Biological control uses a pest's natural predator or competitor instead. Other methods include sanitation to remove mosquito breeding sites, crop rotation, and resistant crop varieties."
+            },
+            {
+              "eyebrow": "Exam alert",
+              "heading": "Vector vs pathogen — a distinction WAEC tests directly",
+              "list": [
+                "The mosquito is the VECTOR; Plasmodium (the actual parasite) is the PATHOGEN that causes malaria — they are not the same thing.",
+                "Controlling the vector (e.g. draining stagnant water, using mosquito nets) is a major disease-prevention strategy, separate from treating the pathogen itself.",
+                "Do not say ‘the mosquito causes malaria’ — the correct, precise answer is that the mosquito transmits the parasite that causes malaria."
+              ],
+              "sub": "Mosquito = vector (carrier). Plasmodium = pathogen (actual cause). Precision here earns exam marks.",
+              "narration": "The mosquito is the vector, while Plasmodium, the parasite, is the actual pathogen that causes malaria — they are not the same thing. The precise answer is that the mosquito transmits the parasite that causes malaria, not that the mosquito itself causes it."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "An organism that transmits a disease-causing pathogen from one host to another is called a",
+              "options": [
+                "vector",
+                "pathogen",
+                "parasite host",
+                "decomposer"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — a vector transmits a pathogen between hosts, without necessarily causing the disease itself.",
+              "explainWrong": "An organism that transmits a pathogen between hosts is a vector — the pathogen itself is the actual disease-causing organism.",
+              "refCard": 1,
+              "narration": "An organism that transmits a disease-causing pathogen from one host to another is called a"
+            },
+            {
+              "question": "Malaria is caused by the parasite Plasmodium, which is transmitted to humans by the",
+              "options": [
+                "female Anopheles mosquito",
+                "tsetse fly",
+                "housefly",
+                "male Anopheles mosquito"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — the female Anopheles mosquito is the vector that transmits Plasmodium, causing malaria.",
+              "explainWrong": "The female Anopheles mosquito transmits malaria — the tsetse fly transmits a different disease, sleeping sickness.",
+              "refCard": 2,
+              "narration": "Malaria is caused by the parasite Plasmodium, which is transmitted to humans by the"
+            },
+            {
+              "question": "Using a pest's natural predator to reduce its population, instead of chemicals, is called",
+              "options": [
+                "biological control",
+                "chemical control",
+                "vector control",
+                "genetic control"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — biological control uses natural predators or competitors to reduce pest numbers, without chemicals.",
+              "explainWrong": "Using a natural predator is biological control — chemical control instead relies on pesticides or insecticides.",
+              "refCard": 4,
+              "narration": "Using a pest's natural predator to reduce its population, instead of chemicals, is called"
+            },
+            {
+              "question": "Insects such as weevils that destroy stored grains and legumes are classified as",
+              "options": [
+                "agricultural pests",
+                "pollinators",
+                "decomposers",
+                "vectors only"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — weevils that damage stored food are classified as agricultural pests.",
+              "explainWrong": "Weevils damaging stored food are agricultural pests — they are not pollinators or decomposers.",
+              "refCard": 3,
+              "narration": "Insects such as weevils that destroy stored grains and legumes are classified as"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
