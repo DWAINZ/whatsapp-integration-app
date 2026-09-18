@@ -109,7 +109,12 @@
           "quiz": [
             {
               "question": "According to Cell Theory, where do new cells come from?",
-              "options": ["They arise from pre-existing cells", "They form spontaneously from non-living matter", "They are created only inside the nucleolus", "They only arise in multicellular organisms"],
+              "options": [
+                "They arise from pre-existing cells",
+                "They form spontaneously from non-living matter",
+                "They are created only inside the nucleolus",
+                "They only arise in multicellular organisms"
+              ],
               "correctIdx": 0,
               "explainCorrect": "Correct — Virchow's principle: every cell comes from a cell that already existed.",
               "explainWrong": "Cell Theory states new cells arise only from pre-existing cells by division, not from non-living matter.",
@@ -118,7 +123,12 @@
             },
             {
               "question": "Which statement correctly distinguishes a light microscope from an electron microscope?",
-              "options": ["A light microscope can be used to view living cells; an electron microscope cannot", "Both can view living cells equally well", "An electron microscope uses light instead of electrons", "A light microscope has higher resolution than an electron microscope"],
+              "options": [
+                "A light microscope can be used to view living cells; an electron microscope cannot",
+                "Both can view living cells equally well",
+                "An electron microscope uses light instead of electrons",
+                "A light microscope has higher resolution than an electron microscope"
+              ],
               "correctIdx": 0,
               "explainCorrect": "Correct — light microscopes can view living specimens; electron microscopes need a vacuum and cannot.",
               "explainWrong": "A light microscope, not an electron microscope, can be used to view living cells.",
@@ -127,7 +137,12 @@
             },
             {
               "question": "Why do cells generally stay very small instead of growing very large?",
-              "options": ["A small size keeps the surface-area-to-volume ratio high enough for efficient exchange", "Small cells need less DNA", "Large cells cannot divide by mitosis", "Small cells are structurally stronger"],
+              "options": [
+                "A small size keeps the surface-area-to-volume ratio high enough for efficient exchange",
+                "Small cells need less DNA",
+                "Large cells cannot divide by mitosis",
+                "Small cells are structurally stronger"
+              ],
               "correctIdx": 0,
               "explainCorrect": "Correct — a high surface-area-to-volume ratio keeps exchange of materials efficient.",
               "explainWrong": "The real reason is the surface-area-to-volume ratio: bigger cells struggle to exchange materials fast enough.",
@@ -136,7 +151,12 @@
             },
             {
               "question": "Which of the following is NOT considered part of the classical Cell Theory?",
-              "options": ["All viruses are made of cells", "All organisms are composed of one or more cells", "The cell is the basic unit of structure and function", "Cells arise only from pre-existing cells"],
+              "options": [
+                "All viruses are made of cells",
+                "All organisms are composed of one or more cells",
+                "The cell is the basic unit of structure and function",
+                "Cells arise only from pre-existing cells"
+              ],
               "correctIdx": 0,
               "explainCorrect": "Correct — viruses are not made of cells, so this statement is NOT part of Cell Theory.",
               "explainWrong": "Viruses are not made of cells — that statement is the false one, and NOT part of Cell Theory.",
@@ -257,7 +277,12 @@
           "quiz": [
             {
               "question": "Which organelle contains chromatin and controls the cell's activities?",
-              "options": ["Nucleus", "Golgi apparatus", "Ribosome", "Lysosome"],
+              "options": [
+                "Nucleus",
+                "Golgi apparatus",
+                "Ribosome",
+                "Lysosome"
+              ],
               "correctIdx": 0,
               "explainCorrect": "Correct — the nucleus contains chromatin and controls cell activities.",
               "explainWrong": "That's the nucleus — it contains chromatin and directs the cell's activities.",
@@ -266,7 +291,12 @@
             },
             {
               "question": "Which organelle is the main site of aerobic respiration and ATP production?",
-              "options": ["Mitochondrion", "Ribosome", "Nucleus", "Golgi apparatus"],
+              "options": [
+                "Mitochondrion",
+                "Ribosome",
+                "Nucleus",
+                "Golgi apparatus"
+              ],
               "correctIdx": 0,
               "explainCorrect": "Correct — mitochondria are the main site of aerobic respiration and ATP production.",
               "explainWrong": "That's the mitochondrion — the site of aerobic respiration and ATP production.",
@@ -275,7 +305,12 @@
             },
             {
               "question": "Which organelle modifies and packages proteins for transport out of the cell?",
-              "options": ["Golgi apparatus", "Lysosome", "Nucleolus", "Cell membrane"],
+              "options": [
+                "Golgi apparatus",
+                "Lysosome",
+                "Nucleolus",
+                "Cell membrane"
+              ],
               "correctIdx": 0,
               "explainCorrect": "Correct — the Golgi apparatus modifies and packages proteins into vesicles.",
               "explainWrong": "That's the Golgi apparatus — it modifies and packages proteins for transport.",
@@ -284,7 +319,12 @@
             },
             {
               "question": "According to the fluid mosaic model, the cell membrane is mainly composed of…?",
-              "options": ["A phospholipid bilayer with floating proteins", "Cellulose fibres only", "A single layer of protein", "Chromatin strands"],
+              "options": [
+                "A phospholipid bilayer with floating proteins",
+                "Cellulose fibres only",
+                "A single layer of protein",
+                "Chromatin strands"
+              ],
               "correctIdx": 0,
               "explainCorrect": "Correct — a phospholipid bilayer with proteins scattered through it, like tiles in a mosaic.",
               "explainWrong": "The membrane is a phospholipid bilayer with floating proteins — not cellulose or chromatin.",
@@ -389,7 +429,12 @@
           "quiz": [
             {
               "question": "What structure gives plant cells a rigid, fixed shape that animal cells lack?",
-              "options": ["Cell wall made of cellulose", "Cell membrane", "Nucleus", "Cytoplasm"],
+              "options": [
+                "Cell wall made of cellulose",
+                "Cell membrane",
+                "Nucleus",
+                "Cytoplasm"
+              ],
               "correctIdx": 0,
               "explainCorrect": "Correct — the cellulose cell wall gives plant cells their rigid, fixed shape.",
               "explainWrong": "It's the cellulose cell wall — animal cells lack this and only have a flexible membrane.",
@@ -398,7 +443,12 @@
             },
             {
               "question": "Chloroplasts, which carry out photosynthesis, are found in…",
-              "options": ["Plant cells only", "Animal cells only", "Both plant and animal cells", "Neither plant nor animal cells"],
+              "options": [
+                "Plant cells only",
+                "Animal cells only",
+                "Both plant and animal cells",
+                "Neither plant nor animal cells"
+              ],
               "correctIdx": 0,
               "explainCorrect": "Correct — chloroplasts are found only in plant cells (their green parts).",
               "explainWrong": "Chloroplasts are found only in plant cells, not animal cells.",
@@ -407,7 +457,12 @@
             },
             {
               "question": "A mature plant cell typically has one large permanent vacuole. What is one of its main roles?",
-              "options": ["Maintaining turgor pressure and support", "Producing ATP", "Synthesising proteins", "Controlling cell division"],
+              "options": [
+                "Maintaining turgor pressure and support",
+                "Producing ATP",
+                "Synthesising proteins",
+                "Controlling cell division"
+              ],
               "correctIdx": 0,
               "explainCorrect": "Correct — the large vacuole maintains turgor pressure, keeping the plant firm.",
               "explainWrong": "The large vacuole's main role is maintaining turgor pressure and support.",
@@ -416,7 +471,12 @@
             },
             {
               "question": "Which structure, involved in organising spindle fibres during division, is found in animal cells but is generally absent in plant cells?",
-              "options": ["Centriole", "Chloroplast", "Cell wall", "Large central vacuole"],
+              "options": [
+                "Centriole",
+                "Chloroplast",
+                "Cell wall",
+                "Large central vacuole"
+              ],
               "correctIdx": 0,
               "explainCorrect": "Correct — centrioles organise spindle fibres in animal cells and are generally absent in plant cells.",
               "explainWrong": "That's the centriole — found in animal cells, generally absent in plant cells.",
@@ -517,7 +577,12 @@
           "quiz": [
             {
               "question": "The main feature that distinguishes a eukaryotic cell from a prokaryotic cell is…",
-              "options": ["A true, membrane-bound nucleus", "The presence of a cell membrane", "The presence of cytoplasm", "The ability to move"],
+              "options": [
+                "A true, membrane-bound nucleus",
+                "The presence of a cell membrane",
+                "The presence of cytoplasm",
+                "The ability to move"
+              ],
               "correctIdx": 0,
               "explainCorrect": "Correct — a true, membrane-bound nucleus is the defining feature of eukaryotic cells.",
               "explainWrong": "The defining feature is a true, membrane-bound nucleus — both cell types have a membrane and cytoplasm.",
@@ -526,7 +591,12 @@
             },
             {
               "question": "In a prokaryotic cell, where is the genetic material (DNA) mainly located?",
-              "options": ["Free in the cytoplasm, in a region called the nucleoid", "Inside a membrane-bound nucleus", "Inside the mitochondria only", "Inside the cell wall"],
+              "options": [
+                "Free in the cytoplasm, in a region called the nucleoid",
+                "Inside a membrane-bound nucleus",
+                "Inside the mitochondria only",
+                "Inside the cell wall"
+              ],
               "correctIdx": 0,
               "explainCorrect": "Correct — prokaryotic DNA lies free in the cytoplasm, in the nucleoid region.",
               "explainWrong": "Prokaryotic DNA lies free in the cytoplasm, in a region called the nucleoid — not inside a membrane-bound nucleus.",
@@ -535,7 +605,12 @@
             },
             {
               "question": "Which of the following is an example of a prokaryotic organism?",
-              "options": ["Escherichia coli (a bacterium)", "Human liver cell", "Yeast cell", "Amoeba"],
+              "options": [
+                "Escherichia coli (a bacterium)",
+                "Human liver cell",
+                "Yeast cell",
+                "Amoeba"
+              ],
               "correctIdx": 0,
               "explainCorrect": "Correct — Escherichia coli is a bacterium, a prokaryotic organism.",
               "explainWrong": "Escherichia coli is the prokaryote here — the others are all eukaryotic.",
@@ -544,7 +619,12 @@
             },
             {
               "question": "Which of these organelles would you expect to find in a eukaryotic cell but NOT in a typical prokaryotic cell?",
-              "options": ["Mitochondrion", "Cell membrane", "Cytoplasm", "Ribosome"],
+              "options": [
+                "Mitochondrion",
+                "Cell membrane",
+                "Cytoplasm",
+                "Ribosome"
+              ],
               "correctIdx": 0,
               "explainCorrect": "Correct — mitochondria are membrane-bound organelles found in eukaryotes, not typical prokaryotes.",
               "explainWrong": "It's the mitochondrion — note that ribosomes are actually present in both prokaryotes and eukaryotes.",
@@ -646,7 +726,12 @@
           "quiz": [
             {
               "question": "Arrange in increasing order of organisation: organ, cell, tissue, organ system.",
-              "options": ["Cell → Tissue → Organ → Organ system", "Tissue → Cell → Organ → Organ system", "Organ → Tissue → Cell → Organ system", "Organ system → Organ → Tissue → Cell"],
+              "options": [
+                "Cell → Tissue → Organ → Organ system",
+                "Tissue → Cell → Organ → Organ system",
+                "Organ → Tissue → Cell → Organ system",
+                "Organ system → Organ → Tissue → Cell"
+              ],
               "correctIdx": 0,
               "explainCorrect": "Correct — the order is cell, tissue, organ, then organ system.",
               "explainWrong": "The correct increasing order is cell, then tissue, then organ, then organ system.",
@@ -655,7 +740,12 @@
             },
             {
               "question": "A tissue is best defined as…",
-              "options": ["A group of similar cells performing the same function", "A single specialised cell", "Two or more organs working together", "The smallest unit of life"],
+              "options": [
+                "A group of similar cells performing the same function",
+                "A single specialised cell",
+                "Two or more organs working together",
+                "The smallest unit of life"
+              ],
               "correctIdx": 0,
               "explainCorrect": "Correct — a tissue is a group of similar cells performing the same function.",
               "explainWrong": "A tissue is a group of similar cells performing the same function, not a single cell or a group of organs.",
@@ -664,7 +754,12 @@
             },
             {
               "question": "The heart is considered an organ because it is made up of…",
-              "options": ["Two or more different tissues working together for one function", "Only one type of tissue", "A single giant cell", "Several organ systems"],
+              "options": [
+                "Two or more different tissues working together for one function",
+                "Only one type of tissue",
+                "A single giant cell",
+                "Several organ systems"
+              ],
               "correctIdx": 0,
               "explainCorrect": "Correct — the heart combines muscle, connective and nervous tissue to work as one organ.",
               "explainWrong": "The heart is an organ because it combines two or more different tissues working together for one function.",
@@ -673,12 +768,456 @@
             },
             {
               "question": "Which of these best describes an organ system?",
-              "options": ["A group of organs working together for a broader function, e.g. digestion", "A single organ working alone", "A tissue made of one cell type", "The cell membrane of an organism"],
+              "options": [
+                "A group of organs working together for a broader function, e.g. digestion",
+                "A single organ working alone",
+                "A tissue made of one cell type",
+                "The cell membrane of an organism"
+              ],
               "correctIdx": 0,
               "explainCorrect": "Correct — an organ system is a group of organs working together for a broader function.",
               "explainWrong": "An organ system is a group of organs working together for a broader function, such as digestion.",
               "refCard": 4,
               "narration": "Which of these best describes an organ system?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cell-division",
+      "title": "Cell Division",
+      "description": "How cells reproduce themselves — the cell cycle, mitosis for growth and repair, and meiosis for making gametes.",
+      "subtopics": [
+        {
+          "id": "cell-cycle-chromosomes",
+          "title": "The Cell Cycle & Chromosomes",
+          "stories": [
+            {
+              "tag": "Discovery · 1882",
+              "sub": "The thread that carries instructions",
+              "heading": "How chromosomes got their name",
+              "list": [
+                "Walther Flemming (1882) studied dividing cells and stained thread-like structures inside the nucleus with dye.",
+                "The threads absorbed the dye strongly, so he named them ‘chromosomes’ — Greek for ‘coloured body’.",
+                "He watched them split evenly between two new cells and correctly guessed they carried hereditary information.",
+                "Decades later, DNA was confirmed as the molecule chromosomes are actually made of."
+              ],
+              "narration": "In 1882, Walther Flemming studied dividing cells and stained thread-like structures inside the nucleus with dye. The threads absorbed colour so strongly he named them chromosomes, Greek for coloured body. He watched them split evenly between two new cells and correctly guessed they carried hereditary information."
+            },
+            {
+              "tag": "Why it matters",
+              "sub": "Every second, millions of your cells divide",
+              "heading": "Growth, repair and replacement never stop",
+              "list": [
+                "An adult human replaces billions of cells every day — skin, blood and gut-lining cells wear out constantly.",
+                "Without cell division, a cut would never heal and you would never have grown past a single fertilised egg.",
+                "Uncontrolled, badly-timed cell division is what causes cancer."
+              ],
+              "narration": "An adult human replaces billions of cells every day. Without cell division, a cut would never heal, and you would never have grown past a single fertilised egg. Uncontrolled, badly timed cell division is what causes cancer."
+            }
+          ],
+          "lessons": [
+            {
+              "eyebrow": "The big picture",
+              "big": "🧬",
+              "heading": "What is the cell cycle?",
+              "list": [
+                "The cell cycle is the repeating sequence a cell goes through: growth, DNA copying, and division into two cells.",
+                "It has two main stages: interphase (growth and DNA replication) and the mitotic phase (division).",
+                "Interphase takes up about 90% of the cycle's time — division itself is relatively quick."
+              ],
+              "sub": "A cell spends most of its ‘life’ preparing, not dividing.",
+              "narration": "The cell cycle is the repeating sequence a cell goes through: growth, DNA copying, and division into two cells. It has two main stages — interphase, which is growth and DNA replication, and the mitotic phase, which is division. Interphase takes up about ninety percent of the cycle's time."
+            },
+            {
+              "eyebrow": "Interphase",
+              "heading": "What happens before a cell divides",
+              "list": [
+                "G1 phase: the cell grows and carries out its normal functions.",
+                "S phase: the cell copies its entire DNA, so each chromosome now has two identical halves.",
+                "G2 phase: the cell grows further and builds the machinery it needs to divide."
+              ],
+              "sub": "G1, S, G2 — growth, copy, get-ready.",
+              "narration": "In G1 phase, the cell grows and carries out its normal functions. In S phase, the cell copies its entire DNA, so each chromosome now has two identical halves. In G2 phase, the cell grows further and builds the machinery it needs to divide."
+            },
+            {
+              "eyebrow": "Packaging DNA",
+              "heading": "Chromosomes, chromatids and genes",
+              "list": [
+                "A chromosome is a single tightly-coiled thread of DNA.",
+                "After DNA replication, each chromosome consists of two identical sister chromatids joined at a centromere.",
+                "A gene is a short section of DNA that codes for one characteristic; a single chromosome carries many genes."
+              ],
+              "sub": "Chromatid = one half of a copied chromosome, not a separate chromosome.",
+              "narration": "A chromosome is a single tightly coiled thread of DNA. After DNA replication, each chromosome consists of two identical sister chromatids joined at a centromere. A gene is a short section of DNA that codes for one characteristic, and a single chromosome carries many genes."
+            },
+            {
+              "eyebrow": "Know your numbers",
+              "heading": "Diploid body cells, haploid sex cells",
+              "list": [
+                "Human body (somatic) cells are diploid: they contain 46 chromosomes, in 23 pairs.",
+                "One chromosome of each pair comes from the mother, one from the father.",
+                "Human sex cells (gametes) are haploid: they contain only 23 chromosomes, one from each pair."
+              ],
+              "sub": "WAEC often gives an organism's diploid number and asks for the number in its gametes — just halve it.",
+              "narration": "Human body cells are diploid: they contain forty-six chromosomes, in twenty-three pairs, one of each pair from the mother and one from the father. Human sex cells, or gametes, are haploid: they contain only twenty-three chromosomes, one from each pair."
+            },
+            {
+              "eyebrow": "What's next",
+              "heading": "Two ways a cell can divide",
+              "list": [
+                "Mitosis produces two genetically identical diploid cells — used for growth, repair and asexual reproduction.",
+                "Meiosis produces four genetically different haploid cells — used only to make gametes for sexual reproduction.",
+                "The next two sub-topics look at each process card by card."
+              ],
+              "sub": "Same-copy division vs variety-making division.",
+              "narration": "Mitosis produces two genetically identical diploid cells, used for growth, repair and asexual reproduction. Meiosis produces four genetically different haploid cells, used only to make gametes for sexual reproduction."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "A normal human body cell contains how many chromosomes?",
+              "options": [
+                "46",
+                "23",
+                "92",
+                "44"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — human body cells are diploid, with 46 chromosomes in 23 pairs.",
+              "explainWrong": "Human body cells are diploid and contain 46 chromosomes, in 23 pairs — not 23, 92 or 44.",
+              "refCard": 4,
+              "narration": "A normal human body cell contains how many chromosomes?"
+            },
+            {
+              "question": "After DNA replication, what does a chromosome consist of?",
+              "options": [
+                "Two sister chromatids joined at a centromere",
+                "Two entirely separate chromosomes",
+                "A single unchanged strand of DNA",
+                "A ribosome and a chromatid"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — replication produces two identical sister chromatids joined at a centromere, not two separate chromosomes.",
+              "explainWrong": "After replication a chromosome has two identical sister chromatids joined at a centromere — they aren't separate chromosomes yet.",
+              "refCard": 3,
+              "narration": "After DNA replication, what does a chromosome consist of?"
+            },
+            {
+              "question": "What is the key difference between a diploid and a haploid cell?",
+              "options": [
+                "A diploid cell has two full sets of chromosomes; a haploid cell has one",
+                "A diploid cell has no nucleus; a haploid cell does",
+                "A haploid cell is always larger",
+                "A diploid cell cannot divide"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — diploid (2n) means two full chromosome sets, as in body cells; haploid (n) means one set, as in gametes.",
+              "explainWrong": "The difference is chromosome number: diploid cells carry two full sets, haploid cells (gametes) carry only one.",
+              "refCard": 4,
+              "narration": "What is the key difference between a diploid and a haploid cell?"
+            },
+            {
+              "question": "Which type of cell division is used for growth and repair of body tissue?",
+              "options": [
+                "Mitosis",
+                "Meiosis",
+                "Fertilisation",
+                "Binary fission only"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — mitosis produces genetically identical diploid cells, exactly what growth and repair need.",
+              "explainWrong": "Growth and repair use mitosis, which produces identical diploid cells — meiosis is only for making gametes.",
+              "refCard": 5,
+              "narration": "Which type of cell division is used for growth and repair of body tissue?"
+            }
+          ]
+        },
+        {
+          "id": "mitosis",
+          "title": "Mitosis",
+          "stories": [
+            {
+              "tag": "See it happen",
+              "sub": "A dance with four steady steps",
+              "heading": "Mitosis is choreography, not chaos",
+              "list": [
+                "Under a microscope, mitosis looks dramatic — but it always follows the same four-stage order.",
+                "Biologists use the acronym PMAT (Prophase, Metaphase, Anaphase, Telophase) to remember the sequence.",
+                "Every stage exists to make sure each new cell gets one complete, undamaged copy of every chromosome."
+              ],
+              "narration": "Under a microscope, mitosis looks dramatic, but it always follows the same four-stage order. Biologists use the acronym PMAT — Prophase, Metaphase, Anaphase, Telophase — to remember the sequence. Every stage exists to make sure each new cell gets one complete, undamaged copy of every chromosome."
+            },
+            {
+              "tag": "Real stakes",
+              "sub": "When the count goes wrong",
+              "heading": "Why an exact copy matters",
+              "list": [
+                "If chromosomes are shared out unevenly during mitosis, the resulting cells can have too many or too few.",
+                "In humans, this kind of error is linked to some cancers and developmental conditions.",
+                "That is why mitosis has built-in checkpoints that pause the cycle if something looks wrong."
+              ],
+              "narration": "If chromosomes are shared out unevenly during mitosis, the resulting cells can have too many or too few. In humans this kind of error is linked to some cancers and developmental conditions, which is why mitosis has built-in checkpoints that pause the cycle if something looks wrong."
+            }
+          ],
+          "lessons": [
+            {
+              "eyebrow": "Stage 1",
+              "heading": "Prophase — getting ready",
+              "list": [
+                "Chromosomes condense from loose threads into short, thick, visible structures.",
+                "The nuclear membrane breaks down.",
+                "Spindle fibres begin growing from opposite ends (poles) of the cell."
+              ],
+              "sub": "P for Prophase, P for Packing up.",
+              "narration": "In prophase, chromosomes condense from loose threads into short, thick, visible structures. The nuclear membrane breaks down, and spindle fibres begin growing from opposite ends of the cell."
+            },
+            {
+              "eyebrow": "Stage 2",
+              "heading": "Metaphase — lining up",
+              "list": [
+                "Chromosomes, still as sister-chromatid pairs, line up along the middle (equator) of the cell.",
+                "Spindle fibres from each pole attach to the centromere of every chromosome.",
+                "This precise alignment is what allows an exactly equal split in the next stage."
+              ],
+              "sub": "M for Metaphase, M for the Middle.",
+              "narration": "In metaphase, chromosomes line up along the middle of the cell, still as sister chromatid pairs. Spindle fibres from each pole attach to the centromere of every chromosome, allowing an exactly equal split in the next stage."
+            },
+            {
+              "eyebrow": "Stage 3",
+              "heading": "Anaphase — pulling apart",
+              "list": [
+                "The centromere of each chromosome splits, separating the two sister chromatids.",
+                "Spindle fibres shorten, pulling one chromatid to each pole of the cell.",
+                "Each chromatid is now counted as its own full chromosome."
+              ],
+              "sub": "A for Anaphase, A for Apart.",
+              "narration": "In anaphase, the centromere of each chromosome splits, separating the two sister chromatids. Spindle fibres shorten, pulling one chromatid to each pole of the cell — each chromatid now counts as its own full chromosome."
+            },
+            {
+              "eyebrow": "Stage 4",
+              "heading": "Telophase and cytokinesis — two new cells",
+              "list": [
+                "A nuclear membrane reforms around each full set of chromosomes at the two poles.",
+                "Chromosomes uncoil back into loose threads.",
+                "Cytokinesis then splits the cytoplasm, producing two separate, genetically identical daughter cells."
+              ],
+              "sub": "T for Telophase, T for Two nuclei.",
+              "narration": "In telophase, a nuclear membrane reforms around each full set of chromosomes at the two poles, and the chromosomes uncoil. Cytokinesis then splits the cytoplasm, producing two separate, genetically identical daughter cells."
+            },
+            {
+              "eyebrow": "Exam alert",
+              "heading": "What makes mitosis's products special",
+              "list": [
+                "Mitosis produces exactly 2 daughter cells per division, not 4.",
+                "Both daughter cells are diploid — the same chromosome number as the parent cell.",
+                "Both daughter cells are genetically identical to the parent and to each other (barring rare mutation)."
+              ],
+              "sub": "2 cells, same number, identical genes — the mitosis signature WAEC tests.",
+              "narration": "Mitosis produces exactly two daughter cells per division, not four. Both are diploid, with the same chromosome number as the parent cell, and both are genetically identical to the parent and to each other."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Put the stages of mitosis in the correct order.",
+              "options": [
+                "Prophase → Metaphase → Anaphase → Telophase",
+                "Metaphase → Prophase → Telophase → Anaphase",
+                "Anaphase → Telophase → Prophase → Metaphase",
+                "Telophase → Anaphase → Metaphase → Prophase"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — remember PMAT: Prophase, Metaphase, Anaphase, Telophase.",
+              "explainWrong": "The correct order is Prophase, Metaphase, Anaphase, Telophase — remembered as PMAT.",
+              "refCard": 1,
+              "narration": "Put the stages of mitosis in the correct order."
+            },
+            {
+              "question": "During which stage do sister chromatids separate and get pulled to opposite poles?",
+              "options": [
+                "Anaphase",
+                "Prophase",
+                "Metaphase",
+                "Telophase"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — in anaphase, the centromere splits and spindle fibres pull the chromatids apart.",
+              "explainWrong": "Chromatid separation happens in anaphase, after they have lined up in metaphase.",
+              "refCard": 3,
+              "narration": "During which stage do sister chromatids separate and get pulled to opposite poles?"
+            },
+            {
+              "question": "Chromosomes line up at the equator of the cell during which stage?",
+              "options": [
+                "Metaphase",
+                "Anaphase",
+                "Telophase",
+                "Prophase"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — metaphase is the lining-up stage, letting spindle fibres attach precisely to every centromere.",
+              "explainWrong": "Lining up at the cell's equator is metaphase, not anaphase, telophase or prophase.",
+              "refCard": 2,
+              "narration": "Chromosomes line up at the equator of the cell during which stage?"
+            },
+            {
+              "question": "How many daughter cells does one mitotic division produce, and what is their chromosome number compared to the parent?",
+              "options": [
+                "Two daughter cells, same (diploid) chromosome number as the parent",
+                "Four daughter cells, half the chromosome number",
+                "Two daughter cells, half the chromosome number",
+                "One daughter cell, double the chromosome number"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — mitosis makes 2 diploid daughter cells, genetically identical to the parent.",
+              "explainWrong": "Mitosis produces 2 daughter cells with the same diploid chromosome number as the parent, not 4 or half.",
+              "refCard": 5,
+              "narration": "How many daughter cells does one mitotic division produce, and what is their chromosome number compared to the parent?"
+            }
+          ]
+        },
+        {
+          "id": "meiosis",
+          "title": "Meiosis",
+          "stories": [
+            {
+              "tag": "The bigger job",
+              "sub": "One division wasn't enough",
+              "heading": "Why sex cells need a special kind of division",
+              "list": [
+                "If gametes were made by ordinary mitosis, they would be diploid — and fertilisation would double the chromosome number every generation.",
+                "Meiosis solves this by halving the chromosome number, so fertilisation restores the normal diploid count.",
+                "It does this with two divisions back to back, not one."
+              ],
+              "narration": "If gametes were made by ordinary mitosis, they would be diploid, and fertilisation would double the chromosome number every generation. Meiosis solves this by halving the chromosome number, using two divisions back to back instead of one, so fertilisation restores the normal diploid count."
+            },
+            {
+              "tag": "Nature's shuffle",
+              "sub": "Why siblings aren't identical",
+              "heading": "Meiosis is where genetic variety is born",
+              "list": [
+                "During meiosis, chromosome pairs swap sections in a process called crossing over.",
+                "Chromosome pairs also separate into gametes independently of each other (independent assortment).",
+                "This is the main reason full siblings share genes but still look and differ from one another."
+              ],
+              "narration": "During meiosis, chromosome pairs swap sections in a process called crossing over, and pairs separate into gametes independently of each other. This is the main reason full siblings share genes but still look different from one another."
+            }
+          ],
+          "lessons": [
+            {
+              "eyebrow": "The big picture",
+              "big": "⚥",
+              "heading": "What meiosis is for",
+              "list": [
+                "Meiosis is the type of division that produces gametes: sperm and egg cells in animals, pollen and ovules in plants.",
+                "It takes one diploid cell and produces four haploid cells.",
+                "Only reproductive organs (testes, ovaries; anthers, ovaries in flowers) carry out meiosis."
+              ],
+              "sub": "Meiosis = the gamete-making division.",
+              "narration": "Meiosis is the type of division that produces gametes — sperm and egg cells in animals, pollen and ovules in plants. It takes one diploid cell and produces four haploid cells, and only reproductive organs carry it out."
+            },
+            {
+              "eyebrow": "Two rounds",
+              "heading": "Meiosis I and Meiosis II",
+              "list": [
+                "Meiosis I separates homologous chromosome pairs, halving the chromosome number (diploid → haploid).",
+                "Meiosis II then separates sister chromatids, similar to a mitotic division — but starting from haploid cells.",
+                "The result of both rounds together: four haploid cells from one starting diploid cell."
+              ],
+              "sub": "DNA is copied only once, but the cell divides twice.",
+              "narration": "Meiosis I separates homologous chromosome pairs, halving the chromosome number from diploid to haploid. Meiosis II then separates sister chromatids, similar to a mitotic division, but starting from haploid cells. The result: four haploid cells from one starting diploid cell."
+            },
+            {
+              "eyebrow": "Where variation comes from",
+              "heading": "Crossing over",
+              "list": [
+                "Early in Meiosis I, homologous chromosomes pair up tightly, a process called synapsis.",
+                "Paired chromosomes can swap equivalent sections of DNA at points called chiasmata — this is crossing over.",
+                "Crossing over creates new combinations of genes that didn't exist on either original chromosome."
+              ],
+              "sub": "Crossing over shuffles genes between the chromosome you got from mum and the one from dad.",
+              "narration": "Early in meiosis one, homologous chromosomes pair up tightly and can swap equivalent sections of DNA at points called chiasmata — this is crossing over. It creates new combinations of genes that didn't exist on either original chromosome."
+            },
+            {
+              "eyebrow": "Another shuffle",
+              "heading": "Independent assortment",
+              "list": [
+                "When homologous pairs line up in Meiosis I, which pole each chromosome faces is random.",
+                "With 23 chromosome pairs in humans, this randomness alone gives over 8 million possible chromosome combinations per gamete.",
+                "Combined with crossing over, this is why (apart from identical twins) no two gametes are ever genetically the same."
+              ],
+              "sub": "Random orientation × random crossing over = enormous genetic variety.",
+              "narration": "When homologous pairs line up in meiosis one, which pole each chromosome faces is random. With twenty-three chromosome pairs in humans, this alone gives over eight million possible combinations per gamete — which is why no two gametes are ever genetically the same."
+            },
+            {
+              "eyebrow": "Exam alert",
+              "heading": "Mitosis vs meiosis — the comparison WAEC loves",
+              "list": [
+                "Divisions: mitosis divides once; meiosis divides twice.",
+                "Daughter cells: mitosis makes 2 diploid, identical cells; meiosis makes 4 haploid, genetically different cells.",
+                "Purpose: mitosis is for growth, repair and asexual reproduction; meiosis is only for making gametes."
+              ],
+              "sub": "If a question mentions ‘gametes’ or ‘halved chromosome number’, the answer is meiosis.",
+              "narration": "Mitosis divides once and makes two diploid, identical daughter cells, for growth, repair and asexual reproduction. Meiosis divides twice and makes four haploid, genetically different daughter cells, only to make gametes."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Why must gametes be haploid rather than diploid?",
+              "options": [
+                "So that fertilisation restores the normal diploid chromosome number",
+                "So that gametes can move faster",
+                "So that gametes never carry mutations",
+                "So that only one parent contributes chromosomes"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — halving the number in gametes means fertilisation (fusing two gametes) restores the normal diploid count.",
+              "explainWrong": "Gametes are haploid so that when two of them fuse at fertilisation, the diploid number is restored, not doubled.",
+              "refCard": 1,
+              "narration": "Why must gametes be haploid rather than diploid?"
+            },
+            {
+              "question": "One diploid cell undergoing meiosis produces how many cells, and of what chromosome number?",
+              "options": [
+                "Four haploid cells",
+                "Two diploid cells",
+                "Two haploid cells",
+                "Four diploid cells"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — meiosis's two divisions turn one diploid cell into four haploid cells.",
+              "explainWrong": "Meiosis produces four haploid cells from one diploid cell, not two diploid cells like mitosis.",
+              "refCard": 2,
+              "narration": "One diploid cell undergoing meiosis produces how many cells, and of what chromosome number?"
+            },
+            {
+              "question": "What is crossing over?",
+              "options": [
+                "The swapping of DNA sections between paired homologous chromosomes",
+                "The splitting of a centromere",
+                "The movement of a whole chromosome to one pole",
+                "The joining of two unrelated gametes"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — crossing over is the exchange of equivalent DNA sections between homologous chromosomes, creating new gene combinations.",
+              "explainWrong": "Crossing over is the swapping of DNA sections between paired homologous chromosomes — not centromere splitting or gamete fusion.",
+              "refCard": 3,
+              "narration": "What is crossing over?"
+            },
+            {
+              "question": "Which statement correctly distinguishes mitosis from meiosis?",
+              "options": [
+                "Mitosis makes 2 identical diploid cells; meiosis makes 4 different haploid cells",
+                "Mitosis makes 4 identical cells; meiosis makes 2 different cells",
+                "Both processes make exactly the same kind of cell",
+                "Meiosis is used for tissue repair, mitosis for making gametes"
+              ],
+              "correctIdx": 0,
+              "explainCorrect": "Correct — mitosis: 2 identical diploid cells. Meiosis: 4 genetically different haploid cells.",
+              "explainWrong": "Mitosis produces 2 identical diploid cells; meiosis produces 4 genetically different haploid cells — the roles aren't reversed.",
+              "refCard": 5,
+              "narration": "Which statement correctly distinguishes mitosis from meiosis?"
             }
           ]
         }

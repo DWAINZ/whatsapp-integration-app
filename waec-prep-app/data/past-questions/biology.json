@@ -10,30 +10,54 @@
           "year": 2016,
           "paper": "Paper 1 (Objective)",
           "question": "The statement 'all cells arise from pre-existing cells' forms part of the…",
-          "options": ["Endosymbiotic theory", "Cell theory", "Theory of evolution", "Germ theory"],
+          "options": [
+            "Endosymbiotic theory",
+            "Cell theory",
+            "Theory of evolution",
+            "Germ theory"
+          ],
           "answer": "B",
           "explanation": "This is Virchow's contribution to Cell Theory: every cell comes from a cell that already existed.",
-          "ref": {"subtopic": "cell-theory", "card": 2}
+          "ref": {
+            "subtopic": "cell-theory",
+            "card": 2
+          }
         },
         {
           "id": "bio-celltheory-2019-q1",
           "year": 2019,
           "paper": "Paper 1 (Objective)",
           "question": "A cell's small size is mainly an advantage because it…",
-          "options": ["increases its surface area to volume ratio for efficient exchange", "reduces the amount of DNA needed", "prevents it from dividing", "makes it heavier"],
+          "options": [
+            "increases its surface area to volume ratio for efficient exchange",
+            "reduces the amount of DNA needed",
+            "prevents it from dividing",
+            "makes it heavier"
+          ],
           "answer": "A",
           "explanation": "A high surface-area-to-volume ratio lets small cells exchange materials with their surroundings efficiently.",
-          "ref": {"subtopic": "cell-theory", "card": 4}
+          "ref": {
+            "subtopic": "cell-theory",
+            "card": 4
+          }
         },
         {
           "id": "bio-celltheory-2021-q1",
           "year": 2021,
           "paper": "Paper 1 (Objective)",
           "question": "Which of the following best distinguishes a light microscope from an electron microscope?",
-          "options": ["A light microscope allows viewing of living specimens while an electron microscope does not", "An electron microscope uses light rays", "A light microscope has a higher magnification than an electron microscope", "Both use beams of electrons"],
+          "options": [
+            "A light microscope allows viewing of living specimens while an electron microscope does not",
+            "An electron microscope uses light rays",
+            "A light microscope has a higher magnification than an electron microscope",
+            "Both use beams of electrons"
+          ],
           "answer": "A",
           "explanation": "Light microscopes can view living specimens; electron microscopes require a vacuum and cannot.",
-          "ref": {"subtopic": "cell-theory", "card": 3}
+          "ref": {
+            "subtopic": "cell-theory",
+            "card": 3
+          }
         }
       ],
       "cell-organelles": [
@@ -42,30 +66,54 @@
           "year": 2015,
           "paper": "Paper 1 (Objective)",
           "question": "Which organelle is correctly matched with its function?",
-          "options": ["Mitochondrion – protein synthesis", "Nucleus – control of cell activities", "Lysosome – photosynthesis", "Ribosome – energy release"],
+          "options": [
+            "Mitochondrion – protein synthesis",
+            "Nucleus – control of cell activities",
+            "Lysosome – photosynthesis",
+            "Ribosome – energy release"
+          ],
           "answer": "B",
           "explanation": "The nucleus controls the cell's activities. The other pairings are incorrect.",
-          "ref": {"subtopic": "cell-organelles", "card": 1}
+          "ref": {
+            "subtopic": "cell-organelles",
+            "card": 1
+          }
         },
         {
           "id": "bio-organelles-2018-q1",
           "year": 2018,
           "paper": "Paper 1 (Objective)",
           "question": "The organelle responsible for packaging and modifying proteins before they leave the cell is the…",
-          "options": ["Golgi apparatus", "Lysosome", "Nucleolus", "Cell membrane"],
+          "options": [
+            "Golgi apparatus",
+            "Lysosome",
+            "Nucleolus",
+            "Cell membrane"
+          ],
           "answer": "A",
           "explanation": "The Golgi apparatus modifies and packages proteins into vesicles for transport.",
-          "ref": {"subtopic": "cell-organelles", "card": 5}
+          "ref": {
+            "subtopic": "cell-organelles",
+            "card": 5
+          }
         },
         {
           "id": "bio-organelles-2022-q1",
           "year": 2022,
           "paper": "Paper 1 (Objective)",
           "question": "Aerobic respiration mainly occurs in the…",
-          "options": ["Mitochondrion", "Ribosome", "Golgi apparatus", "Nucleus"],
+          "options": [
+            "Mitochondrion",
+            "Ribosome",
+            "Golgi apparatus",
+            "Nucleus"
+          ],
           "answer": "A",
           "explanation": "The mitochondrion is the main site of aerobic respiration and ATP production.",
-          "ref": {"subtopic": "cell-organelles", "card": 2}
+          "ref": {
+            "subtopic": "cell-organelles",
+            "card": 2
+          }
         }
       ],
       "plant-vs-animal": [
@@ -74,30 +122,54 @@
           "year": 2017,
           "paper": "Paper 1 (Objective)",
           "question": "One structural feature found in plant cells but absent in animal cells is the…",
-          "options": ["Cell wall", "Nucleus", "Mitochondrion", "Cell membrane"],
+          "options": [
+            "Cell wall",
+            "Nucleus",
+            "Mitochondrion",
+            "Cell membrane"
+          ],
           "answer": "A",
           "explanation": "The cellulose cell wall is present in plant cells and absent in animal cells.",
-          "ref": {"subtopic": "plant-vs-animal", "card": 1}
+          "ref": {
+            "subtopic": "plant-vs-animal",
+            "card": 1
+          }
         },
         {
           "id": "bio-plantanimal-2020-q1",
           "year": 2020,
           "paper": "Paper 1 (Objective)",
           "question": "Chloroplasts are found in…",
-          "options": ["Plant cells only", "Animal cells only", "Both plant and animal cells", "Bacterial cells only"],
+          "options": [
+            "Plant cells only",
+            "Animal cells only",
+            "Both plant and animal cells",
+            "Bacterial cells only"
+          ],
           "answer": "A",
           "explanation": "Chloroplasts, needed for photosynthesis, are found only in plant cells (their green parts).",
-          "ref": {"subtopic": "plant-vs-animal", "card": 2}
+          "ref": {
+            "subtopic": "plant-vs-animal",
+            "card": 2
+          }
         },
         {
           "id": "bio-plantanimal-2023-q1",
           "year": 2023,
           "paper": "Paper 1 (Objective)",
           "question": "The large central vacuole in a mature plant cell mainly functions to…",
-          "options": ["Maintain turgor pressure and support", "Produce ATP", "Synthesise proteins", "Store genetic material"],
+          "options": [
+            "Maintain turgor pressure and support",
+            "Produce ATP",
+            "Synthesise proteins",
+            "Store genetic material"
+          ],
           "answer": "A",
           "explanation": "The large permanent vacuole maintains turgor pressure, keeping the plant firm and supported.",
-          "ref": {"subtopic": "plant-vs-animal", "card": 3}
+          "ref": {
+            "subtopic": "plant-vs-animal",
+            "card": 3
+          }
         }
       ],
       "prokaryote-vs-eukaryote": [
@@ -106,30 +178,54 @@
           "year": 2016,
           "paper": "Paper 1 (Objective)",
           "question": "A prokaryotic cell differs from a eukaryotic cell mainly in that it…",
-          "options": ["lacks a true, membrane-bound nucleus", "lacks a cell membrane", "lacks cytoplasm", "lacks ribosomes"],
+          "options": [
+            "lacks a true, membrane-bound nucleus",
+            "lacks a cell membrane",
+            "lacks cytoplasm",
+            "lacks ribosomes"
+          ],
           "answer": "A",
           "explanation": "The defining difference is the absence of a true, membrane-bound nucleus in prokaryotic cells.",
-          "ref": {"subtopic": "prokaryote-vs-eukaryote", "card": 1}
+          "ref": {
+            "subtopic": "prokaryote-vs-eukaryote",
+            "card": 1
+          }
         },
         {
           "id": "bio-prokeuk-2019-q1",
           "year": 2019,
           "paper": "Paper 1 (Objective)",
           "question": "Which of these is an example of a prokaryotic organism?",
-          "options": ["Escherichia coli (bacterium)", "Amoeba", "Yeast", "Human cheek cell"],
+          "options": [
+            "Escherichia coli (bacterium)",
+            "Amoeba",
+            "Yeast",
+            "Human cheek cell"
+          ],
           "answer": "A",
           "explanation": "Escherichia coli is a bacterium, making it a prokaryotic organism; the others are eukaryotic.",
-          "ref": {"subtopic": "prokaryote-vs-eukaryote", "card": 4}
+          "ref": {
+            "subtopic": "prokaryote-vs-eukaryote",
+            "card": 4
+          }
         },
         {
           "id": "bio-prokeuk-2022-q1",
           "year": 2022,
           "paper": "Paper 1 (Objective)",
           "question": "Prokaryotic organisms typically reproduce by…",
-          "options": ["Binary fission", "Mitosis", "Meiosis", "Fertilisation"],
+          "options": [
+            "Binary fission",
+            "Mitosis",
+            "Meiosis",
+            "Fertilisation"
+          ],
           "answer": "A",
           "explanation": "Prokaryotes reproduce mainly by binary fission, a simple splitting into two.",
-          "ref": {"subtopic": "prokaryote-vs-eukaryote", "card": 6}
+          "ref": {
+            "subtopic": "prokaryote-vs-eukaryote",
+            "card": 6
+          }
         }
       ],
       "levels-of-organisation": [
@@ -138,30 +234,170 @@
           "year": 2015,
           "paper": "Paper 1 (Objective)",
           "question": "Arrange the following in order of increasing complexity: organ, cell, tissue.",
-          "options": ["Cell, tissue, organ", "Tissue, cell, organ", "Organ, cell, tissue", "Organ, tissue, cell"],
+          "options": [
+            "Cell, tissue, organ",
+            "Tissue, cell, organ",
+            "Organ, cell, tissue",
+            "Organ, tissue, cell"
+          ],
           "answer": "A",
           "explanation": "The correct increasing order of organisation is cell, then tissue, then organ.",
-          "ref": {"subtopic": "levels-of-organisation", "card": 1}
+          "ref": {
+            "subtopic": "levels-of-organisation",
+            "card": 1
+          }
         },
         {
           "id": "bio-levels-2018-q1",
           "year": 2018,
           "paper": "Paper 1 (Objective)",
           "question": "A group of similar cells performing the same function is called a…",
-          "options": ["Tissue", "Organ", "Organ system", "Organism"],
+          "options": [
+            "Tissue",
+            "Organ",
+            "Organ system",
+            "Organism"
+          ],
           "answer": "A",
           "explanation": "A tissue is a group of similar cells performing the same function.",
-          "ref": {"subtopic": "levels-of-organisation", "card": 2}
+          "ref": {
+            "subtopic": "levels-of-organisation",
+            "card": 2
+          }
         },
         {
           "id": "bio-levels-2021-q1",
           "year": 2021,
           "paper": "Paper 1 (Objective)",
           "question": "The digestive system is an example of a(n)…",
-          "options": ["Organ system", "Tissue", "Single organ", "Cell"],
+          "options": [
+            "Organ system",
+            "Tissue",
+            "Single organ",
+            "Cell"
+          ],
           "answer": "A",
           "explanation": "The digestive system is an organ system: several organs (mouth, stomach, intestines) working together.",
-          "ref": {"subtopic": "levels-of-organisation", "card": 4}
+          "ref": {
+            "subtopic": "levels-of-organisation",
+            "card": 4
+          }
+        }
+      ]
+    },
+    "cell-division": {
+      "cell-cycle-chromosomes": [
+        {
+          "id": "cd-ccc-1",
+          "year": 2018,
+          "paper": "Paper 1",
+          "question": "The chromosome number in the body cells of an organism is described as",
+          "options": [
+            "diploid",
+            "haploid",
+            "triploid",
+            "monoploid"
+          ],
+          "answer": "A",
+          "explanation": "Body (somatic) cells carry two full sets of chromosomes — the diploid number.",
+          "ref": {
+            "subtopic": "cell-cycle-chromosomes",
+            "card": 4
+          }
+        },
+        {
+          "id": "cd-ccc-2",
+          "year": 2015,
+          "paper": "Paper 1",
+          "question": "A structure formed by two sister chromatids joined at a centromere is called a",
+          "options": [
+            "replicated chromosome",
+            "gamete",
+            "nucleolus",
+            "spindle"
+          ],
+          "answer": "A",
+          "explanation": "After DNA replication, a chromosome consists of two sister chromatids joined at a centromere.",
+          "ref": {
+            "subtopic": "cell-cycle-chromosomes",
+            "card": 3
+          }
+        }
+      ],
+      "mitosis": [
+        {
+          "id": "cd-mit-1",
+          "year": 2019,
+          "paper": "Paper 1",
+          "question": "The stage of mitosis during which chromosomes align at the equator of the cell is",
+          "options": [
+            "metaphase",
+            "anaphase",
+            "telophase",
+            "prophase"
+          ],
+          "answer": "A",
+          "explanation": "Metaphase is the alignment stage, allowing spindle fibres to attach to every centromere.",
+          "ref": {
+            "subtopic": "mitosis",
+            "card": 2
+          }
+        },
+        {
+          "id": "cd-mit-2",
+          "year": 2016,
+          "paper": "Paper 1",
+          "question": "Mitosis results in the formation of",
+          "options": [
+            "two genetically identical diploid cells",
+            "four genetically different haploid cells",
+            "one diploid and one haploid cell",
+            "four identical diploid cells"
+          ],
+          "answer": "A",
+          "explanation": "Mitosis produces 2 daughter cells, diploid and genetically identical to the parent.",
+          "ref": {
+            "subtopic": "mitosis",
+            "card": 5
+          }
+        }
+      ],
+      "meiosis": [
+        {
+          "id": "cd-mei-1",
+          "year": 2017,
+          "paper": "Paper 1",
+          "question": "Meiosis is best described as a type of cell division that produces",
+          "options": [
+            "four haploid cells from one diploid cell",
+            "two diploid cells from one diploid cell",
+            "two haploid cells from one haploid cell",
+            "one diploid cell from two haploid cells"
+          ],
+          "answer": "A",
+          "explanation": "Meiosis's two divisions turn one diploid cell into four haploid cells.",
+          "ref": {
+            "subtopic": "meiosis",
+            "card": 2
+          }
+        },
+        {
+          "id": "cd-mei-2",
+          "year": 2020,
+          "paper": "Paper 1",
+          "question": "The exchange of genetic material between homologous chromosomes during meiosis is known as",
+          "options": [
+            "crossing over",
+            "independent assortment",
+            "fertilisation",
+            "replication"
+          ],
+          "answer": "A",
+          "explanation": "Crossing over is the swap of equivalent DNA sections between paired homologous chromosomes.",
+          "ref": {
+            "subtopic": "meiosis",
+            "card": 3
+          }
         }
       ]
     }
